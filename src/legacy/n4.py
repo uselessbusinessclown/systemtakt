@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, collections, json, os, statistics as st, time, opt2
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 nm=dict(cur.execute("SELECT station_id,name FROM station"))
 name2id=dict(cur.execute("SELECT name,station_id FROM station"))
 s2st=dict(cur.execute("SELECT stop_id,station_id FROM stop_station"))
@@ -65,5 +70,5 @@ final=opt2.solve(edges_for(best[1]), allow_acc=False, runs=1200)
 print(f"N4 final: Kosten {final['kosten']}  Kosten/Gewicht {final['kosten_je_gewicht']}  "
       f"Sollband {final['sollband_pct']} %  Ø Reserve {final['reserve_pct']} %  Beschleunigung {final['beschl']}", flush=True)
 json.dump({'knoten':sorted(best[1]),'abgestuft':sorted(set(ALL)-best[1]),
-           'ergebnis':final}, open('/root/bahn/n4.json','w'), ensure_ascii=False)
+           'ergebnis':final}, open(os.path.join(ROOT, 'n4.json'),'w'), ensure_ascii=False)
 print('Dauer', round(time.time()-t0),'s')

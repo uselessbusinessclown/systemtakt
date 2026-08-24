@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 KORR = {
  'HH-FFM':   ('Hamburg/Hannover – Frankfurt (+Flughafen)', ('Hamburg','Hannover'), ('Frankfurt(Main)','Frankfurt(M) Flughafen')),
  'HH-RUHR':  ('Hamburg – Ruhr/Düsseldorf/Köln',            ('Hamburg',), ('Essen','Duisburg','Düsseldorf','Köln')),

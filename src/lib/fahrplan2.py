@@ -1,6 +1,10 @@
 """Minutenfahrplan mit beidseitiger Knotendisziplin."""
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, collections, os, statistics as st
-DB=os.path.expanduser('~/bahn/bahn.db')
+DB=DB
 con=sqlite3.connect(DB); cur=con.cursor()
 PHI=dict(cur.execute("SELECT name,knotenminute FROM itf_knotenzeit"))
 OFF={n:{'a1':a1,'d1':d1,'a2':a2,'d2':d2} for n,a1,d1,a2,d2 in

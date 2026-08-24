@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, collections, statistics as st
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 # --- Rotation: Berlin Hbf = :00
 b=list(cur.execute("SELECT knotenminute FROM itf_knotenzeit WHERE name='Berlin Hbf'"))[0][0]
 for sid,m in list(cur.execute("SELECT station_id,knotenminute FROM itf_knotenzeit")):

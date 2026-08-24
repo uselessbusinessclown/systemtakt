@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, collections, json, os, math
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 HBF='Frankfurt(Main)Hbf'; FBF='Frankfurt(M) Flughafen Fernbf'; RBF='Frankfurt(M) Flughafen Regionalbf'
 AP={FBF,RBF}; WENDE=25
 s2st=dict(cur.execute("SELECT stop_id,station_id FROM stop_station")); nm=dict(cur.execute("SELECT station_id,name FROM station"))

@@ -1,7 +1,10 @@
 """Setzt die Kanten-Basiszeit auf die Systemfahrzeit der Linien statt auf die Bestzeit eines Einzelzuges."""
-import sys; sys.path.insert(0,'/root/bahn')
-import fahrplan as F, sqlite3, collections, statistics, json
-con=sqlite3.connect('/root/bahn/bahn.db'); cur=con.cursor()
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+import sys; import fahrplan as F, sqlite3, collections, statistics, json
+con=sqlite3.connect(DB); cur=con.cursor()
 LIN=list(cur.execute("SELECT linie_key,laufweg,fahrten_tag FROM linie WHERE produkt IN ('ICE','IC')"))
 req=collections.defaultdict(list)
 for key,lauf,ft in LIN:

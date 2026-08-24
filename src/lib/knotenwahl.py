@@ -1,7 +1,10 @@
 """Vergleicht Knotenmengen anhand der tatsächlichen Reisezeitverlängerung."""
-import sys; sys.path.insert(0,'/root/bahn')
-import sqlite3, collections, statistics, os, json, opt2, importlib
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+import sys; import sqlite3, collections, statistics, os, json, opt2, importlib
+con=sqlite3.connect(DB); cur=con.cursor()
 nm=dict(cur.execute("SELECT station_id,name FROM station")); name2id=dict(cur.execute("SELECT name,station_id FROM station"))
 s2st=dict(cur.execute("SELECT stop_id,station_id FROM stop_station"))
 seq=collections.defaultdict(list)

@@ -1,7 +1,12 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import csv, sqlite3, os, datetime, collections
 
-G = os.path.expanduser('~/bahn/data/gtfs_fv')
-DB = os.path.expanduser('~/bahn/bahn.db')
+G = GTFS
+DB = DB
 if os.path.exists(DB): os.remove(DB)
 con = sqlite3.connect(DB); cur = con.cursor()
 

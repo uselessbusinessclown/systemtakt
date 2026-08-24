@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, math, os, collections, statistics as st
-con = sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con = sqlite3.connect(DB); cur=con.cursor()
 cur.execute("UPDATE station SET land_iso='FR' WHERE land='France'")
 
 def hav(a,b,c,d):

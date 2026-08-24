@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, collections, math
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 
 # ---- Ist-Takt neu bewerten (Zwei-Lagen-Takt erkennen)
 cur.execute("ALTER TABLE ist_takt ADD COLUMN top2_anteil REAL") if 'top2_anteil' not in [d[1] for d in cur.execute("PRAGMA table_info(ist_takt)")] else None

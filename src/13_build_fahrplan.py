@@ -1,7 +1,10 @@
 """Rollt den Minutenplan zum vollständigen Tagesfahrplan aus (Szenario A, 5–23 Uhr)."""
-import sys; sys.path.insert(0,'/root/bahn')
-import fahrplan2 as F, sqlite3, collections, os
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+import sys; import fahrplan2 as F, sqlite3, collections, os
+con=sqlite3.connect(DB); cur=con.cursor()
 START, ENDE = 5*60, 23*60           # Abfahrtsfenster am Startbahnhof
 TAKT={'30 min':30,'60 min':60,'120 min':120,'Einzelleistungen':120}
 cur.executescript("""

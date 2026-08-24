@@ -1,15 +1,19 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, collections, os, sys
-sys.path.insert(0,'/root/bahn')
 from pdfbase import *
 from reportlab.lib.colors import HexColor
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 PHI=dict(cur.execute("SELECT name,knotenminute FROM itf_knotenzeit"))
 KZ=dict(cur.execute("SELECT name,knotenzeit FROM itf_knotenzeit"))
 KAN=dict(cur.execute("SELECT name,ankunft FROM itf_knotenzeit"))
 KAB=dict(cur.execute("SELECT name,abfahrt FROM itf_knotenzeit"))
 META={r[0]:r[1:] for r in cur.execute("SELECT name,bundesland,land,stadt FROM bahnhof_bedienung")}
 GROSS={n for n,h in cur.execute("SELECT name,halte_tag FROM bahnhof_bedienung") if h>=25}
-OUT='/root/bahn/Bahnhofsfahrplaene.pdf'
+OUT=os.path.join(ROOT, 'Bahnhofsfahrplaene.pdf')
 D=Doc(OUT, landscape_=False, title='Systemtakt Deutschland – Bahnhofsfahrpläne',
       subject='Abfahrts- und Ankunftstafeln, Szenario A, 5–23 Uhr')
 c=D.c; W,H=D.W,D.H; LM,RM,TM=26,26,26

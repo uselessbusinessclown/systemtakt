@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, sys, random, math, collections, statistics as st, json
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 BASE=[r[0] for r in cur.execute("SELECT name FROM itf_knotenzeit")]
 FBF='Frankfurt(M) Flughafen Fernbf'; HBF='Frankfurt(Main)Hbf'
 VAR=sys.argv[1]

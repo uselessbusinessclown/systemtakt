@@ -1,10 +1,15 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, pandas as pd, os
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-con=sqlite3.connect('/root/bahn/bahn.db')
-OUT='/root/bahn/Deutschland_Fernverkehr_Datenbank_und_Systemtakt.xlsx'
+con=sqlite3.connect(DB)
+OUT=os.path.join(ROOT, 'Deutschland_Fernverkehr_Datenbank_und_Systemtakt.xlsx')
 
 SHEETS=[
  ('Bahnhöfe', """SELECT b.name AS Bahnhof, b.stadt AS Stadt, b.land AS Land, b.bundesland AS Bundesland,

@@ -1,11 +1,15 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, collections, os, sys
-sys.path.insert(0,'/root/bahn')
 from pdfbase import *
 from reportlab.lib.colors import HexColor
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 PHI=dict(cur.execute("SELECT name,knotenminute FROM itf_knotenzeit"))
 KZ=dict(cur.execute("SELECT name,knotenzeit FROM itf_knotenzeit"))
-OUT='/root/bahn/Kursbuch_Linienfahrplaene.pdf'
+OUT=os.path.join(ROOT, 'Kursbuch_Linienfahrplaene.pdf')
 D=Doc(OUT, landscape_=True, title='Systemtakt Deutschland – Kursbuch der Linienfahrpläne',
       subject='Integraler Taktfahrplan, Szenario A, Betriebszeit 5–23 Uhr')
 c=D.c; W,H=D.W,D.H

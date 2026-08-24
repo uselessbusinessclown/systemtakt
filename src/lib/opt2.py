@@ -1,8 +1,12 @@
 """Wiederverwendbarer ITF-Optimierer mit Optionen."""
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, random, math, collections
 DW, RES = 6, 0.07
 def load(db=None):
-    con=sqlite3.connect(db or os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+    con=sqlite3.connect(db or DB); cur=con.cursor()
     nm=dict(cur.execute("SELECT station_id,name FROM station"))
     rows=[(nm[a],nm[b],t,p15,w,fs,fi,fc) for a,b,t,p15,w,fs,fi,fc in
           cur.execute("SELECT a_id,b_id,t_min,t_p15,gewicht,f_sprinter,f_ice,f_ic FROM itf_kante")]

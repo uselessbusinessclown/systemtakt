@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, collections, statistics as st, math
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 S={r[0]:r[1:] for r in cur.execute("SELECT station_id,name,lat,lon,land_iso,stadt FROM station")}
 s2st=dict(cur.execute("SELECT stop_id,station_id FROM stop_station"))
 def hav(a,b,c,d):

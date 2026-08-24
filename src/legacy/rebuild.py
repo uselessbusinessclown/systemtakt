@@ -1,5 +1,10 @@
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
 import sqlite3, os, random, math, collections, json, statistics as st
-con=sqlite3.connect(os.path.expanduser('~/bahn/bahn.db')); cur=con.cursor()
+con=sqlite3.connect(DB); cur=con.cursor()
 NAMES=[r[0] for r in cur.execute("SELECT name FROM itf_knotenzeit")]
 name2id=dict(cur.execute("SELECT name,station_id FROM station")); nm=dict(cur.execute("SELECT station_id,name FROM station"))
 NID={name2id[n] for n in NAMES}

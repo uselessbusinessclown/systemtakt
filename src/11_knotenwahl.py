@@ -1,6 +1,10 @@
-import sys; sys.path.insert(0,'/root/bahn')
-import knotenwahl as K, opt2, pesp, sqlite3, json, time
-con=sqlite3.connect('/root/bahn/bahn.db')
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+import sys; import knotenwahl as K, opt2, pesp, sqlite3, json, time
+con=sqlite3.connect(DB)
 rank=[r[0] for r in con.execute("SELECT name FROM itf_knotenzeit ORDER BY gewicht DESC")]
 alle=set(rank)
 res={}
@@ -22,4 +26,4 @@ for n in (16,20,24,30,40,64):
           f"Sollband {r['sollband_pct']:5.1f} %  mittlere Reisezeitverlängerung {verl:+6.1f} min  "
           f"{'optimal' if r['status']==0 else 'Zeitlimit'} {round(time.time()-t)} s", flush=True)
     print(f"     schlimmste Linien: {[(d[0],d[3]) for d in det[:4]]}", flush=True)
-json.dump(res, open('/root/bahn/knotenwahl.json','w'), ensure_ascii=False)
+json.dump(res, open(os.path.join(ROOT, 'knotenwahl.json'),'w'), ensure_ascii=False)

@@ -1,5 +1,9 @@
-import sys; sys.path.insert(0,'/root/bahn')
-import knotenwahl as K, pesp, json, time
+
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+import sys; import knotenwahl as K, pesp, json, time
 SETS={
  'K20 kuratiert': ['Hamburg Hbf','Bremen Hbf','Hannover Hbf','Berlin Hbf','Leipzig Hbf','Erfurt Hbf',
    'Dresden Hbf','Dortmund Hbf','Duisburg Hbf','Köln Hbf','Frankfurt(Main)Hbf','Kassel-Wilhelmshöhe',
@@ -26,4 +30,4 @@ for name,lst in SETS.items():
     print(f"{name:16s} Kanten {len(ed):3d}  Ø Reserve {r['reserve_pct']:5.2f} %  Sollband {r['sollband_pct']:5.1f} %  "
           f"Reisezeit {v:+6.1f} min  {'optimal' if r['status']==0 else 'Limit'} {round(time.time()-t)} s", flush=True)
     print(f"    Knotenzeiten: " + ', '.join(f"{k.replace(' Hbf','')} :{PHI[k]:02d}" for k in sorted(PHI,key=lambda x:PHI[x])), flush=True)
-json.dump(out, open('/root/bahn/knotenwahl2.json','w'), ensure_ascii=False)
+json.dump(out, open(os.path.join(ROOT, 'knotenwahl2.json'),'w'), ensure_ascii=False)
