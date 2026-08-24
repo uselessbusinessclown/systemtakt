@@ -1,0 +1,1701 @@
+﻿zug_id;linie;gattung;nummer;produkt;kategorie;betreiber;richtung;von;nach;abfahrt;ankunft;dauer;halte;takt
+1;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;376;643;267;3;120
+2;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;496;763;267;3;120
+3;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;616;883;267;3;120
+4;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;736;1003;267;3;120
+5;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;856;1123;267;3;120
+6;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;976;1243;267;3;120
+7;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;1096;1363;267;3;120
+8;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;1216;1483;267;3;120
+9;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Hamburg Hbf;1336;1603;267;3;120
+10;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;377;642;265;3;120
+11;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;497;762;265;3;120
+12;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;617;882;265;3;120
+13;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;737;1002;265;3;120
+14;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;857;1122;265;3;120
+15;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;977;1242;265;3;120
+16;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;1097;1362;265;3;120
+17;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;1217;1482;265;3;120
+18;ICE-Sprinter 1;ICE;1;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Hamburg Hbf;Frankfurt(Main)Hbf;1337;1602;265;3;120
+19;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;377;654;277;9;120
+20;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;497;774;277;9;120
+21;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;617;894;277;9;120
+22;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;737;1014;277;9;120
+23;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;857;1134;277;9;120
+24;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;977;1254;277;9;120
+25;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;1097;1374;277;9;120
+26;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;1217;1494;277;9;120
+27;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Hamburg Hbf;Köln Hbf;1337;1614;277;9;120
+28;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;394;673;279;9;120
+29;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;514;793;279;9;120
+30;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;634;913;279;9;120
+31;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;754;1033;279;9;120
+32;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;874;1153;279;9;120
+33;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;994;1273;279;9;120
+34;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;1114;1393;279;9;120
+35;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;1234;1513;279;9;120
+36;ICE-Sprinter 2;ICE;2;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Köln Hbf;Hamburg Hbf;1354;1633;279;9;120
+37;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;394;696;302;8;120
+38;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;514;816;302;8;120
+39;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;634;936;302;8;120
+40;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;754;1056;302;8;120
+41;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;874;1176;302;8;120
+42;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;994;1296;302;8;120
+43;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1114;1416;302;8;120
+44;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1234;1536;302;8;120
+45;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1354;1656;302;8;120
+46;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;414;714;300;8;120
+47;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;534;834;300;8;120
+48;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;654;954;300;8;120
+49;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;774;1074;300;8;120
+50;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;894;1194;300;8;120
+51;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1014;1314;300;8;120
+52;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1134;1434;300;8;120
+53;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1254;1554;300;8;120
+54;ICE-Sprinter 3;ICE;3;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1374;1674;300;8;120
+55;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;389;645;256;5;120
+56;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;509;765;256;5;120
+57;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;629;885;256;5;120
+58;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;749;1005;256;5;120
+59;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;869;1125;256;5;120
+60;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;989;1245;256;5;120
+61;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;1109;1365;256;5;120
+62;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;1229;1485;256;5;120
+63;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;1;München Hbf;Berlin Südkreuz;1349;1605;256;5;120
+64;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;405;679;274;5;120
+65;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;525;799;274;5;120
+66;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;645;919;274;5;120
+67;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;765;1039;274;5;120
+68;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;885;1159;274;5;120
+69;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;1005;1279;274;5;120
+70;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;1125;1399;274;5;120
+71;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;1245;1519;274;5;120
+72;ICE-Sprinter 4;ICE;4;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Südkreuz;München Hbf;1365;1639;274;5;120
+73;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;379;625;246;5;120
+74;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;499;745;246;5;120
+75;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;619;865;246;5;120
+76;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;739;985;246;5;120
+77;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;859;1105;246;5;120
+78;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;979;1225;246;5;120
+79;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;1099;1345;246;5;120
+80;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;1219;1465;246;5;120
+81;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Hbf;1339;1585;246;5;120
+82;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;365;609;244;5;120
+83;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;485;729;244;5;120
+84;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;605;849;244;5;120
+85;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;725;969;244;5;120
+86;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;845;1089;244;5;120
+87;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;965;1209;244;5;120
+88;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;1085;1329;244;5;120
+89;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;1205;1449;244;5;120
+90;ICE-Sprinter 5;ICE;5;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Hbf;Frankfurt(Main)Hbf;1325;1569;244;5;120
+91;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;360;469;109;3;120
+92;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;480;589;109;3;120
+93;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;600;709;109;3;120
+94;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;720;829;109;3;120
+95;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;840;949;109;3;120
+96;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;960;1069;109;3;120
+97;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;1080;1189;109;3;120
+98;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;1200;1309;109;3;120
+99;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Paris Est;Saarbrücken Hbf;1320;1429;109;3;120
+100;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;360;469;109;3;120
+101;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;480;589;109;3;120
+102;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;600;709;109;3;120
+103;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;720;829;109;3;120
+104;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;840;949;109;3;120
+105;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;960;1069;109;3;120
+106;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;1080;1189;109;3;120
+107;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;1200;1309;109;3;120
+108;ICE-Sprinter 6;ICE;6;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Saarbrücken Hbf;Paris Est;1320;1429;109;3;120
+109;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;380;726;346;5;120
+110;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;500;846;346;5;120
+111;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;620;966;346;5;120
+112;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;740;1086;346;5;120
+113;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;860;1206;346;5;120
+114;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;980;1326;346;5;120
+115;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1100;1446;346;5;120
+116;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1220;1566;346;5;120
+117;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1340;1686;346;5;120
+118;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;414;735;321;5;120
+119;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;534;855;321;5;120
+120;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;654;975;321;5;120
+121;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;774;1095;321;5;120
+122;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;894;1215;321;5;120
+123;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1014;1335;321;5;120
+124;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1134;1455;321;5;120
+125;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1254;1575;321;5;120
+126;ICE-Sprinter 7;ICE;7;ICE;ICE-Sprinter;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1374;1695;321;5;120
+127;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;360;521;161;5;120
+128;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;480;641;161;5;120
+129;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;600;761;161;5;120
+130;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;720;881;161;5;120
+131;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;840;1001;161;5;120
+132;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;960;1121;161;5;120
+133;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;1080;1241;161;5;120
+134;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;1200;1361;161;5;120
+135;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;1;Padborg st;Koebenhavn H;1320;1481;161;5;120
+136;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;360;510;150;5;120
+137;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;480;630;150;5;120
+138;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;600;750;150;5;120
+139;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;720;870;150;5;120
+140;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;840;990;150;5;120
+141;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;960;1110;150;5;120
+142;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;1080;1230;150;5;120
+143;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;1200;1350;150;5;120
+144;ECE (Dänische Staatsbahnen);ECE;;ICE;ICE;Dänische Staatsbahnen;2;Koebenhavn H;Padborg st;1320;1470;150;5;120
+145;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;400;853;453;12;120
+146;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;520;973;453;12;120
+147;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;640;1093;453;12;120
+148;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;760;1213;453;12;120
+149;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;880;1333;453;12;120
+150;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1000;1453;453;12;120
+151;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1120;1573;453;12;120
+152;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1240;1693;453;12;120
+153;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1360;1813;453;12;120
+154;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;377;819;442;12;120
+155;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;497;939;442;12;120
+156;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;617;1059;442;12;120
+157;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;737;1179;442;12;120
+158;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;857;1299;442;12;120
+159;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;977;1419;442;12;120
+160;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1097;1539;442;12;120
+161;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1217;1659;442;12;120
+162;ECE 20;ECE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1337;1779;442;12;120
+163;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;360;461;101;2;120
+164;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;480;581;101;2;120
+165;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;600;701;101;2;120
+166;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;720;821;101;2;120
+167;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;840;941;101;2;120
+168;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;960;1061;101;2;120
+169;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;1080;1181;101;2;120
+170;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;1200;1301;101;2;120
+171;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;1;Flensburg;Hamburg-Altona;1320;1421;101;2;120
+172;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;360;461;101;2;120
+173;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;480;581;101;2;120
+174;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;600;701;101;2;120
+175;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;720;821;101;2;120
+176;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;840;941;101;2;120
+177;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;960;1061;101;2;120
+178;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;1080;1181;101;2;120
+179;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;1200;1301;101;2;120
+180;ECE 27;ECE;27;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Flensburg;1320;1421;101;2;120
+181;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;377;497;120;4;120
+182;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;497;617;120;4;120
+183;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;617;737;120;4;120
+184;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;737;857;120;4;120
+185;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;857;977;120;4;120
+186;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;977;1097;120;4;120
+187;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;1097;1217;120;4;120
+188;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;1217;1337;120;4;120
+189;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Padborg st;1337;1457;120;4;120
+190;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;374;493;119;4;120
+191;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;494;613;119;4;120
+192;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;614;733;119;4;120
+193;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;734;853;119;4;120
+194;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;854;973;119;4;120
+195;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;974;1093;119;4;120
+196;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;1094;1213;119;4;120
+197;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;1214;1333;119;4;120
+198;ECE 75;ECE;75;ICE;ICE;DB Fernverkehr AG;2;Padborg st;Hamburg Hbf;1334;1453;119;4;120
+199;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;410;642;232;6;120
+200;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;530;762;232;6;120
+201;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;650;882;232;6;120
+202;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;770;1002;232;6;120
+203;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;890;1122;232;6;120
+204;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;1010;1242;232;6;120
+205;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;1130;1362;232;6;120
+206;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;1250;1482;232;6;120
+207;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;1;Basel Bad Bf;Frankfurt(Main)Hbf;1370;1602;232;6;120
+208;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;376;571;195;6;120
+209;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;496;691;195;6;120
+210;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;616;811;195;6;120
+211;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;736;931;195;6;120
+212;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;856;1051;195;6;120
+213;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;976;1171;195;6;120
+214;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;1096;1291;195;6;120
+215;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;1216;1411;195;6;120
+216;ECE 85;ECE;85;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Basel Bad Bf;1336;1531;195;6;120
+217;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;372;499;127;4;120
+218;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;492;619;127;4;120
+219;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;612;739;127;4;120
+220;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;732;859;127;4;120
+221;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;852;979;127;4;120
+222;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;972;1099;127;4;120
+223;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;1092;1219;127;4;120
+224;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;1212;1339;127;4;120
+225;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;1;Lindau-Reutin;München Hbf;1332;1459;127;4;120
+226;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;389;506;117;4;120
+227;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;509;626;117;4;120
+228;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;629;746;117;4;120
+229;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;749;866;117;4;120
+230;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;869;986;117;4;120
+231;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;989;1106;117;4;120
+232;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;1109;1226;117;4;120
+233;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;1229;1346;117;4;120
+234;ECE 88;ECE;88;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Lindau-Reutin;1349;1466;117;4;120
+235;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;300;359;59;3;60
+236;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;360;419;59;3;60
+237;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;420;479;59;3;60
+238;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;480;539;59;3;60
+239;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;540;599;59;3;60
+240;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;600;659;59;3;60
+241;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;660;719;59;3;60
+242;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;720;779;59;3;60
+243;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;780;839;59;3;60
+244;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;840;899;59;3;60
+245;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;900;959;59;3;60
+246;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;960;1019;59;3;60
+247;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1020;1079;59;3;60
+248;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1080;1139;59;3;60
+249;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1140;1199;59;3;60
+250;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1200;1259;59;3;60
+251;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1260;1319;59;3;60
+252;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1320;1379;59;3;60
+253;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;1;Arnhem Centraal;Amsterdam Centraal;1380;1439;59;3;60
+254;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;300;354;54;3;60
+255;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;360;414;54;3;60
+256;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;420;474;54;3;60
+257;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;480;534;54;3;60
+258;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;540;594;54;3;60
+259;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;600;654;54;3;60
+260;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;660;714;54;3;60
+261;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;720;774;54;3;60
+262;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;780;834;54;3;60
+263;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;840;894;54;3;60
+264;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;900;954;54;3;60
+265;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;960;1014;54;3;60
+266;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1020;1074;54;3;60
+267;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1080;1134;54;3;60
+268;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1140;1194;54;3;60
+269;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1200;1254;54;3;60
+270;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1260;1314;54;3;60
+271;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1320;1374;54;3;60
+272;ICE (Nederlandse Spoorwegen);ICE;;ICE;ICE;Nederlandse Spoorwegen;2;Amsterdam Centraal;Arnhem Centraal;1380;1434;54;3;60
+273;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;360;413;53;2;120
+274;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;480;533;53;2;120
+275;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;600;653;53;2;120
+276;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;720;773;53;2;120
+277;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;840;893;53;2;120
+278;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;960;1013;53;2;120
+279;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;1080;1133;53;2;120
+280;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;1200;1253;53;2;120
+281;ICE (SBB);ICE;;ICE;ICE;SBB;1;Zürich HB;Basel SBB;1320;1373;53;2;120
+282;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;360;413;53;2;120
+283;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;480;533;53;2;120
+284;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;600;653;53;2;120
+285;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;720;773;53;2;120
+286;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;840;893;53;2;120
+287;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;960;1013;53;2;120
+288;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;1080;1133;53;2;120
+289;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;1200;1253;53;2;120
+290;ICE (SBB);ICE;;ICE;ICE;SBB;2;Basel SBB;Zürich HB;1320;1373;53;2;120
+291;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;360;578;218;14;120
+292;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;480;698;218;14;120
+293;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;600;818;218;14;120
+294;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;720;938;218;14;120
+295;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;840;1058;218;14;120
+296;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;960;1178;218;14;120
+297;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;1080;1298;218;14;120
+298;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;1200;1418;218;14;120
+299;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;1;Graz Hbf;Salzburg Hbf;1320;1538;218;14;120
+300;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;360;577;217;14;120
+301;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;480;697;217;14;120
+302;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;600;817;217;14;120
+303;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;720;937;217;14;120
+304;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;840;1057;217;14;120
+305;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;960;1177;217;14;120
+306;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;1080;1297;217;14;120
+307;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;1200;1417;217;14;120
+308;ICE (ÖBB);ICE;;ICE;ICE;ÖBB;2;Salzburg Hbf;Graz Hbf;1320;1537;217;14;120
+309;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;391;987;596;14;120
+310;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;511;1107;596;14;120
+311;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;631;1227;596;14;120
+312;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;751;1347;596;14;120
+313;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;871;1467;596;14;120
+314;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;991;1587;596;14;120
+315;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;1111;1707;596;14;120
+316;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;1231;1827;596;14;120
+317;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Hamburg-Altona;1351;1947;596;14;120
+318;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;362;1044;682;14;120
+319;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;482;1164;682;14;120
+320;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;602;1284;682;14;120
+321;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;722;1404;682;14;120
+322;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;842;1524;682;14;120
+323;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;962;1644;682;14;120
+324;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;1082;1764;682;14;120
+325;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;1202;1884;682;14;120
+326;ICE 1;ICE;1;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Nürnberg Hbf;1322;2004;682;14;120
+327;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;305;594;289;9;30
+328;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;335;624;289;9;30
+329;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;365;654;289;9;30
+330;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;395;684;289;9;30
+331;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;425;714;289;9;30
+332;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;455;744;289;9;30
+333;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;485;774;289;9;30
+334;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;515;804;289;9;30
+335;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;545;834;289;9;30
+336;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;575;864;289;9;30
+337;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;605;894;289;9;30
+338;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;635;924;289;9;30
+339;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;665;954;289;9;30
+340;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;695;984;289;9;30
+341;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;725;1014;289;9;30
+342;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;755;1044;289;9;30
+343;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;785;1074;289;9;30
+344;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;815;1104;289;9;30
+345;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;845;1134;289;9;30
+346;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;875;1164;289;9;30
+347;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;905;1194;289;9;30
+348;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;935;1224;289;9;30
+349;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;965;1254;289;9;30
+350;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;995;1284;289;9;30
+351;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1025;1314;289;9;30
+352;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1055;1344;289;9;30
+353;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1085;1374;289;9;30
+354;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1115;1404;289;9;30
+355;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1145;1434;289;9;30
+356;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1175;1464;289;9;30
+357;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1205;1494;289;9;30
+358;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1235;1524;289;9;30
+359;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1265;1554;289;9;30
+360;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1295;1584;289;9;30
+361;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1325;1614;289;9;30
+362;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Köln Hbf;1355;1644;289;9;30
+363;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;304;595;291;9;30
+364;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;334;625;291;9;30
+365;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;364;655;291;9;30
+366;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;394;685;291;9;30
+367;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;424;715;291;9;30
+368;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;454;745;291;9;30
+369;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;484;775;291;9;30
+370;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;514;805;291;9;30
+371;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;544;835;291;9;30
+372;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;574;865;291;9;30
+373;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;604;895;291;9;30
+374;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;634;925;291;9;30
+375;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;664;955;291;9;30
+376;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;694;985;291;9;30
+377;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;724;1015;291;9;30
+378;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;754;1045;291;9;30
+379;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;784;1075;291;9;30
+380;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;814;1105;291;9;30
+381;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;844;1135;291;9;30
+382;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;874;1165;291;9;30
+383;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;904;1195;291;9;30
+384;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;934;1225;291;9;30
+385;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;964;1255;291;9;30
+386;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;994;1285;291;9;30
+387;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1024;1315;291;9;30
+388;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1054;1345;291;9;30
+389;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1084;1375;291;9;30
+390;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1114;1405;291;9;30
+391;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1144;1435;291;9;30
+392;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1174;1465;291;9;30
+393;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1204;1495;291;9;30
+394;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1234;1525;291;9;30
+395;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1264;1555;291;9;30
+396;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1294;1585;291;9;30
+397;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1324;1615;291;9;30
+398;ICE 10;ICE;10;ICE;ICE;DB Fernverkehr AG;2;Köln Hbf;Berlin Hbf;1354;1645;291;9;30
+399;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;412;949;537;15;120
+400;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;532;1069;537;15;120
+401;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;652;1189;537;15;120
+402;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;772;1309;537;15;120
+403;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;892;1429;537;15;120
+404;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;1012;1549;537;15;120
+405;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;1132;1669;537;15;120
+406;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;1252;1789;537;15;120
+407;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;1;Berlin Gesundbrunnen;München Hbf;1372;1909;537;15;120
+408;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;389;906;517;15;120
+409;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;509;1026;517;15;120
+410;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;629;1146;517;15;120
+411;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;749;1266;517;15;120
+412;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;869;1386;517;15;120
+413;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;989;1506;517;15;120
+414;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;1109;1626;517;15;120
+415;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;1229;1746;517;15;120
+416;ICE 11;ICE;11;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Berlin Gesundbrunnen;1349;1866;517;15;120
+417;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;406;865;459;16;120
+418;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;526;985;459;16;120
+419;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;646;1105;459;16;120
+420;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;766;1225;459;16;120
+421;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;886;1345;459;16;120
+422;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;1006;1465;459;16;120
+423;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;1126;1585;459;16;120
+424;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;1246;1705;459;16;120
+425;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Berlin Hbf;1366;1825;459;16;120
+426;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;365;850;485;16;120
+427;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;485;970;485;16;120
+428;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;605;1090;485;16;120
+429;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;725;1210;485;16;120
+430;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;845;1330;485;16;120
+431;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;965;1450;485;16;120
+432;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;1085;1570;485;16;120
+433;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;1205;1690;485;16;120
+434;ICE 12;ICE;12;ICE;ICE;DB Fernverkehr AG;2;Berlin Hbf;Basel SBB;1325;1810;485;16;120
+435;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;370;647;277;11;120
+436;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;490;767;277;11;120
+437;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;610;887;277;11;120
+438;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;730;1007;277;11;120
+439;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;850;1127;277;11;120
+440;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;970;1247;277;11;120
+441;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;1090;1367;277;11;120
+442;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;1210;1487;277;11;120
+443;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Berlin-Charlottenburg;1330;1607;277;11;120
+444;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;402;683;281;11;120
+445;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;522;803;281;11;120
+446;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;642;923;281;11;120
+447;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;762;1043;281;11;120
+448;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;882;1163;281;11;120
+449;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;1002;1283;281;11;120
+450;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;1122;1403;281;11;120
+451;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;1242;1523;281;11;120
+452;ICE 13;ICE;13;ICE;ICE;DB Fernverkehr AG;2;Berlin-Charlottenburg;Frankfurt(M) Flughafen Fernbf;1362;1643;281;11;120
+453;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;410;656;246;10;120
+454;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;530;776;246;10;120
+455;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;650;896;246;10;120
+456;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;770;1016;246;10;120
+457;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;890;1136;246;10;120
+458;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;1010;1256;246;10;120
+459;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;1130;1376;246;10;120
+460;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;1250;1496;246;10;120
+461;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;1;Berlin-Charlottenburg;Essen Hbf;1370;1616;246;10;120
+462;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;396;644;248;10;120
+463;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;516;764;248;10;120
+464;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;636;884;248;10;120
+465;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;756;1004;248;10;120
+466;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;876;1124;248;10;120
+467;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;996;1244;248;10;120
+468;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;1116;1364;248;10;120
+469;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;1236;1484;248;10;120
+470;ICE 14;ICE;14;ICE;ICE;DB Fernverkehr AG;2;Essen Hbf;Berlin-Charlottenburg;1356;1604;248;10;120
+471;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;379;666;287;6;120
+472;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;499;786;287;6;120
+473;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;619;906;287;6;120
+474;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;739;1026;287;6;120
+475;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;859;1146;287;6;120
+476;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;979;1266;287;6;120
+477;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;1099;1386;287;6;120
+478;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;1219;1506;287;6;120
+479;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Berlin Gesundbrunnen;1339;1626;287;6;120
+480;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;414;699;285;6;120
+481;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;534;819;285;6;120
+482;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;654;939;285;6;120
+483;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;774;1059;285;6;120
+484;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;894;1179;285;6;120
+485;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;1014;1299;285;6;120
+486;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;1134;1419;285;6;120
+487;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;1254;1539;285;6;120
+488;ICE 15;ICE;15;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Frankfurt(Main)Hbf;1374;1659;285;6;120
+489;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;377;446;69;2;120
+490;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;497;566;69;2;120
+491;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;617;686;69;2;120
+492;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;737;806;69;2;120
+493;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;857;926;69;2;120
+494;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;977;1046;69;2;120
+495;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;1097;1166;69;2;120
+496;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;1217;1286;69;2;120
+497;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;1;Bremen Hbf;Hannover Hbf;1337;1406;69;2;120
+498;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;394;463;69;2;120
+499;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;514;583;69;2;120
+500;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;634;703;69;2;120
+501;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;754;823;69;2;120
+502;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;874;943;69;2;120
+503;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;994;1063;69;2;120
+504;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;1114;1183;69;2;120
+505;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;1234;1303;69;2;120
+506;ICE 16;ICE;16;ICE;ICE;DB Fernverkehr AG;2;Hannover Hbf;Bremen Hbf;1354;1423;69;2;120
+507;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;360;535;175;7;120
+508;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;480;655;175;7;120
+509;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;600;775;175;7;120
+510;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;720;895;175;7;120
+511;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;840;1015;175;7;120
+512;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;960;1135;175;7;120
+513;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;1080;1255;175;7;120
+514;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;1200;1375;175;7;120
+515;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;1;Stralsund Hbf;Berlin Gesundbrunnen;1320;1495;175;7;120
+516;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;360;536;176;7;120
+517;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;480;656;176;7;120
+518;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;600;776;176;7;120
+519;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;720;896;176;7;120
+520;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;840;1016;176;7;120
+521;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;960;1136;176;7;120
+522;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;1080;1256;176;7;120
+523;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;1200;1376;176;7;120
+524;ICE 17;ICE;17;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stralsund Hbf;1320;1496;176;7;120
+525;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;365;507;142;6;120
+526;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;485;627;142;6;120
+527;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;605;747;142;6;120
+528;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;725;867;142;6;120
+529;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;845;987;142;6;120
+530;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;965;1107;142;6;120
+531;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;1085;1227;142;6;120
+532;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;1205;1347;142;6;120
+533;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;1;Berlin Hbf;Hamburg-Altona;1325;1467;142;6;120
+534;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;362;505;143;6;120
+535;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;482;625;143;6;120
+536;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;602;745;143;6;120
+537;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;722;865;143;6;120
+538;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;842;985;143;6;120
+539;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;962;1105;143;6;120
+540;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;1082;1225;143;6;120
+541;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;1202;1345;143;6;120
+542;ICE 18;ICE;18;ICE;ICE;DB Fernverkehr AG;2;Hamburg-Altona;Berlin Hbf;1322;1465;143;6;120
+543;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;394;697;303;8;120
+544;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;514;817;303;8;120
+545;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;634;937;303;8;120
+546;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;754;1057;303;8;120
+547;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;874;1177;303;8;120
+548;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;994;1297;303;8;120
+549;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1114;1417;303;8;120
+550;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1234;1537;303;8;120
+551;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Berlin Südkreuz;1354;1657;303;8;120
+552;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;410;714;304;8;120
+553;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;530;834;304;8;120
+554;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;650;954;304;8;120
+555;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;770;1074;304;8;120
+556;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;890;1194;304;8;120
+557;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1010;1314;304;8;120
+558;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1130;1434;304;8;120
+559;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1250;1554;304;8;120
+560;ICE 19;ICE;19;ICE;ICE;DB Fernverkehr AG;2;Berlin Südkreuz;Köln Hbf;1370;1674;304;8;120
+561;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;400;853;453;12;120
+562;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;520;973;453;12;120
+563;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;640;1093;453;12;120
+564;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;760;1213;453;12;120
+565;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;880;1333;453;12;120
+566;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1000;1453;453;12;120
+567;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1120;1573;453;12;120
+568;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1240;1693;453;12;120
+569;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;1;Basel SBB;Hamburg Hbf;1360;1813;453;12;120
+570;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;377;819;442;12;120
+571;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;497;939;442;12;120
+572;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;617;1059;442;12;120
+573;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;737;1179;442;12;120
+574;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;857;1299;442;12;120
+575;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;977;1419;442;12;120
+576;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1097;1539;442;12;120
+577;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1217;1659;442;12;120
+578;ICE 20;ICE;20;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Basel SBB;1337;1779;442;12;120
+579;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;380;733;353;8;120
+580;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;500;853;353;8;120
+581;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;620;973;353;8;120
+582;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;740;1093;353;8;120
+583;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;860;1213;353;8;120
+584;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;980;1333;353;8;120
+585;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;1100;1453;353;8;120
+586;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;1220;1573;353;8;120
+587;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Hamburg Hbf;1340;1693;353;8;120
+588;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;377;735;358;8;120
+589;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;497;855;358;8;120
+590;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;617;975;358;8;120
+591;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;737;1095;358;8;120
+592;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;857;1215;358;8;120
+593;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;977;1335;358;8;120
+594;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;1097;1455;358;8;120
+595;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;1217;1575;358;8;120
+596;ICE 22;ICE;22;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;Stuttgart Hbf;1337;1695;358;8;120
+597;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);376;881;505;16;120
+598;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);496;1001;505;16;120
+599;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);616;1121;505;16;120
+600;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);736;1241;505;16;120
+601;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);856;1361;505;16;120
+602;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);976;1481;505;16;120
+603;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);1096;1601;505;16;120
+604;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);1216;1721;505;16;120
+605;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Westerland(Sylt);1336;1841;505;16;120
+606;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;379;882;503;16;120
+607;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;499;1002;503;16;120
+608;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;619;1122;503;16;120
+609;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;739;1242;503;16;120
+610;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;859;1362;503;16;120
+611;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;979;1482;503;16;120
+612;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;1099;1602;503;16;120
+613;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;1219;1722;503;16;120
+614;ICE 24;ICE;24;ICE;ICE;DB Fernverkehr AG;2;Westerland(Sylt);Frankfurt(Main)Hbf;1339;1842;503;16;120
+615;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;329;733;404;11;60
+616;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;389;793;404;11;60
+617;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;449;853;404;11;60
+618;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;509;913;404;11;60
+619;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;569;973;404;11;60
+620;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;629;1033;404;11;60
+621;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;689;1093;404;11;60
+622;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;749;1153;404;11;60
+623;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;809;1213;404;11;60
+624;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;869;1273;404;11;60
+625;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;929;1333;404;11;60
+626;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;989;1393;404;11;60
+627;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1049;1453;404;11;60
+628;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1109;1513;404;11;60
+629;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1169;1573;404;11;60
+630;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1229;1633;404;11;60
+631;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1289;1693;404;11;60
+632;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Hamburg Hbf;1349;1753;404;11;60
+633;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;317;739;422;11;60
+634;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;377;799;422;11;60
+635;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;437;859;422;11;60
+636;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;497;919;422;11;60
+637;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;557;979;422;11;60
+638;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;617;1039;422;11;60
+639;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;677;1099;422;11;60
+640;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;737;1159;422;11;60
+641;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;797;1219;422;11;60
+642;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;857;1279;422;11;60
+643;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;917;1339;422;11;60
+644;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;977;1399;422;11;60
+645;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1037;1459;422;11;60
+646;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1097;1519;422;11;60
+647;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1157;1579;422;11;60
+648;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1217;1639;422;11;60
+649;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1277;1699;422;11;60
+650;ICE 25;ICE;25;ICE;ICE;DB Fernverkehr AG;2;Hamburg Hbf;München Hbf;1337;1759;422;11;60
+651;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;394;463;69;2;120
+652;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;514;583;69;2;120
+653;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;634;703;69;2;120
+654;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;754;823;69;2;120
+655;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;874;943;69;2;120
+656;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;994;1063;69;2;120
+657;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;1114;1183;69;2;120
+658;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;1234;1303;69;2;120
+659;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;1;Hannover Hbf;Bremen Hbf;1354;1423;69;2;120
+660;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;377;446;69;2;120
+661;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;497;566;69;2;120
+662;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;617;686;69;2;120
+663;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;737;806;69;2;120
+664;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;857;926;69;2;120
+665;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;977;1046;69;2;120
+666;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;1097;1166;69;2;120
+667;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;1217;1286;69;2;120
+668;ICE 26;ICE;26;ICE;ICE;DB Fernverkehr AG;2;Bremen Hbf;Hannover Hbf;1337;1406;69;2;120
+669;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;380;516;136;5;120
+670;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;500;636;136;5;120
+671;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;620;756;136;5;120
+672;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;740;876;136;5;120
+673;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;860;996;136;5;120
+674;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;980;1116;136;5;120
+675;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;1100;1236;136;5;120
+676;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;1220;1356;136;5;120
+677;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Berlin Gesundbrunnen;1340;1476;136;5;120
+678;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;414;550;136;5;120
+679;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;534;670;136;5;120
+680;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;654;790;136;5;120
+681;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;774;910;136;5;120
+682;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;894;1030;136;5;120
+683;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;1014;1150;136;5;120
+684;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;1134;1270;136;5;120
+685;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;1254;1390;136;5;120
+686;ICE 27;ICE;27;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Dresden Hbf;1374;1510;136;5;120
+687;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;361;829;468;13;120
+688;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;481;949;468;13;120
+689;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;601;1069;468;13;120
+690;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;721;1189;468;13;120
+691;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;841;1309;468;13;120
+692;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;961;1429;468;13;120
+693;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1081;1549;468;13;120
+694;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1201;1669;468;13;120
+695;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1321;1789;468;13;120
+696;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;389;838;449;13;120
+697;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;509;958;449;13;120
+698;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;629;1078;449;13;120
+699;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;749;1198;449;13;120
+700;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;869;1318;449;13;120
+701;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;989;1438;449;13;120
+702;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1109;1558;449;13;120
+703;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1229;1678;449;13;120
+704;ICE 28;ICE;28;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1349;1798;449;13;120
+705;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;389;666;277;8;120
+706;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;509;786;277;8;120
+707;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;629;906;277;8;120
+708;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;749;1026;277;8;120
+709;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;869;1146;277;8;120
+710;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;989;1266;277;8;120
+711;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;1109;1386;277;8;120
+712;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;1229;1506;277;8;120
+713;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Berlin Gesundbrunnen;1349;1626;277;8;120
+714;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;412;709;297;8;120
+715;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;532;829;297;8;120
+716;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;652;949;297;8;120
+717;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;772;1069;297;8;120
+718;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;892;1189;297;8;120
+719;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;1012;1309;297;8;120
+720;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;1132;1429;297;8;120
+721;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;1252;1549;297;8;120
+722;ICE 29;ICE;29;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;München Hbf;1372;1669;297;8;120
+723;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;411;693;282;5;120
+724;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;531;813;282;5;120
+725;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;651;933;282;5;120
+726;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;771;1053;282;5;120
+727;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;891;1173;282;5;120
+728;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;1011;1293;282;5;120
+729;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;1131;1413;282;5;120
+730;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;1251;1533;282;5;120
+731;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Frankfurt(M) Flughafen Regionalbf;1371;1653;282;5;120
+732;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;416;697;281;5;120
+733;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;536;817;281;5;120
+734;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;656;937;281;5;120
+735;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;776;1057;281;5;120
+736;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;896;1177;281;5;120
+737;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;1016;1297;281;5;120
+738;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;1136;1417;281;5;120
+739;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;1256;1537;281;5;120
+740;ICE 3;ICE;3;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Berlin Südkreuz;1376;1657;281;5;120
+741;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;363;583;220;10;120
+742;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;483;703;220;10;120
+743;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;603;823;220;10;120
+744;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;723;943;220;10;120
+745;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;843;1063;220;10;120
+746;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;963;1183;220;10;120
+747;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;1083;1303;220;10;120
+748;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;1203;1423;220;10;120
+749;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Ostseebad Binz;1323;1543;220;10;120
+750;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;411;627;216;10;120
+751;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;531;747;216;10;120
+752;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;651;867;216;10;120
+753;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;771;987;216;10;120
+754;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;891;1107;216;10;120
+755;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;1011;1227;216;10;120
+756;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;1131;1347;216;10;120
+757;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;1251;1467;216;10;120
+758;ICE 33;ICE;33;ICE;ICE;DB Fernverkehr AG;2;Ostseebad Binz;Hamburg-Altona;1371;1587;216;10;120
+759;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;377;665;288;4;120
+760;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;497;785;288;4;120
+761;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;617;905;288;4;120
+762;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;737;1025;288;4;120
+763;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;857;1145;288;4;120
+764;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;977;1265;288;4;120
+765;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;1097;1385;288;4;120
+766;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;1217;1505;288;4;120
+767;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;1;Hamburg Hbf;Frankfurt(M) Flughafen Regionalbf;1337;1625;288;4;120
+768;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;411;703;292;4;120
+769;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;531;823;292;4;120
+770;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;651;943;292;4;120
+771;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;771;1063;292;4;120
+772;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;891;1183;292;4;120
+773;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;1011;1303;292;4;120
+774;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;1131;1423;292;4;120
+775;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;1251;1543;292;4;120
+776;ICE 4;ICE;4;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(M) Flughafen Regionalbf;Hamburg Hbf;1371;1663;292;4;120
+777;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;329;646;317;9;60
+778;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;389;706;317;9;60
+779;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;449;766;317;9;60
+780;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;509;826;317;9;60
+781;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;569;886;317;9;60
+782;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;629;946;317;9;60
+783;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;689;1006;317;9;60
+784;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;749;1066;317;9;60
+785;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;809;1126;317;9;60
+786;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;869;1186;317;9;60
+787;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;929;1246;317;9;60
+788;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;989;1306;317;9;60
+789;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1049;1366;317;9;60
+790;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1109;1426;317;9;60
+791;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1169;1486;317;9;60
+792;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1229;1546;317;9;60
+793;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1289;1606;317;9;60
+794;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;1;München Hbf;Düsseldorf Hbf;1349;1666;317;9;60
+795;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;339;679;340;9;60
+796;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;399;739;340;9;60
+797;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;459;799;340;9;60
+798;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;519;859;340;9;60
+799;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;579;919;340;9;60
+800;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;639;979;340;9;60
+801;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;699;1039;340;9;60
+802;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;759;1099;340;9;60
+803;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;819;1159;340;9;60
+804;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;879;1219;340;9;60
+805;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;939;1279;340;9;60
+806;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;999;1339;340;9;60
+807;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1059;1399;340;9;60
+808;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1119;1459;340;9;60
+809;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1179;1519;340;9;60
+810;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1239;1579;340;9;60
+811;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1299;1639;340;9;60
+812;ICE 41;ICE;41;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;München Hbf;1359;1699;340;9;60
+813;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;362;979;617;19;120
+814;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;482;1099;617;19;120
+815;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;602;1219;617;19;120
+816;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;722;1339;617;19;120
+817;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;842;1459;617;19;120
+818;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;962;1579;617;19;120
+819;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1082;1699;617;19;120
+820;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1202;1819;617;19;120
+821;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;München Hbf;1322;1939;617;19;120
+822;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;389;1019;630;19;120
+823;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;509;1139;630;19;120
+824;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;629;1259;630;19;120
+825;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;749;1379;630;19;120
+826;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;869;1499;630;19;120
+827;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;989;1619;630;19;120
+828;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1109;1739;630;19;120
+829;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1229;1859;630;19;120
+830;ICE 42;ICE;42;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Hamburg-Altona;1349;1979;630;19;120
+831;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;362;909;547;19;120
+832;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;482;1029;547;19;120
+833;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;602;1149;547;19;120
+834;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;722;1269;547;19;120
+835;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;842;1389;547;19;120
+836;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;962;1509;547;19;120
+837;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;1082;1629;547;19;120
+838;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;1202;1749;547;19;120
+839;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;1;Hamburg-Altona;Basel SBB;1322;1869;547;19;120
+840;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;405;988;583;19;120
+841;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;525;1108;583;19;120
+842;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;645;1228;583;19;120
+843;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;765;1348;583;19;120
+844;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;885;1468;583;19;120
+845;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;1005;1588;583;19;120
+846;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;1125;1708;583;19;120
+847;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;1245;1828;583;19;120
+848;ICE 43;ICE;43;ICE;ICE;DB Fernverkehr AG;2;Basel SBB;Hamburg-Altona;1365;1948;583;19;120
+849;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;394;585;191;8;120
+850;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;514;705;191;8;120
+851;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;634;825;191;8;120
+852;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;754;945;191;8;120
+853;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;874;1065;191;8;120
+854;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;994;1185;191;8;120
+855;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1114;1305;191;8;120
+856;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1234;1425;191;8;120
+857;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1354;1545;191;8;120
+858;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;380;564;184;8;120
+859;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;500;684;184;8;120
+860;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;620;804;184;8;120
+861;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;740;924;184;8;120
+862;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;860;1044;184;8;120
+863;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;980;1164;184;8;120
+864;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1100;1284;184;8;120
+865;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1220;1404;184;8;120
+866;ICE 45;ICE;45;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1340;1524;184;8;120
+867;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;416;739;323;11;120
+868;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;536;859;323;11;120
+869;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;656;979;323;11;120
+870;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;776;1099;323;11;120
+871;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;896;1219;323;11;120
+872;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;1016;1339;323;11;120
+873;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;1136;1459;323;11;120
+874;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;1256;1579;323;11;120
+875;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;1;Essen Hbf;München Hbf;1376;1699;323;11;120
+876;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;389;721;332;11;120
+877;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;509;841;332;11;120
+878;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;629;961;332;11;120
+879;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;749;1081;332;11;120
+880;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;869;1201;332;11;120
+881;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;989;1321;332;11;120
+882;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;1109;1441;332;11;120
+883;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;1229;1561;332;11;120
+884;ICE 47;ICE;47;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Essen Hbf;1349;1681;332;11;120
+885;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;394;492;98;6;120
+886;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;514;612;98;6;120
+887;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;634;732;98;6;120
+888;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;754;852;98;6;120
+889;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;874;972;98;6;120
+890;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;994;1092;98;6;120
+891;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;1114;1212;98;6;120
+892;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;1234;1332;98;6;120
+893;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Frankfurt(Main)Hbf;1354;1452;98;6;120
+894;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;376;474;98;6;120
+895;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;496;594;98;6;120
+896;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;616;714;98;6;120
+897;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;736;834;98;6;120
+898;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;856;954;98;6;120
+899;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;976;1074;98;6;120
+900;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;1096;1194;98;6;120
+901;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;1216;1314;98;6;120
+902;ICE 49;ICE;49;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Köln Hbf;1336;1434;98;6;120
+903;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;418;733;315;10;120
+904;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;538;853;315;10;120
+905;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;658;973;315;10;120
+906;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;778;1093;315;10;120
+907;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;898;1213;315;10;120
+908;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;1018;1333;315;10;120
+909;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;1138;1453;315;10;120
+910;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;1258;1573;315;10;120
+911;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(M) Flughafen Fernbf;Dresden Hbf;1378;1693;315;10;120
+912;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;377;662;285;10;120
+913;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;497;782;285;10;120
+914;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;617;902;285;10;120
+915;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;737;1022;285;10;120
+916;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;857;1142;285;10;120
+917;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;977;1262;285;10;120
+918;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;1097;1382;285;10;120
+919;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;1217;1502;285;10;120
+920;ICE 50;ICE;50;ICE;ICE;DB Fernverkehr AG;2;Dresden Hbf;Frankfurt(M) Flughafen Fernbf;1337;1622;285;10;120
+921;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;377;840;463;14;120
+922;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;497;960;463;14;120
+923;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;617;1080;463;14;120
+924;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;737;1200;463;14;120
+925;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;857;1320;463;14;120
+926;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;977;1440;463;14;120
+927;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;1097;1560;463;14;120
+928;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;1217;1680;463;14;120
+929;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;1;Dresden Hbf;Düsseldorf Hbf;1337;1800;463;14;120
+930;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;418;913;495;14;120
+931;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;538;1033;495;14;120
+932;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;658;1153;495;14;120
+933;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;778;1273;495;14;120
+934;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;898;1393;495;14;120
+935;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;1018;1513;495;14;120
+936;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;1138;1633;495;14;120
+937;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;1258;1753;495;14;120
+938;ICE 51;ICE;51;ICE;ICE;DB Fernverkehr AG;2;Düsseldorf Hbf;Dresden Hbf;1378;1873;495;14;120
+939;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;394;675;281;8;120
+940;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;514;795;281;8;120
+941;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;634;915;281;8;120
+942;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;754;1035;281;8;120
+943;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;874;1155;281;8;120
+944;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;994;1275;281;8;120
+945;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1114;1395;281;8;120
+946;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1234;1515;281;8;120
+947;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;1;Köln Hbf;Stuttgart Hbf;1354;1635;281;8;120
+948;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;380;654;274;8;120
+949;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;500;774;274;8;120
+950;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;620;894;274;8;120
+951;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;740;1014;274;8;120
+952;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;860;1134;274;8;120
+953;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;980;1254;274;8;120
+954;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1100;1374;274;8;120
+955;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1220;1494;274;8;120
+956;ICE 55;ICE;55;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Köln Hbf;1340;1614;274;8;120
+957;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;380;726;346;5;120
+958;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;500;846;346;5;120
+959;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;620;966;346;5;120
+960;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;740;1086;346;5;120
+961;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;860;1206;346;5;120
+962;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;980;1326;346;5;120
+963;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1100;1446;346;5;120
+964;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1220;1566;346;5;120
+965;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;1;Stuttgart Hbf;Berlin Gesundbrunnen;1340;1686;346;5;120
+966;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;412;735;323;5;120
+967;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;532;855;323;5;120
+968;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;652;975;323;5;120
+969;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;772;1095;323;5;120
+970;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;892;1215;323;5;120
+971;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1012;1335;323;5;120
+972;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1132;1455;323;5;120
+973;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1252;1575;323;5;120
+974;ICE 6;ICE;6;ICE;ICE;DB Fernverkehr AG;2;Berlin Gesundbrunnen;Stuttgart Hbf;1372;1695;323;5;120
+975;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;390;589;199;7;120
+976;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;510;709;199;7;120
+977;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;630;829;199;7;120
+978;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;750;949;199;7;120
+979;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;870;1069;199;7;120
+980;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;990;1189;199;7;120
+981;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;1110;1309;199;7;120
+982;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;1230;1429;199;7;120
+983;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;1;Karlsruhe Hbf;München Hbf;1350;1549;199;7;120
+984;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;389;595;206;7;120
+985;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;509;715;206;7;120
+986;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;629;835;206;7;120
+987;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;749;955;206;7;120
+988;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;869;1075;206;7;120
+989;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;989;1195;206;7;120
+990;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;1109;1315;206;7;120
+991;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;1229;1435;206;7;120
+992;ICE 60;ICE;60;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Karlsruhe Hbf;1349;1555;206;7;120
+993;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;376;495;119;6;120
+994;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;496;615;119;6;120
+995;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;616;735;119;6;120
+996;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;736;855;119;6;120
+997;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;856;975;119;6;120
+998;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;976;1095;119;6;120
+999;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;1096;1215;119;6;120
+1000;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;1216;1335;119;6;120
+1001;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Stuttgart Hbf;1336;1455;119;6;120
+1002;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;380;492;112;6;120
+1003;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;500;612;112;6;120
+1004;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;620;732;112;6;120
+1005;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;740;852;112;6;120
+1006;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;860;972;112;6;120
+1007;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;980;1092;112;6;120
+1008;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;1100;1212;112;6;120
+1009;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;1220;1332;112;6;120
+1010;ICE 62;ICE;62;ICE;ICE;DB Fernverkehr AG;2;Stuttgart Hbf;Frankfurt(Main)Hbf;1340;1452;112;6;120
+1011;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;412;668;256;10;120
+1012;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;532;788;256;10;120
+1013;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;652;908;256;10;120
+1014;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;772;1028;256;10;120
+1015;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;892;1148;256;10;120
+1016;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;1012;1268;256;10;120
+1017;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;1132;1388;256;10;120
+1018;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;1252;1508;256;10;120
+1019;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;1;Berlin Südkreuz;Hengelo;1372;1628;256;10;120
+1020;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;382;637;255;10;120
+1021;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;502;757;255;10;120
+1022;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;622;877;255;10;120
+1023;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;742;997;255;10;120
+1024;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;862;1117;255;10;120
+1025;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;982;1237;255;10;120
+1026;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;1102;1357;255;10;120
+1027;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;1222;1477;255;10;120
+1028;ICE 77;ICE;77;ICE;ICE;DB Fernverkehr AG;2;Hengelo;Berlin Südkreuz;1342;1597;255;10;120
+1029;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;376;560;184;9;120
+1030;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;496;680;184;9;120
+1031;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;616;800;184;9;120
+1032;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;736;920;184;9;120
+1033;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;856;1040;184;9;120
+1034;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;976;1160;184;9;120
+1035;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;1096;1280;184;9;120
+1036;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;1216;1400;184;9;120
+1037;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;1;Frankfurt(Main)Hbf;Arnhem Centraal;1336;1520;184;9;120
+1038;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;366;582;216;9;120
+1039;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;486;702;216;9;120
+1040;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;606;822;216;9;120
+1041;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;726;942;216;9;120
+1042;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;846;1062;216;9;120
+1043;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;966;1182;216;9;120
+1044;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;1086;1302;216;9;120
+1045;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;1206;1422;216;9;120
+1046;ICE 78;ICE;78;ICE;ICE;DB Fernverkehr AG;2;Arnhem Centraal;Frankfurt(Main)Hbf;1326;1542;216;9;120
+1047;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;396;612;216;8;120
+1048;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;516;732;216;8;120
+1049;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;636;852;216;8;120
+1050;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;756;972;216;8;120
+1051;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;876;1092;216;8;120
+1052;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;996;1212;216;8;120
+1053;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;1116;1332;216;8;120
+1054;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;1236;1452;216;8;120
+1055;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;1;Bruxelles Midi;Frankfurt(Main)Hbf;1356;1572;216;8;120
+1056;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;376;561;185;8;120
+1057;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;496;681;185;8;120
+1058;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;616;801;185;8;120
+1059;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;736;921;185;8;120
+1060;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;856;1041;185;8;120
+1061;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;976;1161;185;8;120
+1062;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;1096;1281;185;8;120
+1063;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;1216;1401;185;8;120
+1064;ICE 79;ICE;79;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Bruxelles Midi;1336;1521;185;8;120
+1065;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;403;552;149;4;120
+1066;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;523;672;149;4;120
+1067;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;643;792;149;4;120
+1068;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;763;912;149;4;120
+1069;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;883;1032;149;4;120
+1070;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;1003;1152;149;4;120
+1071;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;1123;1272;149;4;120
+1072;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;1243;1392;149;4;120
+1073;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;1;Saarbrücken Hbf;Frankfurt(Main)Hbf;1363;1512;149;4;120
+1074;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;376;534;158;4;120
+1075;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;496;654;158;4;120
+1076;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;616;774;158;4;120
+1077;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;736;894;158;4;120
+1078;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;856;1014;158;4;120
+1079;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;976;1134;158;4;120
+1080;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;1096;1254;158;4;120
+1081;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;1216;1374;158;4;120
+1082;ICE 82;ICE;82;ICE;ICE;DB Fernverkehr AG;2;Frankfurt(Main)Hbf;Saarbrücken Hbf;1336;1494;158;4;120
+1083;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;360;463;103;2;120
+1084;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;480;583;103;2;120
+1085;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;600;703;103;2;120
+1086;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;720;823;103;2;120
+1087;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;840;943;103;2;120
+1088;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;960;1063;103;2;120
+1089;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;1080;1183;103;2;120
+1090;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;1200;1303;103;2;120
+1091;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;1;Strasbourg;Paris Est;1320;1423;103;2;120
+1092;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;360;465;105;2;120
+1093;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;480;585;105;2;120
+1094;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;600;705;105;2;120
+1095;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;720;825;105;2;120
+1096;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;840;945;105;2;120
+1097;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;960;1065;105;2;120
+1098;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;1080;1185;105;2;120
+1099;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;1200;1305;105;2;120
+1100;ICE 83;ICE;83;ICE;ICE;DB Fernverkehr AG;2;Paris Est;Strasbourg;1320;1425;105;2;120
+1101;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;389;499;110;5;120
+1102;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;509;619;110;5;120
+1103;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;629;739;110;5;120
+1104;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;749;859;110;5;120
+1105;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;869;979;110;5;120
+1106;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;989;1099;110;5;120
+1107;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;1109;1219;110;5;120
+1108;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;1229;1339;110;5;120
+1109;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;1;Salzburg Hbf;München Hbf;1349;1459;110;5;120
+1110;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;389;499;110;5;120
+1111;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;509;619;110;5;120
+1112;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;629;739;110;5;120
+1113;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;749;859;110;5;120
+1114;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;869;979;110;5;120
+1115;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;989;1099;110;5;120
+1116;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;1109;1219;110;5;120
+1117;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;1229;1339;110;5;120
+1118;ICE 90;ICE;90;ICE;ICE;DB Fernverkehr AG;2;München Hbf;Salzburg Hbf;1349;1459;110;5;120
+1119;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;391;807;416;15;120
+1120;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;511;927;416;15;120
+1121;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;631;1047;416;15;120
+1122;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;751;1167;416;15;120
+1123;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;871;1287;416;15;120
+1124;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;991;1407;416;15;120
+1125;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;1111;1527;416;15;120
+1126;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;1231;1647;416;15;120
+1127;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;1;Nürnberg Hbf;Dortmund Hbf;1351;1767;416;15;120
+1128;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;363;864;501;15;120
+1129;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;483;984;501;15;120
+1130;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;603;1104;501;15;120
+1131;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;723;1224;501;15;120
+1132;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;843;1344;501;15;120
+1133;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;963;1464;501;15;120
+1134;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;1083;1584;501;15;120
+1135;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;1203;1704;501;15;120
+1136;ICE 91;ICE;91;ICE;ICE;DB Fernverkehr AG;2;Dortmund Hbf;Nürnberg Hbf;1323;1824;501;15;120
+1137;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;360;445;85;4;120
+1138;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;480;565;85;4;120
+1139;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;600;685;85;4;120
+1140;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;720;805;85;4;120
+1141;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;840;925;85;4;120
+1142;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;960;1045;85;4;120
+1143;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;1080;1165;85;4;120
+1144;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;1200;1285;85;4;120
+1145;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;1;Praha hl.n.;Decin hl.n.;1320;1405;85;4;120
+1146;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;360;448;88;4;120
+1147;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;480;568;88;4;120
+1148;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;600;688;88;4;120
+1149;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;720;808;88;4;120
+1150;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;840;928;88;4;120
+1151;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;960;1048;88;4;120
+1152;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;1080;1168;88;4;120
+1153;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;1200;1288;88;4;120
+1154;EC (Ceske Drahy);EC;;IC;IC/EC;Ceske Drahy;2;Decin hl.n.;Praha hl.n.;1320;1408;88;4;120
+1155;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;360;383;23;3;120
+1156;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;480;503;23;3;120
+1157;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;600;623;23;3;120
+1158;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;720;743;23;3;120
+1159;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;840;863;23;3;120
+1160;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;960;983;23;3;120
+1161;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;1080;1103;23;3;120
+1162;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;1200;1223;23;3;120
+1163;EC (HZZP);EC;;IC;IC/EC;HZZP;1;Dobova(Gr);Zagreb Glavni kolodvor;1320;1343;23;3;120
+1164;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);360;383;23;3;120
+1165;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);480;503;23;3;120
+1166;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);600;623;23;3;120
+1167;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);720;743;23;3;120
+1168;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);840;863;23;3;120
+1169;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);960;983;23;3;120
+1170;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);1080;1103;23;3;120
+1171;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);1200;1223;23;3;120
+1172;EC (HZZP);EC;;IC;IC/EC;HZZP;2;Zagreb Glavni kolodvor;Dobova(Gr);1320;1343;23;3;120
+1173;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;360;363;3;2;120
+1174;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;480;483;3;2;120
+1175;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;600;603;3;2;120
+1176;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;720;723;3;2;120
+1177;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;840;843;3;2;120
+1178;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;960;963;3;2;120
+1179;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;1080;1083;3;2;120
+1180;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;1200;1203;3;2;120
+1181;EC (MAV);EC;;IC;IC/EC;MAV;1;Hegyeshalom(Gr);Hegyeshalom;1320;1323;3;2;120
+1182;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);360;363;3;2;120
+1183;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);480;483;3;2;120
+1184;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);600;603;3;2;120
+1185;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);720;723;3;2;120
+1186;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);840;843;3;2;120
+1187;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);960;963;3;2;120
+1188;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);1080;1083;3;2;120
+1189;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);1200;1203;3;2;120
+1190;EC (MAV);EC;;IC;IC/EC;MAV;2;Hegyeshalom;Hegyeshalom(Gr);1320;1323;3;2;120
+1191;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;360;436;76;5;120
+1192;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;480;556;76;5;120
+1193;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;600;676;76;5;120
+1194;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;720;796;76;5;120
+1195;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;840;916;76;5;120
+1196;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;960;1036;76;5;120
+1197;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;1080;1156;76;5;120
+1198;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;1200;1276;76;5;120
+1199;EC (SBB);EC;;IC;IC/EC;SBB;1;St. Margrethen SG;Zürich HB;1320;1396;76;5;120
+1200;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;360;435;75;5;120
+1201;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;480;555;75;5;120
+1202;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;600;675;75;5;120
+1203;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;720;795;75;5;120
+1204;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;840;915;75;5;120
+1205;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;960;1035;75;5;120
+1206;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;1080;1155;75;5;120
+1207;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;1200;1275;75;5;120
+1208;EC (SBB);EC;;IC;IC/EC;SBB;2;Zürich HB;St. Margrethen SG;1320;1395;75;5;120
+1209;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;360;376;16;3;120
+1210;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;480;496;16;3;120
+1211;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;600;616;16;3;120
+1212;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;720;736;16;3;120
+1213;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;840;856;16;3;120
+1214;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;960;976;16;3;120
+1215;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;1080;1096;16;3;120
+1216;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;1200;1216;16;3;120
+1217;EC (ÖBB);EC;;IC;IC/EC;ÖBB;1;Lindau-Reutin;St. Margrethen SG;1320;1336;16;3;120
+1218;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;360;376;16;3;120
+1219;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;480;496;16;3;120
+1220;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;600;616;16;3;120
+1221;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;720;736;16;3;120
+1222;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;840;856;16;3;120
+1223;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;960;976;16;3;120
+1224;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;1080;1096;16;3;120
+1225;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;1200;1216;16;3;120
+1226;EC (ÖBB);EC;;IC;IC/EC;ÖBB;2;St. Margrethen SG;Lindau-Reutin;1320;1336;16;3;120
+1227;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;389;488;99;5;120
+1228;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;509;608;99;5;120
+1229;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;629;728;99;5;120
+1230;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;749;848;99;5;120
+1231;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;869;968;99;5;120
+1232;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;989;1088;99;5;120
+1233;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;1109;1208;99;5;120
+1234;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;1229;1328;99;5;120
+1235;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;1;München Hbf;Salzburg Hbf;1349;1448;99;5;120
+1236;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;400;499;99;5;120
+1237;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;520;619;99;5;120
+1238;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;640;739;99;5;120
+1239;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;760;859;99;5;120
+1240;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;880;979;99;5;120
+1241;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;1000;1099;99;5;120
+1242;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;1120;1219;99;5;120
+1243;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;1240;1339;99;5;120
+1244;EC 62;EC;62;IC;IC/EC;DB Fernverkehr AG;2;Salzburg Hbf;München Hbf;1360;1459;99;5;120
+1245;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;360;367;7;2;120
+1246;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;480;487;7;2;120
+1247;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;600;607;7;2;120
+1248;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;720;727;7;2;120
+1249;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;840;847;7;2;120
+1250;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;960;967;7;2;120
+1251;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;1080;1087;7;2;120
+1252;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;1200;1207;7;2;120
+1253;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;1;Basel SBB;Basel Bad Bf;1320;1327;7;2;120
+1254;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;360;367;7;2;120
+1255;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;480;487;7;2;120
+1256;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;600;607;7;2;120
+1257;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;720;727;7;2;120
+1258;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;840;847;7;2;120
+1259;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;960;967;7;2;120
+1260;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;1080;1087;7;2;120
+1261;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;1200;1207;7;2;120
+1262;EC 85;EC;85;IC;IC/EC;DB Fernverkehr AG;2;Basel Bad Bf;Basel SBB;1320;1327;7;2;120
+1263;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;360;521;161;6;120
+1264;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;480;641;161;6;120
+1265;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;600;761;161;6;120
+1266;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;720;881;161;6;120
+1267;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;840;1001;161;6;120
+1268;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;960;1121;161;6;120
+1269;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;1080;1241;161;6;120
+1270;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;1200;1361;161;6;120
+1271;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;1;Simbach(Inn);Wien Hbf;1320;1481;161;6;120
+1272;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);360;522;162;6;120
+1273;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);480;642;162;6;120
+1274;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);600;762;162;6;120
+1275;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);720;882;162;6;120
+1276;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);840;1002;162;6;120
+1277;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);960;1122;162;6;120
+1278;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);1080;1242;162;6;120
+1279;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);1200;1362;162;6;120
+1280;EC 90;EC;90;IC;IC/EC;DB Fernverkehr AG;2;Wien Hbf;Simbach(Inn);1320;1482;162;6;120
+1281;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;300;380;80;5;60
+1282;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;360;440;80;5;60
+1283;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;420;500;80;5;60
+1284;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;480;560;80;5;60
+1285;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;540;620;80;5;60
+1286;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;600;680;80;5;60
+1287;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;660;740;80;5;60
+1288;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;720;800;80;5;60
+1289;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;780;860;80;5;60
+1290;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;840;920;80;5;60
+1291;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;900;980;80;5;60
+1292;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;960;1040;80;5;60
+1293;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1020;1100;80;5;60
+1294;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1080;1160;80;5;60
+1295;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1140;1220;80;5;60
+1296;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1200;1280;80;5;60
+1297;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1260;1340;80;5;60
+1298;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1320;1400;80;5;60
+1299;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;1;Berlin Gesundbrunnen;Rzepin;1380;1460;80;5;60
+1300;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;300;389;89;5;60
+1301;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;360;449;89;5;60
+1302;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;420;509;89;5;60
+1303;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;480;569;89;5;60
+1304;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;540;629;89;5;60
+1305;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;600;689;89;5;60
+1306;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;660;749;89;5;60
+1307;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;720;809;89;5;60
+1308;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;780;869;89;5;60
+1309;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;840;929;89;5;60
+1310;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;900;989;89;5;60
+1311;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;960;1049;89;5;60
+1312;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1020;1109;89;5;60
+1313;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1080;1169;89;5;60
+1314;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1140;1229;89;5;60
+1315;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1200;1289;89;5;60
+1316;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1260;1349;89;5;60
+1317;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1320;1409;89;5;60
+1318;EC 95;EC;95;IC;IC/EC;DB Fernverkehr AG;2;Rzepin;Berlin Gesundbrunnen;1380;1469;89;5;60
+1319;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;360;438;78;4;120
+1320;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;480;558;78;4;120
+1321;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;600;678;78;4;120
+1322;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;720;798;78;4;120
+1323;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;840;918;78;4;120
+1324;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;960;1038;78;4;120
+1325;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;1080;1158;78;4;120
+1326;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;1200;1278;78;4;120
+1327;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;1;Rzepin;Berlin-Lichtenberg;1320;1398;78;4;120
+1328;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;360;431;71;4;120
+1329;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;480;551;71;4;120
+1330;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;600;671;71;4;120
+1331;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;720;791;71;4;120
+1332;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;840;911;71;4;120
+1333;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;960;1031;71;4;120
+1334;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;1080;1151;71;4;120
+1335;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;1200;1271;71;4;120
+1336;EC 96;EC;96;IC;IC/EC;DB Fernverkehr AG;2;Berlin-Lichtenberg;Rzepin;1320;1391;71;4;120
+1337;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;410;538;128;6;120
+1338;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;530;658;128;6;120
+1339;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;650;778;128;6;120
+1340;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;770;898;128;6;120
+1341;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;890;1018;128;6;120
+1342;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;1010;1138;128;6;120
+1343;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;1130;1258;128;6;120
+1344;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;1250;1378;128;6;120
+1345;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;1;Horka(Gr);Leipzig Hbf;1370;1498;128;6;120
+1346;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);365;487;122;6;120
+1347;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);485;607;122;6;120
+1348;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);605;727;122;6;120
+1349;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);725;847;122;6;120
+1350;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);845;967;122;6;120
+1351;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);965;1087;122;6;120
+1352;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);1085;1207;122;6;120
+1353;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);1205;1327;122;6;120
+1354;EC 97;EC;97;IC;IC/EC;DB Fernverkehr AG;2;Leipzig Hbf;Horka(Gr);1325;1447;122;6;120
+1355;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);360;475;115;4;120
+1356;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);480;595;115;4;120
+1357;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);600;715;115;4;120
+1358;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);720;835;115;4;120
+1359;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);840;955;115;4;120
+1360;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);960;1075;115;4;120
+1361;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);1080;1195;115;4;120
+1362;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);1200;1315;115;4;120
+1363;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;1;Breclav;Bohumin(Gr);1320;1435;115;4;120
+1364;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;360;474;114;4;120
+1365;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;480;594;114;4;120
+1366;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;600;714;114;4;120
+1367;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;720;834;114;4;120
+1368;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;840;954;114;4;120
+1369;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;960;1074;114;4;120
+1370;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;1080;1194;114;4;120
+1371;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;1200;1314;114;4;120
+1372;IC (Ceske Drahy);IC;;IC;IC/EC;Ceske Drahy;2;Bohumin(Gr);Breclav;1320;1434;114;4;120
+1373;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;360;413;53;2;120
+1374;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;480;533;53;2;120
+1375;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;600;653;53;2;120
+1376;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;720;773;53;2;120
+1377;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;840;893;53;2;120
+1378;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;960;1013;53;2;120
+1379;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;1080;1133;53;2;120
+1380;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;1200;1253;53;2;120
+1381;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);1;Zürich HB;Basel SBB;1320;1373;53;2;120
+1382;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;360;447;87;2;120
+1383;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;480;567;87;2;120
+1384;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;600;687;87;2;120
+1385;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;720;807;87;2;120
+1386;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;840;927;87;2;120
+1387;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;960;1047;87;2;120
+1388;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;1080;1167;87;2;120
+1389;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;1200;1287;87;2;120
+1390;IC (DB Fernverkehr (Codesharing));IC;;IC;IC/EC;DB Fernverkehr (Codesharing);2;Basel SBB;Zürich HB;1320;1407;87;2;120
+1391;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;360;437;77;10;120
+1392;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;480;557;77;10;120
+1393;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;600;677;77;10;120
+1394;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;720;797;77;10;120
+1395;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;840;917;77;10;120
+1396;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;960;1037;77;10;120
+1397;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;1080;1157;77;10;120
+1398;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;1200;1277;77;10;120
+1399;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;1;Fredericia st;Flensburg;1320;1397;77;10;120
+1400;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;360;439;79;10;120
+1401;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;480;559;79;10;120
+1402;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;600;679;79;10;120
+1403;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;720;799;79;10;120
+1404;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;840;919;79;10;120
+1405;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;960;1039;79;10;120
+1406;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;1080;1159;79;10;120
+1407;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;1200;1279;79;10;120
+1408;IC (Dänische Staatsbahnen);IC;;IC;IC/EC;Dänische Staatsbahnen;2;Flensburg;Fredericia st;1320;1399;79;10;120
+1409;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;360;674;314;18;120
+1410;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;480;794;314;18;120
+1411;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;600;914;314;18;120
+1412;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;720;1034;314;18;120
+1413;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;840;1154;314;18;120
+1414;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;960;1274;314;18;120
+1415;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;1080;1394;314;18;120
+1416;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;1200;1514;314;18;120
+1417;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;1;Wroclaw Glowny;Swinoujscie;1320;1634;314;18;120
+1418;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;360;680;320;18;120
+1419;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;480;800;320;18;120
+1420;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;600;920;320;18;120
+1421;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;720;1040;320;18;120
+1422;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;840;1160;320;18;120
+1423;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;960;1280;320;18;120
+1424;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;1080;1400;320;18;120
+1425;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;1200;1520;320;18;120
+1426;IC (PKP Intercity);IC;;IC;IC/EC;PKP Intercity;2;Swinoujscie;Wroclaw Glowny;1320;1640;320;18;120
+1427;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;300;336;36;2;60
+1428;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;360;396;36;2;60
+1429;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;420;456;36;2;60
+1430;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;480;516;36;2;60
+1431;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;540;576;36;2;60
+1432;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;600;636;36;2;60
+1433;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;660;696;36;2;60
+1434;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;720;756;36;2;60
+1435;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;780;816;36;2;60
+1436;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;840;876;36;2;60
+1437;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;900;936;36;2;60
+1438;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;960;996;36;2;60
+1439;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1020;1056;36;2;60
+1440;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1080;1116;36;2;60
+1441;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1140;1176;36;2;60
+1442;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1200;1236;36;2;60
+1443;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1260;1296;36;2;60
+1444;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1320;1356;36;2;60
+1445;IC (SBB);IC;;IC;IC/EC;SBB;1;Schaffhausen;Zürich HB;1380;1416;36;2;60
+1446;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;300;336;36;2;60
+1447;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;360;396;36;2;60
+1448;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;420;456;36;2;60
+1449;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;480;516;36;2;60
+1450;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;540;576;36;2;60
+1451;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;600;636;36;2;60
+1452;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;660;696;36;2;60
+1453;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;720;756;36;2;60
+1454;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;780;816;36;2;60
+1455;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;840;876;36;2;60
+1456;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;900;936;36;2;60
+1457;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;960;996;36;2;60
+1458;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1020;1056;36;2;60
+1459;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1080;1116;36;2;60
+1460;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1140;1176;36;2;60
+1461;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1200;1236;36;2;60
+1462;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1260;1296;36;2;60
+1463;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1320;1356;36;2;60
+1464;IC (SBB);IC;;IC;IC/EC;SBB;2;Zürich HB;Schaffhausen;1380;1416;36;2;60
+1465;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;360;436;76;3;120
+1466;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;480;556;76;3;120
+1467;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;600;676;76;3;120
+1468;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;720;796;76;3;120
+1469;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;840;916;76;3;120
+1470;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;960;1036;76;3;120
+1471;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;1080;1156;76;3;120
+1472;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;1200;1276;76;3;120
+1473;IC (ÖBB);IC;;IC;IC/EC;ÖBB;1;Wien Hbf;Breclav;1320;1396;76;3;120
+1474;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;360;426;66;3;120
+1475;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;480;546;66;3;120
+1476;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;600;666;66;3;120
+1477;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;720;786;66;3;120
+1478;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;840;906;66;3;120
+1479;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;960;1026;66;3;120
+1480;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;1080;1146;66;3;120
+1481;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;1200;1266;66;3;120
+1482;IC (ÖBB);IC;;IC;IC/EC;ÖBB;2;Breclav;Wien Hbf;1320;1386;66;3;120
+1483;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;360;418;58;3;120
+1484;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;480;538;58;3;120
+1485;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;600;658;58;3;120
+1486;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;720;778;58;3;120
+1487;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;840;898;58;3;120
+1488;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;960;1018;58;3;120
+1489;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;1080;1138;58;3;120
+1490;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;1200;1258;58;3;120
+1491;IC 1;IC;1;IC;IC/EC;SBB;1;Zürich HB;Bern;1320;1378;58;3;120
+1492;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;360;418;58;3;120
+1493;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;480;538;58;3;120
+1494;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;600;658;58;3;120
+1495;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;720;778;58;3;120
+1496;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;840;898;58;3;120
+1497;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;960;1018;58;3;120
+1498;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;1080;1138;58;3;120
+1499;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;1200;1258;58;3;120
+1500;IC 1;IC;1;IC;IC/EC;SBB;2;Bern;Zürich HB;1320;1378;58;3;120
+1501;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;377;611;234;9;120
+1502;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;497;731;234;9;120
+1503;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;617;851;234;9;120
+1504;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;737;971;234;9;120
+1505;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;857;1091;234;9;120
+1506;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;977;1211;234;9;120
+1507;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;1097;1331;234;9;120
+1508;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;1217;1451;234;9;120
+1509;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;1;Dresden Hbf;Rostock Hbf;1337;1571;234;9;120
+1510;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;376;610;234;9;120
+1511;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;496;730;234;9;120
+1512;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;616;850;234;9;120
+1513;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;736;970;234;9;120
+1514;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;856;1090;234;9;120
+1515;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;976;1210;234;9;120
+1516;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;1096;1330;234;9;120
+1517;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;1216;1450;234;9;120
+1518;IC 17;IC;17;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Dresden Hbf;1336;1570;234;9;120
+1519;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;409;714;305;17;120
+1520;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;529;834;305;17;120
+1521;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;649;954;305;17;120
+1522;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;769;1074;305;17;120
+1523;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;889;1194;305;17;120
+1524;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;1009;1314;305;17;120
+1525;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;1129;1434;305;17;120
+1526;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;1249;1554;305;17;120
+1527;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;1;Norddeich Mole;Köln Hbf;1369;1674;305;17;120
+1528;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;394;673;279;17;120
+1529;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;514;793;279;17;120
+1530;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;634;913;279;17;120
+1531;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;754;1033;279;17;120
+1532;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;874;1153;279;17;120
+1533;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;994;1273;279;17;120
+1534;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;1114;1393;279;17;120
+1535;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;1234;1513;279;17;120
+1536;IC 35;IC;35;IC;IC/EC;DB Fernverkehr AG;2;Köln Hbf;Norddeich Mole;1354;1633;279;17;120
+1537;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;363;689;326;17;120
+1538;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;483;809;326;17;120
+1539;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;603;929;326;17;120
+1540;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;723;1049;326;17;120
+1541;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;843;1169;326;17;120
+1542;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;963;1289;326;17;120
+1543;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;1083;1409;326;17;120
+1544;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;1203;1529;326;17;120
+1545;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;1;Dortmund Hbf;Gera Hbf;1323;1649;326;17;120
+1546;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;361;687;326;17;120
+1547;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;481;807;326;17;120
+1548;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;601;927;326;17;120
+1549;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;721;1047;326;17;120
+1550;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;841;1167;326;17;120
+1551;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;961;1287;326;17;120
+1552;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;1081;1407;326;17;120
+1553;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;1201;1527;326;17;120
+1554;IC 51;IC;51;IC;IC/EC;DB Fernverkehr AG;2;Gera Hbf;Dortmund Hbf;1321;1647;326;17;120
+1555;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;343;493;150;8;60
+1556;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;403;553;150;8;60
+1557;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;463;613;150;8;60
+1558;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;523;673;150;8;60
+1559;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;583;733;150;8;60
+1560;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;643;793;150;8;60
+1561;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;703;853;150;8;60
+1562;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;763;913;150;8;60
+1563;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;823;973;150;8;60
+1564;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;883;1033;150;8;60
+1565;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;943;1093;150;8;60
+1566;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1003;1153;150;8;60
+1567;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1063;1213;150;8;60
+1568;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1123;1273;150;8;60
+1569;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1183;1333;150;8;60
+1570;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1243;1393;150;8;60
+1571;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1303;1453;150;8;60
+1572;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;1;Magdeburg Hbf;Dresden Hbf;1363;1513;150;8;60
+1573;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;317;467;150;8;60
+1574;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;377;527;150;8;60
+1575;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;437;587;150;8;60
+1576;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;497;647;150;8;60
+1577;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;557;707;150;8;60
+1578;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;617;767;150;8;60
+1579;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;677;827;150;8;60
+1580;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;737;887;150;8;60
+1581;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;797;947;150;8;60
+1582;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;857;1007;150;8;60
+1583;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;917;1067;150;8;60
+1584;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;977;1127;150;8;60
+1585;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1037;1187;150;8;60
+1586;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1097;1247;150;8;60
+1587;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1157;1307;150;8;60
+1588;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1217;1367;150;8;60
+1589;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1277;1427;150;8;60
+1590;IC 55;IC;55;IC;IC/EC;DB Fernverkehr AG;2;Dresden Hbf;Magdeburg Hbf;1337;1487;150;8;60
+1591;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;362;705;343;18;120
+1592;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;482;825;343;18;120
+1593;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;602;945;343;18;120
+1594;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;722;1065;343;18;120
+1595;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;842;1185;343;18;120
+1596;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;962;1305;343;18;120
+1597;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;1082;1425;343;18;120
+1598;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;1202;1545;343;18;120
+1599;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Emden Hbf;1322;1665;343;18;120
+1600;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;406;748;342;18;120
+1601;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;526;868;342;18;120
+1602;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;646;988;342;18;120
+1603;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;766;1108;342;18;120
+1604;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;886;1228;342;18;120
+1605;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;1006;1348;342;18;120
+1606;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;1126;1468;342;18;120
+1607;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;1246;1588;342;18;120
+1608;IC 56;IC;56;IC;IC/EC;DB Fernverkehr AG;2;Emden Hbf;Leipzig Hbf;1366;1708;342;18;120
+1609;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;365;610;245;11;120
+1610;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;485;730;245;11;120
+1611;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;605;850;245;11;120
+1612;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;725;970;245;11;120
+1613;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;845;1090;245;11;120
+1614;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;965;1210;245;11;120
+1615;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;1085;1330;245;11;120
+1616;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;1205;1450;245;11;120
+1617;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;1;Leipzig Hbf;Rostock Hbf;1325;1570;245;11;120
+1618;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;419;658;239;11;120
+1619;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;539;778;239;11;120
+1620;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;659;898;239;11;120
+1621;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;779;1018;239;11;120
+1622;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;899;1138;239;11;120
+1623;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;1019;1258;239;11;120
+1624;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;1139;1378;239;11;120
+1625;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;1259;1498;239;11;120
+1626;IC 57;IC;57;IC;IC/EC;DB Fernverkehr AG;2;Rostock Hbf;Leipzig Hbf;1379;1618;239;11;120
+1627;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;390;465;75;4;120
+1628;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;510;585;75;4;120
+1629;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;630;705;75;4;120
+1630;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;750;825;75;4;120
+1631;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;870;945;75;4;120
+1632;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;990;1065;75;4;120
+1633;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;1110;1185;75;4;120
+1634;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;1230;1305;75;4;120
+1635;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;1;Karlsruhe Hbf;Stuttgart Hbf;1350;1425;75;4;120
+1636;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;380;445;65;4;120
+1637;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;500;565;65;4;120
+1638;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;620;685;65;4;120
+1639;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;740;805;65;4;120
+1640;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;860;925;65;4;120
+1641;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;980;1045;65;4;120
+1642;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;1100;1165;65;4;120
+1643;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;1220;1285;65;4;120
+1644;IC 60;IC;60;IC;IC/EC;DB Fernverkehr AG;2;Stuttgart Hbf;Karlsruhe Hbf;1340;1405;65;4;120
+1645;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;391;595;204;11;120
+1646;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;511;715;204;11;120
+1647;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;631;835;204;11;120
+1648;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;751;955;204;11;120
+1649;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;871;1075;204;11;120
+1650;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;991;1195;204;11;120
+1651;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;1111;1315;204;11;120
+1652;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;1231;1435;204;11;120
+1653;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;1;Nürnberg Hbf;Karlsruhe Hbf;1351;1555;204;11;120
+1654;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;390;624;234;11;120
+1655;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;510;744;234;11;120
+1656;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;630;864;234;11;120
+1657;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;750;984;234;11;120
+1658;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;870;1104;234;11;120
+1659;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;990;1224;234;11;120
+1660;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;1110;1344;234;11;120
+1661;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;1230;1464;234;11;120
+1662;IC 61;IC;61;IC;IC/EC;DB Fernverkehr AG;2;Karlsruhe Hbf;Nürnberg Hbf;1350;1584;234;11;120
+1663;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;300;313;13;2;60
+1664;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;360;373;13;2;60
+1665;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;420;433;13;2;60
+1666;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;480;493;13;2;60
+1667;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;540;553;13;2;60
+1668;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;600;613;13;2;60
+1669;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;660;673;13;2;60
+1670;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;720;733;13;2;60
+1671;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;780;793;13;2;60
+1672;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;840;853;13;2;60
+1673;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;900;913;13;2;60
+1674;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;960;973;13;2;60
+1675;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1020;1033;13;2;60
+1676;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1080;1093;13;2;60
+1677;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1140;1153;13;2;60
+1678;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1200;1213;13;2;60
+1679;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1260;1273;13;2;60
+1680;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1320;1333;13;2;60
+1681;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;1;Singen(Hohentwiel);Schaffhausen;1380;1393;13;2;60
+1682;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);300;314;14;2;60
+1683;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);360;374;14;2;60
+1684;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);420;434;14;2;60
+1685;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);480;494;14;2;60
+1686;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);540;554;14;2;60
+1687;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);600;614;14;2;60
+1688;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);660;674;14;2;60
+1689;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);720;734;14;2;60
+1690;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);780;794;14;2;60
+1691;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);840;854;14;2;60
+1692;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);900;914;14;2;60
+1693;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);960;974;14;2;60
+1694;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1020;1034;14;2;60
+1695;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1080;1094;14;2;60
+1696;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1140;1154;14;2;60
+1697;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1200;1214;14;2;60
+1698;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1260;1274;14;2;60
+1699;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1320;1334;14;2;60
+1700;IC 87;IC;87;IC;IC/EC;DB Fernverkehr AG;2;Schaffhausen;Singen(Hohentwiel);1380;1394;14;2;60

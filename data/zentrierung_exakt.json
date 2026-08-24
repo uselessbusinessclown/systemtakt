@@ -1,0 +1,163 @@
+{
+ "basis": {
+  "kosten_je_gewicht": 1.622,
+  "reserve_pct": 7.68,
+  "sollband_pct": 60.1,
+  "knoten": {
+   "Frankfurt(Main)Hbf": {
+    "kanten": 17,
+    "gewicht": 660.1,
+    "reserve": 7.78,
+    "sollband": 52.1,
+    "max_zuschlag": 17
+   },
+   "Hannover Hbf": {
+    "kanten": 15,
+    "gewicht": 753.6,
+    "reserve": 7.17,
+    "sollband": 40.6,
+    "max_zuschlag": 27
+   },
+   "Mannheim Hbf": {
+    "kanten": 14,
+    "gewicht": 602.7,
+    "reserve": 5.85,
+    "sollband": 76.1,
+    "max_zuschlag": 26
+   },
+   "Köln Hbf": {
+    "kanten": 11,
+    "gewicht": 530.4,
+    "reserve": 13.6,
+    "sollband": 38.9,
+    "max_zuschlag": 16
+   },
+   "Nürnberg Hbf": {
+    "kanten": 9,
+    "gewicht": 616.9,
+    "reserve": 5.48,
+    "sollband": 53.1,
+    "max_zuschlag": 13
+   },
+   "Kassel-Wilhelmshöhe": {
+    "kanten": 10,
+    "gewicht": 449.5,
+    "reserve": 1.64,
+    "sollband": 97.6,
+    "max_zuschlag": 23
+   },
+   "Fulda": {
+    "kanten": 9,
+    "gewicht": 396.4,
+    "reserve": 4.06,
+    "sollband": 77.6,
+    "max_zuschlag": 24
+   },
+   "Berlin Hbf": {
+    "kanten": 11,
+    "gewicht": 521.5,
+    "reserve": 1.61,
+    "sollband": 94.7,
+    "max_zuschlag": 28
+   }
+  }
+ },
+ "zentriert": {
+  "Frankfurt(Main)Hbf": {
+   "knoten": {
+    "kanten": 17,
+    "gewicht": 660.1,
+    "reserve": 4.73,
+    "sollband": 53.4,
+    "max_zuschlag": 12
+   },
+   "netz_reserve": 7.21,
+   "netz_sollband": 62.0,
+   "optimal": true
+  },
+  "Hannover Hbf": {
+   "knoten": {
+    "kanten": 15,
+    "gewicht": 753.6,
+    "reserve": 5.2,
+    "sollband": 56.0,
+    "max_zuschlag": 22
+   },
+   "netz_reserve": 7.45,
+   "netz_sollband": 61.1,
+   "optimal": false
+  },
+  "Mannheim Hbf": {
+   "knoten": {
+    "kanten": 14,
+    "gewicht": 602.7,
+    "reserve": 5.83,
+    "sollband": 76.1,
+    "max_zuschlag": 25
+   },
+   "netz_reserve": 7.76,
+   "netz_sollband": 60.1,
+   "optimal": false
+  },
+  "Köln Hbf": {
+   "knoten": {
+    "kanten": 11,
+    "gewicht": 530.4,
+    "reserve": 10.75,
+    "sollband": 38.9,
+    "max_zuschlag": 11
+   },
+   "netz_reserve": 7.73,
+   "netz_sollband": 58.6,
+   "optimal": false
+  },
+  "Nürnberg Hbf": {
+   "knoten": {
+    "kanten": 9,
+    "gewicht": 616.9,
+    "reserve": 3.09,
+    "sollband": 78.2,
+    "max_zuschlag": 12
+   },
+   "netz_reserve": 7.65,
+   "netz_sollband": 60.1,
+   "optimal": true
+  },
+  "Kassel-Wilhelmshöhe": {
+   "knoten": {
+    "kanten": 10,
+    "gewicht": 449.5,
+    "reserve": 0.25,
+    "sollband": 99.3,
+    "max_zuschlag": 23
+   },
+   "netz_reserve": 7.59,
+   "netz_sollband": 59.5,
+   "optimal": false
+  },
+  "Fulda": {
+   "knoten": {
+    "kanten": 9,
+    "gewicht": 396.4,
+    "reserve": 2.68,
+    "sollband": 79.9,
+    "max_zuschlag": 23
+   },
+   "netz_reserve": 8.01,
+   "netz_sollband": 58.9,
+   "optimal": false
+  },
+  "Berlin Hbf": {
+   "knoten": {
+    "kanten": 11,
+    "gewicht": 521.5,
+    "reserve": 1.36,
+    "sollband": 98.8,
+    "max_zuschlag": 13
+   },
+   "netz_reserve": 7.8,
+   "netz_sollband": 60.3,
+   "optimal": false
+  }
+ }
+}

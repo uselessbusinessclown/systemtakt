@@ -1,0 +1,298 @@
+<div class="hero"><div class="wrap">
+  <p class="eyebrow">Fahrplan 2026 · Datenanalyse und Fahrplanentwurf</p>
+  <div class="herogrid">
+    <div>
+      <h1>Ein Systemtakt für den deutschen Fernverkehr</h1>
+      <p class="lede">Alle ICE-, IC- und EC-Verbindungen Deutschlands als auswertbare Datenbank — und daraus berechnet: ein integraler Taktfahrplan nach Schweizer Vorbild mit fester Knotenminute für 20 Vollknoten. <b>Ohne eine einzige Neubaumaßnahme</b> — und ausgerollt zu einem vollständigen Tagesfahrplan.</p>
+      <p class="lede">Vorrang haben die ICE-Sprinter, dann der ICE, dann der IC. Diese Rangfolge steckt nicht im Vorwort, sondern in der Zielfunktion: jede Sprinterfahrt zählt dreifach, jede ICE-Fahrt zweifach, jede IC-Fahrt einfach.</p>
+      <p class="meta">Der Knotenplan ist exakt gelöst (gemischt-ganzzahliges Programm, HiGHS) — die Optimalität ist bewiesen.<br>Datengrundlage: GTFS-Feed „Fernverkehr Deutschland“ (DELFI e.&nbsp;V. / gtfs.de), Fahrplan 22.08.–21.09.2026 · Sprinterangebot nach bahn.de</p>
+    </div>
+    <div class="dialbox">
+      <svg class="dial" id="dial" viewBox="0 0 420 420" role="img" aria-label="Zifferblatt mit den berechneten Knotenminuten aller 64 Netzknoten"></svg>
+      <p class="dialcap">Das 30-Minuten-Raster. Jeder Punkt ist einer der zwanzig Vollknoten auf seiner berechneten Knotenminute, die Fläche entspricht seinem Gewicht im System. Farbe nach dominierender Produktebene.</p>
+      <div id="chips" class="chips"></div>
+      <div class="nodecard" id="ncard"></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="wrap" style="margin-top:-1px">
+  <div class="kpis" id="kpis"></div>
+</div>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ausgangslage</p>
+  <h2>Der Takt ist da. Die Verabredung fehlt.</h2>
+  <p class="sub">Für jede Kombination aus Linie, Knoten und Fahrtrichtung wurde die Verteilung der Abfahrtsminuten über einen Monat ausgewertet — 875 Fälle.</p>
+  <div class="dist" id="taktdist"></div>
+  <p>83&nbsp;Prozent aller Abfahrten an den Netzknoten liegen auf einer stabilen Stundentaktlage, weitere 13&nbsp;Prozent folgen einem Zweistundentakt mit zwei alternierenden Lagen. Nur knapp sechs Prozent sind systemlos. Das Problem des deutschen Fernverkehrs ist nicht der fehlende Takt der einzelnen Linie, sondern die fehlende Abstimmung der Linien untereinander: die Taktlagen sind historisch gewachsen, nicht auf gemeinsame Knotenzeiten hin konstruiert.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Prioritätenordnung</p>
+  <h2>Drei Ebenen, feste Rangfolge</h2>
+  <p class="sub">Wer später konstruiert wird, weicht. Die Rangfolge wirkt an vier Stellen — in der Gewichtung, in der Fahrzeitreserve, im Knoten und in der Anschlusssicherung.</p>
+  <div class="layers">
+    <div class="layer" style="--c:var(--spr)">
+      <div class="rank">Ebene 1 — höchste Priorität</div>
+      <h3>ICE-Sprinter</h3>
+      <p class="big">72 Fahrten/Tag · 7 Korridore</p>
+      <p>Setzt die Knotenzeiten der Metropolen und wird als erstes in den Fahrplan konstruiert.</p>
+      <ul><li>Fahrzeitreserve höchstens 5 %</li><li>bestes Gleis im Knoten</li><li>wartet nie auf Anschlüsse</li><li>Zusatzhalt nur ohne Verlust der Knotenlage</li></ul>
+    </div>
+    <div class="layer" style="--c:var(--ice)">
+      <div class="rank">Ebene 2</div>
+      <h3>ICE-Grundnetz</h3>
+      <p class="big">631 Fahrten/Tag · 50 Linien</p>
+      <p>Füllt das 30-Minuten-Raster und trägt die Masse der Umsteigebeziehungen.</p>
+      <ul><li>Fahrzeitreserve 7 %</li><li>Knotenbindung an allen Vollknoten</li><li>hält den IC bis zu 3 Minuten</li></ul>
+    </div>
+    <div class="layer" style="--c:var(--ic)">
+      <div class="rank">Ebene 3</div>
+      <h3>IC und EC</h3>
+      <p class="big">327 Fahrten/Tag · 27 Linien</p>
+      <p>Erschließt die Fläche, übernimmt die Grenzverkehre und absorbiert die Zwangspunkte des Systems.</p>
+      <ul><li>Fahrzeitreserve ab 7 % aufwärts</li><li>bekommt die Restlage im Knoten</li><li>Überschussreserve wird zu Zusatzhalten</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ergebnis der Optimierung</p>
+  <h2>Der Knotenplan</h2>
+  <p class="sub">Zwanzig Bahnhöfe sind Vollknoten: Dort treffen alle Züge innerhalb weniger Minuten ein und fahren gemeinsam wieder ab, in <b>beiden Richtungen</b>. Die übrigen 246 Fernverkehrsbahnhöfe sind Durchgangshalte ohne Knotenbindung. Die Lösung ist nur bis auf eine gemeinsame Verschiebung eindeutig — Anker ist Berlin Hbf mit :00.</p>
+  <div class="controls">
+    <input type="search" id="qk" placeholder="Knoten suchen …" aria-label="Knoten suchen">
+    <span style="font-size:13px;color:var(--muted)">Spaltenkopf klicken zum Sortieren</span>
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="tk"><thead><tr>
+    <th data-k="name">Knoten</th><th data-k="m" class="n">Knotenminute</th><th class="no">Ankunft</th><th class="no">Abfahrt</th>
+    <th data-k="grad" class="n">Kanten</th><th data-k="halte" class="n">Halte/Tag</th>
+    <th data-k="spr" class="n">Sprinter</th><th data-k="ice" class="n">ICE</th><th data-k="ic" class="n">IC/EC</th>
+    <th data-k="w" class="n">Gewicht</th></tr></thead><tbody></tbody></table></div></div>
+</div></section>
+
+
+<section id="neubaufrei"><div class="wrap">
+  <p class="eyebrow">Kernergebnis</p>
+  <h2>Der Takt braucht keinen Neubau</h2>
+  <p class="sub">Es wurde die harte Nebenbedingung gesetzt, dass keine Netzkante schneller befahren werden darf als heute. Der Takt entsteht allein aus Fahrzeitzuschlägen — und trifft trotzdem das schweizerische Reserveziel. T2 und T3 zeigen zum Vergleich, was ein grobes Knotenraster kostet, T4 und T5, was Ausbau brächte.</p>
+  <div class="kpis" style="margin-bottom:22px">
+    <div class="kpi"><b>0</b><span>Kanten mit Beschleunigungsbedarf</span></div>
+    <div class="kpi"><b>6,6 %</b><span>mittlere Fahrzeitreserve (Ziel: 7 %)</span></div>
+    <div class="kpi"><b>+16,6 min</b><span>mittlere Reisezeit gegenüber heute</span></div>
+    <div class="kpi"><b>bewiesen</b><span>optimal, kein Näherungswert</span></div>
+  </div>
+  <div class="tblwrap"><table id="ttv"><thead><tr>
+    <th class="no">Variante</th><th class="no">Beschleunigung</th><th class="n">Kanten mit Verkürzung</th>
+    <th class="n">Zielfunktion je Gewicht</th><th class="n">Sollband</th><th class="n">Ø Reserve</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout"><p><b>Ausbau bringt fast nichts.</b> Erlaubt man Verkürzungen bis zu drei Minuten, sinkt die mittlere Reserve von 7,68 auf 7,01 %. Verdoppelt man den erlaubten Ausbau auf sechs Minuten, sinkt sie nur noch auf 6,97 % — vier Hundertstel eines Prozentpunkts. Der Nutzen von Streckenausbau für die Taktbildung ist nach wenigen Minuten erschöpft. Was den Takt trägt, ist die Ordnung der Fahrplanlagen, nicht die Geschwindigkeit.</p></div>
+  <p style="font-size:13.5px;color:var(--muted)">Zur Methode: Frühere Fassungen dieser Untersuchung nutzten simuliertes Ausglühen und lieferten je nach Zufallsstartwert Lösungen bis zu 18 % über dem Optimum — sie wiesen fünf Kanten als ausbaubedürftig aus, die es nicht sind. Der scheinbare Infrastrukturbedarf war ein Artefakt der Lösungsmethode.</p>
+</div></section>
+
+
+<section id="knotenzahl"><div class="wrap">
+  <p class="eyebrow">Der wichtigste Stellhebel</p>
+  <h2>Wie viele Vollknoten verträgt das Netz?</h2>
+  <p class="sub">Jeder Vollknoten zwingt die Züge in ein festes Zeitfenster — und kostet dafür Fahrzeit. Die Zahl der Vollknoten ist damit der eigentliche Hebel des ganzen Konzepts. Gerechnet wurde sie exakt, für Knotenmengen von 16 bis 64.</p>
+  <div class="tblwrap"><table id="tkz"><thead><tr>
+    <th class="no">Variante</th><th class="n">Vollknoten</th><th class="n">Netzkanten</th>
+    <th class="n">Ø Reserve</th><th class="n">Sollband</th><th class="n">Reisezeit gegenüber heute</th>
+    <th class="no">Bemerkung</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p><b>Jeder zusätzliche Vollknoten kostet rund eine halbe Minute mittlere Reisezeit.</b> Bindet man alle 64 in Frage kommenden Bahnhöfe, verlängert sich die durchschnittliche Fahrt um 38 Minuten; bei zwanzig sind es 17. Das ist der Grund, warum ein integraler Taktfahrplan wenige, dafür starke Knoten braucht — und warum frühere Fassungen dieser Untersuchung, die alle 64 Bahnhöfe zu Vollknoten machten, ein unnötig langsames Netz beschrieben.</p></div>
+  <p>Gewählt wurden zwanzig Vollknoten: Hamburg, Bremen, Hannover, Berlin, Leipzig, Dresden, Erfurt, Münster, Dortmund, Duisburg, Köln, Frankfurt, Kassel-Wilhelmshöhe, Fulda, Würzburg, Nürnberg, München, Stuttgart, Mannheim und Karlsruhe. Sie decken das Netz geografisch ab und sind zugleich die Bahnhöfe mit den meisten Umsteigebeziehungen.</p>
+</div></section>
+
+<section id="fahrplan"><div class="wrap">
+  <p class="eyebrow">Vom Konzept zum Fahrplan</p>
+  <h2>Der Fahrplan existiert</h2>
+  <p class="sub">Aus dem Knotenplan ist ein vollständiger Tagesfahrplan abgeleitet — minutengenau, für jede Fahrt und jeden Halt. Zwischen den Knoten fahren die Züge ihre heutige Fahrzeit zuzüglich der Reserve, die der Takt verlangt; die Zwischenhalte werden proportional eingepasst.</p>
+  <div class="kpis" style="margin-bottom:20px">
+    <div class="kpi"><b>1.700</b><span>Züge je Betriebstag</span></div>
+    <div class="kpi"><b>12.876</b><span>Halte je Betriebstag</span></div>
+    <div class="kpi"><b>168</b><span>Linienrichtungen im Kursbuch</span></div>
+    <div class="kpi"><b>266</b><span>Bahnhöfe mit eigener Tafel</span></div>
+  </div>
+  <p>Der Fahrplan liegt in zwei Bänden vor: das <b>Kursbuch der Linienfahrpläne</b> (192 Seiten) zeigt für jede Linie und Richtung alle Züge des Tages als Tabelle, Zeile für Zeile nach Halten, Spalte für Spalte nach Zügen. Die <b>Bahnhofsfahrpläne</b> (292 Seiten) geben für jeden Bahnhof die Abfahrtstafel mit Linie, Ziel und Fahrweg, darunter die Ankünfte endender Züge.</p>
+  <p>An den Vollknoten wird die Taktstruktur in der Tafel unmittelbar sichtbar: In Frankfurt Hbf sammeln sich die 306 täglichen Abfahrten in zwei kurzen Fenstern je Stunde, um :16 und um :46. Genau dann stehen alle Linien gleichzeitig am Bahnsteig — und jeder Anschluss in jede Richtung besteht.</p>
+  <div class="callout"><p><b>Beide Richtungen gebunden.</b> Damit ein Knoten in beiden Richtungen funktioniert, dürfen sich die Ankunfts- und Abfahrtsfenster je Richtung um wenige Minuten unterscheiden. Ohne diesen Freiheitsgrad wäre eine beidseitige Knotenbindung mathematisch nur möglich, wenn alle Knotenminuten auf einem Viertelstundenraster lägen — und das kostet, wie Variante T2 zeigt, ein Drittel der Fahrzeit als Reserve.</p></div>
+</div></section>
+
+<section id="zentrierung"><div class="wrap">
+  <p class="eyebrow">Sonderfrage</p>
+  <h2>Hilft eine Zentrierung auf einen großen Bahnhof?</h2>
+  <p class="sub">Die Frage klingt nach einer, sind aber zwei — und die Antworten fallen gegensätzlich aus.</p>
+
+  <h3>Die Wahl des Ankerbahnhofs ist wirkungslos</h3>
+  <p>Der Knotenplan ist nur bis auf eine gemeinsame Verschiebung eindeutig. Verschiebt man alle Knotenminuten um denselben Betrag, ändert sich keine Fahrzeit, kein Anschluss und keine Kantenbedingung — nur die Ziffern auf dem Papier. Rechnerisch nachgewiesen: dieselbe Lösung, acht verschiedene Anker, jedes Mal exakt derselbe Zielfunktionswert von <span class="mono">11.805,429</span>.</p>
+  <div class="tblwrap" style="margin:14px 0"><table id="tank"><thead><tr>
+    <th class="no">Anker auf :00</th><th class="n">Berlin</th><th class="n">Frankfurt</th><th class="n">Hannover</th>
+    <th class="n">Zielfunktion</th></tr></thead><tbody></tbody></table></div>
+
+  <h3>Welcher Bahnhof ist überhaupt der zentralste?</h3>
+  <p class="sub" style="margin-bottom:14px">Zwischenzentralität = Anteil aller schnellsten Verbindungen im Netz, die über den Knoten führen. Erreichbarkeit = mittlere Fahrzeit zum verkehrsgewichteten Rest des Netzes.</p>
+  <div class="tblwrap"><div class="scroll" style="max-height:420px"><table id="tzz"><thead><tr>
+    <th class="no">Bahnhof</th><th class="n">Kanten</th><th class="n">Halte/Tag</th><th class="n">Zentralität</th>
+    <th class="n">Rang</th><th class="n">Ø Fahrzeit zum Netz</th><th class="n">Rang</th></tr></thead><tbody></tbody></table></div></div>
+  <p>Frankfurt Hauptbahnhof ist der zentralste Knoten des Netzes, und zwar deutlich: <b>28,6 %</b> aller schnellsten Verbindungen führen über ihn, er hat mit siebzehn die meisten Netzkanten und mit 224 Halten am Tag die höchste Belastung. Hanau und Fulda liegen geografisch noch günstiger, sind aber verkehrlich klein — Durchgangsknoten, keine Quell- und Zielorte.</p>
+
+  <h3>Eine echte Zentrierung hilft — und Frankfurt ist der beste Kandidat</h3>
+  <p class="sub" style="margin-bottom:14px">Wirksam ist nicht die Ankerwahl, sondern die Höhergewichtung eines Knotens in der Optimierung. Die Kanten des Prioritätsknotens bekamen das sechsfache Gewicht; für acht Kandidaten wurde das Programm erneut exakt gelöst.</p>
+  <div class="tblwrap"><table id="tzn"><thead><tr>
+    <th class="no">Prioritätsknoten</th><th class="n">Reserve ohne</th><th class="n">Reserve mit</th>
+    <th class="n">Gewinn</th><th class="n">Netz ohne</th><th class="n">Netz mit</th><th class="n">Effekt aufs Netz</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--ok)"><p><b>Frankfurt Hbf ist der klare Sieger.</b> Die Fahrzeitreserve seiner siebzehn Netzkanten sinkt von 7,78 auf 4,73 % — ein Gewinn von gut drei Prozentpunkten, mehr als bei jedem anderen Kandidaten. Und das übrige Netz wird dabei nicht schlechter, sondern minimal besser. Kein Zufall: Weil Frankfurt der zentralste Knoten ist, läuft seine Optimierung mit der des Gesamtnetzes weitgehend gleich.</p></div>
+  <p>Bei Berlin und Mannheim bringt die Zentrierung nichts — aus dem besten aller Gründe: Ihre Kanten liegen im freien Optimum schon nahezu perfekt, bei 1,61 beziehungsweise 5,85 % Reserve. Wo nichts zu verbessern ist, hilft auch Priorität nicht.</p>
+
+  <h3>Ein grobes Knotenraster ist keine Lösung</h3>
+  <p>Naheliegend wäre, den Fahrplan merkbarer zu machen, indem alle Knoten auf ein grobes Raster gezwungen werden — etwa das schweizerische Schema aus Vollknoten zur vollen und halben Stunde und Halbknoten zur Viertelstunde. Die Variante fällt eindeutig durch: Die mittlere Reserve springt von 7,7 auf <b>35,7 %</b>, der Anteil im Sollband bricht von 60 auf 21 % ein. Auch ein Fünf-Minuten-Raster kostet mit 15,5 % noch doppelt so viel Reserve wie nötig.</p>
+  <p>Der Grund liegt in der Netzgeometrie: Deutschland hat keine dominante Achse, sondern ein Maschennetz mit sehr unterschiedlichen Kantenlängen. Die Schweiz kann ihr Raster halten, weil ihre Knotenabstände von Anfang an auf Halbstundenschritte gebaut wurden. In Deutschland müssen die Knotenminuten frei bleiben — der Preis dafür, ein gewachsenes Netz zu vertakten, statt ein Netz um den Takt herum zu bauen.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Kantenplan</p>
+  <h2>Passt das Netz in das Raster?</h2>
+  <p class="sub">Für jede der 173 Netzkanten wurde geprüft, wie weit die Fahrzeit von der Taktbedingung abweicht — Anteil am nach Priorität gewichteten Verkehr.</p>
+  <div class="dist" id="resdist"></div>
+  <div class="callout"><p><b>Vier Fünftel des gewichteten Verkehrs</b> lassen sich mit höchstens vierzehn Prozent Fahrzeitreserve in das Raster einpassen. Nur neun Kanten mit zusammen 1,6&nbsp;Prozent verlangen eine Verkürzung unter die heutige Bestzeit, und die größte davon beträgt fünf Minuten. Ein integraler Taktfahrplan scheitert in Deutschland nicht an den Fahrzeiten zwischen den Knoten.</p></div>
+  <div class="controls">
+    <button class="chip" data-f="all" aria-pressed="true">alle Kanten</button>
+    <button class="chip" data-f="ok" aria-pressed="false">taktkonform</button>
+    <button class="chip" data-f="res" aria-pressed="false">Überschussreserve</button>
+    <input type="search" id="qe" placeholder="Kante suchen …" aria-label="Kante suchen">
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="te"><thead><tr>
+    <th data-k="a">Von</th><th data-k="b">Nach</th><th data-k="t0" class="n">Systemfahrzeit</th>
+    <th data-k="ts" class="n">Soll A→B</th><th class="n">Zuschlag</th><th class="n">Reserve beide Ri.</th>
+    <th class="no">Belastung</th><th data-k="w" class="n">Gewicht</th></tr></thead><tbody></tbody></table></div></div>
+  <div class="legend"><span><i class="dot" style="--c:var(--spr)"></i>Sprinter</span><span><i class="dot" style="--c:var(--ice)"></i>ICE</span><span><i class="dot" style="--c:var(--ic)"></i>IC/EC</span><span>Balken: Fahrten je Tag auf der Kante</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ebene 1</p>
+  <h2>Die sieben Sprinter-Korridore</h2>
+  <p class="sub">Aus den Knotenzeiten folgt für jeden Korridor eine feste Abfahrts- und Ankunftsminute — und damit eine exakte Soll-Fahrzeit. Zielangebot: Zweistundentakt ganztags, stündlich in der Hauptverkehrszeit.</p>
+  <div class="sprgrid" id="sprg"></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p><b>Berlin – Frankfurt in 3:48</b> ist die anspruchsvollste und zugleich wirkungsvollste Vorgabe des Konzepts: vier Minuten schneller als heute, Abfahrt Berlin :03, Ankunft Frankfurt :21 — und sie bindet beide Metropolknoten gleichzeitig. <b>Berlin – München wird dagegen fünfzehn Minuten langsamer.</b> Das wirkt paradox, ist aber der Preis für Anschlüsse in München, Nürnberg, Erfurt und Berlin, die heute nicht bestehen. Genau diese Abwägung macht ein integraler Taktfahrplan sichtbar.</p></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Zielliniennetz</p>
+  <h2>Linien und Taktstufen</h2>
+  <p class="sub">Szenario A bringt jede Linie auf die nächstgelegene saubere Taktstufe. Szenario B hebt jede Linie auf mindestens Zweistundentakt und die Hauptachsen auf 30 Minuten.</p>
+  <div class="controls">
+    <button class="chip" data-l="1" aria-pressed="false">Ebene 1 — Sprinter</button>
+    <button class="chip" data-l="2" aria-pressed="true">Ebene 2 — ICE</button>
+    <button class="chip" data-l="3" aria-pressed="false">Ebene 3 — IC/EC</button>
+    <input type="search" id="ql" placeholder="Linie oder Relation suchen …" aria-label="Linie suchen">
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="tl"><thead><tr>
+    <th data-k="l">Linie</th><th data-k="rel">Relation</th>
+    <th data-k="f0" class="n">Ist Fahrten/Ri</th><th class="no">Takt heute</th>
+    <th data-k="fa" class="n">Szenario A</th><th data-k="fb" class="n">Szenario B</th></tr></thead><tbody></tbody></table></div></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Engpass</p>
+  <h2>Nicht die Strecke. Der Bahnhof.</h2>
+  <p class="sub">Wenn alle Züge eines Knotens innerhalb von sechs Minuten ankommen und wieder abfahren, braucht jeder gleichzeitig ein Bahnsteiggleis. Abschätzung für Szenario A bei 17 Betriebsstunden und HVZ-Faktor 1,35.</p>
+  <div class="dist" id="kapa"></div>
+  <p>Frankfurt Hbf, Hannover und München überschreiten die Schwelle, ab der ein Knoten ohne baulichen Eingriff nicht mehr funktioniert. Frankfurt ist der kritischste Fall: ein Kopfbahnhof führt jeden Zug zweimal über dieselben Weichen, die Wendezeit verdoppelt die Gleisbelegung. Der Fernbahntunnel ist damit keine Komfortmaßnahme, sondern die Voraussetzung für einen integralen Taktfahrplan in Deutschland überhaupt. Hannover ist der Knoten mit den meisten Kanten, aber als Durchgangsbahnhof gebaut — dort ist die Aufgabe eine Frage der Fahrstraßenauflösung, nicht des Neubaus.</p>
+</div></section>
+
+
+<section id="frankfurt"><div class="wrap">
+  <p class="eyebrow">Sonderfrage</p>
+  <h2>Frankfurt Hbf oder Flughafen-Fernbahnhof?</h2>
+  <p class="sub">Frankfurt ist der einzige Knoten, an dem das Konzept an der Infrastruktur scheitert. Liegt die Lösung darin, den Fernverkehr an den elf Bahnminuten entfernten Flughafen-Fernbahnhof zu verlagern? Drei Varianten, gegen den Status quo gerechnet.</p>
+
+  <h3>Was heute wo hält — und wie lange</h3>
+  <div class="tblwrap"><table id="tfb"><thead><tr>
+    <th class="no">Bahnhof</th><th class="no">Zugart</th><th class="no">Produktklasse</th>
+    <th class="n">Fahrten/Tag</th><th class="n">Gleisminuten/Tag</th><th class="n">Anteil</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p>Diese Tabelle enthält bereits die Antwort. Von den <b>3.383 Gleisminuten</b>, die der Fernverkehr täglich am Hauptbahnhof beansprucht, entfallen <b>78 % auf wendende Züge</b> und nur 22 % auf durchfahrende. Die ICE-Sprinter tragen 335 Gleisminuten — <b>knapp 10 %</b>. Der Hauptbahnhof ist nicht überlastet, weil dort Sprinter halten, sondern weil dort fast die Hälfte aller Fernzüge endet und wendet.</p></div>
+
+  <h3>Die Varianten im Vergleich</h3>
+  <div class="tblwrap"><table id="tfv"><thead><tr>
+    <th class="no">Variante</th><th class="n">Zielfunktion je Gewicht</th><th class="n">Kanten mit Beschl.</th>
+    <th class="n">Ø Reserve</th><th class="n">Gleismin. Hbf</th><th class="n">Gleismin. Flughafen</th>
+    <th class="n">Auslastung</th></tr></thead><tbody></tbody></table></div>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px">Zielfunktion je Gewichtseinheit macht die Taktqualität über unterschiedlich große Kantennetze vergleichbar — kleiner ist besser. Auslastung bezogen auf vier Bahnsteiggleise und 18 Betriebsstunden.</p>
+
+  <div class="vgrid">
+    <div class="vc" style="--c:var(--spr)"><div class="rank">Variante A</div><h4>Alles an den Flughafen</h4>
+      <p><b>Nicht durchführbar.</b> 4.433 Gleisminuten täglich auf vier Gleisen = 103 % rechnerische Auslastung; bei realistischem Nutzungsgrad wären rund sieben Bahnsteiggleise nötig. Dazu 17 % schlechtere Taktqualität und der Verlust der Innenstadtanbindung für eine halbe Million Reisende am Tag.</p></div>
+    <div class="vc" style="--c:var(--spr)"><div class="rank">Variante B</div><h4>Sprinter an den Flughafen</h4>
+      <p><b>Die schlechteste Variante.</b> Sie erzwingt zwei Vollknoten im Abstand von elf Bahnminuten — das Raster kennt aber nur Schritte von 30 Minuten. Folge: Zielfunktion +43 %, Kanten mit Beschleunigungsbedarf von 5 auf 11. Dem steht eine Entlastung des Hauptbahnhofs um <b>nur 10 %</b> gegenüber.</p></div>
+    <div class="vc" style="--c:var(--ok)"><div class="rank">Variante C</div><h4>Fernbahntunnel</h4>
+      <p><b>Der eigentliche Hebel.</b> Die Taktrechnung bleibt unverändert gut, weil die Knotenzeit von Frankfurt unangetastet bleibt. Werden die wendenden Züge durchgebunden, sinkt die Gleisbelegung von 3.383 auf 1.373 Minuten — <b>−59 %</b>, das Sechsfache der Sprinterverlagerung. Und der Bahnhof bleibt, wo die Reisenden sind.</p></div>
+  </div>
+
+  <h3>Was die Reisenden verlören</h3>
+  <div class="tblwrap"><table id="tfl"><thead><tr>
+    <th class="no">Linie</th><th class="n">Fahrten/Tag</th><th class="no">Hbf</th><th class="no">Flughafen</th>
+    <th class="no">Erreichbarkeit</th></tr></thead><tbody></tbody></table></div>
+  <p>Sieben Linien mit zusammen 47 Fahrten am Tag — 21 % des Hauptbahnhofsangebots — wären vom Flughafen aus nicht direkt erreichbar. Dazu kommt der Umweg der Reisenden selbst: vom Fernbahnhof in die Frankfurter Innenstadt rund zwölf Minuten S-Bahn plus Umsteigezeit. Das Sprinterversprechen „von Stadtzentrum zu Stadtzentrum in unter vier Stunden“ ist mit dem Flughafen als Endpunkt nicht mehr einlösbar.</p>
+  <p>Die Größenordnung der beiden Bahnhöfe ist ohnehin nicht vergleichbar: vier Bahnsteiggleise und rund 30.000 Nutzer täglich am Flughafen gegen 25 Fernbahngleise, alle neun S-Bahn-Linien, zwei U-Bahn-Linien, sieben Straßenbahnlinien und etwa 493.000 Reisende am Hauptbahnhof.</p>
+
+  <h3>Empfehlung</h3>
+  <p>Keine der beiden Verlagerungen ist sinnvoll. Der Flughafen-Fernbahnhof bleibt, was er ist und wofür er gebaut wurde: ein <b>Durchgangshalt ohne Knotenbindung</b> mit drei Minuten Haltezeit. Genau in dieser Rolle entlastet er den Hauptbahnhof bereits heute erheblich — die Relation Mannheim – Siegburg/Bonn ist über den Flughafen <b>25 Minuten schneller</b> als über den Hauptbahnhof.</p>
+  <p>Der wirksame Hebel ist die Durchbindung der wendenden Züge. Ohne Tunnel geht ein Zwischenschritt: Von den 91,5 wendenden ICE-Fahrten am Tag lässt sich ein Teil zu durchgehenden Linien über Frankfurt Süd und den Flughafen verknüpfen. Jede durchgebundene Fahrt spart rund 19 Gleisminuten. <b>Zwanzig durchgebundene Fahrten am Tag entsprechen bereits der Entlastung einer vollständigen Sprinterverlagerung</b> — ohne dass ein einziger Reisender die Innenstadt verliert.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Angebot</p>
+  <h2>Was der Takt kostet</h2>
+  <div class="scen">
+    <div class="sc" style="--c:var(--ice)">
+      <h3>Szenario A — Taktordnung</h3>
+      <div class="num" id="sa">+17,8&nbsp;%<small> Zug-km</small></div>
+      <p style="font-size:14.5px;color:var(--ink2)">Gleiche Relationen, saubere Taktstufen, verlässliche Anschlüsse. 167 → 197 Mio Zug-km im Jahr, überschlägig zwanzig zusätzliche Triebzugeinheiten. Der realistische erste Schritt — ohne einen Meter neue Strecke.</p>
+    </div>
+    <div class="sc" style="--c:var(--spr)">
+      <h3>Szenario B — Vollausbau</h3>
+      <div class="num" id="sb">+119&nbsp;%<small> Zug-km</small></div>
+      <p style="font-size:14.5px;color:var(--ink2)">Jede Linie mindestens im Zweistundentakt, Hauptachsen im 30-Minuten-Takt. 167 → 367 Mio Zug-km. Das ist die Größenordnung, die ein Netz nach schweizerischem Vorbild tatsächlich verlangt — und sie setzt den Frankfurter Knotenumbau voraus.</p>
+    </div>
+  </div>
+  <div class="tblwrap" style="margin-top:18px"><table id="tb"><thead><tr>
+    <th class="no">Ebene</th><th class="n">Zug-km/Tag heute</th><th class="n">Szenario A</th><th class="n">Szenario B</th>
+    <th class="n">Mio/Jahr heute</th><th class="n">A</th><th class="n">B</th><th class="n">Δ A</th><th class="n">Δ B</th>
+  </tr></thead><tbody></tbody></table></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Umsetzung</p>
+  <h2>Drei Stufen</h2>
+  <div class="steps">
+    <div class="step"><div class="s">Stufe 1</div><div>
+      <h4>Taktordnung ohne Infrastruktur — 2 bis 3 Fahrplanjahre</h4>
+      <p>Die Knotenzeiten werden als verbindliche Planungsvorgabe gesetzt, alle Linien auf die Taktstufen des Szenarios A gebracht und ihre Lagen an den Knoten ausgerichtet. Kanten mit Überschussreserve bekommen Zusatzhalte, die neun Kanten mit Beschleunigungsbedarf führen ihre Endknoten vorläufig als Durchgangshalt. Ergebnis: ein integrierter Taktfahrplan an rund fünfzig der vierundsechzig Knoten.</p></div></div>
+    <div class="step"><div class="s">Stufe 2</div><div>
+      <h4>Neun Kanten und drei Knoten — 5 bis 10 Jahre</h4>
+      <p>Fulda–Erfurt wird um drei Minuten beschleunigt und schließt die letzte Lücke zwischen Nord-Süd- und Ost-West-Achse; Oberhausen–Dortmund erhält die nötige Geschwindigkeits- und Kapazitätsmaßnahme. Parallel werden Hannover und München betrieblich ertüchtigt. Ergebnis: Vollknotenstatus überall außer Frankfurt.</p></div></div>
+    <div class="step"><div class="s">Stufe 3</div><div>
+      <h4>Frankfurt und der Vollausbau — 10 bis 20 Jahre</h4>
+      <p>Mit dem Fernbahntunnel wird Frankfurt vom Kopf- zum Durchgangsknoten und damit vollknotenfähig. Erst dann lässt sich Szenario B fahren. Die Reihenfolge ist zwingend: Angebotsausweitung vor dem Frankfurter Knotenumbau würde die Verspätungsanfälligkeit des Netzes erhöhen, nicht senken.</p></div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Methodik und Grenzen</p>
+  <h2>Wie gerechnet wurde</h2>
+  <p>Jedem Knoten <span class="mono">i</span> wird eine Knotenminute <span class="mono">φ(i)</span> zwischen 0 und 29 zugewiesen. Für eine Kante zwischen <span class="mono">i</span> und <span class="mono">j</span> mit technischer Mindestfahrzeit <span class="mono">T</span> ist die Taktbedingung erfüllt, wenn <span class="mono">φ(j) − φ(i) − T − 6</span> ein Vielfaches von 30 Minuten ist; die sechs Minuten sind der Knotenaufenthalt. Die Restdifferenz muss als Fahrzeitzuschlag hingenommen oder durch Beschleunigung beseitigt werden.</p>
+  <p>Die Zielfunktion bestraft Zuschläge mild, solange sie im Bereich der ohnehin nötigen Reserve von sieben Prozent bleiben, darüber deutlich stärker; eine Verkürzung unter die heutige Bestzeit kostet den vierfachen Satz zuzüglich eines Festbetrags, weil sie Infrastruktur verlangt. Gelöst wird mit simuliertem Ausglühen und vollständiger lokaler Suche über 300 Startlösungen.</p>
+  <h3>Was die Untersuchung nicht kann</h3>
+  <ul style="max-width:70ch;color:var(--ink2);font-size:15px">
+    <li>Der offene Datensatz enthält keine Zugnummern. Die Sprinterzuordnung ist eine an den bahn.de-Frequenzen kalibrierte Rekonstruktion, keine amtliche Kennzeichnung.</li>
+    <li>Fahrzeiten sind Sollfahrzeiten aus dem veröffentlichten Fahrplan, keine Ergebnisse einer Betriebssimulation. Sie enthalten bereits heutige Regelzuschläge — die ausgewiesene technische Mindestfahrzeit ist daher konservativ.</li>
+    <li>Streckenkilometer sind mit dem Faktor 1,20 aus der Luftlinie geschätzt.</li>
+    <li>Der Nahverkehr ist nicht modelliert. Ein vollständiger ITF bindet SPNV und Fernverkehr in dieselben Knoten.</li>
+    <li>Kapazitätsaussagen sind Grobabschätzungen aus Halten je Knotenfenster, keine Fahrstraßenuntersuchung.</li>
+    <li>Güterverkehrstrassen sind nicht berücksichtigt.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">
+  <p style="margin:0">Rohdaten: <a href="https://gtfs.de/de/feeds/de_fv/">gtfs.de</a>, Feed „Fernverkehr Deutschland“, bereitgestellt von DELFI e.&nbsp;V. · Sprinterangebot: <a href="https://www.bahn.de/service/ueber-uns/zugtypen/ice-sprinter">bahn.de</a> · Auswertung und Fahrplanentwurf: eigene Berechnung, Stand 23. August 2026.</p>
+</div></footer>

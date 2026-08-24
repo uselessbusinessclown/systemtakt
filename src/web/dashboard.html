@@ -1,0 +1,757 @@
+<title>Systemtakt Fernverkehr</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#EEF1F4; --surface:#FFFFFF; --surface2:#F6F8FA; --ink:#101519; --ink2:#2C353E;
+  --muted:#59636F; --line:#D5DCE3; --line2:#E7EDF2;
+  --spr:#C31C26; --ice:#25648F; --ic:#96692A;
+  --spr-bg:#FBE9EA; --ice-bg:#E5EFF6; --ic-bg:#F6EFE1;
+  --ok:#2F7A52; --warn:#A8722A; --bad:#B0242E;
+  --shadow:0 1px 2px rgba(16,21,25,.05),0 8px 24px -12px rgba(16,21,25,.16);
+  --dial:#C9D2DA;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1114; --surface:#151A1F; --surface2:#1B2229; --ink:#E7EDF2; --ink2:#C3CDD6;
+    --muted:#8B98A5; --line:#242D35; --line2:#1E262D;
+    --spr:#F0616A; --ice:#68AEDC; --ic:#D9A857;
+    --spr-bg:#2A1518; --ice-bg:#12242F; --ic-bg:#2A2114;
+    --ok:#5FBE8B; --warn:#D9A857; --bad:#F0616A;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.7);
+    --dial:#39444E;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1114; --surface:#151A1F; --surface2:#1B2229; --ink:#E7EDF2; --ink2:#C3CDD6;
+  --muted:#8B98A5; --line:#242D35; --line2:#1E262D;
+  --spr:#F0616A; --ice:#68AEDC; --ic:#D9A857;
+  --spr-bg:#2A1518; --ice-bg:#12242F; --ic-bg:#2A2114;
+  --ok:#5FBE8B; --warn:#D9A857; --bad:#F0616A;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.7);
+  --dial:#39444E;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Barlow Condensed","Barlow",sans-serif;font-weight:700;
+  letter-spacing:.005em;text-wrap:balance;margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+
+/* hero */
+.hero{border-bottom:1px solid var(--line);background:
+  radial-gradient(1100px 420px at 50% -14%, color-mix(in srgb,var(--ice) 9%, transparent), transparent 70%),
+  var(--surface)}
+.hero .wrap{padding-top:52px;padding-bottom:40px}
+.hero h1{font-size:clamp(38px,6vw,68px);line-height:.98;margin-bottom:14px}
+.hero .lede{font-size:clamp(16px,1.6vw,19px);color:var(--ink2);max-width:60ch;margin:0 0 6px}
+.hero .meta{font-size:13px;color:var(--muted);margin-top:18px}
+.herogrid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center}
+@media(min-width:900px){.herogrid{grid-template-columns:1.05fr .95fr;gap:44px}}
+
+/* dial */
+.dialbox{position:relative}
+.dial{width:100%;height:auto;display:block;overflow:visible}
+.dial .nd{cursor:pointer;transition:r .12s ease}
+.dial .nd:hover{stroke-width:2.5}
+.dial text{font-family:"IBM Plex Mono",monospace}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.chips .nchip{font-size:12.5px;padding:4px 10px;display:flex;gap:6px;align-items:baseline}
+.chips .nchip b{font-weight:500;opacity:.7}
+.dialcap{font-size:12.5px;color:var(--muted);text-align:center;margin-top:10px}
+.nodecard{margin-top:14px;background:var(--surface2);border:1px solid var(--line);
+  border-radius:4px;padding:14px 16px;min-height:112px}
+.nodecard h4{font-size:20px;margin-bottom:2px}
+.nodecard .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:10px 14px;margin-top:10px}
+.nodecard .kv div span{display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.nodecard .kv div b{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:15px}
+
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:4px;overflow:hidden;margin:0}
+@media(min-width:700px){.kpis{grid-template-columns:repeat(4,1fr)}}
+.kpi{background:var(--surface);padding:16px 18px}
+.kpi b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:34px;line-height:1.05;font-weight:700}
+.kpi span{font-size:12px;color:var(--muted)}
+
+section{padding:56px 0}
+section+section{border-top:1px solid var(--line)}
+h2{font-size:clamp(26px,3.2vw,38px);margin-bottom:8px}
+h3{font-size:21px;margin:28px 0 8px}
+.sub{color:var(--muted);max-width:66ch;margin:0 0 22px}
+p{max-width:70ch}
+
+/* layer cards */
+.layers{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:820px){.layers{grid-template-columns:repeat(3,1fr)}}
+.layer{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:18px 20px;
+  border-top:3px solid var(--c)}
+.layer .rank{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.15em;color:var(--c);
+  text-transform:uppercase}
+.layer h3{margin:6px 0 6px;font-size:23px}
+.layer p{font-size:14.5px;color:var(--ink2);margin:0 0 10px}
+.layer ul{margin:0;padding-left:17px;font-size:14px;color:var(--muted)}
+.layer li{margin-bottom:4px}
+.layer .big{font-family:"IBM Plex Mono",monospace;font-size:15px;color:var(--ink);font-weight:500}
+
+/* tables */
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td.nw{white-space:nowrap}
+#tl{min-width:760px}
+#te{min-width:880px}
+#tk{min-width:900px}
+th{position:sticky;top:0;background:var(--surface);text-align:left;font-family:"Barlow Condensed",sans-serif;
+  font-weight:600;font-size:13.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted);
+  padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
+th.no{cursor:default}
+td{padding:8px 12px;border-bottom:1px solid var(--line2);vertical-align:middle}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--surface2)}
+td.n,th.n{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{max-height:520px;overflow-y:auto}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+input[type=search]{font:inherit;font-size:14px;padding:7px 11px;border:1px solid var(--line);
+  border-radius:3px;background:var(--surface);color:var(--ink);min-width:210px}
+input[type=search]:focus-visible,button:focus-visible,th:focus-visible{outline:2px solid var(--ice);outline-offset:2px}
+button.chip{font:inherit;font-size:13px;padding:6px 13px;border:1px solid var(--line);border-radius:100px;
+  background:var(--surface);color:var(--muted);cursor:pointer}
+button.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;padding:2px 7px;border-radius:3px;
+  white-space:nowrap;font-weight:500}
+.t-spr{background:var(--spr-bg);color:var(--spr)} .t-ice{background:var(--ice-bg);color:var(--ice)}
+.t-ic{background:var(--ic-bg);color:var(--ic)}
+.bar{display:block;height:7px;border-radius:2px;background:var(--line);position:relative;min-width:54px}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:2px;background:var(--c)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:6px;
+  vertical-align:middle}
+
+/* sprinter cards */
+.sprgrid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:760px){.sprgrid{grid-template-columns:repeat(2,1fr)}}
+.sprc{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--spr);
+  border-radius:4px;padding:16px 18px;display:flex;gap:16px;align-items:flex-start}
+.sprc .clock{flex:0 0 78px}
+.sprc h4{font-size:19px;margin-bottom:2px}
+.sprc .k{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--spr);letter-spacing:.12em}
+.sprc .row{display:flex;flex-wrap:wrap;gap:14px;margin-top:9px;font-size:13.5px}
+.sprc .row div span{display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.sprc .row div b{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:15px}
+.sprc .note{font-size:13px;color:var(--muted);margin-top:8px}
+
+/* distribution */
+.dist{display:grid;gap:9px;margin:18px 0 8px;max-width:720px}
+.dist .r{display:grid;grid-template-columns:150px 1fr 76px;gap:12px;align-items:center;font-size:14px}
+@media(min-width:760px){.dist .r{grid-template-columns:236px 1fr 82px}}
+.dist .r .b{height:20px;background:var(--line2);border-radius:2px;overflow:hidden}
+.dist .r .b i{display:block;height:100%;background:var(--c)}
+.dist .r .v{text-align:right;font-family:"IBM Plex Mono",monospace;font-size:13px;white-space:nowrap}
+
+.vgrid{display:grid;grid-template-columns:1fr;gap:14px;margin:22px 0}
+@media(min-width:860px){.vgrid{grid-template-columns:repeat(3,1fr)}}
+.vc{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--c);border-radius:4px;padding:16px 18px}
+.vc .rank{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c)}
+.vc h4{font-size:20px;margin:5px 0 8px}
+.vc p{font-size:14.5px;color:var(--ink2);margin:0}
+/* scenario */
+.scen{display:grid;grid-template-columns:1fr;gap:16px;margin-top:6px}
+@media(min-width:760px){.scen{grid-template-columns:repeat(2,1fr)}}
+.sc{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:18px 20px}
+.sc h3{margin-top:0}
+.sc .num{font-family:"Barlow Condensed",sans-serif;font-size:44px;font-weight:700;line-height:1;color:var(--c)}
+.sc .num small{font-size:17px;color:var(--muted);font-weight:500}
+.callout{background:var(--surface2);border:1px solid var(--line);border-left:3px solid var(--ice);
+  border-radius:4px;padding:15px 18px;margin:22px 0;max-width:74ch}
+.callout p{margin:0;font-size:14.5px;color:var(--ink2)}
+.steps{display:grid;gap:14px;margin-top:8px}
+.step{display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:start}
+.step .s{font-family:"Barlow Condensed",sans-serif;font-size:15px;font-weight:700;color:var(--surface);
+  background:var(--ink);border-radius:3px;padding:5px 0;text-align:center}
+.step p{margin:5px 0 0;font-size:14.5px;color:var(--ink2)}
+.step h4{font-size:18px}
+footer{border-top:1px solid var(--line);padding:30px 0 46px;color:var(--muted);font-size:13px}
+footer a{color:var(--ice)}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted);margin-top:12px}
+</style>
+<div class="hero"><div class="wrap">
+  <p class="eyebrow">Fahrplan 2026 · Datenanalyse und Fahrplanentwurf</p>
+  <div class="herogrid">
+    <div>
+      <h1>Ein Systemtakt für den deutschen Fernverkehr</h1>
+      <p class="lede">Alle ICE-, IC- und EC-Verbindungen Deutschlands als auswertbare Datenbank — und daraus berechnet: ein integraler Taktfahrplan nach Schweizer Vorbild mit fester Knotenminute für 20 Vollknoten. <b>Ohne eine einzige Neubaumaßnahme</b> — und ausgerollt zu einem vollständigen Tagesfahrplan.</p>
+      <p class="lede">Vorrang haben die ICE-Sprinter, dann der ICE, dann der IC. Diese Rangfolge steckt nicht im Vorwort, sondern in der Zielfunktion: jede Sprinterfahrt zählt dreifach, jede ICE-Fahrt zweifach, jede IC-Fahrt einfach.</p>
+      <p class="meta">Der Knotenplan ist exakt gelöst (gemischt-ganzzahliges Programm, HiGHS) — die Optimalität ist bewiesen.<br>Datengrundlage: GTFS-Feed „Fernverkehr Deutschland“ (DELFI e.&nbsp;V. / gtfs.de), Fahrplan 22.08.–21.09.2026 · Sprinterangebot nach bahn.de</p>
+    </div>
+    <div class="dialbox">
+      <svg class="dial" id="dial" viewBox="0 0 420 420" role="img" aria-label="Zifferblatt mit den berechneten Knotenminuten aller 64 Netzknoten"></svg>
+      <p class="dialcap">Das 30-Minuten-Raster. Jeder Punkt ist einer der zwanzig Vollknoten auf seiner berechneten Knotenminute, die Fläche entspricht seinem Gewicht im System. Farbe nach dominierender Produktebene.</p>
+      <div id="chips" class="chips"></div>
+      <div class="nodecard" id="ncard"></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="wrap" style="margin-top:-1px">
+  <div class="kpis" id="kpis"></div>
+</div>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ausgangslage</p>
+  <h2>Der Takt ist da. Die Verabredung fehlt.</h2>
+  <p class="sub">Für jede Kombination aus Linie, Knoten und Fahrtrichtung wurde die Verteilung der Abfahrtsminuten über einen Monat ausgewertet — 875 Fälle.</p>
+  <div class="dist" id="taktdist"></div>
+  <p>83&nbsp;Prozent aller Abfahrten an den Netzknoten liegen auf einer stabilen Stundentaktlage, weitere 13&nbsp;Prozent folgen einem Zweistundentakt mit zwei alternierenden Lagen. Nur knapp sechs Prozent sind systemlos. Das Problem des deutschen Fernverkehrs ist nicht der fehlende Takt der einzelnen Linie, sondern die fehlende Abstimmung der Linien untereinander: die Taktlagen sind historisch gewachsen, nicht auf gemeinsame Knotenzeiten hin konstruiert.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Prioritätenordnung</p>
+  <h2>Drei Ebenen, feste Rangfolge</h2>
+  <p class="sub">Wer später konstruiert wird, weicht. Die Rangfolge wirkt an vier Stellen — in der Gewichtung, in der Fahrzeitreserve, im Knoten und in der Anschlusssicherung.</p>
+  <div class="layers">
+    <div class="layer" style="--c:var(--spr)">
+      <div class="rank">Ebene 1 — höchste Priorität</div>
+      <h3>ICE-Sprinter</h3>
+      <p class="big">72 Fahrten/Tag · 7 Korridore</p>
+      <p>Setzt die Knotenzeiten der Metropolen und wird als erstes in den Fahrplan konstruiert.</p>
+      <ul><li>Fahrzeitreserve höchstens 5 %</li><li>bestes Gleis im Knoten</li><li>wartet nie auf Anschlüsse</li><li>Zusatzhalt nur ohne Verlust der Knotenlage</li></ul>
+    </div>
+    <div class="layer" style="--c:var(--ice)">
+      <div class="rank">Ebene 2</div>
+      <h3>ICE-Grundnetz</h3>
+      <p class="big">631 Fahrten/Tag · 50 Linien</p>
+      <p>Füllt das 30-Minuten-Raster und trägt die Masse der Umsteigebeziehungen.</p>
+      <ul><li>Fahrzeitreserve 7 %</li><li>Knotenbindung an allen Vollknoten</li><li>hält den IC bis zu 3 Minuten</li></ul>
+    </div>
+    <div class="layer" style="--c:var(--ic)">
+      <div class="rank">Ebene 3</div>
+      <h3>IC und EC</h3>
+      <p class="big">327 Fahrten/Tag · 27 Linien</p>
+      <p>Erschließt die Fläche, übernimmt die Grenzverkehre und absorbiert die Zwangspunkte des Systems.</p>
+      <ul><li>Fahrzeitreserve ab 7 % aufwärts</li><li>bekommt die Restlage im Knoten</li><li>Überschussreserve wird zu Zusatzhalten</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ergebnis der Optimierung</p>
+  <h2>Der Knotenplan</h2>
+  <p class="sub">Zwanzig Bahnhöfe sind Vollknoten: Dort treffen alle Züge innerhalb weniger Minuten ein und fahren gemeinsam wieder ab, in <b>beiden Richtungen</b>. Die übrigen 246 Fernverkehrsbahnhöfe sind Durchgangshalte ohne Knotenbindung. Die Lösung ist nur bis auf eine gemeinsame Verschiebung eindeutig — Anker ist Berlin Hbf mit :00.</p>
+  <div class="controls">
+    <input type="search" id="qk" placeholder="Knoten suchen …" aria-label="Knoten suchen">
+    <span style="font-size:13px;color:var(--muted)">Spaltenkopf klicken zum Sortieren</span>
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="tk"><thead><tr>
+    <th data-k="name">Knoten</th><th data-k="m" class="n">Knotenminute</th><th class="no">Ankunft</th><th class="no">Abfahrt</th>
+    <th data-k="grad" class="n">Kanten</th><th data-k="halte" class="n">Halte/Tag</th>
+    <th data-k="spr" class="n">Sprinter</th><th data-k="ice" class="n">ICE</th><th data-k="ic" class="n">IC/EC</th>
+    <th data-k="w" class="n">Gewicht</th></tr></thead><tbody></tbody></table></div></div>
+</div></section>
+
+
+<section id="neubaufrei"><div class="wrap">
+  <p class="eyebrow">Kernergebnis</p>
+  <h2>Der Takt braucht keinen Neubau</h2>
+  <p class="sub">Es wurde die harte Nebenbedingung gesetzt, dass keine Netzkante schneller befahren werden darf als heute. Der Takt entsteht allein aus Fahrzeitzuschlägen — und trifft trotzdem das schweizerische Reserveziel. T2 und T3 zeigen zum Vergleich, was ein grobes Knotenraster kostet, T4 und T5, was Ausbau brächte.</p>
+  <div class="kpis" style="margin-bottom:22px">
+    <div class="kpi"><b>0</b><span>Kanten mit Beschleunigungsbedarf</span></div>
+    <div class="kpi"><b>6,6 %</b><span>mittlere Fahrzeitreserve (Ziel: 7 %)</span></div>
+    <div class="kpi"><b>+16,6 min</b><span>mittlere Reisezeit gegenüber heute</span></div>
+    <div class="kpi"><b>bewiesen</b><span>optimal, kein Näherungswert</span></div>
+  </div>
+  <div class="tblwrap"><table id="ttv"><thead><tr>
+    <th class="no">Variante</th><th class="no">Beschleunigung</th><th class="n">Kanten mit Verkürzung</th>
+    <th class="n">Zielfunktion je Gewicht</th><th class="n">Sollband</th><th class="n">Ø Reserve</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout"><p><b>Ausbau bringt fast nichts.</b> Erlaubt man Verkürzungen bis zu drei Minuten, sinkt die mittlere Reserve von 7,68 auf 7,01 %. Verdoppelt man den erlaubten Ausbau auf sechs Minuten, sinkt sie nur noch auf 6,97 % — vier Hundertstel eines Prozentpunkts. Der Nutzen von Streckenausbau für die Taktbildung ist nach wenigen Minuten erschöpft. Was den Takt trägt, ist die Ordnung der Fahrplanlagen, nicht die Geschwindigkeit.</p></div>
+  <p style="font-size:13.5px;color:var(--muted)">Zur Methode: Frühere Fassungen dieser Untersuchung nutzten simuliertes Ausglühen und lieferten je nach Zufallsstartwert Lösungen bis zu 18 % über dem Optimum — sie wiesen fünf Kanten als ausbaubedürftig aus, die es nicht sind. Der scheinbare Infrastrukturbedarf war ein Artefakt der Lösungsmethode.</p>
+</div></section>
+
+
+<section id="knotenzahl"><div class="wrap">
+  <p class="eyebrow">Der wichtigste Stellhebel</p>
+  <h2>Wie viele Vollknoten verträgt das Netz?</h2>
+  <p class="sub">Jeder Vollknoten zwingt die Züge in ein festes Zeitfenster — und kostet dafür Fahrzeit. Die Zahl der Vollknoten ist damit der eigentliche Hebel des ganzen Konzepts. Gerechnet wurde sie exakt, für Knotenmengen von 16 bis 64.</p>
+  <div class="tblwrap"><table id="tkz"><thead><tr>
+    <th class="no">Variante</th><th class="n">Vollknoten</th><th class="n">Netzkanten</th>
+    <th class="n">Ø Reserve</th><th class="n">Sollband</th><th class="n">Reisezeit gegenüber heute</th>
+    <th class="no">Bemerkung</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p><b>Jeder zusätzliche Vollknoten kostet rund eine halbe Minute mittlere Reisezeit.</b> Bindet man alle 64 in Frage kommenden Bahnhöfe, verlängert sich die durchschnittliche Fahrt um 38 Minuten; bei zwanzig sind es 17. Das ist der Grund, warum ein integraler Taktfahrplan wenige, dafür starke Knoten braucht — und warum frühere Fassungen dieser Untersuchung, die alle 64 Bahnhöfe zu Vollknoten machten, ein unnötig langsames Netz beschrieben.</p></div>
+  <p>Gewählt wurden zwanzig Vollknoten: Hamburg, Bremen, Hannover, Berlin, Leipzig, Dresden, Erfurt, Münster, Dortmund, Duisburg, Köln, Frankfurt, Kassel-Wilhelmshöhe, Fulda, Würzburg, Nürnberg, München, Stuttgart, Mannheim und Karlsruhe. Sie decken das Netz geografisch ab und sind zugleich die Bahnhöfe mit den meisten Umsteigebeziehungen.</p>
+</div></section>
+
+<section id="fahrplan"><div class="wrap">
+  <p class="eyebrow">Vom Konzept zum Fahrplan</p>
+  <h2>Der Fahrplan existiert</h2>
+  <p class="sub">Aus dem Knotenplan ist ein vollständiger Tagesfahrplan abgeleitet — minutengenau, für jede Fahrt und jeden Halt. Zwischen den Knoten fahren die Züge ihre heutige Fahrzeit zuzüglich der Reserve, die der Takt verlangt; die Zwischenhalte werden proportional eingepasst.</p>
+  <div class="kpis" style="margin-bottom:20px">
+    <div class="kpi"><b>1.700</b><span>Züge je Betriebstag</span></div>
+    <div class="kpi"><b>12.876</b><span>Halte je Betriebstag</span></div>
+    <div class="kpi"><b>168</b><span>Linienrichtungen im Kursbuch</span></div>
+    <div class="kpi"><b>266</b><span>Bahnhöfe mit eigener Tafel</span></div>
+  </div>
+  <p>Der Fahrplan liegt in zwei Bänden vor: das <b>Kursbuch der Linienfahrpläne</b> (192 Seiten) zeigt für jede Linie und Richtung alle Züge des Tages als Tabelle, Zeile für Zeile nach Halten, Spalte für Spalte nach Zügen. Die <b>Bahnhofsfahrpläne</b> (292 Seiten) geben für jeden Bahnhof die Abfahrtstafel mit Linie, Ziel und Fahrweg, darunter die Ankünfte endender Züge.</p>
+  <p>An den Vollknoten wird die Taktstruktur in der Tafel unmittelbar sichtbar: In Frankfurt Hbf sammeln sich die 306 täglichen Abfahrten in zwei kurzen Fenstern je Stunde, um :16 und um :46. Genau dann stehen alle Linien gleichzeitig am Bahnsteig — und jeder Anschluss in jede Richtung besteht.</p>
+  <div class="callout"><p><b>Beide Richtungen gebunden.</b> Damit ein Knoten in beiden Richtungen funktioniert, dürfen sich die Ankunfts- und Abfahrtsfenster je Richtung um wenige Minuten unterscheiden. Ohne diesen Freiheitsgrad wäre eine beidseitige Knotenbindung mathematisch nur möglich, wenn alle Knotenminuten auf einem Viertelstundenraster lägen — und das kostet, wie Variante T2 zeigt, ein Drittel der Fahrzeit als Reserve.</p></div>
+</div></section>
+
+<section id="zentrierung"><div class="wrap">
+  <p class="eyebrow">Sonderfrage</p>
+  <h2>Hilft eine Zentrierung auf einen großen Bahnhof?</h2>
+  <p class="sub">Die Frage klingt nach einer, sind aber zwei — und die Antworten fallen gegensätzlich aus.</p>
+
+  <h3>Die Wahl des Ankerbahnhofs ist wirkungslos</h3>
+  <p>Der Knotenplan ist nur bis auf eine gemeinsame Verschiebung eindeutig. Verschiebt man alle Knotenminuten um denselben Betrag, ändert sich keine Fahrzeit, kein Anschluss und keine Kantenbedingung — nur die Ziffern auf dem Papier. Rechnerisch nachgewiesen: dieselbe Lösung, acht verschiedene Anker, jedes Mal exakt derselbe Zielfunktionswert von <span class="mono">11.805,429</span>.</p>
+  <div class="tblwrap" style="margin:14px 0"><table id="tank"><thead><tr>
+    <th class="no">Anker auf :00</th><th class="n">Berlin</th><th class="n">Frankfurt</th><th class="n">Hannover</th>
+    <th class="n">Zielfunktion</th></tr></thead><tbody></tbody></table></div>
+
+  <h3>Welcher Bahnhof ist überhaupt der zentralste?</h3>
+  <p class="sub" style="margin-bottom:14px">Zwischenzentralität = Anteil aller schnellsten Verbindungen im Netz, die über den Knoten führen. Erreichbarkeit = mittlere Fahrzeit zum verkehrsgewichteten Rest des Netzes.</p>
+  <div class="tblwrap"><div class="scroll" style="max-height:420px"><table id="tzz"><thead><tr>
+    <th class="no">Bahnhof</th><th class="n">Kanten</th><th class="n">Halte/Tag</th><th class="n">Zentralität</th>
+    <th class="n">Rang</th><th class="n">Ø Fahrzeit zum Netz</th><th class="n">Rang</th></tr></thead><tbody></tbody></table></div></div>
+  <p>Frankfurt Hauptbahnhof ist der zentralste Knoten des Netzes, und zwar deutlich: <b>28,6 %</b> aller schnellsten Verbindungen führen über ihn, er hat mit siebzehn die meisten Netzkanten und mit 224 Halten am Tag die höchste Belastung. Hanau und Fulda liegen geografisch noch günstiger, sind aber verkehrlich klein — Durchgangsknoten, keine Quell- und Zielorte.</p>
+
+  <h3>Eine echte Zentrierung hilft — und Frankfurt ist der beste Kandidat</h3>
+  <p class="sub" style="margin-bottom:14px">Wirksam ist nicht die Ankerwahl, sondern die Höhergewichtung eines Knotens in der Optimierung. Die Kanten des Prioritätsknotens bekamen das sechsfache Gewicht; für acht Kandidaten wurde das Programm erneut exakt gelöst.</p>
+  <div class="tblwrap"><table id="tzn"><thead><tr>
+    <th class="no">Prioritätsknoten</th><th class="n">Reserve ohne</th><th class="n">Reserve mit</th>
+    <th class="n">Gewinn</th><th class="n">Netz ohne</th><th class="n">Netz mit</th><th class="n">Effekt aufs Netz</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--ok)"><p><b>Frankfurt Hbf ist der klare Sieger.</b> Die Fahrzeitreserve seiner siebzehn Netzkanten sinkt von 7,78 auf 4,73 % — ein Gewinn von gut drei Prozentpunkten, mehr als bei jedem anderen Kandidaten. Und das übrige Netz wird dabei nicht schlechter, sondern minimal besser. Kein Zufall: Weil Frankfurt der zentralste Knoten ist, läuft seine Optimierung mit der des Gesamtnetzes weitgehend gleich.</p></div>
+  <p>Bei Berlin und Mannheim bringt die Zentrierung nichts — aus dem besten aller Gründe: Ihre Kanten liegen im freien Optimum schon nahezu perfekt, bei 1,61 beziehungsweise 5,85 % Reserve. Wo nichts zu verbessern ist, hilft auch Priorität nicht.</p>
+
+  <h3>Ein grobes Knotenraster ist keine Lösung</h3>
+  <p>Naheliegend wäre, den Fahrplan merkbarer zu machen, indem alle Knoten auf ein grobes Raster gezwungen werden — etwa das schweizerische Schema aus Vollknoten zur vollen und halben Stunde und Halbknoten zur Viertelstunde. Die Variante fällt eindeutig durch: Die mittlere Reserve springt von 7,7 auf <b>35,7 %</b>, der Anteil im Sollband bricht von 60 auf 21 % ein. Auch ein Fünf-Minuten-Raster kostet mit 15,5 % noch doppelt so viel Reserve wie nötig.</p>
+  <p>Der Grund liegt in der Netzgeometrie: Deutschland hat keine dominante Achse, sondern ein Maschennetz mit sehr unterschiedlichen Kantenlängen. Die Schweiz kann ihr Raster halten, weil ihre Knotenabstände von Anfang an auf Halbstundenschritte gebaut wurden. In Deutschland müssen die Knotenminuten frei bleiben — der Preis dafür, ein gewachsenes Netz zu vertakten, statt ein Netz um den Takt herum zu bauen.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Kantenplan</p>
+  <h2>Passt das Netz in das Raster?</h2>
+  <p class="sub">Für jede der 173 Netzkanten wurde geprüft, wie weit die Fahrzeit von der Taktbedingung abweicht — Anteil am nach Priorität gewichteten Verkehr.</p>
+  <div class="dist" id="resdist"></div>
+  <div class="callout"><p><b>Vier Fünftel des gewichteten Verkehrs</b> lassen sich mit höchstens vierzehn Prozent Fahrzeitreserve in das Raster einpassen. Nur neun Kanten mit zusammen 1,6&nbsp;Prozent verlangen eine Verkürzung unter die heutige Bestzeit, und die größte davon beträgt fünf Minuten. Ein integraler Taktfahrplan scheitert in Deutschland nicht an den Fahrzeiten zwischen den Knoten.</p></div>
+  <div class="controls">
+    <button class="chip" data-f="all" aria-pressed="true">alle Kanten</button>
+    <button class="chip" data-f="ok" aria-pressed="false">taktkonform</button>
+    <button class="chip" data-f="res" aria-pressed="false">Überschussreserve</button>
+    <input type="search" id="qe" placeholder="Kante suchen …" aria-label="Kante suchen">
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="te"><thead><tr>
+    <th data-k="a">Von</th><th data-k="b">Nach</th><th data-k="t0" class="n">Systemfahrzeit</th>
+    <th data-k="ts" class="n">Soll A→B</th><th class="n">Zuschlag</th><th class="n">Reserve beide Ri.</th>
+    <th class="no">Belastung</th><th data-k="w" class="n">Gewicht</th></tr></thead><tbody></tbody></table></div></div>
+  <div class="legend"><span><i class="dot" style="--c:var(--spr)"></i>Sprinter</span><span><i class="dot" style="--c:var(--ice)"></i>ICE</span><span><i class="dot" style="--c:var(--ic)"></i>IC/EC</span><span>Balken: Fahrten je Tag auf der Kante</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Ebene 1</p>
+  <h2>Die sieben Sprinter-Korridore</h2>
+  <p class="sub">Aus den Knotenzeiten folgt für jeden Korridor eine feste Abfahrts- und Ankunftsminute — und damit eine exakte Soll-Fahrzeit. Zielangebot: Zweistundentakt ganztags, stündlich in der Hauptverkehrszeit.</p>
+  <div class="sprgrid" id="sprg"></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p><b>Berlin – Frankfurt in 3:48</b> ist die anspruchsvollste und zugleich wirkungsvollste Vorgabe des Konzepts: vier Minuten schneller als heute, Abfahrt Berlin :03, Ankunft Frankfurt :21 — und sie bindet beide Metropolknoten gleichzeitig. <b>Berlin – München wird dagegen fünfzehn Minuten langsamer.</b> Das wirkt paradox, ist aber der Preis für Anschlüsse in München, Nürnberg, Erfurt und Berlin, die heute nicht bestehen. Genau diese Abwägung macht ein integraler Taktfahrplan sichtbar.</p></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Zielliniennetz</p>
+  <h2>Linien und Taktstufen</h2>
+  <p class="sub">Szenario A bringt jede Linie auf die nächstgelegene saubere Taktstufe. Szenario B hebt jede Linie auf mindestens Zweistundentakt und die Hauptachsen auf 30 Minuten.</p>
+  <div class="controls">
+    <button class="chip" data-l="1" aria-pressed="false">Ebene 1 — Sprinter</button>
+    <button class="chip" data-l="2" aria-pressed="true">Ebene 2 — ICE</button>
+    <button class="chip" data-l="3" aria-pressed="false">Ebene 3 — IC/EC</button>
+    <input type="search" id="ql" placeholder="Linie oder Relation suchen …" aria-label="Linie suchen">
+  </div>
+  <div class="tblwrap"><div class="scroll"><table id="tl"><thead><tr>
+    <th data-k="l">Linie</th><th data-k="rel">Relation</th>
+    <th data-k="f0" class="n">Ist Fahrten/Ri</th><th class="no">Takt heute</th>
+    <th data-k="fa" class="n">Szenario A</th><th data-k="fb" class="n">Szenario B</th></tr></thead><tbody></tbody></table></div></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Engpass</p>
+  <h2>Nicht die Strecke. Der Bahnhof.</h2>
+  <p class="sub">Wenn alle Züge eines Knotens innerhalb von sechs Minuten ankommen und wieder abfahren, braucht jeder gleichzeitig ein Bahnsteiggleis. Abschätzung für Szenario A bei 17 Betriebsstunden und HVZ-Faktor 1,35.</p>
+  <div class="dist" id="kapa"></div>
+  <p>Frankfurt Hbf, Hannover und München überschreiten die Schwelle, ab der ein Knoten ohne baulichen Eingriff nicht mehr funktioniert. Frankfurt ist der kritischste Fall: ein Kopfbahnhof führt jeden Zug zweimal über dieselben Weichen, die Wendezeit verdoppelt die Gleisbelegung. Der Fernbahntunnel ist damit keine Komfortmaßnahme, sondern die Voraussetzung für einen integralen Taktfahrplan in Deutschland überhaupt. Hannover ist der Knoten mit den meisten Kanten, aber als Durchgangsbahnhof gebaut — dort ist die Aufgabe eine Frage der Fahrstraßenauflösung, nicht des Neubaus.</p>
+</div></section>
+
+
+<section id="frankfurt"><div class="wrap">
+  <p class="eyebrow">Sonderfrage</p>
+  <h2>Frankfurt Hbf oder Flughafen-Fernbahnhof?</h2>
+  <p class="sub">Frankfurt ist der einzige Knoten, an dem das Konzept an der Infrastruktur scheitert. Liegt die Lösung darin, den Fernverkehr an den elf Bahnminuten entfernten Flughafen-Fernbahnhof zu verlagern? Drei Varianten, gegen den Status quo gerechnet.</p>
+
+  <h3>Was heute wo hält — und wie lange</h3>
+  <div class="tblwrap"><table id="tfb"><thead><tr>
+    <th class="no">Bahnhof</th><th class="no">Zugart</th><th class="no">Produktklasse</th>
+    <th class="n">Fahrten/Tag</th><th class="n">Gleisminuten/Tag</th><th class="n">Anteil</th></tr></thead><tbody></tbody></table></div>
+  <div class="callout" style="border-left-color:var(--spr)"><p>Diese Tabelle enthält bereits die Antwort. Von den <b>3.383 Gleisminuten</b>, die der Fernverkehr täglich am Hauptbahnhof beansprucht, entfallen <b>78 % auf wendende Züge</b> und nur 22 % auf durchfahrende. Die ICE-Sprinter tragen 335 Gleisminuten — <b>knapp 10 %</b>. Der Hauptbahnhof ist nicht überlastet, weil dort Sprinter halten, sondern weil dort fast die Hälfte aller Fernzüge endet und wendet.</p></div>
+
+  <h3>Die Varianten im Vergleich</h3>
+  <div class="tblwrap"><table id="tfv"><thead><tr>
+    <th class="no">Variante</th><th class="n">Zielfunktion je Gewicht</th><th class="n">Kanten mit Beschl.</th>
+    <th class="n">Ø Reserve</th><th class="n">Gleismin. Hbf</th><th class="n">Gleismin. Flughafen</th>
+    <th class="n">Auslastung</th></tr></thead><tbody></tbody></table></div>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px">Zielfunktion je Gewichtseinheit macht die Taktqualität über unterschiedlich große Kantennetze vergleichbar — kleiner ist besser. Auslastung bezogen auf vier Bahnsteiggleise und 18 Betriebsstunden.</p>
+
+  <div class="vgrid">
+    <div class="vc" style="--c:var(--spr)"><div class="rank">Variante A</div><h4>Alles an den Flughafen</h4>
+      <p><b>Nicht durchführbar.</b> 4.433 Gleisminuten täglich auf vier Gleisen = 103 % rechnerische Auslastung; bei realistischem Nutzungsgrad wären rund sieben Bahnsteiggleise nötig. Dazu 17 % schlechtere Taktqualität und der Verlust der Innenstadtanbindung für eine halbe Million Reisende am Tag.</p></div>
+    <div class="vc" style="--c:var(--spr)"><div class="rank">Variante B</div><h4>Sprinter an den Flughafen</h4>
+      <p><b>Die schlechteste Variante.</b> Sie erzwingt zwei Vollknoten im Abstand von elf Bahnminuten — das Raster kennt aber nur Schritte von 30 Minuten. Folge: Zielfunktion +43 %, Kanten mit Beschleunigungsbedarf von 5 auf 11. Dem steht eine Entlastung des Hauptbahnhofs um <b>nur 10 %</b> gegenüber.</p></div>
+    <div class="vc" style="--c:var(--ok)"><div class="rank">Variante C</div><h4>Fernbahntunnel</h4>
+      <p><b>Der eigentliche Hebel.</b> Die Taktrechnung bleibt unverändert gut, weil die Knotenzeit von Frankfurt unangetastet bleibt. Werden die wendenden Züge durchgebunden, sinkt die Gleisbelegung von 3.383 auf 1.373 Minuten — <b>−59 %</b>, das Sechsfache der Sprinterverlagerung. Und der Bahnhof bleibt, wo die Reisenden sind.</p></div>
+  </div>
+
+  <h3>Was die Reisenden verlören</h3>
+  <div class="tblwrap"><table id="tfl"><thead><tr>
+    <th class="no">Linie</th><th class="n">Fahrten/Tag</th><th class="no">Hbf</th><th class="no">Flughafen</th>
+    <th class="no">Erreichbarkeit</th></tr></thead><tbody></tbody></table></div>
+  <p>Sieben Linien mit zusammen 47 Fahrten am Tag — 21 % des Hauptbahnhofsangebots — wären vom Flughafen aus nicht direkt erreichbar. Dazu kommt der Umweg der Reisenden selbst: vom Fernbahnhof in die Frankfurter Innenstadt rund zwölf Minuten S-Bahn plus Umsteigezeit. Das Sprinterversprechen „von Stadtzentrum zu Stadtzentrum in unter vier Stunden“ ist mit dem Flughafen als Endpunkt nicht mehr einlösbar.</p>
+  <p>Die Größenordnung der beiden Bahnhöfe ist ohnehin nicht vergleichbar: vier Bahnsteiggleise und rund 30.000 Nutzer täglich am Flughafen gegen 25 Fernbahngleise, alle neun S-Bahn-Linien, zwei U-Bahn-Linien, sieben Straßenbahnlinien und etwa 493.000 Reisende am Hauptbahnhof.</p>
+
+  <h3>Empfehlung</h3>
+  <p>Keine der beiden Verlagerungen ist sinnvoll. Der Flughafen-Fernbahnhof bleibt, was er ist und wofür er gebaut wurde: ein <b>Durchgangshalt ohne Knotenbindung</b> mit drei Minuten Haltezeit. Genau in dieser Rolle entlastet er den Hauptbahnhof bereits heute erheblich — die Relation Mannheim – Siegburg/Bonn ist über den Flughafen <b>25 Minuten schneller</b> als über den Hauptbahnhof.</p>
+  <p>Der wirksame Hebel ist die Durchbindung der wendenden Züge. Ohne Tunnel geht ein Zwischenschritt: Von den 91,5 wendenden ICE-Fahrten am Tag lässt sich ein Teil zu durchgehenden Linien über Frankfurt Süd und den Flughafen verknüpfen. Jede durchgebundene Fahrt spart rund 19 Gleisminuten. <b>Zwanzig durchgebundene Fahrten am Tag entsprechen bereits der Entlastung einer vollständigen Sprinterverlagerung</b> — ohne dass ein einziger Reisender die Innenstadt verliert.</p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Angebot</p>
+  <h2>Was der Takt kostet</h2>
+  <div class="scen">
+    <div class="sc" style="--c:var(--ice)">
+      <h3>Szenario A — Taktordnung</h3>
+      <div class="num" id="sa">+17,8&nbsp;%<small> Zug-km</small></div>
+      <p style="font-size:14.5px;color:var(--ink2)">Gleiche Relationen, saubere Taktstufen, verlässliche Anschlüsse. 167 → 197 Mio Zug-km im Jahr, überschlägig zwanzig zusätzliche Triebzugeinheiten. Der realistische erste Schritt — ohne einen Meter neue Strecke.</p>
+    </div>
+    <div class="sc" style="--c:var(--spr)">
+      <h3>Szenario B — Vollausbau</h3>
+      <div class="num" id="sb">+119&nbsp;%<small> Zug-km</small></div>
+      <p style="font-size:14.5px;color:var(--ink2)">Jede Linie mindestens im Zweistundentakt, Hauptachsen im 30-Minuten-Takt. 167 → 367 Mio Zug-km. Das ist die Größenordnung, die ein Netz nach schweizerischem Vorbild tatsächlich verlangt — und sie setzt den Frankfurter Knotenumbau voraus.</p>
+    </div>
+  </div>
+  <div class="tblwrap" style="margin-top:18px"><table id="tb"><thead><tr>
+    <th class="no">Ebene</th><th class="n">Zug-km/Tag heute</th><th class="n">Szenario A</th><th class="n">Szenario B</th>
+    <th class="n">Mio/Jahr heute</th><th class="n">A</th><th class="n">B</th><th class="n">Δ A</th><th class="n">Δ B</th>
+  </tr></thead><tbody></tbody></table></div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Umsetzung</p>
+  <h2>Drei Stufen</h2>
+  <div class="steps">
+    <div class="step"><div class="s">Stufe 1</div><div>
+      <h4>Taktordnung ohne Infrastruktur — 2 bis 3 Fahrplanjahre</h4>
+      <p>Die Knotenzeiten werden als verbindliche Planungsvorgabe gesetzt, alle Linien auf die Taktstufen des Szenarios A gebracht und ihre Lagen an den Knoten ausgerichtet. Kanten mit Überschussreserve bekommen Zusatzhalte, die neun Kanten mit Beschleunigungsbedarf führen ihre Endknoten vorläufig als Durchgangshalt. Ergebnis: ein integrierter Taktfahrplan an rund fünfzig der vierundsechzig Knoten.</p></div></div>
+    <div class="step"><div class="s">Stufe 2</div><div>
+      <h4>Neun Kanten und drei Knoten — 5 bis 10 Jahre</h4>
+      <p>Fulda–Erfurt wird um drei Minuten beschleunigt und schließt die letzte Lücke zwischen Nord-Süd- und Ost-West-Achse; Oberhausen–Dortmund erhält die nötige Geschwindigkeits- und Kapazitätsmaßnahme. Parallel werden Hannover und München betrieblich ertüchtigt. Ergebnis: Vollknotenstatus überall außer Frankfurt.</p></div></div>
+    <div class="step"><div class="s">Stufe 3</div><div>
+      <h4>Frankfurt und der Vollausbau — 10 bis 20 Jahre</h4>
+      <p>Mit dem Fernbahntunnel wird Frankfurt vom Kopf- zum Durchgangsknoten und damit vollknotenfähig. Erst dann lässt sich Szenario B fahren. Die Reihenfolge ist zwingend: Angebotsausweitung vor dem Frankfurter Knotenumbau würde die Verspätungsanfälligkeit des Netzes erhöhen, nicht senken.</p></div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">Methodik und Grenzen</p>
+  <h2>Wie gerechnet wurde</h2>
+  <p>Jedem Knoten <span class="mono">i</span> wird eine Knotenminute <span class="mono">φ(i)</span> zwischen 0 und 29 zugewiesen. Für eine Kante zwischen <span class="mono">i</span> und <span class="mono">j</span> mit technischer Mindestfahrzeit <span class="mono">T</span> ist die Taktbedingung erfüllt, wenn <span class="mono">φ(j) − φ(i) − T − 6</span> ein Vielfaches von 30 Minuten ist; die sechs Minuten sind der Knotenaufenthalt. Die Restdifferenz muss als Fahrzeitzuschlag hingenommen oder durch Beschleunigung beseitigt werden.</p>
+  <p>Die Zielfunktion bestraft Zuschläge mild, solange sie im Bereich der ohnehin nötigen Reserve von sieben Prozent bleiben, darüber deutlich stärker; eine Verkürzung unter die heutige Bestzeit kostet den vierfachen Satz zuzüglich eines Festbetrags, weil sie Infrastruktur verlangt. Gelöst wird mit simuliertem Ausglühen und vollständiger lokaler Suche über 300 Startlösungen.</p>
+  <h3>Was die Untersuchung nicht kann</h3>
+  <ul style="max-width:70ch;color:var(--ink2);font-size:15px">
+    <li>Der offene Datensatz enthält keine Zugnummern. Die Sprinterzuordnung ist eine an den bahn.de-Frequenzen kalibrierte Rekonstruktion, keine amtliche Kennzeichnung.</li>
+    <li>Fahrzeiten sind Sollfahrzeiten aus dem veröffentlichten Fahrplan, keine Ergebnisse einer Betriebssimulation. Sie enthalten bereits heutige Regelzuschläge — die ausgewiesene technische Mindestfahrzeit ist daher konservativ.</li>
+    <li>Streckenkilometer sind mit dem Faktor 1,20 aus der Luftlinie geschätzt.</li>
+    <li>Der Nahverkehr ist nicht modelliert. Ein vollständiger ITF bindet SPNV und Fernverkehr in dieselben Knoten.</li>
+    <li>Kapazitätsaussagen sind Grobabschätzungen aus Halten je Knotenfenster, keine Fahrstraßenuntersuchung.</li>
+    <li>Güterverkehrstrassen sind nicht berücksichtigt.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">
+  <p style="margin:0">Rohdaten: <a href="https://gtfs.de/de/feeds/de_fv/">gtfs.de</a>, Feed „Fernverkehr Deutschland“, bereitgestellt von DELFI e.&nbsp;V. · Sprinterangebot: <a href="https://www.bahn.de/service/ueber-uns/zugtypen/ice-sprinter">bahn.de</a> · Auswertung und Fahrplanentwurf: eigene Berechnung, Stand 23. August 2026.</p>
+</div></footer>
+<script id="D" type="application/json">{"knoten":[{"name":"Hannover Hbf","m":29,"ankunft":"Ri1 :26 · Ri2 :27","abfahrt":"Ri1 :31 · Ri2 :34","grad":11,"w":715.0,"halte":221.1,"ice":188.4,"spr":14.1,"ic":32.6,"bl":"Niedersachsen","zf":8.8,"gl":11},{"name":"Frankfurt(Main)Hbf","m":14,"ankunft":"Ri1 :09 · Ri2 :12","abfahrt":"Ri1 :16 · Ri2 :19","grad":13,"w":625.0,"halte":224.2,"ice":222.3,"spr":16.8,"ic":1.9,"bl":"Hessen","zf":8.9,"gl":11},{"name":"Nürnberg Hbf","m":26,"ankunft":"Ri1 :21 · Ri2 :24","abfahrt":"Ri1 :31 · Ri2 :28","grad":6,"w":610.0,"halte":160.2,"ice":144.6,"spr":34.2,"ic":15.7,"bl":"Bayern","zf":6.4,"gl":8},{"name":"Mannheim Hbf","m":0,"ankunft":"Ri1 :56 · Ri2 :58","abfahrt":"Ri1 :05 · Ri2 :02","grad":10,"w":567.0,"halte":157.2,"ice":145.2,"spr":0.0,"ic":12.0,"bl":"Baden-Württemberg","zf":6.2,"gl":8},{"name":"Erfurt Hbf","m":16,"ankunft":"Ri1 :12 · Ri2 :14","abfahrt":"Ri1 :18 · Ri2 :18","grad":7,"w":505.0,"halte":113.8,"ice":108.3,"spr":38.8,"ic":5.5,"bl":"Thüringen","zf":4.5,"gl":6},{"name":"Berlin Hbf","m":0,"ankunft":"Ri1 :58 · Ri2 :55","abfahrt":"Ri1 :05 · Ri2 :02","grad":8,"w":502.0,"halte":204.9,"ice":204.7,"spr":51.5,"ic":0.2,"bl":"Berlin","zf":8.1,"gl":10},{"name":"Köln Hbf","m":29,"ankunft":"Ri1 :24 · Ri2 :24","abfahrt":"Ri1 :34 · Ri2 :34","grad":7,"w":495.0,"halte":190.7,"ice":166.9,"spr":14.9,"ic":23.7,"bl":"Nordrhein-Westfalen","zf":7.6,"gl":9},{"name":"München Hbf","m":24,"ankunft":"Ri1 :19 · Ri2 :19","abfahrt":"Ri1 :29 · Ri2 :29","grad":6,"w":426.0,"halte":222.7,"ice":213.0,"spr":31.6,"ic":9.8,"bl":"Bayern","zf":8.8,"gl":11},{"name":"Kassel-Wilhelmshöhe","m":29,"ankunft":"Ri1 :24 · Ri2 :24","abfahrt":"Ri1 :34 · Ri2 :34","grad":8,"w":414.0,"halte":114.2,"ice":108.7,"spr":7.7,"ic":5.5,"bl":"Hessen","zf":4.5,"gl":6},{"name":"Fulda","m":14,"ankunft":"Ri1 :12 · Ri2 :09","abfahrt":"Ri1 :19 · Ri2 :16","grad":8,"w":393.0,"halte":98.3,"ice":98.3,"spr":8.7,"ic":0.0,"bl":"Hessen","zf":3.9,"gl":5},{"name":"Dortmund Hbf","m":0,"ankunft":"Ri1 :58 · Ri2 :57","abfahrt":"Ri1 :03 · Ri2 :02","grad":7,"w":346.0,"halte":114.3,"ice":97.1,"spr":3.9,"ic":17.2,"bl":"Nordrhein-Westfalen","zf":4.5,"gl":6},{"name":"Würzburg Hbf","m":29,"ankunft":"Ri1 :27 · Ri2 :27","abfahrt":"Ri1 :31 · Ri2 :31","grad":8,"w":322.0,"halte":82.1,"ice":82.1,"spr":0.0,"ic":0.0,"bl":"Bayern","zf":3.3,"gl":4},{"name":"Duisburg Hbf","m":13,"ankunft":"Ri1 :08 · Ri2 :11","abfahrt":"Ri1 :17 · Ri2 :18","grad":7,"w":317.0,"halte":107.1,"ice":94.2,"spr":3.9,"ic":12.9,"bl":"Nordrhein-Westfalen","zf":4.3,"gl":5},{"name":"Hamburg Hbf","m":15,"ankunft":"Ri1 :13 · Ri2 :13","abfahrt":"Ri1 :17 · Ri2 :17","grad":4,"w":298.0,"halte":155.9,"ice":154.1,"spr":12.9,"ic":1.2,"bl":"Hamburg","zf":6.2,"gl":8},{"name":"Stuttgart Hbf","m":17,"ankunft":"Ri1 :15 · Ri2 :15","abfahrt":"Ri1 :19 · Ri2 :20","grad":6,"w":298.0,"halte":132.3,"ice":86.2,"spr":2.0,"ic":46.1,"bl":"Baden-Württemberg","zf":5.3,"gl":7},{"name":"Leipzig Hbf","m":0,"ankunft":"Ri1 :58 · Ri2 :55","abfahrt":"Ri1 :05 · Ri2 :02","grad":5,"w":289.0,"halte":102.9,"ice":63.7,"spr":3.1,"ic":39.2,"bl":"Sachsen","zf":4.1,"gl":5},{"name":"Bremen Hbf","m":15,"ankunft":"Ri1 :13 · Ri2 :13","abfahrt":"Ri1 :17 · Ri2 :17","grad":3,"w":228.0,"halte":76.2,"ice":58.9,"spr":7.0,"ic":17.2,"bl":"Bremen","zf":3.0,"gl":4},{"name":"Münster(Westf)Hbf","m":15,"ankunft":"Ri1 :10 · Ri2 :13","abfahrt":"Ri1 :17 · Ri2 :20","grad":5,"w":211.0,"halte":65.8,"ice":52.1,"spr":6.7,"ic":13.7,"bl":"Nordrhein-Westfalen","zf":2.6,"gl":4},{"name":"Karlsruhe Hbf","m":27,"ankunft":"Ri1 :22 · Ri2 :25","abfahrt":"Ri1 :30 · Ri2 :29","grad":5,"w":163.0,"halte":91.2,"ice":75.6,"spr":0.0,"ic":15.6,"bl":"Baden-Württemberg","zf":3.6,"gl":5},{"name":"Dresden Hbf","m":15,"ankunft":"Ri1 :10 · Ri2 :13","abfahrt":"Ri1 :17 · Ri2 :20","grad":2,"w":52.0,"halte":44.5,"ice":17.8,"spr":0.0,"ic":26.7,"bl":"Sachsen","zf":1.8,"gl":3}],"kanten":[{"a":"München Hbf","b":"Nürnberg Hbf","t0":74,"ts":82,"ts2":81,"d":8,"d2":7,"r":10.8,"r2":9.5,"fs":31.6,"fi":91.8,"fc":0.0,"w":278.0},{"a":"Berlin Hbf","b":"Hannover Hbf","t0":102,"ts":111,"ts2":111,"d":9,"d2":9,"r":8.8,"r2":8.8,"fs":8.2,"fi":73.1,"fc":0.0,"w":171.0},{"a":"Nürnberg Hbf","b":"Würzburg Hbf","t0":53,"ts":56,"ts2":53,"d":3,"d2":0,"r":5.7,"r2":0.0,"fs":0.0,"fi":77.3,"fc":0.0,"w":155.0},{"a":"Hannover Hbf","b":"Kassel-Wilhelmshöhe","t0":53,"ts":53,"ts2":53,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":2.1,"fi":71.0,"fc":0.0,"w":148.0},{"a":"Frankfurt(Main)Hbf","b":"Köln Hbf","t0":68,"ts":68,"ts2":68,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":1.7,"fi":68.3,"fc":1.9,"w":144.0},{"a":"Frankfurt(Main)Hbf","b":"Mannheim Hbf","t0":40,"ts":40,"ts2":40,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":0.0,"fi":71.5,"fc":0.0,"w":143.0},{"a":"Erfurt Hbf","b":"Nürnberg Hbf","t0":76,"ts":93,"ts2":76,"d":17,"d2":0,"r":22.4,"r2":0.0,"fs":32.2,"fi":22.8,"fc":0.0,"w":142.0},{"a":"Hamburg Hbf","b":"Hannover Hbf","t0":69,"ts":69,"ts2":69,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":5.3,"fi":60.6,"fc":0.0,"w":137.0},{"a":"Mannheim Hbf","b":"Stuttgart Hbf","t0":38,"ts":40,"ts2":38,"d":2,"d2":0,"r":5.3,"r2":0.0,"fs":0.0,"fi":64.6,"fc":3.8,"w":133.0},{"a":"Fulda","b":"Kassel-Wilhelmshöhe","t0":30,"ts":35,"ts2":35,"d":5,"d2":5,"r":16.7,"r2":16.7,"fs":6.1,"fi":56.6,"fc":0.0,"w":131.0},{"a":"Berlin Hbf","b":"Erfurt Hbf","t0":97,"ts":97,"ts2":97,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":35.4,"fi":11.0,"fc":0.0,"w":128.0},{"a":"Erfurt Hbf","b":"Leipzig Hbf","t0":39,"ts":40,"ts2":42,"d":1,"d2":3,"r":2.6,"r2":7.7,"fs":3.1,"fi":57.2,"fc":0.0,"w":124.0},{"a":"Karlsruhe Hbf","b":"Mannheim Hbf","t0":23,"ts":26,"ts2":23,"d":3,"d2":0,"r":13.0,"r2":0.0,"fs":0.0,"fi":55.9,"fc":3.2,"w":115.0},{"a":"Duisburg Hbf","b":"Köln Hbf","t0":37,"ts":37,"ts2":37,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":3.6,"fi":47.5,"fc":6.7,"w":113.0},{"a":"Dortmund Hbf","b":"Duisburg Hbf","t0":35,"ts":35,"ts2":39,"d":0,"d2":4,"r":0.0,"r2":11.4,"fs":1.5,"fi":52.9,"fc":0.5,"w":111.0},{"a":"Frankfurt(Main)Hbf","b":"Fulda","t0":56,"ts":56,"ts2":56,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":3.9,"fi":43.5,"fc":0.0,"w":99.0},{"a":"München Hbf","b":"Stuttgart Hbf","t0":132,"ts":136,"ts2":149,"d":4,"d2":17,"r":3.0,"r2":12.9,"fs":0.0,"fi":49.1,"fc":0.0,"w":98.0},{"a":"Köln Hbf","b":"Mannheim Hbf","t0":92,"ts":112,"ts2":112,"d":20,"d2":20,"r":21.7,"r2":21.7,"fs":0.0,"fi":40.7,"fc":11.8,"w":93.0},{"a":"Bremen Hbf","b":"Münster(Westf)Hbf","t0":75,"ts":83,"ts2":83,"d":8,"d2":8,"r":10.7,"r2":10.7,"fs":6.7,"fi":36.4,"fc":0.0,"w":93.0},{"a":"Dortmund Hbf","b":"Hannover Hbf","t0":113,"ts":113,"ts2":113,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":0.0,"fi":39.4,"fc":11.4,"w":90.0},{"a":"Bremen Hbf","b":"Hamburg Hbf","t0":56,"ts":56,"ts2":56,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":7.0,"fi":33.6,"fc":0.0,"w":88.0},{"a":"Berlin Hbf","b":"Leipzig Hbf","t0":75,"ts":83,"ts2":83,"d":8,"d2":8,"r":10.7,"r2":10.7,"fs":3.1,"fi":38.1,"fc":0.0,"w":85.0},{"a":"Frankfurt(Main)Hbf","b":"Würzburg Hbf","t0":71,"ts":71,"ts2":71,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":0.0,"fi":40.5,"fc":0.0,"w":81.0},{"a":"Erfurt Hbf","b":"Fulda","t0":84,"ts":84,"ts2":88,"d":0,"d2":4,"r":0.0,"r2":4.8,"fs":2.1,"fi":31.9,"fc":0.0,"w":70.0},{"a":"Hannover Hbf","b":"Köln Hbf","t0":166,"ts":173,"ts2":173,"d":7,"d2":7,"r":4.2,"r2":4.2,"fs":8.2,"fi":22.2,"fc":0.0,"w":69.0},{"a":"Dortmund Hbf","b":"Köln Hbf","t0":70,"ts":81,"ts2":83,"d":11,"d2":13,"r":15.7,"r2":18.6,"fs":2.4,"fi":24.6,"fc":11.6,"w":68.0},{"a":"Frankfurt(Main)Hbf","b":"Kassel-Wilhelmshöhe","t0":85,"ts":98,"ts2":98,"d":13,"d2":13,"r":15.3,"r2":15.3,"fs":1.4,"fi":31.4,"fc":0.0,"w":67.0},{"a":"Berlin Hbf","b":"Hamburg Hbf","t0":118,"ts":128,"ts2":128,"d":10,"d2":10,"r":8.5,"r2":8.5,"fs":0.6,"fi":32.3,"fc":0.0,"w":66.0},{"a":"Fulda","b":"Würzburg Hbf","t0":34,"ts":38,"ts2":38,"d":4,"d2":4,"r":11.8,"r2":11.8,"fs":0.0,"fi":31.0,"fc":0.0,"w":62.0},{"a":"Dortmund Hbf","b":"Münster(Westf)Hbf","t0":34,"ts":37,"ts2":37,"d":3,"d2":3,"r":8.8,"r2":8.8,"fs":3.6,"fi":21.9,"fc":1.0,"w":56.0},{"a":"Dresden Hbf","b":"Leipzig Hbf","t0":71,"ts":71,"ts2":71,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":0.0,"fi":16.7,"fc":16.3,"w":50.0},{"a":"Duisburg Hbf","b":"Münster(Westf)Hbf","t0":64,"ts":83,"ts2":81,"d":19,"d2":17,"r":29.7,"r2":26.6,"fs":2.4,"fi":14.5,"fc":12.4,"w":49.0},{"a":"Bremen Hbf","b":"Hannover Hbf","t0":63,"ts":69,"ts2":69,"d":6,"d2":6,"r":9.5,"r2":9.5,"fs":0.0,"fi":15.5,"fc":16.3,"w":47.0},{"a":"Berlin Hbf","b":"Kassel-Wilhelmshöhe","t0":167,"ts":169,"ts2":171,"d":2,"d2":4,"r":1.2,"r2":2.4,"fs":1.0,"fi":16.9,"fc":0.0,"w":37.0},{"a":"Duisburg Hbf","b":"Mannheim Hbf","t0":122,"ts":129,"ts2":129,"d":7,"d2":7,"r":5.7,"r2":5.7,"fs":0.0,"fi":15.2,"fc":0.0,"w":30.0},{"a":"Erfurt Hbf","b":"Frankfurt(Main)Hbf","t0":126,"ts":141,"ts2":145,"d":15,"d2":19,"r":11.9,"r2":15.1,"fs":4.5,"fi":8.3,"fc":0.0,"w":30.0},{"a":"Karlsruhe Hbf","b":"Stuttgart Hbf","t0":45,"ts":45,"ts2":65,"d":0,"d2":20,"r":0.0,"r2":44.4,"fs":0.0,"fi":7.1,"fc":12.4,"w":27.0},{"a":"Mannheim Hbf","b":"München Hbf","t0":161,"ts":164,"ts2":179,"d":3,"d2":18,"r":1.9,"r2":11.2,"fs":0.0,"fi":12.8,"fc":0.0,"w":26.0},{"a":"Hannover Hbf","b":"Leipzig Hbf","t0":153,"ts":177,"ts2":175,"d":24,"d2":22,"r":15.7,"r2":14.4,"fs":0.0,"fi":0.0,"fc":22.7,"w":23.0},{"a":"Nürnberg Hbf","b":"Stuttgart Hbf","t0":131,"ts":134,"ts2":154,"d":3,"d2":23,"r":2.3,"r2":17.6,"fs":2.0,"fi":0.0,"fc":15.6,"w":22.0},{"a":"Frankfurt(Main)Hbf","b":"Stuttgart Hbf","t0":98,"ts":119,"ts2":112,"d":21,"d2":14,"r":21.4,"r2":14.3,"fs":0.0,"fi":7.3,"fc":0.0,"w":15.0},{"a":"Fulda","b":"Karlsruhe Hbf","t0":130,"ts":153,"ts2":130,"d":23,"d2":0,"r":17.7,"r2":0.0,"fs":0.0,"fi":6.0,"fc":0.0,"w":12.0},{"a":"Kassel-Wilhelmshöhe","b":"Mannheim Hbf","t0":125,"ts":142,"ts2":142,"d":17,"d2":17,"r":13.6,"r2":13.6,"fs":0.0,"fi":5.9,"fc":0.0,"w":12.0},{"a":"Dortmund Hbf","b":"Frankfurt(Main)Hbf","t0":139,"ts":156,"ts2":158,"d":17,"d2":19,"r":12.2,"r2":13.7,"fs":0.0,"fi":5.8,"fc":0.0,"w":12.0},{"a":"Fulda","b":"Mannheim Hbf","t0":94,"ts":97,"ts2":97,"d":3,"d2":3,"r":3.2,"r2":3.2,"fs":0.0,"fi":5.5,"fc":0.0,"w":11.0},{"a":"Hannover Hbf","b":"Münster(Westf)Hbf","t0":93,"ts":99,"ts2":97,"d":6,"d2":4,"r":6.5,"r2":4.3,"fs":0.0,"fi":5.1,"fc":0.0,"w":10.0},{"a":"Frankfurt(Main)Hbf","b":"Hannover Hbf","t0":135,"ts":160,"ts2":158,"d":25,"d2":23,"r":18.5,"r2":17.0,"fs":3.3,"fi":0.1,"fc":0.0,"w":10.0},{"a":"München Hbf","b":"Würzburg Hbf","t0":142,"ts":148,"ts2":168,"d":6,"d2":26,"r":4.2,"r2":18.3,"fs":0.0,"fi":4.8,"fc":0.0,"w":10.0},{"a":"Erfurt Hbf","b":"Kassel-Wilhelmshöhe","t0":88,"ts":96,"ts2":100,"d":8,"d2":12,"r":9.1,"r2":13.6,"fs":0.0,"fi":1.9,"fc":5.5,"w":9.0},{"a":"Frankfurt(Main)Hbf","b":"München Hbf","t0":236,"ts":243,"ts2":253,"d":7,"d2":17,"r":3.0,"r2":7.2,"fs":0.0,"fi":4.6,"fc":0.0,"w":9.0},{"a":"Dortmund Hbf","b":"Kassel-Wilhelmshöhe","t0":131,"ts":141,"ts2":143,"d":10,"d2":12,"r":7.6,"r2":9.2,"fs":0.0,"fi":1.9,"fc":3.9,"w":8.0},{"a":"Leipzig Hbf","b":"Nürnberg Hbf","t0":220,"ts":226,"ts2":237,"d":6,"d2":17,"r":2.7,"r2":7.7,"fs":0.0,"fi":1.7,"fc":3.9,"w":7.0},{"a":"Duisburg Hbf","b":"Hamburg Hbf","t0":181,"ts":206,"ts2":204,"d":25,"d2":23,"r":13.8,"r2":12.7,"fs":0.0,"fi":3.4,"fc":0.0,"w":7.0},{"a":"Berlin Hbf","b":"Frankfurt(Main)Hbf","t0":236,"ts":244,"ts2":246,"d":8,"d2":10,"r":3.4,"r2":4.2,"fs":1.8,"fi":0.6,"fc":0.0,"w":7.0},{"a":"Duisburg Hbf","b":"Frankfurt(Main)Hbf","t0":101,"ts":112,"ts2":112,"d":11,"d2":11,"r":10.9,"r2":10.9,"fs":0.1,"fi":3.1,"fc":0.0,"w":7.0},{"a":"Berlin Hbf","b":"Nürnberg Hbf","t0":163,"ts":166,"ts2":177,"d":3,"d2":14,"r":1.8,"r2":8.6,"fs":2.0,"fi":0.1,"fc":0.0,"w":6.0},{"a":"Hannover Hbf","b":"Würzburg Hbf","t0":116,"ts":116,"ts2":116,"d":0,"d2":0,"r":0.0,"r2":0.0,"fs":0.0,"fi":2.8,"fc":0.0,"w":6.0},{"a":"Karlsruhe Hbf","b":"München Hbf","t0":164,"ts":169,"ts2":176,"d":5,"d2":12,"r":3.0,"r2":7.3,"fs":0.0,"fi":2.7,"fc":0.0,"w":5.0},{"a":"Köln Hbf","b":"Würzburg Hbf","t0":138,"ts":143,"ts2":143,"d":5,"d2":5,"r":3.6,"r2":3.6,"fs":0.0,"fi":2.6,"fc":0.0,"w":5.0},{"a":"Fulda","b":"Stuttgart Hbf","t0":157,"ts":176,"ts2":169,"d":19,"d2":12,"r":12.1,"r2":7.6,"fs":0.0,"fi":2.0,"fc":0.0,"w":4.0},{"a":"Fulda","b":"Hannover Hbf","t0":141,"ts":157,"ts2":155,"d":16,"d2":14,"r":11.3,"r2":9.9,"fs":0.6,"fi":1.0,"fc":0.0,"w":4.0},{"a":"Köln Hbf","b":"Münster(Westf)Hbf","t0":100,"ts":126,"ts2":124,"d":26,"d2":24,"r":26.0,"r2":24.0,"fs":0.7,"fi":0.7,"fc":0.2,"w":4.0},{"a":"Frankfurt(Main)Hbf","b":"Karlsruhe Hbf","t0":66,"ts":66,"ts2":73,"d":0,"d2":7,"r":0.0,"r2":10.6,"fs":0.0,"fi":1.7,"fc":0.0,"w":3.0},{"a":"Dortmund Hbf","b":"Mannheim Hbf","t0":167,"ts":173,"ts2":175,"d":6,"d2":8,"r":3.6,"r2":4.8,"fs":0.0,"fi":1.1,"fc":0.2,"w":2.0},{"a":"Kassel-Wilhelmshöhe","b":"Würzburg Hbf","t0":63,"ts":83,"ts2":83,"d":20,"d2":20,"r":31.7,"r2":31.7,"fs":0.0,"fi":1.0,"fc":0.0,"w":2.0},{"a":"Duisburg Hbf","b":"Würzburg Hbf","t0":174,"ts":190,"ts2":190,"d":16,"d2":16,"r":9.2,"r2":9.2,"fs":0.0,"fi":1.0,"fc":0.0,"w":2.0},{"a":"Berlin Hbf","b":"Dresden Hbf","t0":113,"ts":125,"ts2":125,"d":12,"d2":12,"r":10.6,"r2":10.6,"fs":0.0,"fi":0.9,"fc":0.0,"w":2.0},{"a":"Erfurt Hbf","b":"Mannheim Hbf","t0":217,"ts":218,"ts2":222,"d":1,"d2":5,"r":0.5,"r2":2.3,"fs":0.0,"fi":0.6,"fc":0.0,"w":1.0}],"spr":[{"k":"SPR-1","rel":"Hamburg – Hannover – Frankfurt (+Flughafen)","ab":":10","an":":14","t0":214,"ts":214,"d":0,"bw":"taktkonform ohne Zuschlag","km":861.4,"f0":7.74,"fz":12},{"k":"SPR-2","rel":"Hamburg – Bremen/Münster – Ruhr – Köln","ab":":10","an":":25","t0":240,"ts":255,"d":15,"bw":"15 min Systemzuschlag (6 % Reserve)","km":507.1,"f0":5.13,"fz":12},{"k":"SPR-3","rel":"Berlin – Hannover – Ruhr – Köln/Bonn","ab":":03","an":":25","t0":259,"ts":262,"d":3,"bw":"3 min Systemzuschlag (1 % Reserve)","km":611.4,"f0":8.19,"fz":12},{"k":"SPR-4","rel":"Berlin – Halle/Erfurt – Nürnberg – München","ab":":03","an":":10","t0":235,"ts":247,"d":12,"bw":"12 min Systemzuschlag (5 % Reserve)","km":704.8,"f0":32.23,"fz":12},{"k":"SPR-5","rel":"Berlin – Halle/Erfurt – Frankfurt","ab":":03","an":":14","t0":232,"ts":251,"d":19,"bw":"19 min Systemzuschlag (8 % Reserve)","km":675.5,"f0":14.1,"fz":12},{"k":"SPR-6","rel":"Saarbrücken – Paris (Anschluss ans französische Netz)","ab":":07","an":"frei","t0":108,"ts":108,"d":0,"bw":"Nur der deutsche Endknoten ist taktgebunden","km":409.9,"f0":2.58,"fz":12},{"k":"SPR-7","rel":"Stuttgart – Nürnberg – Berlin","ab":":14","an":":57","t0":293,"ts":313,"d":20,"bw":"20 min Systemzuschlag (7 % Reserve)","km":645.6,"f0":2.0,"fz":12}],"lin":[{"p":2,"l":"ICE 10","rel":"Berlin Hbf – Köln Hbf","op":"DB Fernverkehr AG","f0":25.9,"t0":"~30 min","ta":"30 min","fa":34,"tb":"30 min","fb":34,"km":606.1,"kf":"Berlin Hbf :00 > Wolfsburg Hbf :06 > Hannover Hbf :15 > Bielefeld Hbf :15 > Hamm(Westf)Hbf :14 > Hagen Hbf :09 > Wuppertal Hbf :00 > Köln Hbf :06"},{"p":2,"l":"ICE 41","rel":"München Hbf – Düsseldorf Hbf","op":"DB Fernverkehr AG","f0":18.8,"t0":"~30 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":636.6,"kf":"München Hbf :22 > Nürnberg Hbf :10 > Würzburg Hbf :07 > Frankfurt(Main)Hbf :24 > Siegburg/Bonn :15 > Düsseldorf Hbf :08"},{"p":2,"l":"ICE 25","rel":"München Hbf – Hamburg Hbf","op":"DB Fernverkehr AG","f0":17.2,"t0":"~30 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":844.0,"kf":"München Hbf :22 > Ingolstadt Hbf :08 > Nürnberg Hbf :10 > Würzburg Hbf :07 > Fulda :29 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hannover Hbf :15 > Hamburg Hbf :06"},{"p":2,"l":"ICE (Nederlandse Spoorwegen)","rel":"Arnhem Centraal – Amsterdam Centraal","op":"Nederlandse Spoorwegen","f0":14.4,"t0":"~60 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":108.7,"kf":""},{"p":2,"l":"ICE (SBB)","rel":"Zürich HB – Basel SBB","op":"SBB","f0":10.8,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":88.7,"kf":"Basel SBB :00"},{"p":2,"l":"ICE 62","rel":"Frankfurt(Main)Hbf – Stuttgart Hbf","op":"DB Fernverkehr AG","f0":10.8,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":188.2,"kf":"Frankfurt(Main)Hbf :24 > Heidelberg Hbf :21 > Stuttgart Hbf :19"},{"p":2,"l":"ICE 12","rel":"Basel SBB – Berlin Hbf","op":"DB Fernverkehr AG","f0":10.8,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":995.4,"kf":"Basel SBB :00 > Freiburg(Breisgau) Hbf :02 > Offenburg :07 > Karlsruhe Hbf :07 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24 > Hanau Hbf :12 > Fulda :29 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hildesheim Hbf :10 > Braunschweig Hbf :07 > Wolfsburg Hbf :06 > Berlin Hbf :00"},{"p":2,"l":"ICE 18","rel":"Berlin Hbf – Hamburg-Altona","op":"DB Fernverkehr AG","f0":10.3,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":321.2,"kf":"Berlin Hbf :00 > Hamburg Hbf :06"},{"p":2,"l":"ICE 42","rel":"Hamburg-Altona – München Hbf","op":"DB Fernverkehr AG","f0":10.0,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":1066.3,"kf":"Hamburg Hbf :06 > Bremen Hbf :06 > Osnabrück Hbf :28 > Münster(Westf)Hbf :01 > Dortmund Hbf :04 > Hagen Hbf :09 > Wuppertal Hbf :00 > Köln Hbf :06 > Mannheim Hbf :06 > Stuttgart Hbf :19 > Ulm Hbf :03 > Augsburg Hbf :22 > München Hbf :22"},{"p":2,"l":"ICE 11","rel":"Berlin Gesundbrunnen – München Hbf","op":"DB Fernverkehr AG","f0":10.0,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":981.2,"kf":"Berlin Hbf :00 > Lutherstadt Wittenberg Hbf :15 > Leipzig Hbf :26 > Erfurt Hbf :14 > Fulda :29 > Frankfurt(Main)Hbf :24 > Mannheim Hbf :06 > Stuttgart Hbf :19 > Ulm Hbf :03 > Augsburg Hbf :22 > München Hbf :22"},{"p":2,"l":"ICE 28","rel":"Hamburg-Altona – München Hbf","op":"DB Fernverkehr AG","f0":9.8,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":1004.0,"kf":"Hamburg Hbf :06 > Berlin Hbf :00 > Lutherstadt Wittenberg Hbf :15 > Leipzig Hbf :26 > Erfurt Hbf :14 > Bamberg :01 > Nürnberg Hbf :10 > München Hbf :22"},{"p":2,"l":"ICE 22","rel":"Stuttgart Hbf – Hamburg Hbf","op":"DB Fernverkehr AG","f0":9.4,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":700.2,"kf":"Stuttgart Hbf :19 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hannover Hbf :15 > Hamburg Hbf :06"},{"p":2,"l":"ICE 79","rel":"Bruxelles Midi – Frankfurt(Main)Hbf","op":"DB Fernverkehr AG","f0":9.3,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":428.0,"kf":"Aachen Hbf :27 > Köln Hbf :06 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ICE 50","rel":"Frankfurt(M) Flughafen Fernbf – Dresden Hbf","op":"DB Fernverkehr AG","f0":8.5,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":518.2,"kf":"Frankfurt(Main)Hbf :24 > Fulda :29 > Erfurt Hbf :14 > Leipzig Hbf :26 > Dresden Hbf :20"},{"p":2,"l":"ICE 82","rel":"Saarbrücken Hbf – Frankfurt(Main)Hbf","op":"DB Fernverkehr AG","f0":8.1,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":218.8,"kf":"Saarbrücken Hbf :11 > Kaiserslautern Hbf :23 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ICE 43","rel":"Hamburg-Altona – Basel SBB","op":"DB Fernverkehr AG","f0":8.0,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":1006.9,"kf":"Hamburg Hbf :06 > Bremen Hbf :06 > Osnabrück Hbf :28 > Münster(Westf)Hbf :01 > Oberhausen Hbf :02 > Duisburg Hbf :21 > Düsseldorf Hbf :08 > Köln Hbf :06 > Mannheim Hbf :06 > Karlsruhe Hbf :07 > Freiburg(Breisgau) Hbf :02 > Basel SBB :00"},{"p":2,"l":"ICE 77","rel":"Berlin Südkreuz – Hengelo","op":"DB Fernverkehr AG","f0":8.0,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":548.3,"kf":"Berlin Hbf :00 > Hannover Hbf :15 > Osnabrück Hbf :28"},{"p":2,"l":"ICE 91","rel":"Nürnberg Hbf – Dortmund Hbf","op":"DB Fernverkehr AG","f0":7.8,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":565.7,"kf":"Nürnberg Hbf :10 > Würzburg Hbf :07 > Hanau Hbf :12 > Frankfurt(Main)Hbf :24 > Mainz Hbf :20 > Koblenz Hbf :14 > Bonn Hbf :06 > Köln Hbf :06 > Düsseldorf Hbf :08 > Duisburg Hbf :21 > Oberhausen Hbf :02 > Dortmund Hbf :04"},{"p":2,"l":"ICE 47","rel":"Essen Hbf – München Hbf","op":"DB Fernverkehr AG","f0":7.7,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":691.3,"kf":"Essen Hbf :05 > Duisburg Hbf :21 > Düsseldorf Hbf :08 > Mannheim Hbf :06 > Ulm Hbf :03 > Augsburg Hbf :22 > München Hbf :22"},{"p":2,"l":"ICE 49","rel":"Köln Hbf – Frankfurt(Main)Hbf","op":"DB Fernverkehr AG","f0":7.5,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":193.8,"kf":"Köln Hbf :06 > Siegburg/Bonn :15 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ICE 33","rel":"Hamburg-Altona – Ostseebad Binz","op":"DB Fernverkehr AG","f0":6.7,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":332.5,"kf":"Hamburg Hbf :06 > Schwerin Hbf :06 > Rostock Hbf :13 > Stralsund Hbf :10"},{"p":2,"l":"ICE 78","rel":"Frankfurt(Main)Hbf – Arnhem Centraal","op":"DB Fernverkehr AG","f0":6.5,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":372.5,"kf":"Frankfurt(Main)Hbf :24 > Siegburg/Bonn :15 > Köln Hbf :06 > Düsseldorf Hbf :08 > Duisburg Hbf :21 > Oberhausen Hbf :02"},{"p":2,"l":"ICE 20","rel":"Basel SBB – Hamburg Hbf","op":"DB Fernverkehr AG","f0":6.5,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":888.0,"kf":"Basel SBB :00 > Freiburg(Breisgau) Hbf :02 > Offenburg :07 > Karlsruhe Hbf :07 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hannover Hbf :15 > Hamburg Hbf :06"},{"p":2,"l":"ICE (ÖBB)","rel":"Graz Hbf – Salzburg Hbf","op":"ÖBB","f0":6.3,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":366.5,"kf":"Salzburg Hbf :24"},{"p":2,"l":"ICE 60","rel":"Karlsruhe Hbf – München Hbf","op":"DB Fernverkehr AG","f0":6.0,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":327.7,"kf":"Karlsruhe Hbf :07 > Stuttgart Hbf :19 > Ulm Hbf :03 > Augsburg Hbf :22 > München Hbf :22"},{"p":2,"l":"ICE 13","rel":"Frankfurt(M) Flughafen Fernbf – Berlin-Charlottenburg","op":"DB Fernverkehr AG","f0":5.7,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":640.8,"kf":"Fulda :29 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hildesheim Hbf :10 > Braunschweig Hbf :07 > Wolfsburg Hbf :06"},{"p":2,"l":"ECE 88","rel":"Lindau-Reutin – München Hbf","op":"DB Fernverkehr AG","f0":5.1,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":196.2,"kf":"Lindau-Reutin :22 > München Hbf :22"},{"p":2,"l":"ECE (Dänische Staatsbahnen)","rel":"Padborg st – Koebenhavn H","op":"Dänische Staatsbahnen","f0":4.8,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":331.7,"kf":""},{"p":2,"l":"ECE 75","rel":"Hamburg Hbf – Padborg st","op":"DB Fernverkehr AG","f0":4.8,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":177.0,"kf":"Hamburg Hbf :06"},{"p":2,"l":"ICE 15","rel":"Frankfurt(Main)Hbf – Berlin Gesundbrunnen","op":"DB Fernverkehr AG","f0":4.7,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":521.3,"kf":"Frankfurt(Main)Hbf :24 > Erfurt Hbf :14 > Halle(Saale)Hbf :18 > Berlin Hbf :00"},{"p":2,"l":"ICE 14","rel":"Berlin-Charlottenburg – Essen Hbf","op":"DB Fernverkehr AG","f0":4.5,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":552.7,"kf":"Hannover Hbf :15 > Bielefeld Hbf :15 > Hamm(Westf)Hbf :14 > Dortmund Hbf :04 > Essen Hbf :05"},{"p":2,"l":"ICE 16","rel":"Bremen Hbf – Hannover Hbf","op":"DB Fernverkehr AG","f0":4.0,"t0":"~120 min","ta":"Einzelleistungen","fa":4,"tb":"120 min","fb":9,"km":120.5,"kf":"Bremen Hbf :06 > Hannover Hbf :15"},{"p":2,"l":"ICE 19","rel":"Köln Hbf – Berlin Südkreuz","op":"DB Fernverkehr AG","f0":3.9,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":4,"tb":"120 min","fb":9,"km":611.4,"kf":"Köln Hbf :06 > Wuppertal Hbf :00 > Hagen Hbf :09 > Bielefeld Hbf :15 > Hannover Hbf :15 > Berlin Hbf :00"},{"p":2,"l":"ICE 26","rel":"Hannover Hbf – Bremen Hbf","op":"DB Fernverkehr AG","f0":3.8,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":4,"tb":"120 min","fb":9,"km":120.5,"kf":"Hannover Hbf :15 > Bremen Hbf :06"},{"p":2,"l":"ICE 83","rel":"Strasbourg – Paris Est","op":"DB Fernverkehr AG","f0":3.6,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":4,"tb":"120 min","fb":9,"km":474.6,"kf":""},{"p":2,"l":"ICE 1","rel":"Nürnberg Hbf – Hamburg-Altona","op":"DB Fernverkehr AG","f0":2.1,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min","fb":9,"km":900.5,"kf":"Nürnberg Hbf :10 > Würzburg Hbf :07 > Hanau Hbf :12 > Frankfurt(Main)Hbf :24 > Mainz Hbf :20 > Koblenz Hbf :14 > Bonn Hbf :06 > Köln Hbf :06 > Düsseldorf Hbf :08 > Duisburg Hbf :21 > Hamburg Hbf :06"},{"p":2,"l":"ICE 24","rel":"Frankfurt(Main)Hbf – Westerland(Sylt)","op":"DB Fernverkehr AG","f0":2.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min","fb":9,"km":775.1,"kf":"Frankfurt(Main)Hbf :24 > Gießen :10 > Marburg(Lahn) :01 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hannover Hbf :15 > Hamburg Hbf :06"},{"p":2,"l":"ICE 90","rel":"Salzburg Hbf – München Hbf","op":"DB Fernverkehr AG","f0":2.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min","fb":9,"km":147.2,"kf":"Salzburg Hbf :24 > München Hbf :22"},{"p":2,"l":"ECE 20","rel":"Basel SBB – Hamburg Hbf","op":"DB Fernverkehr AG","f0":1.9,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min (Teilstrecke)","fb":9,"km":888.0,"kf":"Basel SBB :00 > Freiburg(Breisgau) Hbf :02 > Offenburg :07 > Karlsruhe Hbf :07 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24 > Kassel-Wilhelmshöhe :25 > Göttingen :07 > Hannover Hbf :15 > Hamburg Hbf :06"},{"p":2,"l":"ICE 45","rel":"Köln Hbf – Stuttgart Hbf","op":"DB Fernverkehr AG","f0":1.5,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min (Teilstrecke)","fb":9,"km":359.9,"kf":"Köln Hbf :06 > Siegburg/Bonn :15 > Wiesbaden Hbf :05 > Mainz Hbf :20 > Mannheim Hbf :06 > Stuttgart Hbf :19"},{"p":2,"l":"ICE 27","rel":"Dresden Hbf – Berlin Gesundbrunnen","op":"DB Fernverkehr AG","f0":1.5,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min (Teilstrecke)","fb":9,"km":204.2,"kf":"Dresden Hbf :20 > Berlin Hbf :00"},{"p":2,"l":"ICE 55","rel":"Köln Hbf – Stuttgart Hbf","op":"DB Fernverkehr AG","f0":1.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":357.6,"kf":"Köln Hbf :06 > Bonn Hbf :06 > Koblenz Hbf :14 > Mainz Hbf :20 > Mannheim Hbf :06 > Heidelberg Hbf :21 > Stuttgart Hbf :19"},{"p":2,"l":"ICE 51","rel":"Dresden Hbf – Düsseldorf Hbf","op":"DB Fernverkehr AG","f0":1.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":675.4,"kf":"Dresden Hbf :20 > Leipzig Hbf :26 > Erfurt Hbf :14 > Kassel-Wilhelmshöhe :25 > Paderborn Hbf :28 > Dortmund Hbf :04 > Essen Hbf :05 > Duisburg Hbf :21 > Düsseldorf Hbf :08"},{"p":2,"l":"ECE 85","rel":"Basel Bad Bf – Frankfurt(Main)Hbf","op":"DB Fernverkehr AG","f0":0.9,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":359.4,"kf":"Freiburg(Breisgau) Hbf :02 > Karlsruhe Hbf :07 > Mannheim Hbf :06 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ICE 17","rel":"Stralsund Hbf – Berlin Gesundbrunnen","op":"DB Fernverkehr AG","f0":0.6,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":318.6,"kf":"Stralsund Hbf :10 > Rostock Hbf :13"},{"p":2,"l":"ICE 29","rel":"München Hbf – Berlin Gesundbrunnen","op":"DB Fernverkehr AG","f0":0.6,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":672.7,"kf":"München Hbf :22 > Ingolstadt Hbf :08 > Nürnberg Hbf :10 > Erfurt Hbf :14 > Halle(Saale)Hbf :18 > Berlin Hbf :00"},{"p":2,"l":"ICE 3","rel":"Berlin Südkreuz – Frankfurt(M) Flughafen Regionalbf","op":"DB Fernverkehr AG","f0":0.3,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":529.2,"kf":"Berlin Hbf :00 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ECE 27","rel":"Flensburg – Hamburg-Altona","op":"DB Fernverkehr AG","f0":0.2,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":167.6,"kf":""},{"p":2,"l":"ICE 4","rel":"Hamburg Hbf – Frankfurt(M) Flughafen Regionalbf","op":"DB Fernverkehr AG","f0":0.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":485.2,"kf":"Hamburg Hbf :06 > Hannover Hbf :15 > Frankfurt(Main)Hbf :24"},{"p":2,"l":"ICE 6","rel":"Stuttgart Hbf – Berlin Gesundbrunnen","op":"DB Fernverkehr AG","f0":0.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":645.6,"kf":"Stuttgart Hbf :19 > Nürnberg Hbf :10 > Berlin Hbf :00"},{"p":3,"l":"IC 87","rel":"Singen(Hohentwiel) – Schaffhausen","op":"DB Fernverkehr AG","f0":19.8,"t0":"~30 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":20.4,"kf":"Singen(Hohentwiel) :24"},{"p":3,"l":"EC 95","rel":"Berlin Gesundbrunnen – Rzepin","op":"DB Fernverkehr AG","f0":17.4,"t0":"~30 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":121.6,"kf":""},{"p":3,"l":"IC (SBB)","rel":"Schaffhausen – Zürich HB","op":"SBB","f0":15.5,"t0":"~60 min","ta":"60 min","fa":17,"tb":"30 min","fb":34,"km":43.6,"kf":""},{"p":3,"l":"IC 55","rel":"Magdeburg Hbf – Dresden Hbf","op":"DB Fernverkehr AG","f0":13.7,"t0":"~60 min","ta":"60 min","fa":17,"tb":"60 min","fb":17,"km":262.1,"kf":"Magdeburg Hbf :26 > Halle(Saale)Hbf :18 > Leipzig Hbf :26 > Dresden Hbf :20"},{"p":3,"l":"EC (ÖBB)","rel":"Lindau-Reutin – St. Margrethen SG","op":"ÖBB","f0":9.8,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":18.6,"kf":"Lindau-Reutin :22"},{"p":3,"l":"IC 56","rel":"Leipzig Hbf – Emden Hbf","op":"DB Fernverkehr AG","f0":9.0,"t0":"~60 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":563.8,"kf":"Leipzig Hbf :26 > Halle(Saale)Hbf :18 > Magdeburg Hbf :26 > Braunschweig Hbf :07 > Hannover Hbf :15 > Bremen Hbf :06 > Emden Hbf :09"},{"p":3,"l":"IC (Dänische Staatsbahnen)","rel":"Fredericia st – Flensburg","op":"Dänische Staatsbahnen","f0":8.8,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":135.2,"kf":""},{"p":3,"l":"EC (SBB)","rel":"St. Margrethen SG – Zürich HB","op":"SBB","f0":8.4,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":109.6,"kf":""},{"p":3,"l":"IC 61","rel":"Nürnberg Hbf – Karlsruhe Hbf","op":"DB Fernverkehr AG","f0":8.1,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":302.6,"kf":"Nürnberg Hbf :10 > Stuttgart Hbf :19 > Karlsruhe Hbf :07"},{"p":3,"l":"IC (PKP Intercity)","rel":"Wroclaw Glowny – Swinoujscie","op":"PKP Intercity","f0":7.9,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":519.2,"kf":""},{"p":3,"l":"IC 17","rel":"Dresden Hbf – Rostock Hbf","op":"DB Fernverkehr AG","f0":7.2,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":442.7,"kf":"Dresden Hbf :20 > Rostock Hbf :13"},{"p":3,"l":"IC 35","rel":"Norddeich Mole – Köln Hbf","op":"DB Fernverkehr AG","f0":6.3,"t0":"~120 min","ta":"120 min","fa":9,"tb":"60 min","fb":17,"km":413.8,"kf":"Emden Hbf :09 > Münster(Westf)Hbf :01 > Oberhausen Hbf :02 > Duisburg Hbf :21 > Düsseldorf Hbf :08 > Köln Hbf :06"},{"p":3,"l":"EC 96","rel":"Rzepin – Berlin-Lichtenberg","op":"DB Fernverkehr AG","f0":6.0,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":111.5,"kf":""},{"p":3,"l":"EC 90","rel":"Simbach(Inn) – Wien Hbf","op":"DB Fernverkehr AG","f0":5.8,"t0":"~120 min","ta":"120 min","fa":9,"tb":"120 min","fb":9,"km":305.3,"kf":""},{"p":3,"l":"EC 62","rel":"München Hbf – Salzburg Hbf","op":"DB Fernverkehr AG","f0":4.0,"t0":"~120 min","ta":"Einzelleistungen","fa":4,"tb":"120 min","fb":9,"km":147.6,"kf":"München Hbf :22 > Salzburg Hbf :24"},{"p":3,"l":"IC 51","rel":"Dortmund Hbf – Gera Hbf","op":"DB Fernverkehr AG","f0":2.7,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":3,"tb":"120 min","fb":9,"km":454.7,"kf":"Dortmund Hbf :04 > Hamm(Westf)Hbf :14 > Paderborn Hbf :28 > Kassel-Wilhelmshöhe :25 > Erfurt Hbf :14"},{"p":3,"l":"IC 57","rel":"Leipzig Hbf – Rostock Hbf","op":"DB Fernverkehr AG","f0":2.6,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":3,"tb":"120 min","fb":9,"km":437.0,"kf":"Leipzig Hbf :26 > Halle(Saale)Hbf :18 > Magdeburg Hbf :26 > Schwerin Hbf :06 > Rostock Hbf :13"},{"p":3,"l":"IC (DB Fernverkehr (Codesharing))","rel":"Zürich HB – Basel SBB","op":"DB Fernverkehr (Codesharing)","f0":2.2,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min","fb":9,"km":88.7,"kf":"Basel SBB :00"},{"p":3,"l":"IC (Ceske Drahy)","rel":"Breclav – Bohumin(Gr)","op":"Ceske Drahy","f0":2.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min","fb":9,"km":203.2,"kf":""},{"p":3,"l":"EC 97","rel":"Horka(Gr) – Leipzig Hbf","op":"DB Fernverkehr AG","f0":1.9,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":2,"tb":"120 min (Teilstrecke)","fb":9,"km":232.4,"kf":"Leipzig Hbf :26"},{"p":3,"l":"IC (ÖBB)","rel":"Wien Hbf – Breclav","op":"ÖBB","f0":1.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":88.7,"kf":""},{"p":3,"l":"EC (MAV)","rel":"Hegyeshalom(Gr) – Hegyeshalom","op":"MAV","f0":1.0,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":5.5,"kf":""},{"p":3,"l":"EC 85","rel":"Basel SBB – Basel Bad Bf","op":"DB Fernverkehr AG","f0":0.9,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":3.1,"kf":"Basel SBB :00"},{"p":3,"l":"EC (HZZP)","rel":"Dobova(Gr) – Zagreb Glavni kolodvor","op":"HZZP","f0":0.5,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":30.1,"kf":""},{"p":3,"l":"IC 1","rel":"Zürich HB – Bern","op":"SBB","f0":0.5,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":125.9,"kf":""},{"p":3,"l":"EC (Ceske Drahy)","rel":"Praha hl.n. – Decin hl.n.","op":"Ceske Drahy","f0":0.3,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":104.4,"kf":""},{"p":3,"l":"IC 60","rel":"Karlsruhe Hbf – Stuttgart Hbf","op":"DB Fernverkehr AG","f0":0.3,"t0":"Einzelleistungen","ta":"Einzelleistungen","fa":1,"tb":"120 min (Teilstrecke)","fb":9,"km":94.1,"kf":"Karlsruhe Hbf :07 > Stuttgart Hbf :19"}],"bhf":[{"r":1,"name":"Frankfurt(Main)Hbf","stadt":"Frankfurt","bl":"Hessen","h":224.2,"ice":222.3,"spr":16.8,"ic":1.9,"l":24,"lat":50.10668,"lon":8.662828},{"r":2,"name":"München Hbf","stadt":"München","bl":"Bayern","h":222.7,"ice":213.0,"spr":31.6,"ic":9.8,"l":16,"lat":48.140564000000005,"lon":11.556619},{"r":3,"name":"Hannover Hbf","stadt":"Hannover","bl":"Niedersachsen","h":221.1,"ice":188.4,"spr":14.1,"ic":32.6,"l":16,"lat":52.376762,"lon":9.741021},{"r":4,"name":"Berlin Hbf","stadt":"Berlin","bl":"Berlin","h":204.9,"ice":204.7,"spr":51.5,"ic":0.2,"l":16,"lat":52.525097625,"lon":13.369397875},{"r":5,"name":"Köln Hbf","stadt":"Köln","bl":"Nordrhein-Westfalen","h":190.7,"ice":166.9,"spr":14.9,"ic":23.7,"l":17,"lat":50.94303,"lon":6.958729},{"r":6,"name":"Frankfurt(M) Flughafen Fernbf","stadt":"Frankfurt","bl":"Hessen","h":171.6,"ice":170.4,"spr":6.7,"ic":1.2,"l":17,"lat":50.053165,"lon":8.570185},{"r":7,"name":"Nürnberg Hbf","stadt":"Nürnberg","bl":"Bayern","h":160.2,"ice":144.6,"spr":34.2,"ic":15.7,"l":9,"lat":49.445618,"lon":11.082989},{"r":8,"name":"Mannheim Hbf","stadt":"Mannheim","bl":"Baden-Württemberg","h":157.2,"ice":145.2,"spr":0.0,"ic":12.0,"l":17,"lat":49.479355,"lon":8.468921},{"r":9,"name":"Hamburg Hbf","stadt":"Hamburg","bl":"Hamburg","h":155.9,"ice":154.1,"spr":12.9,"ic":1.2,"l":18,"lat":53.552734,"lon":10.006909},{"r":10,"name":"Berlin Südkreuz","stadt":"Berlin","bl":"Berlin","h":153.1,"ice":153.1,"spr":50.7,"ic":0.0,"l":15,"lat":52.4756645,"lon":13.365528166666666},{"r":11,"name":"Stuttgart Hbf","stadt":"Stuttgart","bl":"Baden-Württemberg","h":132.3,"ice":86.2,"spr":2.0,"ic":46.1,"l":15,"lat":48.78478,"lon":9.182757},{"r":12,"name":"Düsseldorf Hbf","stadt":"Düsseldorf","bl":"Nordrhein-Westfalen","h":118.7,"ice":106.2,"spr":4.0,"ic":12.5,"l":17,"lat":51.219963,"lon":6.794319},{"r":13,"name":"Dortmund Hbf","stadt":"Dortmund","bl":"Nordrhein-Westfalen","h":114.3,"ice":97.1,"spr":3.9,"ic":17.2,"l":13,"lat":51.517895,"lon":7.45929},{"r":14,"name":"Kassel-Wilhelmshöhe","stadt":"Kassel-Wilhelmshöhe","bl":"Hessen","h":114.2,"ice":108.7,"spr":7.7,"ic":5.5,"l":10,"lat":51.312557,"lon":9.447116},{"r":15,"name":"Erfurt Hbf","stadt":"Erfurt","bl":"Thüringen","h":113.8,"ice":108.3,"spr":38.8,"ic":5.5,"l":10,"lat":50.971928,"lon":11.037424},{"r":16,"name":"Berlin-Spandau","stadt":"Berlin","bl":"Berlin","h":108.6,"ice":106.9,"spr":16.3,"ic":1.7,"l":11,"lat":52.53457375,"lon":13.1971445},{"r":17,"name":"Göttingen","stadt":"Göttingen","bl":"Niedersachsen","h":108.5,"ice":108.5,"spr":8.3,"ic":0.0,"l":8,"lat":51.536816,"lon":9.926072},{"r":18,"name":"Duisburg Hbf","stadt":"Duisburg","bl":"Nordrhein-Westfalen","h":107.1,"ice":94.2,"spr":3.9,"ic":12.9,"l":16,"lat":51.429787,"lon":6.775903},{"r":19,"name":"Leipzig Hbf","stadt":"Leipzig","bl":"Sachsen","h":102.9,"ice":63.7,"spr":3.1,"ic":39.2,"l":11,"lat":51.34547,"lon":12.382064},{"r":20,"name":"Fulda","stadt":"Fulda","bl":"Hessen","h":98.3,"ice":98.3,"spr":8.7,"ic":0.0,"l":6,"lat":50.554905,"lon":9.684169},{"r":21,"name":"Karlsruhe Hbf","stadt":"Karlsruhe","bl":"Baden-Württemberg","h":91.2,"ice":75.6,"spr":0.0,"ic":15.6,"l":14,"lat":48.993515,"lon":8.402181},{"r":22,"name":"Augsburg Hbf","stadt":"Augsburg","bl":"Bayern","h":90.5,"ice":90.5,"spr":0.5,"ic":0.0,"l":12,"lat":48.36544,"lon":10.88557},{"r":23,"name":"Berlin Gesundbrunnen","stadt":"Berlin","bl":"Berlin","h":83.2,"ice":67.1,"spr":34.6,"ic":15.8,"l":18,"lat":52.548635499999996,"lon":13.390534166666667},{"r":24,"name":"Wolfsburg Hbf","stadt":"Wolfsburg","bl":"Niedersachsen","h":82.4,"ice":82.4,"spr":6.2,"ic":0.0,"l":4,"lat":52.429497,"lon":10.787784},{"r":25,"name":"Würzburg Hbf","stadt":"Würzburg","bl":"Bayern","h":82.1,"ice":82.1,"spr":0.0,"ic":0.0,"l":5,"lat":49.801796,"lon":9.93578},{"r":26,"name":"Ulm Hbf","stadt":"Ulm","bl":"Baden-Württemberg","h":78.5,"ice":78.5,"spr":0.0,"ic":0.0,"l":6,"lat":48.3994,"lon":9.982608},{"r":27,"name":"Hamburg-Harburg","stadt":"Hamburg","bl":"Hamburg","h":77.2,"ice":75.9,"spr":8.0,"ic":1.2,"l":9,"lat":53.45696,"lon":9.991454},{"r":28,"name":"Halle(Saale)Hbf","stadt":"Halle","bl":"Sachsen-Anhalt","h":76.8,"ice":46.7,"spr":35.5,"ic":30.1,"l":11,"lat":51.477141800000005,"lon":11.9875664},{"r":29,"name":"Bremen Hbf","stadt":"Bremen","bl":"Bremen","h":76.2,"ice":58.9,"spr":7.0,"ic":17.2,"l":6,"lat":53.08348,"lon":8.813834},{"r":30,"name":"Bielefeld Hbf","stadt":"Bielefeld","bl":"Nordrhein-Westfalen","h":73.1,"ice":61.8,"spr":8.2,"ic":11.3,"l":4,"lat":52.029263,"lon":8.532722},{"r":32,"name":"Hamm(Westf)Hbf","stadt":"Hamm","bl":"Nordrhein-Westfalen","h":70.0,"ice":56.3,"spr":2.0,"ic":13.7,"l":8,"lat":51.678078,"lon":7.807821},{"r":33,"name":"Gelsenkirchen Hbf","stadt":"Gelsenkirchen","bl":"Nordrhein-Westfalen","h":66.0,"ice":53.4,"spr":3.5,"ic":12.6,"l":12,"lat":51.5049,"lon":7.102455},{"r":34,"name":"Münster(Westf)Hbf","stadt":"Münster","bl":"Nordrhein-Westfalen","h":65.8,"ice":52.1,"spr":6.7,"ic":13.7,"l":9,"lat":51.956566,"lon":7.635715},{"r":37,"name":"Siegburg/Bonn","stadt":"Siegburg/Bonn","bl":"Nordrhein-Westfalen","h":61.5,"ice":61.5,"spr":0.0,"ic":0.0,"l":9,"lat":50.793915,"lon":7.203026},{"r":38,"name":"Osnabrück Hbf","stadt":"Osnabrück","bl":"Niedersachsen","h":61.5,"ice":61.5,"spr":7.0,"ic":0.0,"l":5,"lat":52.27285,"lon":8.061781},{"r":39,"name":"Braunschweig Hbf","stadt":"Braunschweig","bl":"Niedersachsen","h":60.5,"ice":34.9,"spr":5.6,"ic":25.6,"l":5,"lat":52.253967,"lon":10.538819},{"r":40,"name":"Hamburg-Altona","stadt":"Hamburg","bl":"Hamburg","h":59.7,"ice":58.5,"spr":6.7,"ic":1.2,"l":14,"lat":53.551853,"lon":9.934554},{"r":41,"name":"Hamburg Dammtor","stadt":"Hamburg","bl":"Hamburg","h":59.0,"ice":59.0,"spr":6.0,"ic":0.0,"l":9,"lat":53.560753,"lon":9.989566},{"r":42,"name":"Wuppertal Hbf","stadt":"Wuppertal","bl":"Nordrhein-Westfalen","h":58.7,"ice":47.2,"spr":8.6,"ic":11.4,"l":8,"lat":51.254364,"lon":7.149543},{"r":43,"name":"Hagen Hbf","stadt":"Hagen","bl":"Nordrhein-Westfalen","h":57.2,"ice":45.7,"spr":8.4,"ic":11.4,"l":7,"lat":51.362747,"lon":7.460249},{"r":44,"name":"München-Pasing","stadt":"München","bl":"Bayern","h":54.5,"ice":54.5,"spr":0.0,"ic":0.0,"l":5,"lat":48.149853,"lon":11.461872},{"r":47,"name":"Dresden-Neustadt","stadt":"Dresden","bl":"Sachsen","h":48.3,"ice":17.8,"spr":0.0,"ic":30.5,"l":6,"lat":51.0659,"lon":13.740701},{"r":48,"name":"Freiburg(Breisgau) Hbf","stadt":"Freiburg","bl":"Baden-Württemberg","h":47.5,"ice":47.5,"spr":0.0,"ic":0.0,"l":6,"lat":47.996544,"lon":7.840532},{"r":49,"name":"Oberhausen Hbf","stadt":"Oberhausen","bl":"Nordrhein-Westfalen","h":46.6,"ice":34.6,"spr":2.1,"ic":12.0,"l":11,"lat":51.474876,"lon":6.851588},{"r":50,"name":"Heidelberg Hbf","stadt":"Heidelberg","bl":"Baden-Württemberg","h":45.1,"ice":33.2,"spr":0.0,"ic":11.9,"l":11,"lat":49.40357,"lon":8.675442},{"r":51,"name":"Dresden Hbf","stadt":"Dresden","bl":"Sachsen","h":44.5,"ice":17.8,"spr":0.0,"ic":26.7,"l":6,"lat":51.04056,"lon":13.732035},{"r":52,"name":"Hanau Hbf","stadt":"Hanau","bl":"Hessen","h":43.5,"ice":43.5,"spr":1.8,"ic":0.0,"l":6,"lat":50.120953,"lon":8.929},{"r":53,"name":"Lutherstadt Wittenberg Hbf","stadt":"Lutherstadt Wittenberg","bl":"Sachsen-Anhalt","h":42.9,"ice":42.9,"spr":3.1,"ic":0.0,"l":6,"lat":51.86781,"lon":12.662285},{"r":54,"name":"Eisenach Hbf","stadt":"Eisenach","bl":"Thüringen","h":42.3,"ice":36.8,"spr":2.1,"ic":5.5,"l":4,"lat":50.97692,"lon":10.331986},{"r":54,"name":"Ingolstadt Hbf","stadt":"Ingolstadt","bl":"Bayern","h":42.3,"ice":42.3,"spr":15.2,"ic":0.0,"l":3,"lat":48.74454,"lon":11.437337},{"r":57,"name":"Solingen Hbf","stadt":"Solingen","bl":"Nordrhein-Westfalen","h":40.5,"ice":29.1,"spr":2.1,"ic":11.4,"l":8,"lat":51.160767,"lon":7.004187},{"r":58,"name":"Lüneburg","stadt":"Lüneburg","bl":"Niedersachsen","h":39.1,"ice":37.9,"spr":1.6,"ic":1.2,"l":6,"lat":53.249657,"lon":10.41989},{"r":59,"name":"Magdeburg Hbf","stadt":"Magdeburg","bl":"Sachsen-Anhalt","h":38.4,"ice":1.0,"spr":0.0,"ic":37.3,"l":7,"lat":52.130512,"lon":11.626963},{"r":61,"name":"Aschaffenburg Hbf","stadt":"Aschaffenburg","bl":"Bayern","h":37.4,"ice":37.4,"spr":0.0,"ic":0.0,"l":3,"lat":49.980556,"lon":9.143697},{"r":62,"name":"Köln Messe/Deutz","stadt":"Köln","bl":"Nordrhein-Westfalen","h":37.1,"ice":37.1,"spr":0.7,"ic":0.0,"l":6,"lat":50.941297500000005,"lon":6.974534},{"r":63,"name":"Singen(Hohentwiel)","stadt":"Singen","bl":"Baden-Württemberg","h":36.9,"ice":0.7,"spr":0.0,"ic":36.2,"l":3,"lat":47.75888,"lon":8.841269},{"r":64,"name":"Offenburg","stadt":"Offenburg","bl":"Baden-Württemberg","h":36.1,"ice":36.1,"spr":0.0,"ic":0.0,"l":6,"lat":48.476475,"lon":7.946723},{"r":65,"name":"Vaihingen(Enz)","stadt":"Vaihingen","bl":"Baden-Württemberg","h":34.1,"ice":21.0,"spr":0.0,"ic":13.1,"l":10,"lat":48.948116,"lon":8.957632},{"r":66,"name":"Bonn Hbf","stadt":"Bonn","bl":"Nordrhein-Westfalen","h":32.9,"ice":18.4,"spr":1.8,"ic":14.6,"l":5,"lat":50.73332,"lon":7.095235},{"r":67,"name":"Koblenz Hbf","stadt":"Koblenz","bl":"Rheinland-Pfalz","h":32.8,"ice":18.3,"spr":1.8,"ic":14.5,"l":5,"lat":50.35093,"lon":7.588345},{"r":69,"name":"Hildesheim Hbf","stadt":"Hildesheim","bl":"Niedersachsen","h":32.5,"ice":32.5,"spr":5.6,"ic":0.0,"l":2,"lat":52.160625,"lon":9.953497},{"r":70,"name":"Rostock Hbf","stadt":"Rostock","bl":"Mecklenburg-Vorpommern","h":32.4,"ice":14.7,"spr":0.0,"ic":17.8,"l":6,"lat":54.078247,"lon":12.131079},{"r":73,"name":"Mainz Hbf","stadt":"Mainz","bl":"Rheinland-Pfalz","h":30.6,"ice":17.3,"spr":1.2,"ic":13.2,"l":8,"lat":50.001118,"lon":8.25872},{"r":74,"name":"Köthen","stadt":"Köthen","bl":"Sachsen-Anhalt","h":30.0,"ice":0.0,"spr":0.0,"ic":30.0,"l":3,"lat":51.75193,"lon":11.989358},{"r":75,"name":"Essen Hbf","stadt":"Essen","bl":"Nordrhein-Westfalen","h":29.9,"ice":29.2,"spr":0.6,"ic":0.7,"l":15,"lat":51.451355,"lon":7.014793},{"r":76,"name":"Flensburg(Gr)","stadt":"Flensburg","bl":"Schleswig-Holstein","h":29.4,"ice":9.6,"spr":0.0,"ic":17.6,"l":4,"lat":54.814842,"lon":9.36324},{"r":77,"name":"Emden Hbf","stadt":"Emden","bl":"Niedersachsen","h":29.0,"ice":0.0,"spr":0.0,"ic":29.0,"l":2,"lat":53.369038,"lon":7.195176},{"r":78,"name":"Darmstadt Hbf","stadt":"Darmstadt","bl":"Hessen","h":29.0,"ice":29.0,"spr":0.0,"ic":0.0,"l":4,"lat":49.8725,"lon":8.629636},{"r":79,"name":"Leer(Ostfriesl)","stadt":"Leer","bl":"Niedersachsen","h":28.8,"ice":0.0,"spr":0.0,"ic":28.8,"l":2,"lat":53.23165,"lon":7.465283},{"r":80,"name":"Düsseldorf Flughafen","stadt":"Düsseldorf","bl":"Nordrhein-Westfalen","h":28.7,"ice":27.7,"spr":1.4,"ic":1.0,"l":7,"lat":51.292007,"lon":6.786836},{"r":81,"name":"Esslingen(Neckar)","stadt":"Esslingen","bl":"Baden-Württemberg","h":28.1,"ice":28.1,"spr":0.0,"ic":0.0,"l":4,"lat":48.738544,"lon":9.300522},{"r":84,"name":"Minden(Westf)","stadt":"Minden","bl":"Nordrhein-Westfalen","h":27.8,"ice":16.4,"spr":0.0,"ic":11.4,"l":3,"lat":52.29014,"lon":8.934728},{"r":85,"name":"Lindau-Reutin","stadt":"Lindau-Reutin","bl":"Bayern","h":26.6,"ice":10.3,"spr":0.0,"ic":16.4,"l":2,"lat":47.552383,"lon":9.703292},{"r":86,"name":"Rheine","stadt":"Rheine","bl":"Nordrhein-Westfalen","h":26.6,"ice":14.0,"spr":0.0,"ic":12.6,"l":2,"lat":52.2763,"lon":7.434255},{"r":87,"name":"Stendal Hbf","stadt":"Stendal","bl":"Sachsen-Anhalt","h":26.6,"ice":19.9,"spr":5.2,"ic":6.7,"l":8,"lat":52.5947545,"lon":11.855227833333332},{"r":88,"name":"Bensheim","stadt":"Bensheim","bl":"Hessen","h":26.5,"ice":26.5,"spr":0.0,"ic":0.0,"l":4,"lat":49.681328,"lon":8.616717},{"r":89,"name":"Weinheim(Bergstr)Hbf","stadt":"Weinheim","bl":"Baden-Württemberg","h":26.2,"ice":26.2,"spr":0.0,"ic":0.0,"l":3,"lat":49.553303,"lon":8.665351},{"r":90,"name":"Montabaur","stadt":"Montabaur","bl":"Rheinland-Pfalz","h":25.8,"ice":25.8,"spr":0.0,"ic":0.0,"l":4,"lat":50.444836,"lon":7.825333},{"r":90,"name":"Limburg Süd","stadt":"Limburg","bl":"Hessen","h":25.8,"ice":25.8,"spr":0.0,"ic":0.0,"l":4,"lat":50.3825,"lon":8.096112},{"r":92,"name":"Bamberg","stadt":"Bamberg","bl":"Bayern","h":25.8,"ice":21.8,"spr":1.1,"ic":4.0,"l":6,"lat":49.90076,"lon":10.899489},{"r":93,"name":"Uelzen","stadt":"Uelzen","bl":"Niedersachsen","h":25.7,"ice":24.5,"spr":1.2,"ic":1.2,"l":6,"lat":52.96978,"lon":10.553053},{"r":94,"name":"Frankfurt(Main)Süd","stadt":"Frankfurt","bl":"Hessen","h":25.5,"ice":25.5,"spr":5.0,"ic":0.0,"l":9,"lat":50.099365,"lon":8.686457},{"r":94,"name":"Horb","stadt":"Horb","bl":"Baden-Württemberg","h":25.5,"ice":0.0,"spr":0.0,"ic":25.5,"l":1,"lat":48.44147,"lon":8.688982},{"r":96,"name":"Erlangen","stadt":"Erlangen","bl":"Bayern","h":25.4,"ice":21.4,"spr":1.1,"ic":4.0,"l":4,"lat":49.59583,"lon":11.001638},{"r":97,"name":"Herne-Wanne-Eickel Hbf","stadt":"Herne-Wanne-Eickel","bl":"Nordrhein-Westfalen","h":25.1,"ice":13.1,"spr":0.5,"ic":12.0,"l":9,"lat":51.531258,"lon":7.165783},{"r":98,"name":"Tuttlingen","stadt":"Tuttlingen","bl":"Baden-Württemberg","h":25.0,"ice":0.0,"spr":0.0,"ic":25.0,"l":1,"lat":47.98058,"lon":8.798542},{"r":100,"name":"Riesa","stadt":"Riesa","bl":"Sachsen","h":24.0,"ice":4.9,"spr":0.0,"ic":19.1,"l":4,"lat":51.309654,"lon":13.287734},{"r":101,"name":"Frankfurt(Oder)(Gr)","stadt":"Frankfurt(Oder)","bl":null,"h":23.4,"ice":0.0,"spr":0.0,"ic":23.4,"l":2,"lat":52.321175,"lon":14.576403},{"r":101,"name":"Frankfurt(Oder)","stadt":"Frankfurt(Oder)","bl":"Brandenburg","h":23.4,"ice":0.0,"spr":0.0,"ic":23.4,"l":2,"lat":52.336582,"lon":14.546064},{"r":103,"name":"Celle","stadt":"Celle","bl":"Niedersachsen","h":22.6,"ice":22.6,"spr":0.9,"ic":0.0,"l":4,"lat":52.620457,"lon":10.062468},{"r":103,"name":"Rottweil","stadt":"Rottweil","bl":"Baden-Württemberg","h":22.6,"ice":0.0,"spr":0.0,"ic":22.6,"l":1,"lat":48.165302,"lon":8.639295},{"r":105,"name":"Gotha","stadt":"Gotha","bl":"Thüringen","h":22.3,"ice":16.8,"spr":0.1,"ic":5.5,"l":3,"lat":50.93907,"lon":10.712568},{"r":105,"name":"Bochum Hbf","stadt":"Bochum","bl":"Nordrhein-Westfalen","h":22.3,"ice":21.9,"spr":0.6,"ic":0.5,"l":10,"lat":51.478607,"lon":7.223275},{"r":107,"name":"Recklinghausen Hbf","stadt":"Recklinghausen","bl":"Nordrhein-Westfalen","h":21.8,"ice":10.0,"spr":0.0,"ic":11.8,"l":5,"lat":51.61636,"lon":7.20349},{"r":108,"name":"Wittenberge","stadt":"Wittenberge","bl":"Brandenburg","h":21.4,"ice":17.6,"spr":0.6,"ic":3.8,"l":6,"lat":53.004083666666666,"lon":11.762515666666667},{"r":108,"name":"Ludwigslust","stadt":"Ludwigslust","bl":"Mecklenburg-Vorpommern","h":21.4,"ice":17.6,"spr":0.6,"ic":3.8,"l":6,"lat":53.33467,"lon":11.494491},{"r":110,"name":"Berlin-Charlottenburg","stadt":"Berlin","bl":"Berlin","h":21.4,"ice":17.8,"spr":3.5,"ic":3.6,"l":3,"lat":52.504135500000004,"lon":13.301841249999999},{"r":111,"name":"Bitterfeld","stadt":"Bitterfeld","bl":"Sachsen-Anhalt","h":21.0,"ice":20.7,"spr":0.8,"ic":0.3,"l":6,"lat":51.62286,"lon":12.31685},{"r":112,"name":"Stralsund Hbf","stadt":"Stralsund","bl":"Mecklenburg-Vorpommern","h":20.9,"ice":20.3,"spr":0.0,"ic":0.7,"l":5,"lat":54.30829,"lon":13.078022},{"r":114,"name":"Aachen Hbf","stadt":"Aachen","bl":"Nordrhein-Westfalen","h":20.1,"ice":20.1,"spr":0.0,"ic":0.0,"l":3,"lat":50.7678,"lon":6.091499},{"r":115,"name":"Oldenburg(Oldb)Hbf","stadt":"Oldenburg","bl":"Niedersachsen","h":20.0,"ice":3.0,"spr":0.0,"ic":17.0,"l":3,"lat":53.14432,"lon":8.222713},{"r":117,"name":"Berlin-Lichtenberg","stadt":"Berlin","bl":"Berlin","h":19.6,"ice":0.0,"spr":0.0,"ic":19.4,"l":3,"lat":52.51021540000001,"lon":13.496711999999999},{"r":118,"name":"Herford","stadt":"Herford","bl":"Nordrhein-Westfalen","h":19.6,"ice":8.2,"spr":0.0,"ic":11.3,"l":5,"lat":52.11961,"lon":8.663643},{"r":119,"name":"Gütersloh Hbf","stadt":"Gütersloh","bl":"Nordrhein-Westfalen","h":19.4,"ice":8.0,"spr":0.0,"ic":11.3,"l":4,"lat":51.90694,"lon":8.385071},{"r":124,"name":"Baden-Baden","stadt":"Baden-Baden","bl":"Baden-Württemberg","h":19.3,"ice":19.3,"spr":0.0,"ic":0.0,"l":5,"lat":48.790325,"lon":8.190831},{"r":125,"name":"Günzburg","stadt":"Günzburg","bl":"Bayern","h":19.1,"ice":19.1,"spr":0.0,"ic":0.0,"l":4,"lat":48.460564,"lon":10.279262},{"r":126,"name":"Delmenhorst","stadt":"Delmenhorst","bl":"Niedersachsen","h":19.0,"ice":2.0,"spr":0.0,"ic":17.0,"l":3,"lat":53.05279,"lon":8.629758},{"r":130,"name":"Flensburg","stadt":"Flensburg","bl":"Schleswig-Holstein","h":18.6,"ice":0.5,"spr":0.0,"ic":17.6,"l":3,"lat":54.77404,"lon":9.436526},{"r":131,"name":"Aachen Süd(Gr)","stadt":"Aachen","bl":"Nordrhein-Westfalen","h":18.4,"ice":18.4,"spr":0.0,"ic":0.0,"l":1,"lat":50.731915,"lon":6.04541},{"r":135,"name":"Ansbach","stadt":"Ansbach","bl":"Bayern","h":17.4,"ice":2.0,"spr":0.0,"ic":15.4,"l":2,"lat":49.29803,"lon":10.578239},{"r":136,"name":"Neustrelitz Hbf","stadt":"Neustrelitz","bl":"Mecklenburg-Vorpommern","h":17.4,"ice":3.5,"spr":0.0,"ic":13.9,"l":3,"lat":53.359257,"lon":13.074603},{"r":139,"name":"Schwerin Hbf","stadt":"Schwerin","bl":"Mecklenburg-Vorpommern","h":17.2,"ice":13.4,"spr":0.0,"ic":3.8,"l":4,"lat":53.63474,"lon":11.407455},{"r":140,"name":"Elsterwerda","stadt":"Elsterwerda","bl":"Brandenburg","h":17.0,"ice":0.0,"spr":0.0,"ic":17.0,"l":3,"lat":51.459647999999994,"lon":13.516397},{"r":148,"name":"Hude","stadt":"Hude","bl":"Niedersachsen","h":16.9,"ice":0.0,"spr":0.0,"ic":16.9,"l":1,"lat":53.10943,"lon":8.460956},{"r":149,"name":"Ostseebad Binz","stadt":"Ostseebad Binz","bl":"Mecklenburg-Vorpommern","h":16.6,"ice":16.0,"spr":0.0,"ic":0.7,"l":3,"lat":54.40482,"lon":13.600507},{"r":149,"name":"Bergen auf Rügen","stadt":"Bergen auf Rügen","bl":"Mecklenburg-Vorpommern","h":16.6,"ice":16.0,"spr":0.0,"ic":0.7,"l":3,"lat":54.4205,"lon":13.417821},{"r":152,"name":"Bad Zwischenahn","stadt":"Bad Zwischenahn","bl":"Niedersachsen","h":16.6,"ice":0.0,"spr":0.0,"ic":16.6,"l":1,"lat":53.18255,"lon":8.003123},{"r":152,"name":"Westerstede-Ocholt","stadt":"Westerstede-Ocholt","bl":"Niedersachsen","h":16.6,"ice":0.0,"spr":0.0,"ic":16.6,"l":1,"lat":53.202168,"lon":7.886468},{"r":152,"name":"Augustfehn","stadt":"Augustfehn","bl":"Niedersachsen","h":16.6,"ice":0.0,"spr":0.0,"ic":16.6,"l":1,"lat":53.22089,"lon":7.759659},{"r":159,"name":"Verden(Aller)","stadt":"Verden","bl":"Niedersachsen","h":16.3,"ice":0.0,"spr":0.0,"ic":16.3,"l":1,"lat":52.92082,"lon":9.237855}],"kpi":{"zuege":1090,"bhf_de":290,"bhf_all":567,"linien":89,"trassen":5589,"halte":54928,"spr":72,"ice":631,"ic":327,"knoten":20,"kanten":173,"takt_ok":83,"res_ok":62,"beschl":9},"leist":[{"ebene":"Ebene 1 – ICE-Sprinter","zugkm_tag_ist":48865.0,"zugkm_tag_A":79483.0,"zugkm_tag_B":105977.0,"mio_jahr_ist":17.8,"mio_jahr_A":29.0,"mio_jahr_B":38.7,"delta_A_pct":62.7,"delta_B_pct":116.9},{"ebene":"Ebene 2 – ICE","zugkm_tag_ist":343243.0,"zugkm_tag_A":383381.0,"zugkm_tag_B":747527.0,"mio_jahr_ist":125.3,"mio_jahr_A":139.9,"mio_jahr_B":272.8,"delta_A_pct":11.7,"delta_B_pct":117.8},{"ebene":"Ebene 3 – IC/EC","zugkm_tag_ist":66369.0,"zugkm_tag_A":77339.0,"zugkm_tag_B":150480.0,"mio_jahr_ist":24.2,"mio_jahr_A":28.2,"mio_jahr_B":54.9,"delta_A_pct":16.5,"delta_B_pct":126.7},{"ebene":"GESAMT","zugkm_tag_ist":458477.0,"zugkm_tag_A":540203.0,"zugkm_tag_B":1003984.0,"mio_jahr_ist":167.3,"mio_jahr_A":197.2,"mio_jahr_B":366.5,"delta_A_pct":17.8,"delta_B_pct":119.0}],"resk":[{"k":"0–7 %","n":63,"g":4229.0,"p":54.4},{"k":"14–25 %","n":20,"g":1032.0,"p":13.3},{"k":"7–14 %","n":47,"g":2383.0,"p":30.6},{"k":"über 25 %","n":6,"g":131.0,"p":1.7}],"ffmvar":[{"variante":"Status quo","beschreibung":"Frankfurt Hbf ist Vollknoten, der Flughafen-Fernbahnhof ein Durchgangshalt","knoten":64,"kanten":173,"gewicht":7277.4,"kosten":13934.8,"kosten_je_gewicht":1.91,"beschl_kanten":5,"sollband_pct":58.0,"mittlere_reserve_pct":8.73,"hbf_knotenminute":":16 / :46","flughafen_knotenminute":"frei (Durchfahrt)","hbf_gleisminuten":3383.0,"flughafen_gleisminuten":1050.0,"flughafen_auslastung_pct":24.0,"bewertung":"Referenz – beste Taktpassung, aber Hbf bleibt der Engpass"},{"variante":"Variante B","beschreibung":"Sprinter halten am Flughafen, übriger ICE am Hbf; beide Bahnhöfe taktgebunden","knoten":65,"kanten":170,"gewicht":7623.5,"kosten":20907.6,"kosten_je_gewicht":2.74,"beschl_kanten":11,"sollband_pct":60.6,"mittlere_reserve_pct":9.5,"hbf_knotenminute":":18 / :48","flughafen_knotenminute":":00 / :30","hbf_gleisminuten":3048.0,"flughafen_gleisminuten":1385.0,"flughafen_auslastung_pct":32.0,"bewertung":"Taktqualität 43 % schlechter; Hbf nur um 10 % entlastet"},{"variante":"Variante A","beschreibung":"Gesamter Fernverkehr an den Flughafen-Fernbahnhof, Hbf nur noch Nahverkehr","knoten":64,"kanten":164,"gewicht":7162.6,"kosten":15979.2,"kosten_je_gewicht":2.23,"beschl_kanten":6,"sollband_pct":60.5,"mittlere_reserve_pct":8.46,"hbf_knotenminute":"entfällt","flughafen_knotenminute":":12 / :42","hbf_gleisminuten":0.0,"flughafen_gleisminuten":4433.0,"flughafen_auslastung_pct":103.0,"bewertung":"Taktqualität 17 % schlechter; Flughafen mit 4 Gleisen rechnerisch über 100 % ausgelastet"},{"variante":"Variante C","beschreibung":"Fernbahntunnel: Hbf wird Durchgangsbahnhof, wendende Züge werden durchgebunden","knoten":64,"kanten":173,"gewicht":7277.4,"kosten":13934.8,"kosten_je_gewicht":1.91,"beschl_kanten":5,"sollband_pct":58.0,"mittlere_reserve_pct":8.73,"hbf_knotenminute":":16 / :46","flughafen_knotenminute":"frei (Durchfahrt)","hbf_gleisminuten":1373.0,"flughafen_gleisminuten":1050.0,"flughafen_auslastung_pct":24.0,"bewertung":"Taktqualität unverändert gut; Hbf um 59 % entlastet"}],"ffmbel":[{"bahnhof":"Frankfurt(Main)Hbf","zugart":"durchgehend","kategorie":"ICE","fahrten_tag":114.0,"gleisminuten_tag":712.0,"anteil_pct":21.1},{"bahnhof":"Frankfurt(Main)Hbf","zugart":"durchgehend","kategorie":"ICE-Sprinter","fahrten_tag":4.5,"gleisminuten_tag":27.0,"anteil_pct":0.8},{"bahnhof":"Frankfurt(Main)Hbf","zugart":"wendend/endend","kategorie":"IC/EC","fahrten_tag":1.9,"gleisminuten_tag":47.0,"anteil_pct":1.4},{"bahnhof":"Frankfurt(Main)Hbf","zugart":"wendend/endend","kategorie":"ICE","fahrten_tag":91.5,"gleisminuten_tag":2289.0,"anteil_pct":67.7},{"bahnhof":"Frankfurt(Main)Hbf","zugart":"wendend/endend","kategorie":"ICE-Sprinter","fahrten_tag":12.3,"gleisminuten_tag":308.0,"anteil_pct":9.1},{"bahnhof":"Frankfurt(Main)Hbf","zugart":"SUMME","kategorie":"alle","fahrten_tag":224.2,"gleisminuten_tag":3383.0,"anteil_pct":100.0},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"durchgehend","kategorie":"IC/EC","fahrten_tag":1.2,"gleisminuten_tag":4.0,"anteil_pct":0.3},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"durchgehend","kategorie":"ICE","fahrten_tag":149.1,"gleisminuten_tag":423.0,"anteil_pct":40.2},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"durchgehend","kategorie":"ICE-Sprinter","fahrten_tag":1.8,"gleisminuten_tag":15.0,"anteil_pct":1.4},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"wendend/endend","kategorie":"ICE","fahrten_tag":14.8,"gleisminuten_tag":371.0,"anteil_pct":35.3},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"wendend/endend","kategorie":"ICE-Sprinter","fahrten_tag":9.5,"gleisminuten_tag":238.0,"anteil_pct":22.7},{"bahnhof":"Flughafen Fern-/Regionalbf","zugart":"SUMME","kategorie":"alle","fahrten_tag":176.5,"gleisminuten_tag":1050.0,"anteil_pct":100.0}],"ffmlin":[{"linie":"ICE 43","fahrten_tag":16.0,"haelt_hbf":0,"haelt_flughafen":1,"verlust":"nur Flughafen – vom Hbf nicht erreichbar"},{"linie":"ICE 47","fahrten_tag":15.3,"haelt_hbf":0,"haelt_flughafen":1,"verlust":"nur Flughafen – vom Hbf nicht erreichbar"},{"linie":"ICE 22","fahrten_tag":14.7,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ICE 82","fahrten_tag":11.4,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ICE 15","fahrten_tag":9.4,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ICE 26","fahrten_tag":4.7,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ECE 20","fahrten_tag":3.1,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ICE 24","fahrten_tag":2.0,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"},{"linie":"ECE 85","fahrten_tag":1.8,"haelt_hbf":1,"haelt_flughafen":0,"verlust":"nur Hbf – am Flughafen nicht erreichbar"}],"reserve":[{"a":"Köln Hbf","b":"Düsseldorf Hbf","t_technisch":18,"t_soll":24,"delta":6,"reserve_pct":33.3,"gewicht":99.42},{"a":"Braunschweig Hbf","b":"Wolfsburg Hbf","t_technisch":16,"t_soll":25,"delta":9,"reserve_pct":56.2,"gewicht":67.32},{"a":"Duisburg Hbf","b":"Dortmund Hbf","t_technisch":28,"t_soll":42,"delta":14,"reserve_pct":50.0,"gewicht":59.81},{"a":"Essen Hbf","b":"Dortmund Hbf","t_technisch":20,"t_soll":28,"delta":8,"reserve_pct":40.0,"gewicht":42.0},{"a":"Heidelberg Hbf","b":"Stuttgart Hbf","t_technisch":39,"t_soll":51,"delta":12,"reserve_pct":30.8,"gewicht":39.77},{"a":"Halle(Saale)Hbf","b":"Leipzig Hbf","t_technisch":17,"t_soll":29,"delta":12,"reserve_pct":70.6,"gewicht":29.97},{"a":"Karlsruhe Hbf","b":"Freiburg(Breisgau) Hbf","t_technisch":62,"t_soll":79,"delta":17,"reserve_pct":27.4,"gewicht":28.0},{"a":"Siegburg/Bonn","b":"Düsseldorf Hbf","t_technisch":35,"t_soll":44,"delta":9,"reserve_pct":25.7,"gewicht":26.9},{"a":"Karlsruhe Hbf","b":"Heidelberg Hbf","t_technisch":27,"t_soll":39,"delta":12,"reserve_pct":44.4,"gewicht":13.48},{"a":"Bonn Hbf","b":"Düsseldorf Hbf","t_technisch":56,"t_soll":79,"delta":23,"reserve_pct":41.1,"gewicht":9.03},{"a":"Mainz Hbf","b":"Wiesbaden Hbf","t_technisch":9,"t_soll":12,"delta":3,"reserve_pct":33.3,"gewicht":9.03},{"a":"Siegburg/Bonn","b":"Hanau Hbf","t_technisch":61,"t_soll":82,"delta":21,"reserve_pct":34.4,"gewicht":9.03}],"sprinter":[{"korridor":"SPR-1","relation":"Hamburg – Hannover – Frankfurt (+Flughafen)","abfahrt":":10","ankunft":":14","t_heute_best":214,"t_soll":214,"delta":0,"bewertung":"taktkonform ohne Zuschlag"},{"korridor":"SPR-2","relation":"Hamburg – Bremen/Münster – Ruhr – Köln","abfahrt":":10","ankunft":":25","t_heute_best":240,"t_soll":255,"delta":15,"bewertung":"15 min Systemzuschlag (6 % Reserve)"},{"korridor":"SPR-3","relation":"Berlin – Hannover – Ruhr – Köln/Bonn","abfahrt":":03","ankunft":":25","t_heute_best":259,"t_soll":262,"delta":3,"bewertung":"3 min Systemzuschlag (1 % Reserve)"},{"korridor":"SPR-4","relation":"Berlin – Halle/Erfurt – Nürnberg – München","abfahrt":":03","ankunft":":10","t_heute_best":235,"t_soll":247,"delta":12,"bewertung":"12 min Systemzuschlag (5 % Reserve)"},{"korridor":"SPR-5","relation":"Berlin – Halle/Erfurt – Frankfurt","abfahrt":":03","ankunft":":14","t_heute_best":232,"t_soll":251,"delta":19,"bewertung":"19 min Systemzuschlag (8 % Reserve)"},{"korridor":"SPR-6","relation":"Saarbrücken – Paris (Anschluss ans französische Netz)","abfahrt":":07","ankunft":"frei","t_heute_best":108,"t_soll":108,"delta":0,"bewertung":"Nur der deutsche Endknoten ist taktgebunden"},{"korridor":"SPR-7","relation":"Stuttgart – Nürnberg – Berlin","abfahrt":":14","ankunft":":57","t_heute_best":293,"t_soll":313,"delta":20,"bewertung":"20 min Systemzuschlag (7 % Reserve)"}],"kapa":[{"knoten":"Frankfurt(Main)Hbf","knotenzeit":":17 / :47","grad":17,"zuege_je_knotenfenster":8.9,"gleise_bedarf":11,"bewertung":"Engpass – Ausbau/Entflechtung nötig"},{"knoten":"Hannover Hbf","knotenzeit":":12 / :42","grad":15,"zuege_je_knotenfenster":8.8,"gleise_bedarf":11,"bewertung":"Engpass – Ausbau/Entflechtung nötig"},{"knoten":"München Hbf","knotenzeit":":13 / :43","grad":5,"zuege_je_knotenfenster":8.8,"gleise_bedarf":11,"bewertung":"Engpass – Ausbau/Entflechtung nötig"},{"knoten":"Berlin Hbf","knotenzeit":":00 / :30","grad":11,"zuege_je_knotenfenster":8.1,"gleise_bedarf":10,"bewertung":"anspruchsvoll"},{"knoten":"Köln Hbf","knotenzeit":":28 / :58","grad":11,"zuege_je_knotenfenster":7.6,"gleise_bedarf":9,"bewertung":"anspruchsvoll"},{"knoten":"Nürnberg Hbf","knotenzeit":":02 / :32","grad":9,"zuege_je_knotenfenster":6.4,"gleise_bedarf":8,"bewertung":"anspruchsvoll"},{"knoten":"Hamburg Hbf","knotenzeit":":07 / :37","grad":8,"zuege_je_knotenfenster":6.2,"gleise_bedarf":8,"bewertung":"anspruchsvoll"},{"knoten":"Mannheim Hbf","knotenzeit":":29 / :59","grad":14,"zuege_je_knotenfenster":6.2,"gleise_bedarf":8,"bewertung":"anspruchsvoll"},{"knoten":"Stuttgart Hbf","knotenzeit":":11 / :41","grad":6,"zuege_je_knotenfenster":5.3,"gleise_bedarf":7,"bewertung":"anspruchsvoll"},{"knoten":"Düsseldorf Hbf","knotenzeit":":28 / :58","grad":11,"zuege_je_knotenfenster":4.7,"gleise_bedarf":6,"bewertung":"unkritisch"},{"knoten":"Dortmund Hbf","knotenzeit":":29 / :59","grad":14,"zuege_je_knotenfenster":4.5,"gleise_bedarf":6,"bewertung":"unkritisch"},{"knoten":"Erfurt Hbf","knotenzeit":":11 / :41","grad":8,"zuege_je_knotenfenster":4.5,"gleise_bedarf":6,"bewertung":"unkritisch"},{"knoten":"Kassel-Wilhelmshöhe","knotenzeit":":18 / :48","grad":10,"zuege_je_knotenfenster":4.5,"gleise_bedarf":6,"bewertung":"unkritisch"},{"knoten":"Duisburg Hbf","knotenzeit":":11 / :41","grad":8,"zuege_je_knotenfenster":4.3,"gleise_bedarf":5,"bewertung":"unkritisch"},{"knoten":"Göttingen","knotenzeit":":00 / :30","grad":5,"zuege_je_knotenfenster":4.3,"gleise_bedarf":5,"bewertung":"unkritisch"},{"knoten":"Leipzig Hbf","knotenzeit":":23 / :53","grad":5,"zuege_je_knotenfenster":4.1,"gleise_bedarf":5,"bewertung":"unkritisch"}],"resklassen":[{"k":"Reserve 0–7 % (Sollband)","n":91,"g":4372.0,"p":60.1},{"k":"Reserve 14–25 % (Zusatzhalt möglich)","n":23,"g":943.0,"p":13.0},{"k":"Reserve 7–14 % (vertretbar)","n":35,"g":1485.0,"p":20.4},{"k":"Reserve über 25 % (Knoten abstufen)","n":24,"g":477.0,"p":6.6}],"ueberhol":[{"relation":"Berlin – München","t_sprinter":235,"t_ice":284,"zeitgewinn":49,"ueberholungen_30min":1,"uebersprungene_knoten":"Berlin Hbf, Ingolstadt Hbf"},{"relation":"Berlin – Köln","t_sprinter":259,"t_ice":263,"zeitgewinn":4,"ueberholungen_30min":0,"uebersprungene_knoten":""},{"relation":"Paris – Saarbrücken","t_sprinter":108,"t_ice":110,"zeitgewinn":2,"ueberholungen_30min":0,"uebersprungene_knoten":""}],"taktvar":[{"variante":"T1 – neubaufrei","beschreibung":"Keine Kante darf schneller werden als heute; der Takt entsteht allein aus Fahrzeitzuschlägen","verfahren":"exakt (MILP, HiGHS, Optimalität bewiesen)","knotenraster":"frei, 1-Minuten-Schritte","beschleunigung_erlaubt":"nein","kanten_mit_beschleunigung":0,"kosten":11805.4,"kosten_je_gewicht":1.622,"sollband_pct":60.1,"mittlere_reserve_pct":7.68,"max_zuschlag_min":28,"bewertung":"Empfohlen. Erreicht das schweizerische Reserveziel von 7 % und braucht keinen Streckenausbau."},{"variante":"T2 – Raster :00/:15","beschreibung":"Alle Knoten liegen entweder auf :00/:30 oder auf :15/:45 (Voll-/Halbknotenschema)","verfahren":"heuristisch","knotenraster":"nur :00 und :15","beschleunigung_erlaubt":"nein","kanten_mit_beschleunigung":0,"kosten":86849.7,"kosten_je_gewicht":11.934,"sollband_pct":20.7,"mittlere_reserve_pct":35.7,"max_zuschlag_min":29,"bewertung":"Nicht darstellbar. Mittlere Reserve 36 % – der Fahrplan würde ein Drittel Zeit verschenken."},{"variante":"T3 – 5-Minuten-Raster","beschreibung":"Knotenminuten nur in Fünferschritten","verfahren":"heuristisch","knotenraster":"0,5,10,15,20,25","beschleunigung_erlaubt":"nein","kanten_mit_beschleunigung":0,"kosten":30083.2,"kosten_je_gewicht":4.134,"sollband_pct":30.1,"mittlere_reserve_pct":15.49,"max_zuschlag_min":29,"bewertung":"Nicht empfehlenswert. Mittlere Reserve 15,5 % – doppelt so viel wie nötig."},{"variante":"T4 – mit Beschleunigung","beschreibung":"Zum Vergleich: Kanten dürfen bis zu 3 Minuten unter die heutige Bestzeit beschleunigt werden","verfahren":"exakt (MILP, HiGHS, Optimalität bewiesen)","knotenraster":"frei, 1-Minuten-Schritte","beschleunigung_erlaubt":"ja, bis 3 min","kanten_mit_beschleunigung":11,"kosten":10528.4,"kosten_je_gewicht":1.447,"sollband_pct":61.7,"mittlere_reserve_pct":7.01,"max_zuschlag_min":25,"bewertung":"Nur 11 % besser als der neubaufreie Takt. Der Ausbaunutzen ist gering – 0,7 Prozentpunkte weniger Reserve."},{"variante":"T5 – mit viel Beschleunigung","beschreibung":"Zum Vergleich: Verkürzungen bis zu 6 Minuten erlaubt","verfahren":"exakt (MILP, HiGHS, Optimalität bewiesen)","knotenraster":"frei, 1-Minuten-Schritte","beschleunigung_erlaubt":"ja, bis 6 min","kanten_mit_beschleunigung":16,"kosten":10178.2,"kosten_je_gewicht":1.399,"sollband_pct":57.0,"mittlere_reserve_pct":6.97,"max_zuschlag_min":23,"bewertung":"Die Verdopplung des erlaubten Ausbaus bringt gegenüber T4 nur noch 0,04 Prozentpunkte. Der Ausbaunutzen ist erschöpft."}],"zentral":[{"bahnhof":"Frankfurt(Main)Hbf","grad":17,"gewicht":660.0,"halte_tag":224.2,"zwischenzentralitaet":0.2862,"mittlere_fahrzeit_zum_netz":109.9,"rang_zentralitaet":1,"rang_erreichbarkeit":3},{"bahnhof":"Hanau Hbf","grad":9,"gewicht":174.0,"halte_tag":43.5,"zwischenzentralitaet":0.257,"mittlere_fahrzeit_zum_netz":105.9,"rang_zentralitaet":2,"rang_erreichbarkeit":2},{"bahnhof":"Mannheim Hbf","grad":14,"gewicht":603.0,"halte_tag":157.2,"zwischenzentralitaet":0.2499,"mittlere_fahrzeit_zum_netz":129.4,"rang_zentralitaet":3,"rang_erreichbarkeit":12},{"bahnhof":"Fulda","grad":9,"gewicht":396.0,"halte_tag":98.3,"zwischenzentralitaet":0.2446,"mittlere_fahrzeit_zum_netz":105.6,"rang_zentralitaet":4,"rang_erreichbarkeit":1},{"bahnhof":"Hannover Hbf","grad":15,"gewicht":754.0,"halte_tag":221.1,"zwischenzentralitaet":0.2341,"mittlere_fahrzeit_zum_netz":123.1,"rang_zentralitaet":5,"rang_erreichbarkeit":7},{"bahnhof":"Kassel-Wilhelmshöhe","grad":10,"gewicht":450.0,"halte_tag":114.2,"zwischenzentralitaet":0.2333,"mittlere_fahrzeit_zum_netz":111.0,"rang_zentralitaet":6,"rang_erreichbarkeit":4},{"bahnhof":"Köln Hbf","grad":11,"gewicht":530.0,"halte_tag":190.7,"zwischenzentralitaet":0.2284,"mittlere_fahrzeit_zum_netz":127.8,"rang_zentralitaet":7,"rang_erreichbarkeit":11},{"bahnhof":"Göttingen","grad":5,"gewicht":449.0,"halte_tag":108.5,"zwischenzentralitaet":0.1857,"mittlere_fahrzeit_zum_netz":115.2,"rang_zentralitaet":8,"rang_erreichbarkeit":5},{"bahnhof":"Nürnberg Hbf","grad":9,"gewicht":617.0,"halte_tag":160.2,"zwischenzentralitaet":0.1569,"mittlere_fahrzeit_zum_netz":143.0,"rang_zentralitaet":9,"rang_erreichbarkeit":31},{"bahnhof":"Siegburg/Bonn","grad":7,"gewicht":243.0,"halte_tag":61.5,"zwischenzentralitaet":0.1395,"mittlere_fahrzeit_zum_netz":123.5,"rang_zentralitaet":10,"rang_erreichbarkeit":8},{"bahnhof":"Würzburg Hbf","grad":9,"gewicht":328.0,"halte_tag":82.1,"zwischenzentralitaet":0.1222,"mittlere_fahrzeit_zum_netz":117.1,"rang_zentralitaet":11,"rang_erreichbarkeit":6},{"bahnhof":"Karlsruhe Hbf","grad":8,"gewicht":263.0,"halte_tag":91.2,"zwischenzentralitaet":0.1126,"mittlere_fahrzeit_zum_netz":142.1,"rang_zentralitaet":12,"rang_erreichbarkeit":29},{"bahnhof":"Erfurt Hbf","grad":8,"gewicht":505.0,"halte_tag":113.8,"zwischenzentralitaet":0.1108,"mittlere_fahrzeit_zum_netz":139.4,"rang_zentralitaet":13,"rang_erreichbarkeit":27},{"bahnhof":"Hamburg Hbf","grad":8,"gewicht":337.0,"halte_tag":155.9,"zwischenzentralitaet":0.0981,"mittlere_fahrzeit_zum_netz":167.4,"rang_zentralitaet":14,"rang_erreichbarkeit":46},{"bahnhof":"Düsseldorf Hbf","grad":11,"gewicht":372.0,"halte_tag":118.7,"zwischenzentralitaet":0.0872,"mittlere_fahrzeit_zum_netz":131.7,"rang_zentralitaet":15,"rang_erreichbarkeit":13}],"zentrier":[{"bahnhof":"Frankfurt(Main)Hbf","kanten":17,"gewicht":660.1,"reserve_basis":7.78,"reserve_zentriert":4.73,"gewinn_knoten":3.05,"sollband_basis":52.1,"sollband_zentriert":53.4,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.21,"netz_kosten_effekt":-0.47,"optimal":"ja","bewertung":"Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter"},{"bahnhof":"Köln Hbf","kanten":11,"gewicht":530.4,"reserve_basis":13.6,"reserve_zentriert":10.75,"gewinn_knoten":2.85,"sollband_basis":38.9,"sollband_zentriert":38.9,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.73,"netz_kosten_effekt":0.05,"optimal":"Zeitlimit","bewertung":"Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter"},{"bahnhof":"Nürnberg Hbf","kanten":9,"gewicht":616.9,"reserve_basis":5.48,"reserve_zentriert":3.09,"gewinn_knoten":2.39,"sollband_basis":53.1,"sollband_zentriert":78.2,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.65,"netz_kosten_effekt":-0.03,"optimal":"ja","bewertung":"Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter"},{"bahnhof":"Hannover Hbf","kanten":15,"gewicht":753.6,"reserve_basis":7.17,"reserve_zentriert":5.2,"gewinn_knoten":1.97,"sollband_basis":40.6,"sollband_zentriert":56.0,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.45,"netz_kosten_effekt":-0.23,"optimal":"Zeitlimit","bewertung":"Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter"},{"bahnhof":"Kassel-Wilhelmshöhe","kanten":10,"gewicht":449.5,"reserve_basis":1.64,"reserve_zentriert":0.25,"gewinn_knoten":1.39,"sollband_basis":97.6,"sollband_zentriert":99.3,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.59,"netz_kosten_effekt":-0.09,"optimal":"Zeitlimit","bewertung":"Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter"},{"bahnhof":"Fulda","kanten":9,"gewicht":396.4,"reserve_basis":4.06,"reserve_zentriert":2.68,"gewinn_knoten":1.38,"sollband_basis":77.6,"sollband_zentriert":79.9,"netz_reserve_basis":7.68,"netz_reserve_zentriert":8.01,"netz_kosten_effekt":0.33,"optimal":"Zeitlimit","bewertung":"Zentrierung lohnt eingeschränkt: Knotengewinn erkauft mit Nachteilen im Netz"},{"bahnhof":"Berlin Hbf","kanten":11,"gewicht":521.5,"reserve_basis":1.61,"reserve_zentriert":1.36,"gewinn_knoten":0.25,"sollband_basis":94.7,"sollband_zentriert":98.8,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.8,"netz_kosten_effekt":0.12,"optimal":"Zeitlimit","bewertung":"kein Knotengewinn – Zentrierung bringt nichts"},{"bahnhof":"Mannheim Hbf","kanten":14,"gewicht":602.7,"reserve_basis":5.85,"reserve_zentriert":5.83,"gewinn_knoten":0.02,"sollband_basis":76.1,"sollband_zentriert":76.1,"netz_reserve_basis":7.68,"netz_reserve_zentriert":7.76,"netz_kosten_effekt":0.08,"optimal":"Zeitlimit","bewertung":"kein Knotengewinn – Zentrierung bringt nichts"}],"knotenzahl":[{"variante":"Top 16 nach Verkehr","vollknoten":16,"kanten":56,"reserve_pct":5.06,"sollband_pct":69.7,"reisezeit_verlaengerung_min":17.7,"bemerkung":""},{"variante":"K16 kuratiert","vollknoten":16,"kanten":53,"reserve_pct":5.08,"sollband_pct":61.0,"reisezeit_verlaengerung_min":15.3,"bemerkung":"geografisch ausgewogene Auswahl"},{"variante":"Top 20 nach Verkehr","vollknoten":20,"kanten":69,"reserve_pct":5.24,"sollband_pct":67.0,"reisezeit_verlaengerung_min":19.7,"bemerkung":""},{"variante":"K20 kuratiert","vollknoten":20,"kanten":68,"reserve_pct":6.7,"sollband_pct":59.0,"reisezeit_verlaengerung_min":18.8,"bemerkung":"gewählt – Grundlage des Fahrplans"},{"variante":"Top 24 nach Verkehr","vollknoten":24,"kanten":81,"reserve_pct":6.86,"sollband_pct":60.9,"reisezeit_verlaengerung_min":24.1,"bemerkung":""},{"variante":"K24 kuratiert","vollknoten":24,"kanten":80,"reserve_pct":5.7,"sollband_pct":63.6,"reisezeit_verlaengerung_min":22.6,"bemerkung":"geografisch ausgewogene Auswahl"},{"variante":"Top 30 nach Verkehr","vollknoten":30,"kanten":99,"reserve_pct":6.74,"sollband_pct":53.1,"reisezeit_verlaengerung_min":28.6,"bemerkung":""},{"variante":"Top 40 nach Verkehr","vollknoten":40,"kanten":125,"reserve_pct":8.42,"sollband_pct":53.2,"reisezeit_verlaengerung_min":33.5,"bemerkung":""},{"variante":"Top 64 nach Verkehr","vollknoten":64,"kanten":173,"reserve_pct":7.65,"sollband_pct":61.8,"reisezeit_verlaengerung_min":38.5,"bemerkung":""}],"fahrplan":{"zuege":1700,"halte":12876,"linienrichtungen":168,"bahnhoefe":266,"seiten_kursbuch":192,"seiten_bahnhoefe":292,"verlaengerung":16.6,"reserve":6.61,"vollknoten":20,"durchgangshalte":246}}</script><script>
+(function(){
+const D=JSON.parse(document.getElementById('D').textContent);
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const nf=(v,d)=>Number(v).toLocaleString('de-DE',{minimumFractionDigits:d??0,maximumFractionDigits:d??0});
+const pad=m=>String(m).padStart(2,'0');
+const layerOf=n=>(n.spr>2?'spr':(n.ic>n.ice?'ic':'ice'));
+const OPS={'DB Fernverkehr AG':'DB Fernverkehr','DB Fernverkehr (Codesharing)':'DB (Codeshare)',
+ 'Nederlandse Spoorwegen':'NS','Dänische Staatsbahnen':'DSB','Ceske Drahy':'ČD','PKP Intercity':'PKP IC',
+ 'BahnTouristikExpress':'BTE','MAV':'MÁV'};
+const shortOp=o=>OPS[o]||o;
+const shortLine=l=>l.replace(/\((.+)\)/,(m,p)=>'('+(shortOp(p).replace('DB Fernverkehr','DB'))+')');
+const cvar=k=>getComputedStyle(document.documentElement).getPropertyValue('--'+k).trim();
+
+/* ---------- KPI ---------- */
+const K=D.kpi;
+$('#kpis').innerHTML=[
+ [nf(K.zuege),'Fernzüge je Werktag'],
+ [nf(K.bhf_de)+' / '+nf(K.bhf_all),'Bahnhöfe in DE / gesamt'],
+ [nf(K.linien),'Linien (ICE, IC, EC)'],
+ [nf(K.knoten),'Netzknoten im Taktraster']
+].map(([b,s])=>`<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
+
+/* ---------- Zifferblatt ---------- */
+const SVGNS='http://www.w3.org/2000/svg';
+function el(t,a){const e=document.createElementNS(SVGNS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+function drawDial(){
+  const s=$('#dial'); s.textContent='';
+  const CX=210,CY=210,R=150;
+  const g=el('g',{}); s.appendChild(g);
+  g.appendChild(el('circle',{cx:CX,cy:CY,r:R,fill:'none',stroke:cvar('line'),'stroke-width':1}));
+  for(let m=0;m<30;m++){
+    const a=(m/30)*2*Math.PI-Math.PI/2, maj=m%5===0;
+    const r2=R+(maj?11:6);
+    g.appendChild(el('line',{x1:CX+Math.cos(a)*R,y1:CY+Math.sin(a)*R,
+      x2:CX+Math.cos(a)*r2,y2:CY+Math.sin(a)*r2,stroke:cvar('dial'),
+      'stroke-width':maj?2:1,'stroke-linecap':'round'}));
+    if(maj){
+      const rt=R+27,t=el('text',{x:CX+Math.cos(a)*rt,y:CY+Math.sin(a)*rt+4.5,'text-anchor':'middle',
+        'font-size':13,fill:cvar('muted')}); t.textContent=':'+pad(m); g.appendChild(t);
+    }
+  }
+  const by={}; D.knoten.forEach(n=>{(by[n.m]=by[n.m]||[]).push(n)});
+  const maxw=Math.max(...D.knoten.map(n=>n.w));
+  DOTS={};
+  Object.keys(by).forEach(m=>{
+    const list=by[m].slice().sort((a,b)=>b.w-a.w);
+    const a=(m/30)*2*Math.PI-Math.PI/2;
+    list.forEach((n,i)=>{
+      const r=R-11-i*21;
+      const rad=4.5+Math.sqrt(n.w/maxw)*11;
+      const x=CX+Math.cos(a)*r, y=CY+Math.sin(a)*r;
+      const dot=el('circle',{cx:x,cy:y,r:rad,fill:cvar(layerOf(n)),'fill-opacity':.8,
+        stroke:cvar('surface'),'stroke-width':1.5,class:'nd',tabindex:0,role:'button'});
+      dot.setAttribute('aria-label',n.name+', Knotenminute '+pad(n.m));
+      const show=()=>select(n);
+      dot.addEventListener('mouseenter',show); dot.addEventListener('focus',show);
+      dot.addEventListener('click',show);
+      g.appendChild(dot); DOTS[n.name]=dot;
+    });
+  });
+  RING=el('circle',{cx:0,cy:0,r:0,fill:'none',stroke:cvar('ink'),'stroke-width':2,
+    'pointer-events':'none',opacity:0}); g.appendChild(RING);
+}
+let DOTS={},RING=null;
+function select(n){
+  const d=DOTS[n.name];
+  if(d&&RING){RING.setAttribute('cx',d.getAttribute('cx'));RING.setAttribute('cy',d.getAttribute('cy'));
+    RING.setAttribute('r',+d.getAttribute('r')+4.5);RING.setAttribute('opacity',1);}
+  $$('#chips button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.n===n.name)));
+  card(n);
+}
+function card(n){
+  $('#ncard').innerHTML=`<h4>${n.name}</h4>
+   <div style="font-size:13px;color:var(--muted)">${n.bl||''} · ${n.grad} Netzkanten · Knotenminute <b class="mono">:${pad(n.m)}</b> und <b class="mono">:${pad((n.m+30)%60)}</b></div>
+   <div class="kv">
+     <div><span>Ankunft</span><b>${n.ankunft}</b></div>
+     <div><span>Abfahrt</span><b>${n.abfahrt}</b></div>
+     <div><span>Halte/Tag</span><b>${nf(n.halte,1)}</b></div>
+     <div><span>Sprinter</span><b style="color:var(--spr)">${nf(n.spr,1)}</b></div>
+     <div><span>ICE</span><b style="color:var(--ice)">${nf(n.ice,1)}</b></div>
+     <div><span>IC/EC</span><b style="color:var(--ic)">${nf(n.ic,1)}</b></div>
+     <div><span>Gleisbedarf</span><b>${n.gl??'–'}</b></div>
+   </div>`;
+}
+drawDial();
+const TOP=D.knoten.slice(0,12);
+$('#chips').innerHTML=TOP.map(n=>`<button class="chip nchip" data-n="${n.name}" aria-pressed="false">${
+  n.name.replace(/ Hbf$/,'').replace('(Main)','').replace('(Saale)','').replace('(Westf)','')
+  }<b class="mono">:${pad(n.m)}</b></button>`).join('');
+$$('#chips button').forEach(b=>b.addEventListener('click',()=>{
+  select(D.knoten.find(n=>n.name===b.dataset.n));}));
+select(D.knoten.find(n=>n.name==='Berlin Hbf')||D.knoten[0]);
+if(window.matchMedia){const mq=window.matchMedia('(prefers-color-scheme:dark)');
+  if(mq.addEventListener)mq.addEventListener('change',()=>{drawDial();
+    select(D.knoten.find(n=>n.name==='Berlin Hbf')||D.knoten[0]);});}
+
+/* ---------- Verteilungen ---------- */
+function dist(sel,rows,color){
+  const max=Math.max(...rows.map(r=>r[1]));
+  $(sel).innerHTML=rows.map(r=>`<div class="r" style="--c:${r[2]||color}">
+    <span>${r[0]}</span><div class="b"><i style="width:${(r[1]/max*100).toFixed(1)}%"></i></div>
+    <span class="v">${r[3]}</span></div>`).join('');
+}
+dist('#taktdist',[
+  ['60-min-Takt stabil',2806,'var(--ice)','83 %'],
+  ['Zweistundentakt, 2 Lagen',441,'var(--ic)','13 %'],
+  ['kein systematischer Takt',197,'var(--spr)','6 %']]);
+const order=['Reserve 0–7 % (Sollband)','0–7 %','7–14 %','14–25 %','über 25 %','Beschleunigung nötig'];
+const rk=D.resk.slice().sort((a,b)=>order.indexOf(a.k)-order.indexOf(b.k));
+dist('#resdist',rk.map(r=>{
+  const col=r.k.indexOf('Beschleunig')>=0?'var(--spr)':(r.k==='0–7 %'?'var(--ok)':
+    (r.k==='7–14 %'?'var(--ice)':(r.k==='14–25 %'?'var(--ic)':'var(--warn)')));
+  const lbl=r.k.indexOf('Beschleunig')>=0?r.k:'Fahrzeitreserve '+r.k;
+  return [lbl+' ('+r.n+' Kanten)',r.g,col,r.p+' %'];
+}));
+const kp=D.knoten.filter(n=>n.zf!=null).sort((a,b)=>b.zf-a.zf).slice(0,14);
+dist('#kapa',kp.map(n=>{
+  const col=n.gl>10?'var(--spr)':(n.gl>6?'var(--ic)':'var(--ice)');
+  return [n.name.replace('(Main)','')+' · :'+pad(n.m),n.zf,col,n.gl+' Gl.'];
+}));
+
+/* ---------- Sprinter-Karten ---------- */
+function miniClock(ab,an){
+  const p=s=>{const m=/:(\d+)/.exec(s||''); return m?parseInt(m[1],10):null;};
+  const A=p(ab),B=p(an), R=30,C=39;
+  const hand=(m,c)=>{ if(m===null) return '';
+    const a=(m/60)*2*Math.PI-Math.PI/2;
+    return `<line x1="${C}" y1="${C}" x2="${C+Math.cos(a)*R*0.78}" y2="${C+Math.sin(a)*R*0.78}" stroke="${c}" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="${C+Math.cos(a)*R*0.78}" cy="${C+Math.sin(a)*R*0.78}" r="3" fill="${c}"/>`;};
+  let ticks='';
+  for(let i=0;i<12;i++){const a=(i/12)*2*Math.PI-Math.PI/2;
+    ticks+=`<line x1="${C+Math.cos(a)*(R-3)}" y1="${C+Math.sin(a)*(R-3)}" x2="${C+Math.cos(a)*R}" y2="${C+Math.sin(a)*R}" stroke="var(--line)" stroke-width="${i%3?1:2}"/>`;}
+  return `<svg viewBox="0 0 78 78" width="78" height="78" aria-hidden="true">
+    <circle cx="${C}" cy="${C}" r="${R}" fill="none" stroke="var(--line)"/>${ticks}
+    ${hand(A,'var(--ice)')}${hand(B,'var(--spr)')}
+    <circle cx="${C}" cy="${C}" r="2.5" fill="var(--muted)"/></svg>`;
+}
+$('#sprg').innerHTML=D.spr.map(s=>{
+  const h=Math.floor(s.ts/60), m=s.ts%60;
+  const dtxt=s.d===0?'unverändert':(s.d>0?'+'+s.d+' min':s.d+' min');
+  return `<div class="sprc">
+    <div class="clock">${miniClock(s.ab,s.an)}</div>
+    <div style="flex:1;min-width:0">
+      <div class="k">${s.k}</div><h4>${s.rel}</h4>
+      <div class="row">
+        <div><span>Abfahrt</span><b>${s.ab}</b></div>
+        <div><span>Ankunft</span><b>${s.an}</b></div>
+        <div><span>Soll-Fahrzeit</span><b>${h}:${pad(m)}</b></div>
+        <div><span>heute best</span><b>${Math.floor(s.t0/60)}:${pad(s.t0%60)}</b></div>
+        <div><span>Δ</span><b style="color:${s.d<0?'var(--spr)':'var(--muted)'}">${dtxt}</b></div>
+        <div><span>Ziel Fahrten/Ri</span><b>${s.fz}</b></div>
+      </div>
+      <p class="note">${s.bw}</p>
+    </div></div>`;
+}).join('');
+$('#sa').innerHTML='+'+String(D.leist.find(r=>r.ebene==='GESAMT').delta_A_pct).replace('.',',')+'&nbsp;%<small> Zug-km</small>';
+$('#sb').innerHTML='+'+String(D.leist.find(r=>r.ebene==='GESAMT').delta_B_pct).replace('.',',')+'&nbsp;%<small> Zug-km</small>';
+
+/* ---------- Tabellen ---------- */
+function sortable(tbl,data,render,init){
+  let key=init.k, dir=init.d, q='', extra=()=>true;
+  const tb=tbl.querySelector('tbody');
+  function draw(){
+    let rows=data.filter(extra);
+    if(q){const s=q.toLowerCase();rows=rows.filter(r=>JSON.stringify(Object.values(r)).toLowerCase().includes(s));}
+    rows.sort((a,b)=>{const x=a[key],y=b[key];
+      const c=(typeof x==='number'&&typeof y==='number')?x-y:String(x).localeCompare(String(y),'de');
+      return dir*c;});
+    tb.innerHTML=rows.map(render).join('');
+  }
+  tbl.querySelectorAll('th[data-k]').forEach(th=>{
+    th.tabIndex=0;
+    const go=()=>{const k=th.dataset.k; if(k===key)dir=-dir; else{key=k;dir=(typeof data[0][k]==='number')?-1:1;} draw();};
+    th.addEventListener('click',go);
+    th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+  });
+  draw();
+  return {search:v=>{q=v;draw();}, filter:f=>{extra=f;draw();}};
+}
+const tk=sortable($('#tk'),D.knoten,n=>`<tr><td>${n.name}</td><td class="n">:${pad(n.m)} / :${pad((n.m+30)%60)}</td>
+  <td class="n">${n.ankunft}</td><td class="n">${n.abfahrt}</td><td class="n">${n.grad}</td>
+  <td class="n">${nf(n.halte,1)}</td><td class="n" style="color:var(--spr)">${nf(n.spr,1)}</td>
+  <td class="n" style="color:var(--ice)">${nf(n.ice,1)}</td><td class="n" style="color:var(--ic)">${nf(n.ic,1)}</td>
+  <td class="n">${nf(n.w)}</td></tr>`,{k:'w',d:-1});
+$('#qk').addEventListener('input',e=>tk.search(e.target.value));
+
+const maxf=Math.max(...D.kanten.map(k=>k.fs+k.fi+k.fc));
+const te=sortable($('#te'),D.kanten,k=>{
+  const tot=k.fs+k.fi+k.fc, w=(v)=>((v/maxf)*100).toFixed(1)+'%';
+  const dcol=Math.max(k.r,k.r2)>25?'var(--warn)':'var(--muted)';
+  return `<tr><td>${k.a}</td><td>${k.b}</td><td class="n">${k.t0}</td><td class="n">${k.ts}</td>
+   <td class="n" style="color:${dcol}">+${k.d} / +${k.d2}</td>
+   <td class="n" style="color:${Math.max(k.r,k.r2)>25?'var(--warn)':'inherit'}">${String(k.r).replace('.',',')} / ${String(k.r2).replace('.',',')} %</td>
+   <td><span style="display:flex;gap:2px;min-width:110px">
+     <i style="height:8px;border-radius:2px;background:var(--spr);width:${w(k.fs)}"></i>
+     <i style="height:8px;border-radius:2px;background:var(--ice);width:${w(k.fi)}"></i>
+     <i style="height:8px;border-radius:2px;background:var(--ic);width:${w(k.fc)}"></i>
+   </span><span style="font-size:11px;color:var(--muted)" class="mono">${nf(tot,1)}/Tag</span></td>
+   <td class="n">${nf(k.w)}</td></tr>`;},{k:'w',d:-1});
+$('#qe').addEventListener('input',e=>te.search(e.target.value));
+$$('.chip[data-f]').forEach(b=>b.addEventListener('click',()=>{
+  $$('.chip[data-f]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  const f=b.dataset.f;
+  te.filter(k=>f==='all'||(f==='acc'&&false)||(f==='ok'&&Math.max(k.r,k.r2)<=14)||(f==='res'&&Math.max(k.r,k.r2)>14));
+}));
+
+const tl=sortable($('#tl'),D.lin,l=>`<tr><td><span class="tag ${l.p===1?'t-spr':l.p===2?'t-ice':'t-ic'}">${shortLine(l.l)}</span></td>
+  <td>${l.rel} <span style="color:var(--muted);font-size:12.5px">· ${shortOp(l.op)}</span></td><td class="n">${nf(l.f0,1)}</td>
+  <td>${l.t0}</td><td class="n">${l.ta} <span style="color:var(--muted)">· ${l.fa}/Ri</span></td>
+  <td class="n">${l.tb} <span style="color:var(--muted)">· ${l.fb}/Ri</span></td></tr>`,
+  {k:'f0',d:-1});
+let lev=2; tl.filter(l=>l.p===lev);
+$('#ql').addEventListener('input',e=>tl.search(e.target.value));
+$$('.chip[data-l]').forEach(b=>b.addEventListener('click',()=>{
+  $$('.chip[data-l]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  lev=+b.dataset.l; tl.filter(l=>l.p===lev);
+}));
+
+$('#tkz').querySelector('tbody').innerHTML=D.knotenzahl.map(r=>{
+  const sel=(r.bemerkung||'').indexOf('gewählt')>=0;
+  return `<tr><td class="nw" style="font-weight:${sel?600:400};color:${sel?'var(--ok)':'inherit'}">${r.variante}</td>
+   <td class="n">${r.vollknoten}</td><td class="n">${r.kanten}</td>
+   <td class="n">${String(r.reserve_pct).replace('.',',')} %</td>
+   <td class="n">${String(r.sollband_pct).replace('.',',')} %</td>
+   <td class="n" style="color:${r.reisezeit_verlaengerung_min>25?'var(--spr)':'inherit'}">+${String(r.reisezeit_verlaengerung_min).replace('.',',')} min</td>
+   <td style="color:var(--muted);font-size:13px">${r.bemerkung||''}</td></tr>`;}).join('');
+$('#ttv').querySelector('tbody').innerHTML=D.taktvar.map(r=>{
+  const good=r.variante.startsWith('T1');
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'inherit'}">${r.variante}</td>
+   <td class="nw">${r.beschleunigung_erlaubt}</td><td class="n">${r.kanten_mit_beschleunigung}</td>
+   <td class="n">${String(r.kosten_je_gewicht).replace('.',',')}</td>
+   <td class="n">${String(r.sollband_pct).replace('.',',')} %</td>
+   <td class="n" style="color:${r.mittlere_reserve_pct>14?'var(--spr)':'inherit'}">${String(r.mittlere_reserve_pct).replace('.',',')} %</td></tr>`;}).join('');
+$('#tank').querySelector('tbody').innerHTML=(()=>{
+  const P=Object.fromEntries(D.knoten.map(n=>[n.name,n.m]));
+  return ['Berlin Hbf','Frankfurt(Main)Hbf','Hannover Hbf','Mannheim Hbf','Köln Hbf','Nürnberg Hbf','Fulda','München Hbf']
+   .map(a=>{const off=P[a]; const g=n=>pad((P[n]-off+30)%30);
+     return `<tr><td class="nw">${a}</td><td class="n">:${g('Berlin Hbf')}</td><td class="n">:${g('Frankfurt(Main)Hbf')}</td>
+      <td class="n">:${g('Hannover Hbf')}</td><td class="n">11.805,429</td></tr>`;}).join('');})();
+$('#tzz').querySelector('tbody').innerHTML=D.zentral.map(r=>`<tr><td class="nw">${r.bahnhof}</td>
+  <td class="n">${r.grad}</td><td class="n">${nf(r.halte_tag,1)}</td>
+  <td class="n">${String(r.zwischenzentralitaet).replace('.',',')}</td><td class="n">${r.rang_zentralitaet}</td>
+  <td class="n">${nf(r.mittlere_fahrzeit_zum_netz,1)} min</td><td class="n">${r.rang_erreichbarkeit}</td></tr>`).join('');
+$('#tzn').querySelector('tbody').innerHTML=D.zentrier.map(r=>{
+  const good=r.gewinn_knoten>=1.0 && r.netz_kosten_effekt<=0.05;
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'var(--muted)'}">${r.bahnhof}</td>
+   <td class="n">${String(r.reserve_basis).replace('.',',')} %</td><td class="n">${String(r.reserve_zentriert).replace('.',',')} %</td>
+   <td class="n" style="color:${r.gewinn_knoten>=1?'var(--ok)':'var(--muted)'}">+${String(r.gewinn_knoten).replace('.',',')} Pp</td>
+   <td class="n">${String(r.netz_reserve_basis).replace('.',',')} %</td>
+   <td class="n">${String(r.netz_reserve_zentriert).replace('.',',')} %</td>
+   <td class="n" style="color:${r.netz_kosten_effekt<=0?'var(--ok)':'var(--ic)'}">${r.netz_kosten_effekt>0?'+':''}${String(r.netz_kosten_effekt).replace('.',',')} Pp</td></tr>`;}).join('');
+$('#tfb').querySelector('tbody').innerHTML=D.ffmbel.map(r=>{
+  const sum=r.zugart==='SUMME';
+  const col=r.kategorie==='ICE-Sprinter'?'var(--spr)':(r.kategorie==='ICE'?'var(--ice)':(r.kategorie==='IC/EC'?'var(--ic)':'inherit'));
+  return `<tr style="${sum?'font-weight:600':''}"><td>${r.bahnhof}</td><td>${r.zugart}</td>
+   <td style="color:${col}">${r.kategorie}</td><td class="n">${nf(r.fahrten_tag,1)}</td>
+   <td class="n">${nf(r.gleisminuten_tag)}</td><td class="n">${String(r.anteil_pct).replace('.',',')} %</td></tr>`;}).join('');
+$('#tfv').querySelector('tbody').innerHTML=D.ffmvar.map(r=>{
+  const good=r.variante==='Status quo'||r.variante==='Variante C';
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'var(--spr)'}">${r.variante}</td>
+   <td class="n">${String(r.kosten_je_gewicht).replace('.',',')}</td><td class="n">${r.beschl_kanten}</td>
+   <td class="n">${String(r.mittlere_reserve_pct).replace('.',',')} %</td>
+   <td class="n">${nf(r.hbf_gleisminuten)}</td><td class="n">${nf(r.flughafen_gleisminuten)}</td>
+   <td class="n" style="color:${r.flughafen_auslastung_pct>80?'var(--spr)':'inherit'}">${nf(r.flughafen_auslastung_pct)} %</td></tr>`;}).join('');
+$('#tfl').querySelector('tbody').innerHTML=D.ffmlin.map(r=>`<tr>
+   <td><span class="tag ${r.linie.startsWith('IC ')||r.linie.startsWith('EC')?'t-ic':'t-ice'}">${r.linie}</span></td>
+   <td class="n">${nf(r.fahrten_tag,1)}</td><td>${r.haelt_hbf?'ja':'–'}</td><td>${r.haelt_flughafen?'ja':'–'}</td>
+   <td style="color:var(--muted)">${r.verlust}</td></tr>`).join('');
+$('#tb').querySelector('tbody').innerHTML=D.leist.map(r=>{
+  const bold=r.ebene==='GESAMT'?'font-weight:600':'';
+  return `<tr style="${bold}"><td>${r.ebene}</td><td class="n">${nf(r.zugkm_tag_ist)}</td>
+   <td class="n">${nf(r.zugkm_tag_A)}</td><td class="n">${nf(r.zugkm_tag_B)}</td>
+   <td class="n">${String(r.mio_jahr_ist).replace('.',',')}</td><td class="n">${String(r.mio_jahr_A).replace('.',',')}</td>
+   <td class="n">${String(r.mio_jahr_B).replace('.',',')}</td>
+   <td class="n" style="color:var(--ice)">+${String(r.delta_A_pct).replace('.',',')} %</td>
+   <td class="n" style="color:var(--spr)">+${String(r.delta_B_pct).replace('.',',')} %</td></tr>`;}).join('');
+})();
+</script>

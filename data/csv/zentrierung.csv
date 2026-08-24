@@ -1,0 +1,9 @@
+﻿bahnhof;kanten;gewicht;reserve_basis;reserve_zentriert;gewinn_knoten;sollband_basis;sollband_zentriert;netz_reserve_basis;netz_reserve_zentriert;netz_kosten_effekt;optimal;bewertung
+Frankfurt(Main)Hbf;17;660.1;7.78;4.73;3.05;52.1;53.4;7.68;7.21;-0.47;ja;Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter
+Köln Hbf;11;530.4;13.6;10.75;2.85;38.9;38.9;7.68;7.73;0.05;Zeitlimit;Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter
+Nürnberg Hbf;9;616.9;5.48;3.09;2.39;53.1;78.2;7.68;7.65;-0.03;ja;Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter
+Hannover Hbf;15;753.6;7.17;5.2;1.97;40.6;56.0;7.68;7.45;-0.23;Zeitlimit;Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter
+Kassel-Wilhelmshöhe;10;449.5;1.64;0.25;1.39;97.6;99.3;7.68;7.59;-0.09;Zeitlimit;Zentrierung lohnt: Knoten wird deutlich besser, das Netz nicht schlechter
+Fulda;9;396.4;4.06;2.68;1.38;77.6;79.9;7.68;8.01;0.33;Zeitlimit;Zentrierung lohnt eingeschränkt: Knotengewinn erkauft mit Nachteilen im Netz
+Berlin Hbf;11;521.5;1.61;1.36;0.25;94.7;98.8;7.68;7.8;0.12;Zeitlimit;kein Knotengewinn – Zentrierung bringt nichts
+Mannheim Hbf;14;602.7;5.85;5.83;0.02;76.1;76.1;7.68;7.76;0.08;Zeitlimit;kein Knotengewinn – Zentrierung bringt nichts

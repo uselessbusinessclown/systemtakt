@@ -1,0 +1,568 @@
+﻿station_id;name;stadt;land;bundesland;lat;lon;halte_tag;halte_ice;halte_sprinter;halte_ic;linien;linien_liste;rang
+517455;Köln Hbf;Köln;DE;Nordrhein-Westfalen;50.94303;6.958729;190.65;166.94;14.9;23.71;17;IC 35, IC 55, ICE 1, ICE 10, ICE 14, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 45, ICE 47, ICE 49, ICE 55, ICE 78, ICE 79, ICE 91;5
+436294;Bonn Hbf;Bonn;DE;Nordrhein-Westfalen;50.73332;7.095235;32.9;18.35;1.81;14.55;5;IC 55, ICE 1, ICE 42, ICE 55, ICE 91;66
+61534;Koblenz Hbf;Koblenz;DE;Rheinland-Pfalz;50.35093;7.588345;32.84;18.32;1.81;14.52;5;IC 55, ICE 1, ICE 42, ICE 55, ICE 91;67
+634086;Bingen(Rhein) Hbf;Bingen;DE;Rheinland-Pfalz;49.968727;7.884263;3.65;2.71;1.81;0.94;3;IC 55, ICE 1, ICE 42;396
+176697;Frankfurt(Main)Hbf;Frankfurt;DE;Hessen;50.10668;8.662828;224.23;222.35;16.81;1.87;24;ECE 20, ECE 85, IC 55, ICE 1, ICE 11, ICE 12, ICE 13, ICE 15, ICE 20, ICE 22, ICE 24, ICE 26, ICE 3, ICE 4, ICE 41, ICE 42, ICE 45, ICE 49, ICE 50, ICE 62, ICE 78, ICE 79, ICE 82, ICE 91;1
+576155;Hanau Hbf;Hanau;DE;Hessen;50.120953;8.929;43.55;43.55;1.81;0.0;6;ICE 1, ICE 12, ICE 13, ICE 22, ICE 41, ICE 91;52
+631640;Würzburg Hbf;Würzburg;DE;Bayern;49.801796;9.93578;82.1;82.1;0.0;0.0;5;ICE 1, ICE 24, ICE 25, ICE 41, ICE 91;25
+99055;Nürnberg Hbf;Nürnberg;DE;Bayern;49.445618;11.082989;160.19;144.55;34.19;15.65;9;IC 61, ICE 1, ICE 18, ICE 25, ICE 28, ICE 29, ICE 41, ICE 6, ICE 91;7
+464157;Basel SBB;Basel;CH;;47.547413;7.589563;71.26;65.13;0.0;5.03;10;EC (SBB), EC 85, ECE 20, EN (ÖBB), IC (DB Fernverkehr (Codesharing)), ICE (SBB), ICE 12, ICE 20, ICE 43, ICE 60;31
+297876;Basel Bad Bf;Basel;CH;;47.567287;7.607805;49.0;47.19;0.0;1.81;7;EC 85, ECE 20, ECE 85, ICE 12, ICE 20, ICE 43, ICE 60;46
+526634;Freiburg(Breisgau) Hbf;Freiburg;DE;Baden-Württemberg;47.996544;7.840532;47.48;47.48;0.0;0.0;6;ECE 20, ECE 85, ICE 12, ICE 20, ICE 43, ICE 60;48
+550478;Baden-Baden;Baden-Baden;DE;Baden-Württemberg;48.790325;8.190831;19.32;19.32;0.0;0.0;5;ICE 12, ICE 20, ICE 43, ICE 45, ICE 60;124
+497089;Karlsruhe Hbf;Karlsruhe;DE;Baden-Württemberg;48.993515;8.402181;91.19;75.61;0.0;15.58;14;ECE 20, ECE 85, IC 55, IC 60, IC 61, ICE 12, ICE 13, ICE 20, ICE 26, ICE 43, ICE 45, ICE 60, ICE 82, ICE 83;21
+582139;Mannheim Hbf;Mannheim;DE;Baden-Württemberg;49.479355;8.468921;157.19;145.19;0.0;12.0;17;ECE 20, ECE 85, IC 55, ICE 11, ICE 12, ICE 15, ICE 20, ICE 22, ICE 3, ICE 42, ICE 43, ICE 45, ICE 47, ICE 55, ICE 60, ICE 62, ICE 82;8
+38672;Frankfurt(M) Flughafen Fernbf;Frankfurt;DE;Hessen;50.053165;8.570185;171.61;170.45;6.68;1.16;17;IC 55, ICE 1, ICE 11, ICE 12, ICE 13, ICE 20, ICE 41, ICE 42, ICE 43, ICE 45, ICE 47, ICE 49, ICE 50, ICE 62, ICE 78, ICE 79, ICE 91;6
+273099;Siegburg/Bonn;Siegburg/Bonn;DE;Nordrhein-Westfalen;50.793915;7.203026;61.48;61.48;0.0;0.0;9;ICE 41, ICE 42, ICE 43, ICE 45, ICE 47, ICE 49, ICE 62, ICE 78, ICE 79;37
+95437;Köln Messe/Deutz;Köln;DE;Nordrhein-Westfalen;50.941297500000005;6.974534;37.13;37.13;0.65;0.0;6;ICE 41, ICE 42, ICE 43, ICE 47, ICE 62, ICE 91;62
+691821;Düsseldorf Hbf;Düsseldorf;DE;Nordrhein-Westfalen;51.219963;6.794319;118.68;106.19;4.03;12.48;17;IC 35, IC 51, IC 55, ICE 1, ICE 10, ICE 14, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 47, ICE 51, ICE 55, ICE 62, ICE 78, ICE 91;12
+609947;Düsseldorf Flughafen;Düsseldorf;DE;Nordrhein-Westfalen;51.292007;6.786836;28.71;27.71;1.45;1.0;7;IC 35, IC 51, ICE 10, ICE 42, ICE 43, ICE 55, ICE 62;80
+549058;Duisburg Hbf;Duisburg;DE;Nordrhein-Westfalen;51.429787;6.775903;107.06;94.19;3.87;12.87;16;IC 35, IC 51, ICE 1, ICE 10, ICE 14, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 47, ICE 51, ICE 55, ICE 62, ICE 78, ICE 91;18
+622042;Oberhausen Hbf;Oberhausen;DE;Nordrhein-Westfalen;51.474876;6.851588;46.58;34.61;2.06;11.97;11;IC 35, ICE 1, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 47, ICE 62, ICE 78, ICE 91;49
+595938;Gelsenkirchen Hbf;Gelsenkirchen;DE;Nordrhein-Westfalen;51.5049;7.102455;66.0;53.39;3.55;12.61;12;IC 35, ICE 1, ICE 10, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 47, ICE 55, ICE 62, ICE 91;33
+239328;Herne-Wanne-Eickel Hbf;Herne-Wanne-Eickel;DE;Nordrhein-Westfalen;51.531258;7.165783;25.1;13.13;0.45;11.97;9;IC 35, ICE 14, ICE 19, ICE 41, ICE 42, ICE 43, ICE 47, ICE 62, ICE 91;97
+640892;Dortmund Hbf;Dortmund;DE;Nordrhein-Westfalen;51.517895;7.45929;114.29;97.06;3.87;17.23;13;IC 51, IC 55, ICE 10, ICE 14, ICE 19, ICE 41, ICE 42, ICE 43, ICE 47, ICE 51, ICE 55, ICE 62, ICE 91;13
+93866;Hannover Hbf;Hannover;DE;Niedersachsen;52.376762;9.741021;221.06;188.45;14.13;32.61;16;ECE 20, IC 55, IC 56, ICE 10, ICE 12, ICE 14, ICE 16, ICE 19, ICE 20, ICE 22, ICE 24, ICE 25, ICE 26, ICE 33, ICE 4, ICE 77;3
+464794;Magdeburg Hbf;Magdeburg;DE;Sachsen-Anhalt;52.130512;11.626963;38.35;1.03;0.0;37.32;7;IC 17, IC 55, IC 56, IC 57, ICE 10, ICE 12, ICE 19;59
+608769;Köthen;Köthen;DE;Sachsen-Anhalt;51.75193;11.989358;30.0;0.0;0.0;30.0;3;IC 55, IC 56, IC 57;74
+531677;Halle(Saale)Hbf;Halle;DE;Sachsen-Anhalt;51.477141800000005;11.9875664;76.77;46.68;35.48;30.1;11;IC 55, IC 56, IC 57, IC 61, ICE 11, ICE 15, ICE 18, ICE 28, ICE 29, ICE 50, ICE 82;28
+53188;Leipzig Hbf;Leipzig;DE;Sachsen;51.34547;12.382064;102.94;63.71;3.1;39.23;11;EC 97, IC 55, IC 56, IC 57, IC 61, ICE 11, ICE 18, ICE 28, ICE 50, ICE 51, ICE 91;19
+471479;Emmerich(Gr);Emmerich;NL;;51.901196;6.137652;14.87;14.87;0.0;0.0;2;ICE 47, ICE 78;179
+575362;Arnhem Centraal;Arnhem Centraal;NL;;51.98478;5.901003;31.19;29.74;0.0;1.45;4;IC (DB Fernverkehr (Codesharing)), ICE (Nederlandse Spoorwegen), ICE 47, ICE 78;71
+42071;Rzepin;Rzepin;PL;;52.350224;14.815073;50.71;0.0;0.0;50.71;3;EC 95, EC 96, IC (PKP Intercity);45
+472499;Frankfurt(Oder)(Gr);Frankfurt(Oder);DE;;52.321175;14.576403;23.35;0.0;0.0;23.35;2;EC 95, EC 96;101
+354957;Frankfurt(Oder);Frankfurt(Oder);DE;Brandenburg;52.336582;14.546064;23.35;0.0;0.0;23.35;2;EC 95, EC 96;101
+9941;München Hbf;München;DE;Bayern;48.140564000000005;11.556619;222.74;212.97;31.61;9.77;16;EC 62, EC 90, ECE 88, ICE 11, ICE 18, ICE 24, ICE 25, ICE 28, ICE 29, ICE 41, ICE 42, ICE 47, ICE 60, ICE 62, ICE 90, ICE 91;2
+170179;Buchloe;Buchloe;DE;Bayern;48.033722;10.716217;10.13;10.13;0.0;0.0;1;ECE 88;249
+460148;Memmingen;Memmingen;DE;Bayern;47.98558;10.186853;11.0;11.0;0.0;0.0;2;ECE 88, ICE 55;234
+167729;Lindau-Reutin;Lindau-Reutin;DE;Bayern;47.552383;9.703292;26.65;10.26;0.0;16.39;2;EC (ÖBB), ECE 88;85
+368193;Padborg st;Padborg st;DK;;54.82425;9.358803;41.68;19.1;0.0;17.61;5;ECE (Dänische Staatsbahnen), ECE 75, EN (BahnTouristikExpress), IC (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);56
+231011;Kolding st;Kolding st;DK;;55.49084;9.481528;30.61;9.55;0.0;16.97;3;ECE (Dänische Staatsbahnen), IC (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);72
+111314;Odense st;Odense st;DK;;55.401775;10.386005;13.65;9.55;0.0;0.0;2;ECE (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);197
+468296;Ringsted st;Ringsted st;DK;;55.438038;11.786155;13.65;9.55;0.0;0.0;2;ECE (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);197
+274287;Koebenhavn H;København;DK;;55.67272;12.564617;13.65;9.55;0.0;0.0;2;ECE (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);197
+695368;Salzburg Hbf;Salzburg;AT;;47.81305;13.04582;38.0;20.0;0.0;10.0;9;EC (ÖBB), EC 62, EN (HZZP), EN (MAV), EN (ÖBB), ICE (ÖBB), ICE 62, ICE 90, RJ (ÖBB);60
+644690;Golling-Abtenau;Golling-Abtenau;AT;;47.60081;13.164054;14.0;6.0;0.0;4.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);184
+422140;Bischofshofen;Bischofshofen;AT;;47.41786;13.219888;14.0;6.0;0.0;4.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);184
+228870;St. Johann im Pongau;St. Johann im Pongau;AT;;47.348377;13.194961;14.0;6.0;0.0;4.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);184
+447324;Schwarzach-St.Veit;Schwarzach-St.Veit;AT;;47.318535;13.154464;16.61;6.61;0.0;4.0;5;EC 62, EN (HZZP), EN (ÖBB), ICE (ÖBB), RJ (ÖBB);151
+573454;Bad Gastein;Bad Gastein;AT;;47.11178;13.131924;14.0;6.0;0.0;4.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);184
+401728;Mallnitz-Obervellach;Mallnitz-Obervellach;AT;;46.981647;13.176141;14.0;6.0;0.0;4.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);184
+98544;Spittal-Millstätter See;Spittal-Millstätter See;AT;;46.795734;13.487544;16.0;6.0;0.0;4.0;5;EC 62, EN (HZZP), EN (ÖBB), ICE (ÖBB), RJ (ÖBB);163
+584165;Villach Hbf;Villach;AT;;46.618614;13.848449;16.0;6.0;0.0;4.0;5;EC 62, EN (HZZP), EN (ÖBB), ICE (ÖBB), RJ (ÖBB);163
+333235;Velden am Wörther See;Velden am Wörther See;AT;;46.620056;14.04472;11.0;6.0;0.0;1.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);234
+133722;Pörtschach am Wörther See;Pörtschach am Wörther See;AT;;46.636196;14.146286;4.0;2.0;0.0;1.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);351
+485693;Klagenfurt Hbf;Klagenfurt;AT;;46.615604;14.313576;11.0;6.0;0.0;1.0;3;EC 62, ICE (ÖBB), RJ (ÖBB);234
+128231;Kühnsdorf-Klopeiner See;Kühnsdorf-Klopeiner See;AT;;46.62484;14.620893;2.0;2.0;0.0;0.0;1;ICE (ÖBB);419
+338037;Graz Hbf;Graz;AT;;47.0724;15.416519;9.0;6.0;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);263
+64889;Oberstdorf;Oberstdorf;DE;Bayern;47.411034;10.278097;0.87;0.87;0.0;0.0;1;ICE 55;503
+517030;Sonthofen;Sonthofen;DE;Bayern;47.513283;10.272093;0.87;0.87;0.0;0.0;1;ICE 55;503
+190242;Kempten(Allgäu)Hbf;Kempten;DE;Bayern;47.711746;10.31761;0.87;0.87;0.0;0.0;1;ICE 55;503
+253250;Ulm Hbf;Ulm;DE;Baden-Württemberg;48.3994;9.982608;78.55;78.55;0.0;0.0;6;ICE 11, ICE 42, ICE 47, ICE 55, ICE 60, ICE 62;26
+540195;Esslingen(Neckar);Esslingen;DE;Baden-Württemberg;48.738544;9.300522;28.13;28.13;0.0;0.0;4;ICE 47, ICE 55, ICE 60, ICE 62;81
+424397;Vaihingen(Enz);Vaihingen;DE;Baden-Württemberg;48.948116;8.957632;34.1;20.97;0.0;13.13;10;IC 55, IC 61, ICE 13, ICE 22, ICE 45, ICE 47, ICE 55, ICE 60, ICE 62, ICE 83;65
+635340;Heidelberg Hbf;Heidelberg;DE;Baden-Württemberg;49.40357;8.675442;45.1;33.16;0.0;11.94;11;IC 55, ICE 11, ICE 12, ICE 13, ICE 20, ICE 22, ICE 26, ICE 42, ICE 45, ICE 55, ICE 62;50
+176337;Mainz Hbf;Mainz;DE;Rheinland-Pfalz;50.001118;8.25872;30.55;17.32;1.16;13.23;8;IC 55, ICE 1, ICE 11, ICE 20, ICE 42, ICE 45, ICE 55, ICE 91;73
+96724;Zürich HB;Zürich;CH;;47.378178;8.540212;64.29;11.55;0.0;51.55;6;EC (SBB), EN (ÖBB), IC (DB Fernverkehr (Codesharing)), IC (SBB), IC 1, ICE (SBB);35
+468938;Winterthur;Winterthur;CH;;47.500336;8.723821;16.39;0.0;0.0;16.39;1;EC (SBB);156
+8389;St. Gallen(CH);St. Gallen;CH;;47.42318;9.369897;16.39;0.0;0.0;16.39;1;EC (SBB);156
+63619;St. Margrethen SG;St. Margrethen SG;CH;;47.453217;9.638262;32.77;0.0;0.0;32.77;2;EC (SBB), EC (ÖBB);68
+257676;Bruxelles Midi;Bruxelles;BE;;50.835377;4.335694;16.45;16.45;0.0;0.0;1;ICE 79;155
+619269;Bruxelles-Nord;Bruxelles;BE;;50.860237;4.361454;16.19;16.19;0.0;0.0;1;ICE 79;160
+14372;Liège-Guillemins;Liège-Guillemins;BE;;50.62436;5.566483;18.29;18.29;0.0;0.0;1;ICE 79;132
+117544;Aachen Süd(Gr);Aachen;DE;Nordrhein-Westfalen;50.731915;6.04541;18.39;18.39;0.0;0.0;1;ICE 79;131
+22625;Aachen Hbf;Aachen;DE;Nordrhein-Westfalen;50.7678;6.091499;20.13;20.13;0.0;0.0;3;ICE 10, ICE 14, ICE 79;114
+468143;Emmerich;Emmerich;DE;Nordrhein-Westfalen;51.834175;6.25648;7.0;7.0;0.0;0.0;2;ICE 47, ICE 78;276
+428519;Hamburg Hbf;Hamburg;DE;Hamburg;53.552734;10.006909;155.87;154.06;12.87;1.23;18;ECE 20, ECE 75, EN (BahnTouristikExpress), IC 57, ICE 1, ICE 11, ICE 18, ICE 20, ICE 22, ICE 24, ICE 25, ICE 27, ICE 28, ICE 33, ICE 4, ICE 42, ICE 43, ICE 91;9
+9066;Hamburg-Harburg;Hamburg;DE;Hamburg;53.45696;9.991454;77.16;75.94;8.0;1.23;9;IC 57, ICE 1, ICE 20, ICE 22, ICE 24, ICE 25, ICE 33, ICE 42, ICE 43;27
+477761;Bremen Hbf;Bremen;DE;Bremen;53.08348;8.813834;76.16;58.94;7.0;17.23;6;IC 56, ICE 16, ICE 26, ICE 33, ICE 42, ICE 43;29
+639669;Osnabrück Hbf;Osnabrück;DE;Niedersachsen;52.27285;8.061781;61.45;61.45;7.0;0.0;5;ICE 14, ICE 33, ICE 42, ICE 43, ICE 77;38
+325703;Münster(Westf)Hbf;Münster;DE;Nordrhein-Westfalen;51.956566;7.635715;65.77;52.13;6.71;13.65;9;IC 35, IC 55, ICE 10, ICE 14, ICE 33, ICE 42, ICE 43, ICE 62, ICE 77;34
+158073;Hagen Hbf;Hagen;DE;Nordrhein-Westfalen;51.362747;7.460249;57.19;45.74;8.42;11.45;7;IC 55, ICE 10, ICE 19, ICE 41, ICE 42, ICE 43, ICE 91;43
+476721;Wuppertal Hbf;Wuppertal;DE;Nordrhein-Westfalen;51.254364;7.149543;58.68;47.23;8.55;11.45;8;IC 55, ICE 10, ICE 14, ICE 19, ICE 41, ICE 42, ICE 43, ICE 91;42
+437604;Solingen Hbf;Solingen;DE;Nordrhein-Westfalen;51.160767;7.004187;40.48;29.1;2.1;11.39;8;IC 55, ICE 10, ICE 14, ICE 41, ICE 42, ICE 43, ICE 62, ICE 91;57
+668361;Stuttgart Hbf;Stuttgart;DE;Baden-Württemberg;48.78478;9.182757;132.29;86.16;2.0;46.13;15;IC 55, IC 60, IC 61, IC 87, ICE 11, ICE 13, ICE 22, ICE 42, ICE 45, ICE 47, ICE 55, ICE 6, ICE 60, ICE 62, ICE 83;11
+456179;Augsburg Hbf;Augsburg;DE;Bayern;48.36544;10.88557;90.45;90.45;0.52;0.0;12;ICE 11, ICE 18, ICE 24, ICE 25, ICE 28, ICE 29, ICE 41, ICE 42, ICE 47, ICE 60, ICE 62, ICE 91;22
+545038;München-Pasing;München;DE;Bayern;48.149853;11.461872;54.55;54.55;0.03;0.0;5;ICE 11, ICE 18, ICE 42, ICE 60, ICE 62;44
+164260;Antwerpen Centraal;Antwerpen Centraal;BE;;51.215813;4.421168;1.94;1.94;0.0;0.0;1;ICE 79;478
+365415;Brussels Airport - Zaventem;Brussels Airport - Zaventem;BE;;50.89784;4.483525;1.68;1.68;0.0;0.0;1;ICE 79;486
+40708;Leuven;Leuven;BE;;50.881542;4.716148;2.29;2.29;0.0;0.0;1;ICE 79;414
+168530;Göttingen;Göttingen;DE;Niedersachsen;51.536816;9.926072;108.45;108.45;8.29;0.0;8;ECE 20, ICE 12, ICE 13, ICE 20, ICE 22, ICE 24, ICE 25, ICE 26;17
+19112;Kassel-Wilhelmshöhe;Kassel-Wilhelmshöhe;DE;Hessen;51.312557;9.447116;114.19;108.71;7.65;5.48;10;ECE 20, IC 51, ICE 12, ICE 13, ICE 20, ICE 22, ICE 24, ICE 25, ICE 26, ICE 51;14
+291712;Wabern(Bz Kassel);Wabern;DE;Hessen;51.102966;9.358136;6.71;6.71;0.0;0.0;2;ICE 24, ICE 26;281
+607310;Treysa;Treysa;DE;Hessen;50.91066;9.185673;6.71;6.71;0.0;0.0;2;ICE 24, ICE 26;281
+537395;Marburg(Lahn);Marburg;DE;Hessen;50.81927;8.775014;6.71;6.71;0.0;0.0;2;ICE 24, ICE 26;281
+428469;Gießen;Gießen;DE;Hessen;50.57906;8.661462;6.71;6.71;0.0;0.0;2;ICE 24, ICE 26;281
+226858;Darmstadt Hbf;Darmstadt;DE;Hessen;49.8725;8.629636;29.0;29.0;0.0;0.0;4;ICE 13, ICE 15, ICE 26, ICE 62;78
+659606;Bensheim;Bensheim;DE;Hessen;49.681328;8.616717;26.52;26.52;0.0;0.0;4;ICE 13, ICE 15, ICE 26, ICE 62;88
+194868;Weinheim(Bergstr)Hbf;Weinheim;DE;Baden-Württemberg;49.553303;8.665351;26.23;26.23;0.0;0.0;3;ICE 13, ICE 26, ICE 62;89
+174196;Bohumin(Gr);Bohumin;CZ;;49.916576;18.322226;12.0;0.0;0.0;8.0;3;EN (PKP Intercity), IC (Ceske Drahy), IC (PKP Intercity);212
+337329;Chalupki;Chalupki;PL;;49.925476;18.311562;8.0;0.0;0.0;4.0;2;EN (PKP Intercity), IC (PKP Intercity);265
+270382;Rybnik(PL);Rybnik;PL;;50.089134;18.547642;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+319073;Katowice;Katowice;PL;;50.257515;19.017164;20.0;0.0;0.0;16.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);116
+165995;Sosnowiec Glowny;Sosnowiec Glowny;PL;;50.2789;19.126411;3.35;0.0;0.0;1.68;2;EN (PKP Intercity), IC (PKP Intercity);397
+521333;Dabrowa Gornicza;Dabrowa Gornicza;PL;;50.330173;19.185452;3.35;0.0;0.0;1.68;2;EN (PKP Intercity), IC (PKP Intercity);397
+568518;Zawiercie;Zawiercie;PL;;50.481018;19.422993;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+344531;Wloszczowa Polnoc;Wloszczowa Polnoc;PL;;50.85811;19.947002;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+247162;Opoczno Poludnie;Opoczno Poludnie;PL;;51.358517;20.231709;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+692027;Warszawa Zachodnia;Warszawa;PL;;52.21997;20.965246;19.35;0.0;0.0;17.35;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);120
+644330;Warszawa Centralna;Warszawa;PL;;52.22886;21.003235;19.35;0.0;0.0;17.35;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);120
+39653;Warszawa Wschodnia;Warszawa;PL;;52.25155;21.052336;19.35;0.0;0.0;17.35;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);120
+556408;Schaffhausen;Schaffhausen;CH;;47.69828;8.632756;63.55;0.77;0.0;62.68;5;EN (ÖBB), IC (SBB), IC 87, ICE (SBB), ICE 12;36
+480653;Interlaken Ost;Interlaken Ost;CH;;46.6905;7.869;5.39;5.39;0.0;0.0;1;ICE (SBB);328
+550099;Interlaken West;Interlaken West;CH;;46.68263;7.851453;5.39;5.39;0.0;0.0;1;ICE (SBB);328
+112969;Spiez;Spiez;CH;;46.686398;7.680103;9.81;9.81;0.0;0.0;1;ICE (SBB);256
+25598;Thun;Thun;CH;;46.754852;7.629606;9.81;9.81;0.0;0.0;1;ICE (SBB);256
+510671;Bern;Bern;CH;;46.948833;7.439131;11.0;10.06;0.0;0.94;2;IC 1, ICE (SBB);234
+149885;Olten;Olten;CH;;47.351936;7.9077;11.0;10.06;0.0;0.94;2;IC 1, ICE (SBB);234
+653982;Liestal;Liestal;CH;;47.484463;7.731367;9.97;9.97;0.0;0.0;1;ICE (SBB);254
+267257;Essen Hbf;Essen;DE;Nordrhein-Westfalen;51.451355;7.014793;29.9;29.19;0.61;0.71;15;IC 35, IC 51, ICE 1, ICE 10, ICE 14, ICE 19, ICE 33, ICE 41, ICE 42, ICE 43, ICE 47, ICE 51, ICE 55, ICE 62, ICE 91;75
+97193;Itzehoe;Itzehoe;DE;Schleswig-Holstein;53.923874;9.510287;6.52;6.52;0.0;0.0;3;ICE 18, ICE 24, ICE 33;285
+404628;Heide(Holst);Heide;DE;Schleswig-Holstein;54.19356;9.101029;6.52;6.52;0.0;0.0;3;ICE 18, ICE 24, ICE 33;285
+350746;Husum;Husum;DE;Schleswig-Holstein;54.472084;9.055953;6.52;6.52;0.0;0.0;3;ICE 18, ICE 24, ICE 33;285
+273219;Niebüll;Niebüll;DE;Schleswig-Holstein;54.789604;8.834572;6.52;6.52;0.0;0.0;3;ICE 18, ICE 24, ICE 33;285
+468987;Westerland(Sylt);Westerland;DE;Schleswig-Holstein;54.906837;8.310925;6.52;6.52;0.0;0.0;3;ICE 18, ICE 24, ICE 33;285
+243815;Celle;Celle;DE;Niedersachsen;52.620457;10.062468;22.58;22.58;0.9;0.0;4;ICE 20, ICE 22, ICE 25, ICE 33;103
+90261;Regensburg Hbf;Regensburg;DE;Bayern;49.011673;12.099617;3.32;1.32;0.0;2.0;3;IC 61, ICE 1, ICE 91;399
+510314;Köln Süd;Köln;DE;Nordrhein-Westfalen;50.9273;6.938059;4.87;4.77;0.19;0.1;4;IC 55, ICE 42, ICE 55, ICE 91;343
+598255;Offenburg;Offenburg;DE;Baden-Württemberg;48.476475;7.946723;36.06;36.06;0.0;0.0;6;ECE 20, ICE 12, ICE 20, ICE 43, ICE 45, ICE 60;64
+513044;Kaiserslautern Hbf;Kaiserslautern;DE;Rheinland-Pfalz;49.43586;7.768627;10.84;10.84;0.0;0.0;5;ICE 15, ICE 3, ICE 60, ICE 62, ICE 82;241
+180380;Saarbrücken Hbf;Saarbrücken;DE;Saarland;49.24130275;6.991005;16.19;16.19;2.58;0.0;5;ICE 15, ICE 3, ICE 60, ICE 62, ICE 82;160
+391201;Berlin Südkreuz;Berlin;DE;Berlin;52.4756645;13.365528166666666;153.1;153.1;50.68;0.0;15;ICE 10, ICE 11, ICE 12, ICE 13, ICE 15, ICE 18, ICE 19, ICE 27, ICE 28, ICE 29, ICE 3, ICE 6, ICE 77, ICE 82, ICE 91;10
+613345;Berlin Hbf;Berlin;DE;Berlin;52.525097625;13.369397875;204.9;204.74;51.52;0.16;16;IC 17, ICE 10, ICE 11, ICE 12, ICE 13, ICE 15, ICE 18, ICE 19, ICE 27, ICE 28, ICE 29, ICE 3, ICE 6, ICE 77, ICE 82, ICE 91;4
+446591;Berlin-Spandau;Berlin;DE;Berlin;52.53457375;13.1971445;108.61;106.94;16.26;1.68;11;IC 17, IC 56, ICE 10, ICE 12, ICE 13, ICE 14, ICE 18, ICE 19, ICE 27, ICE 3, ICE 77;16
+176209;Lutherstadt Wittenberg Hbf;Lutherstadt Wittenberg;DE;Sachsen-Anhalt;51.86781;12.662285;42.87;42.87;3.1;0.0;6;ICE 10, ICE 11, ICE 12, ICE 18, ICE 28, ICE 91;53
+651630;Naumburg(Saale)Hbf;Naumburg;DE;Sachsen-Anhalt;51.16307;11.796984;6.0;2.0;0.0;4.0;2;IC 61, ICE 18;296
+306204;Jena Paradies;Jena Paradies;DE;Thüringen;50.924854;11.587461;5.74;1.74;0.0;4.0;2;IC 61, ICE 18;315
+486352;Jena-Göschwitz;Jena-Göschwitz;DE;Thüringen;50.88394;11.593537;10.9;1.74;0.0;9.16;3;IC 51, IC 61, ICE 18;240
+671861;Saalfeld(Saale);Saalfeld;DE;Thüringen;50.650272;11.374583;5.74;1.74;0.0;4.0;2;IC 61, ICE 18;315
+390604;Lichtenfels;Lichtenfels;DE;Bayern;50.146454;11.059472;6.42;2.42;0.0;4.0;3;IC 61, ICE 18, ICE 25;291
+431744;Bamberg;Bamberg;DE;Bayern;49.90076;10.899489;25.81;21.81;1.06;4.0;6;IC 61, ICE 1, ICE 18, ICE 25, ICE 28, ICE 41;92
+51519;Erlangen;Erlangen;DE;Bayern;49.59583;11.001638;25.45;21.45;1.06;4.0;4;IC 61, ICE 18, ICE 25, ICE 28;96
+656122;Donauwörth;Donauwörth;DE;Bayern;48.714027;10.771443;13.26;13.06;0.06;0.19;4;IC 61, ICE 18, ICE 24, ICE 91;205
+309710;Rudolstadt(Thür);Rudolstadt;DE;Thüringen;50.71793;11.338899;4.0;0.0;0.0;4.0;1;IC 61;351
+314586;Ludwigsstadt;Ludwigsstadt;DE;Bayern;50.486584;11.382989;4.0;0.0;0.0;4.0;1;IC 61;351
+212568;Kronach;Kronach;DE;Bayern;50.239613;11.320115;4.0;0.0;0.0;4.0;1;IC 61;351
+83632;Ansbach;Ansbach;DE;Bayern;49.29803;10.578239;17.45;2.0;0.0;15.45;2;IC 61, ICE 24;135
+320394;Crailsheim;Crailsheim;DE;Baden-Württemberg;49.13787;10.064326;10.52;0.0;0.0;10.52;1;IC 61;243
+206566;Ellwangen;Ellwangen;DE;Baden-Württemberg;48.964123;10.129681;10.23;0.0;0.0;10.23;1;IC 61;248
+203191;Aalen Hbf;Aalen;DE;Baden-Württemberg;48.841015;10.096271;15.32;0.0;0.0;15.32;1;IC 61;171
+632424;Schwäbisch Gmünd;Schwäbisch Gmünd;DE;Baden-Württemberg;48.80101;9.787795;10.32;0.0;0.0;10.32;1;IC 61;247
+86349;Mühlacker;Mühlacker;DE;Baden-Württemberg;48.953194;8.846101;11.68;0.0;0.0;11.68;1;IC 61;229
+634943;Pforzheim Hbf;Pforzheim;DE;Baden-Württemberg;48.89411;8.703007;11.68;0.0;0.0;11.68;1;IC 61;229
+396514;Hamburg-Altona;Hamburg;DE;Hamburg;53.551853;9.934554;59.74;58.52;6.65;1.23;14;ECE 27, ECE 75, IC 57, ICE 1, ICE 18, ICE 20, ICE 24, ICE 27, ICE 28, ICE 33, ICE 4, ICE 42, ICE 43, ICE 91;40
+331094;Hamburg Dammtor;Hamburg;DE;Hamburg;53.560753;9.989566;59.03;59.03;5.97;0.0;9;ECE 20, ICE 20, ICE 22, ICE 25, ICE 27, ICE 28, ICE 4, ICE 42, ICE 43;41
+440288;Recklinghausen Hbf;Recklinghausen;DE;Nordrhein-Westfalen;51.61636;7.20349;21.81;10.0;0.0;11.81;5;IC 35, ICE 14, ICE 33, ICE 42, ICE 62;107
+667068;Frankfurt(M) Flughafen Regionalbf;Frankfurt;DE;Hessen;50.05122;8.571251;4.84;4.81;4.68;0.03;6;IC 55, ICE 20, ICE 3, ICE 4, ICE 42, ICE 79;344
+3558;Günzburg;Günzburg;DE;Bayern;48.460564;10.279262;19.1;19.1;0.0;0.0;4;ICE 11, ICE 42, ICE 60, ICE 62;125
+216930;Fulda;Fulda;DE;Hessen;50.554905;9.684169;98.32;98.32;8.74;0.0;6;ICE 11, ICE 12, ICE 13, ICE 22, ICE 25, ICE 50;20
+657659;Bad Hersfeld;Bad Hersfeld;DE;Hessen;50.869766;9.716581;16.0;16.0;0.06;0.0;1;ICE 50;163
+621598;Eisenach Hbf;Eisenach;DE;Thüringen;50.97692;10.331986;42.29;36.81;2.06;5.48;4;IC 51, ICE 11, ICE 15, ICE 50;54
+606270;Gotha;Gotha;DE;Thüringen;50.93907;10.712568;22.32;16.84;0.06;5.48;3;IC 51, ICE 15, ICE 50;105
+416646;Erfurt Hbf;Erfurt;DE;Thüringen;50.971928;11.037424;113.77;108.29;38.84;5.48;10;IC 51, ICE 11, ICE 15, ICE 18, ICE 28, ICE 29, ICE 50, ICE 51, ICE 82, ICE 91;15
+290554;Riesa;Riesa;DE;Sachsen;51.309654;13.287734;24.0;4.87;0.0;19.13;4;EC 97, IC 55, IC 56, ICE 50;100
+553920;Dresden-Neustadt;Dresden;DE;Sachsen;51.0659;13.740701;48.29;17.81;0.0;30.48;6;IC 17, IC 55, IC 56, ICE 27, ICE 50, ICE 51;47
+224643;Dresden Hbf;Dresden;DE;Sachsen;51.04056;13.732035;44.48;17.81;0.0;26.68;6;IC 17, IC 55, IC 56, ICE 27, ICE 50, ICE 51;51
+26993;Decin hl.n.;Decin hl.n.;CZ;;50.773415;14.201247;18.9;0.0;0.0;0.65;5;EC (Ceske Drahy), EN (MAV), EN (ÖBB), RJ (Ceske Drahy), RJ (ZSSK);127
+604565;Usti nad Labem hl.n.;Usti nad Labem hl.n.;CZ;;50.65956;14.044728;18.9;0.0;0.0;0.65;5;EC (Ceske Drahy), EN (MAV), EN (ÖBB), RJ (Ceske Drahy), RJ (ZSSK);127
+17941;Praha-Holesovice;Praha;CZ;;50.110214;14.440013;18.9;0.0;0.0;0.65;5;EC (Ceske Drahy), EN (MAV), EN (ÖBB), RJ (Ceske Drahy), RJ (ZSSK);127
+653775;Praha hl.n.;Praha;CZ;;50.08306;14.436039;14.39;0.0;0.0;0.65;4;EC (Ceske Drahy), EN (MAV), EN (ÖBB), RJ (Ceske Drahy);182
+351181;Pardubice hl.n.;Pardubice hl.n.;CZ;;50.03174;15.756211;5.94;0.0;0.0;0.0;3;EN (MAV), RJ (Ceske Drahy), RJ (ZSSK);310
+1001;Brno hl.n.;Brno hl.n.;CZ;;49.19054;16.612774;6.52;0.0;0.0;0.0;3;EN (MAV), RJ (Ceske Drahy), RJ (ZSSK);285
+57233;Breclav;Breclav;CZ;;48.7539;16.893236;20.35;0.0;0.0;6.0;9;EN (Ceske Drahy), EN (MAV), EN (PKP Intercity), EN (ZSSK), IC (Ceske Drahy), IC (ÖBB), RJ (Ceske Drahy), RJ (ZSSK), RJ (ÖBB);113
+304116;Kuty(Gr);Kuty;CZ;;48.71108;17.000406;5.68;0.0;0.0;0.0;5;EN (Ceske Drahy), EN (MAV), EN (ZSSK), RJ (Ceske Drahy), RJ (ZSSK);317
+32495;Kuty;Kuty;SK;;48.661892;17.047695;5.68;0.0;0.0;0.0;5;EN (Ceske Drahy), EN (MAV), EN (ZSSK), RJ (Ceske Drahy), RJ (ZSSK);317
+308105;Bratislava hl.st.;Bratislava hl.st.;SK;;48.15891;17.106466;5.68;0.0;0.0;0.0;5;EN (Ceske Drahy), EN (MAV), EN (ZSSK), RJ (Ceske Drahy), RJ (ZSSK);317
+637192;Nove Zamky;Nove Zamky;SK;;47.995003;18.173956;5.68;0.0;0.0;0.0;5;EN (Ceske Drahy), EN (MAV), EN (ZSSK), RJ (Ceske Drahy), RJ (ZSSK);317
+269485;Sturovo;Sturovo;SK;;47.800125;18.67992;9.35;0.0;0.0;0.0;6;EN (Ceske Drahy), EN (MAV), EN (ZSSK), RJ (Ceske Drahy), RJ (MAV), RJ (ZSSK);260
+83946;Szob(Gr);Szob;HU;;47.824898;18.844774;5.68;0.0;0.0;0.0;2;EN (MAV), RJ (MAV);317
+82096;Vac;Vac;HU;;47.782726;19.13306;5.68;0.0;0.0;0.0;2;EN (MAV), RJ (MAV);317
+619325;Budapest-Nyugati;Budapest;HU;;47.510708;19.057467;5.68;0.0;0.0;0.0;2;EN (MAV), RJ (MAV);317
+552264;Ostseebad Binz;Ostseebad Binz;DE;Mecklenburg-Vorpommern;54.40482;13.600507;16.65;16.0;0.0;0.65;3;IC 17, ICE 15, ICE 33;149
+399757;Bergen auf Rügen;Bergen auf Rügen;DE;Mecklenburg-Vorpommern;54.4205;13.417821;16.65;16.0;0.0;0.65;3;IC 17, ICE 15, ICE 33;149
+446029;Stralsund Hbf;Stralsund;DE;Mecklenburg-Vorpommern;54.30829;13.078022;20.94;20.29;0.0;0.65;5;IC 17, ICE 13, ICE 15, ICE 17, ICE 33;112
+436196;Greifswald;Greifswald;DE;Mecklenburg-Vorpommern;54.092922;13.370262;9.81;9.42;0.0;0.39;4;IC 17, ICE 13, ICE 15, ICE 33;256
+641311;Züssow;Züssow;DE;Mecklenburg-Vorpommern;53.97388;13.548191;7.81;7.42;0.0;0.39;3;IC 17, ICE 13, ICE 15;271
+544415;Pasewalk;Pasewalk;DE;Mecklenburg-Vorpommern;53.515354;13.988875;6.35;5.97;0.0;0.39;3;IC 17, ICE 13, ICE 15;292
+241671;Eberswalde Hbf;Eberswalde;DE;Brandenburg;52.83377333333333;13.796926;7.81;7.42;0.0;0.39;3;IC 17, ICE 13, ICE 15;271
+127712;Berlin Gesundbrunnen;Berlin;DE;Berlin;52.548635499999996;13.390534166666667;83.16;67.13;34.65;15.84;18;EC 95, EC 96, EN (BahnTouristikExpress), IC 17, IC 57, ICE 10, ICE 11, ICE 12, ICE 13, ICE 14, ICE 15, ICE 17, ICE 18, ICE 27, ICE 28, ICE 29, ICE 6, ICE 82;23
+85219;Wolfsburg Hbf;Wolfsburg;DE;Niedersachsen;52.429497;10.787784;82.39;82.39;6.23;0.0;4;ICE 10, ICE 12, ICE 13, ICE 14;24
+337616;Braunschweig Hbf;Braunschweig;DE;Niedersachsen;52.253967;10.538819;60.45;34.9;5.58;25.55;5;IC 55, IC 56, ICE 10, ICE 12, ICE 13;39
+180320;Hildesheim Hbf;Hildesheim;DE;Niedersachsen;52.160625;9.953497;32.48;32.48;5.58;0.0;2;ICE 12, ICE 13;69
+207594;Visp;Visp;CH;;46.29403;7.881465;4.42;4.42;0.0;0.0;1;ICE (SBB);347
+228347;Brig;Brig;CH;;46.319424;7.988095;4.42;4.42;0.0;0.0;1;ICE (SBB);347
+656913;Aschaffenburg Hbf;Aschaffenburg;DE;Bayern;49.980556;9.143697;37.42;37.42;0.0;0.0;3;ICE 1, ICE 41, ICE 91;61
+232153;Wittenberge;Wittenberge;DE;Brandenburg;53.004083666666666;11.762515666666667;21.39;17.58;0.58;3.81;6;IC 57, ICE 11, ICE 18, ICE 27, ICE 28, ICE 91;108
+348473;Ludwigslust;Ludwigslust;DE;Mecklenburg-Vorpommern;53.33467;11.494491;21.39;17.58;0.58;3.81;6;IC 57, ICE 11, ICE 18, ICE 27, ICE 28, ICE 91;108
+195950;Norddeich Mole;Norddeich Mole;DE;Niedersachsen;53.624313;7.158806;11.81;0.0;0.0;11.81;2;IC 35, IC 56;227
+315947;Norddeich;Norddeich;DE;Niedersachsen;53.62158;7.160824;13.29;0.0;0.0;13.29;2;IC 35, IC 56;204
+63836;Norden;Norden;DE;Niedersachsen;53.588196;7.218913;13.61;0.0;0.0;13.61;2;IC 35, IC 56;200
+161450;Emden Hbf;Emden;DE;Niedersachsen;53.369038;7.195176;29.03;0.0;0.0;29.03;2;IC 35, IC 56;77
+549925;Leer(Ostfriesl);Leer;DE;Niedersachsen;53.23165;7.465283;28.84;0.0;0.0;28.84;2;IC 35, IC 56;79
+499625;Papenburg(Ems);Papenburg;DE;Niedersachsen;53.089706;7.386708;11.97;0.0;0.0;11.97;1;IC 35;224
+645573;Meppen;Meppen;DE;Niedersachsen;52.696022;7.298015;11.97;0.0;0.0;11.97;1;IC 35;224
+545852;Lingen(Ems);Lingen;DE;Niedersachsen;52.519867;7.321731;11.97;0.0;0.0;11.97;1;IC 35;224
+354436;Rheine;Rheine;DE;Nordrhein-Westfalen;52.2763;7.434255;26.61;14.0;0.0;12.61;2;IC 35, ICE 77;86
+324344;Neumünster;Neumünster;DE;Schleswig-Holstein;54.075752;9.979816;9.13;9.13;0.0;0.0;2;ICE 22, ICE 28;261
+659783;Kiel Hbf;Kiel;DE;Schleswig-Holstein;54.315235;10.131234;9.13;9.13;0.0;0.0;2;ICE 22, ICE 28;261
+123366;Rosenheim;Rosenheim;DE;Bayern;47.850018;12.119202;14.61;10.61;0.0;4.0;5;EC 62, ICE 24, ICE 62, ICE 90, ICE 91;180
+683842;Traunstein;Traunstein;DE;Bayern;47.869728;12.638801;12.0;8.0;0.0;4.0;3;EC 62, ICE 62, ICE 90;212
+252148;Freilassing;Freilassing;DE;Bayern;47.836918;12.977193;10.0;6.0;0.0;4.0;2;EC 62, ICE 62;250
+374368;Zürich Flughafen;Zürich;CH;;47.450386;8.562402;15.55;0.0;0.0;15.55;1;EC (SBB);169
+58038;Lüneburg;Lüneburg;DE;Niedersachsen;53.249657;10.41989;39.13;37.9;1.55;1.23;6;IC 57, ICE 20, ICE 22, ICE 24, ICE 25, ICE 33;58
+482842;Ingolstadt Hbf;Ingolstadt;DE;Bayern;48.74454;11.437337;42.29;42.29;15.16;0.0;3;ICE 25, ICE 29, ICE 41;54
+355878;Garmisch-Partenkirchen;Garmisch-Partenkirchen;DE;Bayern;47.49145;11.097013;0.39;0.39;0.0;0.0;1;ICE 62;531
+480131;Murnau;Murnau;DE;Bayern;47.682266;11.192628;0.39;0.39;0.0;0.0;1;ICE 62;531
+116047;Weilheim(Oberbay);Weilheim;DE;Bayern;47.845364;11.14286;0.39;0.39;0.0;0.0;1;ICE 62;531
+492332;Tutzing;Tutzing;DE;Bayern;47.907143;11.27289;0.29;0.29;0.0;0.0;1;ICE 62;546
+79866;Amsterdam Centraal;Amsterdam;NL;;52.37919;4.899431;28.0;26.55;0.0;1.45;3;IC (DB Fernverkehr (Codesharing)), ICE (Nederlandse Spoorwegen), ICE 77;82
+24890;Utrecht Centraal;Utrecht Centraal;NL;;52.089397;5.109861;18.23;16.77;0.0;1.45;3;IC (DB Fernverkehr (Codesharing)), ICE (Nederlandse Spoorwegen), ICE 77;133
+396218;Amersfoort Centraal;Amersfoort Centraal;NL;;52.153465;5.373909;14.0;14.0;0.0;0.0;2;ICE (Nederlandse Spoorwegen), ICE 77;184
+20335;Apeldoorn;Apeldoorn;NL;;52.20943;5.968491;14.0;14.0;0.0;0.0;2;ICE (Nederlandse Spoorwegen), ICE 77;184
+678907;Deventer;Deventer;NL;;52.257435;6.160506;14.0;14.0;0.0;0.0;2;ICE (Nederlandse Spoorwegen), ICE 77;184
+65847;Hengelo;Hengelo;NL;;52.261852;6.793726;27.87;27.87;0.0;0.0;2;ICE (Nederlandse Spoorwegen), ICE 77;83
+457953;Bad Bentheim(Gr);Bad Bentheim;DE;;52.3091;7.04016;14.0;14.0;0.0;0.0;1;ICE 77;184
+473292;Bad Bentheim;Bad Bentheim;DE;Niedersachsen;52.30985;7.158539;14.0;14.0;0.0;0.0;1;ICE 77;184
+346025;Bünde(Westf);Bünde;DE;Nordrhein-Westfalen;52.202076;8.573876;14.97;14.97;0.0;0.0;1;ICE 77;177
+327376;Berlin-Lichtenberg;Berlin;DE;Berlin;52.51021540000001;13.496711999999999;19.58;0.0;0.0;19.39;3;EC 95, EC 96, EN (BahnTouristikExpress);117
+607447;Montabaur;Montabaur;DE;Rheinland-Pfalz;50.444836;7.825333;25.84;25.84;0.0;0.0;4;ICE 41, ICE 45, ICE 49, ICE 79;90
+426722;Limburg Süd;Limburg;DE;Hessen;50.3825;8.096112;25.84;25.84;0.0;0.0;4;ICE 41, ICE 45, ICE 49, ICE 79;90
+574035;Hilversum;Hilversum;NL;;52.22667;5.181399;11.32;11.32;0.0;0.0;1;ICE (Nederlandse Spoorwegen);233
+351575;Bregenz;Bregenz;AT;;47.503002;9.739627;16.39;0.0;0.0;16.39;1;EC (ÖBB);156
+266187;Tuttlingen;Tuttlingen;DE;Baden-Württemberg;47.98058;8.798542;24.97;0.0;0.0;24.97;1;IC 87;98
+679686;Singen(Hohentwiel);Singen;DE;Baden-Württemberg;47.75888;8.841269;36.94;0.71;0.0;36.23;3;IC 87, ICE 12, ICE 45;63
+381506;Frankfurt(Main)Süd;Frankfurt;DE;Hessen;50.099365;8.686457;25.52;25.52;5.0;0.0;9;ECE 20, ICE 1, ICE 11, ICE 12, ICE 13, ICE 15, ICE 20, ICE 22, ICE 41;94
+360176;Kehl(Gr);Kehl;FR;;48.575645;7.801118;7.68;7.68;0.0;0.0;2;ICE 82, ICE 83;274
+412384;Strasbourg;Strasbourg;FR;;48.58534;7.734067;15.29;15.29;0.0;0.0;2;ICE 82, ICE 83;172
+241020;Rottweil;Rottweil;DE;Baden-Württemberg;48.165302;8.639295;22.58;0.0;0.0;22.58;1;IC 87;103
+348071;Horb;Horb;DE;Baden-Württemberg;48.44147;8.688982;25.52;0.0;0.0;25.52;1;IC 87;94
+341519;Böblingen;Böblingen;DE;Baden-Württemberg;48.68776;9.004128;8.58;0.0;0.0;8.58;1;IC 87;264
+621690;Uelzen;Uelzen;DE;Niedersachsen;52.96978;10.553053;25.74;24.52;1.16;1.23;6;ECE 20, IC 57, ICE 20, ICE 22, ICE 25, ICE 33;93
+490386;Bruchsal;Bruchsal;DE;Baden-Württemberg;49.124622;8.589649;13.16;10.68;0.0;2.48;5;IC 55, IC 60, ICE 13, ICE 26, ICE 60;206
+329017;Stendal Hbf;Stendal;DE;Sachsen-Anhalt;52.5947545;11.855227833333332;26.58;19.87;5.23;6.71;8;IC 17, IC 56, IC 57, ICE 10, ICE 12, ICE 13, ICE 18, ICE 77;87
+351643;Schwerin Hbf;Schwerin;DE;Mecklenburg-Vorpommern;53.63474;11.407455;17.23;13.42;0.0;3.81;4;IC 57, ICE 1, ICE 25, ICE 33;139
+315898;Bad Kleinen;Bad Kleinen;DE;Mecklenburg-Vorpommern;53.766975;11.466925;5.23;1.42;0.0;3.81;2;IC 57, ICE 1;331
+181656;Bützow;Bützow;DE;Mecklenburg-Vorpommern;53.837112;11.998194;15.23;11.42;0.0;3.81;3;IC 57, ICE 1, ICE 33;173
+157968;Rostock Hbf;Rostock;DE;Mecklenburg-Vorpommern;54.078247;12.131079;32.42;14.65;0.0;17.77;6;IC 17, IC 57, ICE 1, ICE 17, ICE 25, ICE 33;70
+337692;Berlin-Charlottenburg;Berlin;DE;Berlin;52.504135500000004;13.301841249999999;21.35;17.77;3.55;3.58;3;IC 56, ICE 13, ICE 14;110
+458602;Wiesloch-Walldorf;Wiesloch-Walldorf;DE;Baden-Württemberg;49.29135;8.664146;7.97;5.23;0.0;2.74;4;IC 55, ICE 13, ICE 26, ICE 62;269
+335130;Paris Est;Paris;FR;;48.876976;2.35912;13.06;13.06;2.58;0.0;2;ICE 82, ICE 83;207
+240005;Bochum Hbf;Bochum;DE;Nordrhein-Westfalen;51.478607;7.223275;22.32;21.87;0.58;0.45;10;IC 51, ICE 10, ICE 14, ICE 19, ICE 41, ICE 42, ICE 43, ICE 51, ICE 55, ICE 91;105
+267162;Hamm(Westf)Hbf;Hamm;DE;Nordrhein-Westfalen;51.678078;7.807821;69.97;56.29;2.0;13.68;8;IC 51, IC 55, ICE 10, ICE 14, ICE 19, ICE 42, ICE 51, ICE 77;32
+588749;Bielefeld Hbf;Bielefeld;DE;Nordrhein-Westfalen;52.029263;8.532722;73.13;61.77;8.19;11.35;4;IC 55, ICE 10, ICE 14, ICE 19;30
+16971;Ribnitz-Damgarten West;Ribnitz-Damgarten West;DE;Mecklenburg-Vorpommern;54.239178;12.436965;10.81;10.65;0.0;0.16;3;IC 17, ICE 17, ICE 33;242
+300365;Velgast;Velgast;DE;Mecklenburg-Vorpommern;54.277317;12.803137;10.48;10.32;0.0;0.16;3;IC 17, ICE 17, ICE 33;245
+87362;Wiesbaden Hbf;Wiesbaden;DE;Hessen;50.07079;8.243731;6.35;6.35;0.0;0.0;4;ICE 11, ICE 20, ICE 45, ICE 50;292
+256667;Remagen;Remagen;DE;Rheinland-Pfalz;50.577003;7.23027;1.87;1.87;1.81;0.0;1;ICE 42;479
+136937;Andernach;Andernach;DE;Rheinland-Pfalz;50.434544;7.404839;1.81;1.81;1.81;0.0;1;ICE 42;481
+378725;Altenbeken;Altenbeken;DE;Nordrhein-Westfalen;51.766434;8.943319;5.87;2.0;0.0;3.87;3;IC 51, ICE 10, ICE 51;311
+601951;Emden Außenhafen;Emden Außenhafen;DE;Niedersachsen;53.344467;7.186179;4.65;0.0;0.0;4.65;2;IC 35, IC 56;346
+235276;Szob;Szob;HU;;47.821;18.862057;1.68;0.0;0.0;0.0;1;RJ (MAV);486
+642408;Nagymaros-Visegrad;Nagymaros-Visegrad;HU;;47.790894;18.9588;1.68;0.0;0.0;0.0;1;RJ (MAV);486
+312313;Worms Hbf;Worms;DE;Rheinland-Pfalz;49.63494;8.356448;1.0;1.0;0.0;0.0;1;ICE 11;497
+355645;Waren(Müritz);Waren;DE;Mecklenburg-Vorpommern;53.52151;12.680678;15.06;1.23;0.0;13.84;2;IC 17, ICE 17;174
+382078;Neustrelitz Hbf;Neustrelitz;DE;Mecklenburg-Vorpommern;53.359257;13.074603;17.39;3.45;0.0;13.94;3;IC 17, ICE 15, ICE 17;136
+591256;Oranienburg;Oranienburg;DE;Brandenburg;52.7540865;13.2492755;14.9;1.06;0.0;13.84;2;IC 17, ICE 17;178
+559973;Berlin Ostkreuz;Berlin;DE;Berlin;52.503097499999996;13.4697915;14.16;0.0;0.0;14.16;1;IC 17;183
+5734;Flughafen BER;Flughafen BER;DE;Brandenburg;52.364063;13.509307;12.94;0.0;0.0;12.94;1;IC 17;208
+174282;Elsterwerda;Elsterwerda;DE;Brandenburg;51.459647999999994;13.516397;17.03;0.03;0.0;17.0;3;EC 97, IC 17, ICE 50;140
+565892;Friedberg(Hess);Friedberg;DE;Hessen;50.332607;8.762056;4.1;4.1;0.0;0.0;2;ICE 24, ICE 26;350
+10831;Schleswig;Schleswig;DE;Schleswig-Holstein;54.49946;9.53814;10.94;9.77;0.0;0.0;3;ECE 27, ECE 75, RJ (Dänische Staatsbahnen);239
+305446;Flensburg(Gr);Flensburg;DE;Schleswig-Holstein;54.814842;9.36324;29.42;9.55;0.0;17.61;4;ECE 75, EN (BahnTouristikExpress), IC (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);76
+567911;Helmstedt;Helmstedt;DE;Niedersachsen;52.222088;11.010553;13.32;0.0;0.0;13.32;2;IC 55, IC 56;203
+334578;Nienburg(Weser);Nienburg;DE;Niedersachsen;52.645565;9.217753;16.16;0.0;0.0;16.16;1;IC 56;162
+532185;Verden(Aller);Verden;DE;Niedersachsen;52.92082;9.237855;16.29;0.0;0.0;16.29;1;IC 56;159
+500697;Delmenhorst;Delmenhorst;DE;Niedersachsen;53.05279;8.629758;19.03;2.0;0.0;17.03;3;IC 56, ICE 16, ICE 26;126
+477894;Hude;Hude;DE;Niedersachsen;53.10943;8.460956;16.87;0.0;0.0;16.87;1;IC 56;148
+83956;Oldenburg(Oldb)Hbf;Oldenburg;DE;Niedersachsen;53.14432;8.222713;20.03;3.0;0.0;17.03;3;IC 56, ICE 16, ICE 26;115
+660675;Bad Zwischenahn;Bad Zwischenahn;DE;Niedersachsen;53.18255;8.003123;16.55;0.0;0.0;16.55;1;IC 56;152
+403644;Westerstede-Ocholt;Westerstede-Ocholt;DE;Niedersachsen;53.202168;7.886468;16.55;0.0;0.0;16.55;1;IC 56;152
+77452;Augustfehn;Augustfehn;DE;Niedersachsen;53.22089;7.759659;16.55;0.0;0.0;16.55;1;IC 56;152
+487028;Neu-Edingen/Friedrichsfeld;Neu-Edingen/Friedrichsfeld;DE;Baden-Württemberg;49.44867;8.580125;2.42;2.42;0.0;0.0;1;ICE 13;411
+375141;Diepholz;Diepholz;DE;Niedersachsen;52.60477;8.380334;4.9;4.9;2.9;0.0;2;ICE 42, ICE 43;339
+541903;Köln/Bonn Flughafen;Köln;DE;Nordrhein-Westfalen;50.878902;7.119302;4.42;4.42;0.0;0.0;2;ICE 41, ICE 45;347
+170193;Bitterfeld;Bitterfeld;DE;Sachsen-Anhalt;51.62286;12.31685;21.03;20.74;0.84;0.29;6;IC 55, IC 56, ICE 11, ICE 18, ICE 28, ICE 29;111
+190482;Weststeiermark;Weststeiermark;AT;;46.813923;15.296772;7.0;4.0;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);276
+32934;St. Paul im Lavanttal;St. Paul im Lavanttal;AT;;46.72139;14.85579;7.0;4.0;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);276
+328829;Fredericia st;Fredericia st;DK;;55.56809;9.738813;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+365906;Lunderskov st;Lunderskov st;DK;;55.48012;9.303791;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+446184;Vamdrup st;Vamdrup st;DK;;55.428093;9.286454;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+260588;Vojens st;Vojens st;DK;;55.248478;9.304915;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+463735;Roedekro st;Roedekro st;DK;;55.069687;9.332754;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+215972;Tinglev st;Tinglev st;DK;;54.936172;9.258234;16.97;0.0;0.0;16.97;1;IC (Dänische Staatsbahnen);141
+310614;Flensburg;Flensburg;DE;Schleswig-Holstein;54.77404;9.436526;18.61;0.48;0.0;17.61;3;ECE 27, IC (Dänische Staatsbahnen), RJ (Dänische Staatsbahnen);130
+659092;Weißenfels;Weißenfels;DE;Sachsen-Anhalt;51.204617;11.970926;2.0;0.0;0.0;2.0;1;IC 61;419
+247025;Forbach(F);Forbach;FR;;49.189217;6.900258;2.71;2.71;0.84;0.0;1;ICE 82;409
+69606;Forbach(fr);Forbach;DE;Saarland;49.21409;6.944314;5.39;5.39;2.58;0.0;1;ICE 82;328
+478341;Stockholm Central;Stockholm Central;SE;;59.330013;18.05763;0.58;0.0;0.0;0.0;1;EN (BahnTouristikExpress);521
+327904;Norrköping Central;Norrköping Central;SE;;58.596558;16.18368;0.52;0.0;0.0;0.0;1;EN (BahnTouristikExpress);525
+473516;Linköping Central;Linköping Central;SE;;58.41601;15.626675;0.52;0.0;0.0;0.0;1;EN (BahnTouristikExpress);525
+148477;Nässjö Central;Nässjö Central;SE;;57.652126;14.694786;0.52;0.0;0.0;0.0;1;EN (BahnTouristikExpress);525
+90097;Alvesta station;Alvesta station;SE;;56.89848;14.556882;0.52;0.0;0.0;0.0;1;EN (BahnTouristikExpress);525
+496137;Hässleholm Central;Hässleholm Central;SE;;56.15852;13.763922;0.52;0.0;0.0;0.0;1;EN (BahnTouristikExpress);525
+675943;Lund Central;Lund Central;SE;;55.70552;13.186582;0.58;0.0;0.0;0.0;1;EN (BahnTouristikExpress);521
+560592;Koebenhavns Lufthavn st;København;DK;;55.629604;12.649382;0.58;0.0;0.0;0.0;1;EN (BahnTouristikExpress);521
+464720;Berlin-Schöneweide;Berlin;DE;Berlin;52.454655;13.5095775;0.48;0.0;0.0;0.48;1;IC 17;530
+169559;Angermünde;Angermünde;DE;Brandenburg;53.0157665;13.99579;0.39;0.0;0.0;0.39;1;IC 17;531
+596419;Prenzlau;Prenzlau;DE;Brandenburg;53.321628000000004;13.8664745;4.81;4.42;0.0;0.39;3;IC 17, ICE 13, ICE 15;345
+510360;Anklam;Anklam;DE;Mecklenburg-Vorpommern;53.856102;13.701827;5.52;5.13;0.0;0.39;3;IC 17, ICE 13, ICE 15;325
+279667;Prora;Prora;DE;Mecklenburg-Vorpommern;54.444984;13.564057;0.1;0.0;0.0;0.1;1;IC 17;556
+670154;Gütersloh Hbf;Gütersloh;DE;Nordrhein-Westfalen;51.90694;8.385071;19.39;8.03;0.0;11.35;4;IC 55, ICE 10, ICE 14, ICE 19;119
+603461;Herford;Herford;DE;Nordrhein-Westfalen;52.11961;8.663643;19.55;8.19;0.0;11.35;5;IC 55, ICE 10, ICE 14, ICE 19, ICE 42;118
+4872;Bad Oeynhausen;Bad Oeynhausen;DE;Nordrhein-Westfalen;52.2054;8.796523;11.68;0.26;0.0;11.42;2;IC 55, ICE 19;229
+450630;Minden(Westf);Minden;DE;Nordrhein-Westfalen;52.29014;8.934728;27.81;16.39;0.0;11.42;3;IC 55, ICE 10, ICE 19;84
+192145;Ringsheim/Europa-Park;Ringsheim/Europa-Park;DE;Baden-Württemberg;48.248726;7.773037;1.81;1.81;0.0;0.0;1;ECE 85;481
+152171;Paderborn Hbf;Paderborn;DE;Nordrhein-Westfalen;51.71298;8.740505;5.81;1.94;0.0;3.87;2;IC 51, ICE 51;313
+642822;Lippstadt;Lippstadt;DE;Nordrhein-Westfalen;51.67069;8.348785;5.68;1.81;0.0;3.87;2;IC 51, ICE 51;317
+665711;Soest;Soest;DE;Nordrhein-Westfalen;51.57842;8.104589;5.87;2.0;0.0;3.87;3;IC 51, ICE 19, ICE 51;311
+422056;Leipzig/Halle Flughafen;Leipzig;DE;Sachsen;51.42334;12.223426;15.35;0.0;0.0;15.35;2;IC 55, IC 56;170
+580296;Woerden;Woerden;NL;;52.08515;4.893511;0.13;0.13;0.0;0.0;1;ICE (Nederlandse Spoorwegen);554
+419171;Salzwedel;Salzwedel;DE;Sachsen-Anhalt;52.858112;11.162035;1.23;0.0;0.0;1.23;1;IC 57;494
+430638;Oberhausen-Sterkrade;Oberhausen-Sterkrade;DE;Nordrhein-Westfalen;51.512085;6.843543;0.13;0.13;0.0;0.0;1;ICE 78;554
+380319;Wroclaw Glowny;Wroclaw Glowny;PL;;51.09808;17.037088;17.87;0.0;0.0;17.87;3;EC 95, EC 96, IC (PKP Intercity);134
+329478;Brzeg Dolny;Brzeg Dolny;PL;;51.266193;16.726768;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+451231;Wolow;Wolow;PL;;51.333015;16.633755;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+65970;Scinawa;Scinawa;PL;;51.409657;16.421356;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+688618;Glogow;Glogow;PL;;51.668957;16.079712;10.0;0.0;0.0;10.0;2;EC 96, IC (PKP Intercity);250
+340764;Nowa Sol;Nowa Sol;PL;;51.799683;15.708106;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+254321;Zielona Gora Glowna;Zielona Gora Glowna;PL;;51.947437;15.513709;10.0;0.0;0.0;10.0;2;EC 96, IC (PKP Intercity);250
+192031;Kostrzyn;Kostrzyn;PL;;52.591778;14.647988;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+444549;Mieszkowice;Mieszkowice;PL;;52.782093;14.485966;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+482440;Chojna;Chojna;PL;;52.963406;14.443931;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+392849;Gryfino;Gryfino;PL;;53.254215;14.49302;4.0;0.0;0.0;4.0;1;IC (PKP Intercity);351
+23816;Szczecin Glowny;Szczecin Glowny;PL;;53.418785;14.550318;6.0;0.0;0.0;6.0;1;IC (PKP Intercity);296
+31176;Szczecin Dabie;Szczecin Dabie;PL;;53.391228;14.669465;8.0;0.0;0.0;8.0;1;IC (PKP Intercity);265
+81166;Goleniow;Goleniow;PL;;53.559483;14.839893;6.0;0.0;0.0;6.0;1;IC (PKP Intercity);296
+624762;Wysoka Kamienska;Wysoka Kamienska;PL;;53.82494;14.832578;6.0;0.0;0.0;6.0;1;IC (PKP Intercity);296
+673336;Miedzyzdroje;Miedzyzdroje;PL;;53.92421;14.45478;6.0;0.0;0.0;6.0;1;IC (PKP Intercity);296
+402680;Swinoujscie;Swinoujscie;PL;;53.90482;14.266627;6.0;0.0;0.0;6.0;1;IC (PKP Intercity);296
+401361;Przemysl Glowny;Przemysl Glowny;PL;;49.78366;22.776363;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+419752;Przemysl Zasanie;Przemysl Zasanie;PL;;49.79363;22.774115;10.0;0.0;0.0;8.0;3;EC 96, EN (PKP Intercity), IC (PKP Intercity);250
+281559;Jaroslaw;Jaroslaw;PL;;50.01067;22.677896;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+325540;Przeworsk;Przeworsk;PL;;50.067215;22.503357;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+302226;Lancut;Lancut;PL;;50.08143;22.227507;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+187569;Rzeszow Glowny;Rzeszow Glowny;PL;;50.043114;22.006798;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+461066;Debica;Debica;PL;;50.054417;21.405565;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+251903;Tarnow;Tarnow;PL;;50.0054;20.97418;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+471931;Bochnia;Bochnia;PL;;49.9773;20.430775;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+573067;Krakow Plaszow;Krakow Plaszow;PL;;50.03509;19.974894;12.0;0.0;0.0;10.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);212
+246292;Krakow Glowny;Krakow Glowny;PL;;50.067196;19.947426;16.0;0.0;0.0;14.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);163
+68632;Zabrze;Zabrze;PL;;50.30528;18.786947;16.0;0.0;0.0;14.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);163
+350796;Gliwice;Gliwice;PL;;50.301105;18.677158;16.0;0.0;0.0;14.0;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);163
+610211;Kedzierzyn Kozle;Kedzierzyn Kozle;PL;;50.34436;18.204765;15.03;0.0;0.0;13.52;4;EC 95, EC 96, EN (PKP Intercity), IC (PKP Intercity);176
+684148;Opole Glowne;Opole Glowne;PL;;50.661514;17.925863;12.0;0.0;0.0;12.0;3;EC 95, EC 96, IC (PKP Intercity);212
+577641;Legnica;Legnica;PL;;51.21385;16.168922;9.87;0.0;0.0;9.87;2;EC 96, IC (PKP Intercity);255
+175147;Lubin;Lubin;PL;;51.39612;16.193586;6.0;0.0;0.0;6.0;1;EC 96;296
+285026;Engen;Engen;DE;Baden-Württemberg;47.856346;8.772786;10.52;0.0;0.0;10.52;1;IC 87;243
+612371;Radymno;Radymno;PL;;49.939533;22.829151;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+189221;Sedziszow Malopolski;Sedziszow Malopolski;PL;;50.07528;21.694704;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+311786;Ropczyce;Ropczyce;PL;;50.078583;21.582882;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+586577;Brzesko Okocim;Brzesko Okocim;PL;;49.986397;20.6103;6.0;0.0;0.0;4.0;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);296
+675844;Krzeszowice;Krzeszowice;PL;;50.130962;19.633242;6.0;0.0;0.0;4.0;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);296
+19534;Trzebinia;Trzebinia;PL;;50.153934;19.453215;6.0;0.0;0.0;4.0;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);296
+546325;Jaworzno Szczakowa;Jaworzno Szczakowa;PL;;50.246326;19.297424;6.0;0.0;0.0;4.0;3;EC 95, EN (PKP Intercity), IC (PKP Intercity);296
+692224;Myslowice;Myslowice;PL;;50.23779;19.1419;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+663551;Raciborz;Raciborz;PL;;50.09035;18.226397;4.0;0.0;0.0;2.0;2;EN (PKP Intercity), IC (PKP Intercity);351
+536697;Bohumin;Bohumin;CZ;;49.90073;18.359444;8.0;0.0;0.0;4.0;2;EN (PKP Intercity), IC (Ceske Drahy);265
+565766;Ostrava hl.n.;Ostrava hl.n.;CZ;;49.852085;18.267262;8.0;0.0;0.0;4.0;2;EN (PKP Intercity), IC (Ceske Drahy);265
+323161;Breclav(Gr);Breclav;AT;;48.71265;16.86837;7.84;0.0;0.0;2.0;3;EN (PKP Intercity), IC (ÖBB), RJ (ÖBB);270
+135333;Wien Hbf;Wien;AT;;48.1851;16.377113;24.81;4.0;0.0;9.97;7;EC (ÖBB), EC 90, EN (MAV), EN (PKP Intercity), IC (ÖBB), ICE (ÖBB), RJ (ÖBB);99
+456005;München Ost;München;DE;Bayern;48.12744;11.604971;12.45;6.68;0.0;5.77;4;EC 90, ICE 24, ICE 62, ICE 91;210
+325087;Chelm;Chelm;PL;;51.141197;23.494036;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+181141;Chelm Miasto;Chelm Miasto;PL;;51.138405;23.459185;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+296331;Rejowiec;Rejowiec;PL;;51.11764;23.239265;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+3332;Swidnik Miasto;Swidnik Miasto;PL;;51.223846;22.695324;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+5569;Lublin;Lublin;PL;;51.23124;22.568398;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+457377;Lublin Zachodni;Lublin Zachodni;PL;;51.218742;22.508389;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+368478;Naleczow;Naleczow;PL;;51.31779;22.21296;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+110363;Pulawy Miasto;Pulawy Miasto;PL;;51.426903;21.985098;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+445070;Deblin;Deblin;PL;;51.577408;21.834736;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+412609;Pilawa;Pilawa;PL;;51.957237;21.53291;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+141628;Zyrardow;Zyrardow;PL;;52.052116;20.448338;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+543734;Skierniewice;Skierniewice;PL;;51.967182;20.149752;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+504703;Koluszki;Koluszki;PL;;51.744602;19.818996;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+436966;Lodz Widzew;Lodz Widzew;PL;;51.763092;19.544464;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+92390;Lodz Chojny;Lodz Chojny;PL;;51.72638;19.484537;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+222222;Pabianice;Pabianice;PL;;51.66095;19.325098;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+100888;Lask;Lask;PL;;51.603775;19.111855;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+58792;Zdunska Wola;Zdunska Wola;PL;;51.61125;18.946575;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+329086;Sieradz;Sieradz;PL;;51.59766;18.714989;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+67505;Kalisz;Kalisz;PL;;51.74282;18.071917;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+155586;Pleszew;Pleszew;PL;;51.89199;17.73284;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+542190;Jarocin;Jarocin;PL;;51.96912;17.494276;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+115202;Sroda Wielkopolska;Sroda Wielkopolska;PL;;52.21805;17.274818;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+464435;Poznan Glowny;Poznan Glowny;PL;;52.401993;16.91087;19.35;0.0;0.0;19.35;2;EC 95, IC (PKP Intercity);120
+49031;Szamotuly;Szamotuly;PL;;52.603542;16.58542;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+371953;Wronki;Wronki;PL;;52.704967;16.38615;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+626975;Krzyz;Krzyz;PL;;52.87742;16.017834;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+524679;Dobiegniew;Dobiegniew;PL;;52.968422;15.746908;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+347970;Choszczno;Choszczno;PL;;53.16528;15.403792;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+652315;Stargard;Stargard;PL;;53.33975;15.031746;2.0;0.0;0.0;2.0;1;IC (PKP Intercity);419
+264321;Homburg(Saar)Hbf;Homburg;DE;Saarland;49.327775333333335;7.336641666666668;5.77;5.77;0.0;0.0;5;ICE 15, ICE 3, ICE 60, ICE 62, ICE 82;314
+678634;Landstuhl;Landstuhl;DE;Rheinland-Pfalz;49.416286;7.565931;0.87;0.87;0.0;0.0;1;ICE 62;503
+44915;Neustadt(Weinstr)Hbf;Neustadt;DE;Rheinland-Pfalz;49.349552;8.140757;5.48;5.48;0.0;0.0;4;ICE 15, ICE 3, ICE 60, ICE 62;326
+502931;Ludwigshafen(Rh)Hbf;Ludwigshafen;DE;Rheinland-Pfalz;49.47653;8.433042;1.26;0.87;0.0;0.39;2;IC 55, ICE 62;492
+688966;Brandenburg Hbf;Brandenburg;DE;Brandenburg;52.400305333333336;12.565155666666667;2.29;0.45;0.0;1.84;3;IC 17, IC 56, ICE 10;414
+693694;Potsdam Hbf;Potsdam;DE;Brandenburg;52.391556666666666;13.066736666666666;2.97;1.23;0.0;1.74;4;IC 17, IC 56, IC 57, ICE 10;407
+451103;Berlin-Wannsee;Berlin;DE;Berlin;52.421375999999995;13.180402;3.29;1.23;0.0;2.06;3;IC 17, IC 56, ICE 10;400
+610794;Hannover Messe/Laatzen;Hannover;DE;Niedersachsen;52.3169;9.792863;3.97;3.97;0.0;0.0;5;ICE 12, ICE 13, ICE 22, ICE 25, ICE 26;387
+469977;Swiebodzin;Swiebodzin;PL;;52.245144;15.53954;17.35;0.0;0.0;17.35;1;EC 95;137
+503214;Zbaszynek;Zbaszynek;PL;;52.242508;15.818092;17.35;0.0;0.0;17.35;1;EC 95;137
+429971;Konin;Konin;PL;;52.231396;18.253336;13.35;0.0;0.0;13.35;1;EC 95;201
+202002;Kutno;Kutno;PL;;52.226963;19.348616;13.35;0.0;0.0;13.35;1;EC 95;201
+262513;Horka(Gr);Horka;PL;;51.2862;15.032184;7.74;0.0;0.0;7.74;2;EC 97, IC (PKP Intercity);273
+359711;Wegliniec;Wegliniec;PL;;51.290108;15.223085;3.87;0.0;0.0;3.87;1;IC (PKP Intercity);388
+372447;Boleslawiec;Boleslawiec;PL;;51.266155;15.568923;3.87;0.0;0.0;3.87;1;IC (PKP Intercity);388
+227637;Chojnow;Chojnow;PL;;51.277657;15.937051;3.87;0.0;0.0;3.87;1;IC (PKP Intercity);388
+565099;Kufstein;Kufstein;AT;;47.58308;12.16555;9.55;5.23;0.0;0.0;4;ICE (ÖBB), ICE 24, ICE 91, RJ (ÖBB);259
+32069;Wörgl Hbf;Wörgl;AT;;47.4918;12.060581;6.94;2.61;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);279
+39899;Jenbach;Jenbach;AT;;47.388447;11.778454;6.32;2.0;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);294
+438277;Innsbruck Hbf;Innsbruck;AT;;47.263237;11.401028;6.32;2.0;0.0;0.0;2;ICE (ÖBB), RJ (ÖBB);294
+679270;Warburg(Westf);Warburg;DE;Nordrhein-Westfalen;51.492954;9.163845;4.0;0.13;0.0;3.87;2;IC 51, ICE 51;351
+89065;Ruhland;Ruhland;DE;Brandenburg;51.455185;13.870145999999998;3.87;0.0;0.0;3.87;1;EC 97;388
+321940;Wien Meidling;Wien;AT;;48.174583;16.333736;16.97;4.0;0.0;7.97;5;EC (ÖBB), EC 90, EN (MAV), ICE (ÖBB), RJ (ÖBB);141
+197616;Wiener Neustadt Hbf;Wien;AT;;47.81108;16.233652;3.0;0.0;0.0;0.0;1;RJ (ÖBB);403
+490265;Mürzzuschlag;Mürzzuschlag;AT;;47.60791;15.677244;3.0;0.0;0.0;0.0;1;RJ (ÖBB);403
+178938;Kapfenberg;Kapfenberg;AT;;47.44523;15.292357;3.0;0.0;0.0;0.0;1;RJ (ÖBB);403
+497711;Bruck/Mur;Bruck/Mur;AT;;47.41388;15.279491;3.0;0.0;0.0;0.0;1;RJ (ÖBB);403
+583614;Chur;Chur;CH;;46.853085;9.528938;4.9;4.9;0.0;0.0;1;ICE (SBB);339
+617061;Landquart;Landquart;CH;;46.96744;9.554045;4.9;4.9;0.0;0.0;1;ICE (SBB);339
+72217;Sargans;Sargans;CH;;47.044823;9.44626;4.9;4.9;0.0;0.0;1;ICE (SBB);339
+398625;Oberndorf(Neckar);Oberndorf;DE;Baden-Württemberg;48.29567;8.575514;14.58;0.0;0.0;14.58;1;IC 87;181
+332653;Mühldorf(Oberbay);Mühldorf;DE;Bayern;48.248207;12.519638;5.45;0.0;0.0;5.45;1;EC 90;327
+552402;Simbach(Inn);Simbach;DE;Bayern;48.262814;13.022952;11.74;0.0;0.0;11.74;2;EC (ÖBB), EC 90;228
+309229;Friedrichshafen Stadt;Friedrichshafen Stadt;DE;Baden-Württemberg;47.653225;9.4739;2.0;2.0;0.0;0.0;1;ICE 62;419
+48467;Ravensburg;Ravensburg;DE;Baden-Württemberg;47.78448;9.6061;2.0;2.0;0.0;0.0;1;ICE 62;419
+618056;Biberach(Riß);Biberach;DE;Baden-Württemberg;48.101845;9.793127;2.0;2.0;0.0;0.0;1;ICE 62;419
+656759;Büchen;Büchen;DE;Schleswig-Holstein;53.47497;10.623298;15.06;15.06;0.0;0.0;5;ICE 11, ICE 18, ICE 25, ICE 27, ICE 91;174
+425229;Müllheim im Markgräflerland;Müllheim im Markgräflerland;DE;Baden-Württemberg;47.809742;7.599332;1.06;1.06;0.0;0.0;1;ICE 60;495
+649755;Weil am Rhein;Weil am Rhein;DE;Baden-Württemberg;47.59361;7.60844;0.81;0.81;0.0;0.0;1;ICE 60;508
+610549;St.Pölten Hbf;St.Pölten;AT;;48.208275;15.624683;13.97;4.0;0.0;7.97;4;EC (ÖBB), EC 90, EN (MAV), ICE (ÖBB);194
+565918;Linz/Donau Hbf;Linz/Donau;AT;;48.290237;14.291864;13.97;4.0;0.0;7.97;4;EC (ÖBB), EC 90, EN (MAV), ICE (ÖBB);194
+412729;Hamburg-Bergedorf;Hamburg;DE;Hamburg;53.489834;10.206171;3.71;3.71;0.0;0.0;3;ICE 1, ICE 25, ICE 33;395
+607346;Marienhafe;Marienhafe;DE;Niedersachsen;53.519238;7.27436;7.32;0.0;0.0;7.32;1;IC 56;275
+451640;Coburg;Coburg;DE;Bayern;50.262928;10.957328;6.84;6.84;0.42;0.0;3;ICE 18, ICE 28, ICE 91;280
+382856;St Georgen(Schwarzw);St Georgen;DE;Baden-Württemberg;48.123814;8.341955;0.32;0.32;0.0;0.0;1;ICE 45;535
+118412;Villingen(Schwarzw);Villingen;DE;Baden-Württemberg;48.05802;8.465261;0.32;0.32;0.0;0.0;1;ICE 45;535
+620787;Donaueschingen;Donaueschingen;DE;Baden-Württemberg;47.9479;8.498788;0.32;0.32;0.0;0.0;1;ICE 45;535
+575544;Radolfzell;Radolfzell;DE;;47.735874;8.968984;2.42;0.32;0.0;2.1;2;IC 87, ICE 45;411
+391274;Konstanz;Konstanz;CH;;47.658752;9.177312;2.42;0.32;0.0;2.1;2;IC 87, ICE 45;411
+660348;Neu-Ulm;Neu-Ulm;DE;Bayern;48.393494;10.005766;1.0;1.0;0.0;0.0;1;ICE 60;497
+135002;Wels Hbf;Wels;AT;;48.166077;14.026569;5.97;0.0;0.0;5.97;2;EC (ÖBB), EC 90;309
+655579;Hegyeshalom(Gr);Hegyeshalom;HU;;47.93826;17.095844;6.0;0.0;0.0;4.0;3;EC (MAV), EC (ÖBB), EN (MAV);296
+442631;Hegyeshalom;Hegyeshalom;HU;;47.913975;17.145296;6.0;0.0;0.0;2.0;2;EC (MAV), EN (MAV);296
+141649;Mosonmagyarovar;Mosonmagyarovar;HU;;47.850357;17.266424;4.0;0.0;0.0;0.0;1;EN (MAV);351
+583035;Györ;Györ;HU;;47.68198;17.63479;4.0;0.0;0.0;0.0;1;EN (MAV);351
+45002;Tatabanya;Tatabanya;HU;;47.58493;18.393612;4.0;0.0;0.0;0.0;1;EN (MAV);351
+427667;Budapest-Kelenföld;Budapest;HU;;47.464355;19.020456;4.0;0.0;0.0;0.0;1;EN (MAV);351
+270995;Budapest-Keleti;Budapest;HU;;47.50038;19.085072;4.0;0.0;0.0;0.0;1;EN (MAV);351
+331895;Herrenberg;Herrenberg;DE;Baden-Württemberg;48.59399;8.862662;12.1;0.0;0.0;12.1;1;IC 87;211
+145252;Gäufelden;Gäufelden;DE;Baden-Württemberg;48.55966;8.850308;11.68;0.0;0.0;11.68;1;IC 87;229
+29588;Bondorf(b Herrenberg);Bondorf;DE;Baden-Württemberg;48.523552;8.827662;12.55;0.0;0.0;12.55;1;IC 87;209
+548973;Sulz(Neckar);Sulz;DE;Baden-Württemberg;48.366486;8.636748;13.87;0.0;0.0;13.87;1;IC 87;196
+371540;Schorndorf;Schorndorf;DE;Baden-Württemberg;48.80715;9.52631;1.84;0.0;0.0;1.84;1;IC 61;480
+274821;Treuchtlingen;Treuchtlingen;DE;Bayern;48.961266;10.908159;3.19;3.19;0.06;0.0;1;ICE 18;401
+597555;Jesenice(Gr);Jesenice;SI;;46.48141;14.020333;5.0;0.0;0.0;2.0;4;EC (ÖBB), EC 62, EN (HZZP), EN (ÖBB);337
+461309;Jesenice(SLO);Jesenice;SI;;46.436325;14.054913;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+188852;Lesce-Bled;Lesce-Bled;SI;;46.360416;14.157971;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+580053;Kranj;Kranj;SI;;46.23901;14.348167;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+243196;Ljubljana;Ljubljana;SI;;46.05869;14.512937;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+106125;Zidani Most;Zidani Most;SI;;46.085587;15.170323;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+528753;Sevnica;Sevnica;SI;;46.009678;15.301231;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+456575;Krsko;Krsko;SI;;45.95624;15.493454;2.0;0.0;0.0;0.0;2;EN (HZZP), EN (ÖBB);419
+276714;Dobova;Dobova;SI;;45.89839;15.655178;4.0;0.0;0.0;1.0;3;EC (ÖBB), EN (HZZP), EN (ÖBB);351
+312777;Dobova(Gr);Dobova;HR;;45.890633;15.680238;5.0;0.0;0.0;2.0;4;EC (HZZP), EC (ÖBB), EN (HZZP), EN (ÖBB);337
+540755;Zapresic;Zapresic;HR;;45.844494;15.813187;4.0;0.0;0.0;1.0;3;EC (HZZP), EN (HZZP), EN (ÖBB);351
+440759;Zagreb Glavni kolodvor;Zagreb Glavni kolodvor;HR;;45.80444;15.978705;4.0;0.0;0.0;1.0;3;EC (HZZP), EN (HZZP), EN (ÖBB);351
+188622;Dessau Hbf;Dessau;DE;Sachsen-Anhalt;51.839867;12.234945;0.32;0.0;0.0;0.32;2;IC 55, IC 56;535
+341575;Herzogenrath;Herzogenrath;DE;Nordrhein-Westfalen;50.870914;6.094486;1.58;1.58;0.0;0.0;1;ICE 14;490
+142762;Geilenkirchen;Geilenkirchen;DE;Nordrhein-Westfalen;50.96104;6.124518;1.74;1.74;0.0;0.0;2;ICE 10, ICE 14;483
+238156;Erkelenz;Erkelenz;DE;Nordrhein-Westfalen;51.076595;6.321634;1.74;1.74;0.0;0.0;2;ICE 10, ICE 14;483
+598868;Rheydt Hbf;Rheydt;DE;Nordrhein-Westfalen;51.16303;6.439564;1.74;1.74;0.0;0.0;2;ICE 10, ICE 14;483
+484741;Mönchengladbach Hbf;Mönchengladbach;DE;Nordrhein-Westfalen;51.196583;6.446111;3.13;3.13;0.0;0.0;2;ICE 10, ICE 14;402
+482951;Viersen;Viersen;DE;Nordrhein-Westfalen;51.254948;6.403896;2.13;2.13;0.0;0.0;1;ICE 14;417
+135640;Krefeld Hbf;Krefeld;DE;Nordrhein-Westfalen;51.325718;6.569885;2.13;2.13;0.0;0.0;1;ICE 14;417
+129801;Warnemünde;Warnemünde;DE;Mecklenburg-Vorpommern;54.176853;12.091271;2.29;0.32;0.0;1.97;2;IC 57, ICE 17;414
+19646;Gniezno;Gniezno;PL;;52.52965;17.602184;2.0;0.0;0.0;2.0;1;EC 95;419
+185434;Inowroclaw;Inowroclaw;PL;;52.804947;18.24406;2.0;0.0;0.0;2.0;1;EC 95;419
+647905;Bydgoszcz Glowna;Bydgoszcz Glowna;PL;;53.135113;17.991636;2.0;0.0;0.0;2.0;1;EC 95;419
+374452;Tczew;Tczew;PL;;54.09732;18.790155;2.0;0.0;0.0;2.0;1;EC 95;419
+265080;Gdansk Glowny;Gdansk Glowny;PL;;54.35552;18.643803;2.0;0.0;0.0;2.0;1;EC 95;419
+107964;Gdansk Wrzeszcz;Gdansk Wrzeszcz;PL;;54.38186;18.605434;2.0;0.0;0.0;2.0;1;EC 95;419
+4795;Gdansk Oliwa;Gdansk Oliwa;PL;;54.409893;18.571741;2.0;0.0;0.0;2.0;1;EC 95;419
+695219;Sopot;Sopot;PL;;54.440166;18.562323;2.0;0.0;0.0;2.0;1;EC 95;419
+506051;Gdynia Glowna;Gdynia Glowna;PL;;54.52084;18.529556;2.0;0.0;0.0;2.0;1;EC 95;419
+686926;Brzeg;Brzeg;PL;;50.85297;17.471178;2.0;0.0;0.0;2.0;1;EC 95;419
+556763;Oborniki Slaskie;Oborniki Slaskie;PL;;51.298965;16.907549;2.0;0.0;0.0;2.0;1;EC 95;419
+370112;Zmigrod;Zmigrod;PL;;51.474678;16.901731;2.0;0.0;0.0;2.0;1;EC 95;419
+300981;Rawicz;Rawicz;PL;;51.608677;16.840118;2.0;0.0;0.0;2.0;1;EC 95;419
+567877;Leszno;Leszno;PL;;51.846405;16.565569;2.0;0.0;0.0;2.0;1;EC 95;419
+213090;Koscian;Koscian;PL;;52.07896;16.641829;2.0;0.0;0.0;2.0;1;EC 95;419
+99034;Opalenica;Opalenica;PL;;52.309727;16.400345;2.0;0.0;0.0;2.0;1;EC 95;419
+139226;Nowy Tomysl;Nowy Tomysl;PL;;52.304085;16.13294;2.0;0.0;0.0;2.0;1;EC 95;419
+142048;Zbaszyn;Zbaszyn;PL;;52.259502;15.894974;2.0;0.0;0.0;2.0;1;EC 95;419
+313350;Middelfart st;Middelfart st;DK;;55.50162;9.734662;0.23;0.0;0.0;0.0;1;RJ (Dänische Staatsbahnen);551
+673820;Klanxbüll;Klanxbüll;DE;Schleswig-Holstein;54.861996;8.676454;0.06;0.06;0.0;0.0;1;ICE 18;557
+295467;Spaichingen;Spaichingen;DE;Baden-Württemberg;48.06899;8.740147;10.45;0.0;0.0;10.45;1;IC 87;246
+581912;Stuttgart-Vaihingen;Stuttgart;DE;Baden-Württemberg;48.72628;9.113226;1.42;0.0;0.0;1.42;1;IC 87;491
+27695;Köln-Ehrenfeld;Köln;DE;Nordrhein-Westfalen;50.951534;6.917276;0.26;0.16;0.0;0.1;2;IC 55, ICE 79;547
+517967;Weimar;Weimar;DE;Thüringen;50.991486;11.326458;5.16;0.0;0.0;5.16;1;IC 51;332
+588565;Jena West;Jena West;DE;Thüringen;50.923286;11.577848;5.16;0.0;0.0;5.16;1;IC 51;332
+190878;Stadtroda;Stadtroda;DE;Thüringen;50.868217;11.722792;5.16;0.0;0.0;5.16;1;IC 51;332
+307913;Hermsdorf-Klosterlausnitz;Hermsdorf-Klosterlausnitz;DE;Thüringen;50.903778;11.858626;5.16;0.0;0.0;5.16;1;IC 51;332
+197934;Gera Hbf;Gera;DE;Thüringen;50.883423;12.077092;5.16;0.0;0.0;5.16;1;IC 51;332
+26389;Fürth(Bay)Hbf;Fürth;DE;Bayern;49.469707;10.989988;0.03;0.03;0.0;0.0;1;ICE 25;562
+303933;Eichenberg;Eichenberg;DE;Hessen;51.374825;9.921482;0.06;0.06;0.0;0.0;2;ICE 12, ICE 20;557
+543923;Ceska Trebova;Ceska Trebova;CZ;;49.897324;16.446808;2.84;0.0;0.0;0.0;1;RJ (Ceske Drahy);408
+125185;Karlsruhe-Durlach;Karlsruhe-Durlach;DE;Baden-Württemberg;49.002327;8.462822;0.84;0.48;0.0;0.35;2;IC 60, ICE 60;507
+303008;Neuss Hbf;Neuss;DE;Nordrhein-Westfalen;51.20435;6.684527;1.06;1.06;0.0;0.0;3;ICE 10, ICE 42, ICE 55;495
+146906;Hoyerswerda;Hoyerswerda;DE;Sachsen;51.43279;14.231407;3.81;0.0;0.0;3.81;1;EC 97;392
+491201;Freiberg(Sachs);Freiberg;DE;Sachsen;50.908726;13.344141;3.81;0.0;0.0;3.81;1;IC 17;392
+227595;Chemnitz Hbf;Chemnitz;DE;Sachsen;50.839695;12.930877;3.81;0.0;0.0;3.81;1;IC 17;392
+551798;Prien am Chiemsee;Prien am Chiemsee;DE;Bayern;47.855515;12.346615;2.0;2.0;0.0;0.0;1;ICE 90;419
+163849;Dabrowa Gornicza Zabkowice;Dabrowa Gornicza Zabkowice;PL;;50.366478;19.264442;0.65;0.0;0.0;0.32;2;EN (PKP Intercity), IC (PKP Intercity);510
+222158;Kolin(CZ);Kolin;CZ;;50.025436;15.214279;2.52;0.0;0.0;0.0;2;RJ (Ceske Drahy), RJ (ZSSK);410
+465461;Eutingen im Gäu;Eutingen im Gäu;DE;Baden-Württemberg;48.479954;8.782236;1.26;0.0;0.0;1.26;1;IC 87;492
+141674;Ergenzingen;Ergenzingen;DE;Baden-Württemberg;48.489532;8.809857;0.55;0.0;0.0;0.55;1;IC 87;524
+117449;Dorfgastein;Dorfgastein;AT;;47.238487;13.103074;2.0;0.0;0.0;1.0;2;EC 62, RJ (ÖBB);419
+445830;Bad Hofgastein;Bad Hofgastein;AT;;47.195343;13.100503;2.0;0.0;0.0;1.0;2;EC 62, RJ (ÖBB);419
+533867;Frankfurt(Main)West;Frankfurt;DE;Hessen;50.1193;8.639395;0.03;0.03;0.0;0.0;1;ICE 42;562
+309788;Lovosice;Lovosice;CZ;;50.50971;14.059588;2.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);419
+630295;Roudnice nad Labem;Roudnice nad Labem;CZ;;50.426598;14.263827;2.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);419
+332709;Kralupy nad Vltavou;Kralupy nad Vltavou;CZ;;50.238728;14.313473;2.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);419
+265473;Ötztal;Ötztal;AT;;47.238483;10.859114;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+579889;Imst-Pitztal;Imst-Pitztal;AT;;47.219074;10.76167;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+579888;Landeck-Zams;Landeck-Zams;AT;;47.148243;10.578392;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+611513;St. Anton am Arlberg;St. Anton am Arlberg;AT;;47.12733;10.267088;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+30077;Langen am Arlberg;Langen am Arlberg;AT;;47.13172;10.120375;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+665705;Bludenz;Bludenz;AT;;47.154724;9.814564;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+21642;Feldkirch;Feldkirch;AT;;47.24098;9.604102;0.32;0.0;0.0;0.0;1;RJ (ÖBB);535
+41860;Dortmund-Scharnhorst;Dortmund;DE;Nordrhein-Westfalen;51.538372;7.536564;0.06;0.06;0.0;0.0;1;ICE 43;557
+95739;Hagenow Land;Hagenow Land;DE;Mecklenburg-Vorpommern;53.41358;11.215695;0.03;0.03;0.0;0.0;1;ICE 28;562
+631605;Gent St Pieters;Gent St Pieters;BE;;51.035625;3.710609;0.26;0.26;0.0;0.0;1;ICE 79;547
+125560;Brugge;Brugge;BE;;51.196934;3.217081;0.26;0.26;0.0;0.0;1;ICE 79;547
+402204;Oostende;Oostende;BE;;51.22849;2.926827;0.26;0.26;0.0;0.0;1;ICE 79;547
+242764;Zell am See;Zell am See;AT;;47.32052;12.796571;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+280725;Maishofen-Saalbach;Maishofen-Saalbach;AT;;47.358585;12.810197;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+329216;Saalfelden;Saalfelden;AT;;47.426857;12.829765;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+205890;Hochfilzen;Hochfilzen;AT;;47.467712;12.626525;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+237547;Fieberbrunn;Fieberbrunn;AT;;47.49114;12.528944;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+502892;St. Johann in Tirol;St. Johann in Tirol;AT;;47.51962;12.430775;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+13819;Kitzbühel;Kitzbühel;AT;;47.45411;12.391045;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+190047;Kitzbühel Hahnenkamm;Kitzbühel Hahnenkamm;AT;;47.44339;12.389856;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+621475;Kirchberg in Tirol;Kirchberg in Tirol;AT;;47.448917;12.309101;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+637838;Hopfgarten im Brixental;Hopfgarten im Brixental;AT;;47.455353;12.14918;0.61;0.61;0.0;0.0;1;ICE (ÖBB);511
+160045;Flughafen Wien;Flughafen Wien;AT;;48.120823;16.562828;1.0;0.0;0.0;0.0;1;RJ (ÖBB);497
+603166;Schönefeld(bei Berlin);Schönefeld;DE;Brandenburg;52.391064;13.51271;0.74;0.0;0.0;0.74;1;IC 17;509
+296891;Kornwestheim Pbf;Kornwestheim Pbf;DE;Baden-Württemberg;48.86222;9.179964;0.03;0.0;0.0;0.03;1;IC 61;562
+150560;Kehl;Kehl;DE;Baden-Württemberg;48.576656;7.806556;0.06;0.06;0.0;0.0;1;ICE 82;557
+285647;Haiger;Haiger;DE;Hessen;50.741207;8.221679;0.03;0.03;0.0;0.0;1;ICE 91;562
+578733;Praha-Podbaba;Praha;CZ;;50.11236;14.395604;1.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);497
+161542;Hnevice;Hnevice;CZ;;50.452686;14.361715;1.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);497
+528353;Bohusovice nad Ohri;Bohusovice nad Ohri;CZ;;50.491306;14.149456;1.0;0.0;0.0;0.0;1;RJ (Ceske Drahy);497
+644167;Ostermundigen;Ostermundigen;CH;;46.956802;7.481498;0.03;0.03;0.0;0.0;1;ICE (SBB);562
+502136;Bebra;Bebra;DE;Hessen;50.969566;9.797788;1.61;0.0;0.0;1.61;1;IC 51;489
+262116;Roppen;Roppen;AT;;47.21582;10.817376;0.16;0.0;0.0;0.0;1;RJ (ÖBB);552
+510956;Telfs-Pfaffenhofen;Telfs-Pfaffenhofen;AT;;47.30071;11.078869;0.16;0.0;0.0;0.0;1;RJ (ÖBB);552
+157156;Werder(Havel);Werder;DE;Brandenburg;52.39294;12.926189;0.06;0.0;0.0;0.06;1;IC 56;557

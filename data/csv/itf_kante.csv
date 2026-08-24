@@ -1,0 +1,174 @@
+﻿a_id;b_id;a;b;t_min;t_p15;t_median;zwischenhalte;zwischen;f_sprinter;f_ice;f_ic;f_gesamt;gewicht;linien
+436294;517455;Bonn Hbf;Köln Hbf;22;20;22;0;;1.68;11.48;14.35;27.52;42.35;IC 55, ICE 91, ICE 42, ICE 1, ICE 55
+436294;61534;Bonn Hbf;Koblenz Hbf;31;30;31;0;;1.81;16.52;14.52;32.84;52.97;ICE 91, IC 55, ICE 42, ICE 1, ICE 55
+176697;61534;Frankfurt(Main)Hbf;Koblenz Hbf;68;80;86;0;;0.65;5.19;0.61;6.45;12.94;ICE 91, ICE 42, ICE 1, IC 55
+176697;576155;Frankfurt(Main)Hbf;Hanau Hbf;14;14;15;0;;1.13;29.48;0.0;30.61;62.35;ICE 91, ICE 12, ICE 1, ICE 41, ICE 22
+576155;631640;Hanau Hbf;Würzburg Hbf;51;51;51;0;;0.0;22.26;0.0;22.26;44.52;ICE 91, ICE 41, ICE 1
+631640;99055;Würzburg Hbf;Nürnberg Hbf;53;52;54;0;;0.0;77.26;0.0;77.26;154.52;ICE 41, ICE 25, ICE 91, ICE 1
+464157;526634;Basel SBB;Freiburg(Breisgau) Hbf;32;36;38;1;Basel Bad Bf;0.0;43.9;0.0;43.9;87.81;ICE 43, ICE 12, ICE 20, ECE 20, ICE 60
+497089;526634;Karlsruhe Hbf;Freiburg(Breisgau) Hbf;62;62;62;1;Baden-Baden;0.0;14.0;0.0;14.0;28.0;ICE 43, ECE 85
+497089;582139;Karlsruhe Hbf;Mannheim Hbf;23;22;23;0;;0.0;55.94;0.0;55.94;111.87;ICE 43, ICE 12, ICE 20, ECE 20, ICE 82, ECE 85, ICE 45
+273099;582139;Siegburg/Bonn;Mannheim Hbf;71;80;81;1;Frankfurt(M) Flughafen Fernbf;0.0;7.19;0.0;7.19;14.39;ICE 47, ICE 62, ICE 42, ICE 43, ICE 45
+273099;691821;Siegburg/Bonn;Düsseldorf Hbf;35;35;39;1;Köln Messe/Deutz;0.0;13.45;0.0;13.45;26.9;ICE 41, ICE 62, ICE 43, ICE 42
+549058;691821;Duisburg Hbf;Düsseldorf Hbf;13;12;13;0;;3.58;80.1;11.97;95.65;182.9;ICE 10, ICE 47, ICE 43, ICE 42, IC 35, ICE 91, ICE 78, ICE 62
+549058;622042;Duisburg Hbf;Oberhausen Hbf;6;6;7;0;;2.06;31.84;11.97;45.87;81.84;ICE 78, IC 35, ICE 43, ICE 91, ICE 42, ICE 62, ICE 47, ICE 33
+622042;640892;Oberhausen Hbf;Dortmund Hbf;39;34;38;1;Gelsenkirchen Hbf;0.84;6.81;0.0;7.65;16.13;ICE 91, ICE 42, ICE 41, ICE 43, ICE 62, ICE 19
+464794;93866;Magdeburg Hbf;Hannover Hbf;75;88;106;0;;0.0;0.35;2.87;3.23;3.58;IC 56, ICE 10, ICE 19
+464794;531677;Magdeburg Hbf;Halle(Saale)Hbf;48;49;49;1;Köthen;0.0;0.0;30.03;30.03;30.03;IC 55, IC 56, IC 57
+531677;53188;Halle(Saale)Hbf;Leipzig Hbf;21;19;22;0;;0.0;0.0;29.97;29.97;29.97;IC 55, IC 56, IC 57
+176697;273099;Frankfurt(Main)Hbf;Siegburg/Bonn;50;52;55;1;Frankfurt(M) Flughafen Fernbf;0.0;48.1;0.0;48.1;96.19;ICE 41, ICE 78, ICE 42, ICE 49, ICE 79
+273099;517455;Siegburg/Bonn;Köln Hbf;15;13;15;0;;0.0;45.32;0.0;45.32;90.65;ICE 78, ICE 41, ICE 42, ICE 47, ICE 49, ICE 79, ICE 43, ICE 45
+517455;549058;Köln Hbf;Duisburg Hbf;37;44;77;0;;0.26;8.42;0.0;8.68;17.61;ICE 78, ICE 10, ICE 47, ICE 42, ICE 43, ICE 41, ICE 91, ICE 14
+167729;9941;Lindau-Reutin;München Hbf;127;122;131;0;;0.0;10.26;0.0;10.26;20.52;ECE 88
+253250;635340;Ulm Hbf;Heidelberg Hbf;101;101;101;1;Esslingen(Neckar);0.0;8.61;0.0;8.61;17.23;ICE 62, ICE 55
+582139;635340;Mannheim Hbf;Heidelberg Hbf;11;11;12;0;;0.0;9.16;11.94;21.1;30.26;IC 55, ICE 42, ICE 11, ICE 22, ICE 55, ICE 62, ICE 45
+176337;582139;Mainz Hbf;Mannheim Hbf;39;39;39;0;;0.0;4.42;12.0;16.42;20.84;IC 55, ICE 55, ICE 11, ICE 45, ICE 42
+176337;61534;Mainz Hbf;Koblenz Hbf;51;51;51;0;;1.16;11.32;13.23;25.71;39.35;IC 55, ICE 91, ICE 42, ICE 55, ICE 1
+517455;691821;Köln Hbf;Düsseldorf Hbf;22;21;25;0;;3.81;40.42;7.16;51.39;99.42;ICE 42, ICE 43, ICE 10, ICE 91, ICE 78, ICE 1, ICE 33, IC 35
+549058;640892;Duisburg Hbf;Dortmund Hbf;28;35;40;0;;0.06;29.81;0.0;29.87;59.81;ICE 10, ICE 47, ICE 41, ICE 91, ICE 43, ICE 55, ICE 14, ICE 42
+22625;517455;Aachen Hbf;Köln Hbf;37;33;36;0;;0.0;18.23;0.0;18.23;36.45;ICE 79
+176697;517455;Frankfurt(Main)Hbf;Köln Hbf;69;66;69;0;;0.03;20.29;0.03;20.35;40.71;ICE 79, ICE 41, ICE 42, ICE 49, ICE 91, IC 55, ICE 78
+428519;477761;Hamburg Hbf;Bremen Hbf;56;56;56;0;;7.0;33.61;0.0;40.61;88.23;ICE 42, ICE 43, ICE 33
+477761;639669;Bremen Hbf;Osnabrück Hbf;50;50;51;0;;7.0;36.45;0.0;43.45;93.9;ICE 42, ICE 43, ICE 33
+325703;639669;Münster(Westf)Hbf;Osnabrück Hbf;23;23;24;0;;6.71;41.26;0.0;47.97;102.65;ICE 42, ICE 43, ICE 33, ICE 14, ICE 77
+325703;640892;Münster(Westf)Hbf;Dortmund Hbf;30;28;29;0;;2.06;21.94;1.03;25.03;51.1;ICE 42, ICE 43, IC 55, ICE 10
+158073;640892;Hagen Hbf;Dortmund Hbf;20;20;21;0;;0.26;15.1;11.42;26.77;42.39;ICE 42, IC 55, ICE 10, ICE 91, ICE 43, ICE 41, ICE 19
+158073;476721;Hagen Hbf;Wuppertal Hbf;16;16;16;0;;8.42;37.26;11.45;57.13;111.23;ICE 42, ICE 19, ICE 10, IC 55, ICE 91, ICE 43, ICE 41
+476721;517455;Wuppertal Hbf;Köln Hbf;32;30;31;0;;8.26;38.03;11.26;57.55;112.1;ICE 42, ICE 19, ICE 10, IC 55, ICE 14, ICE 91, ICE 43
+517455;582139;Köln Hbf;Mannheim Hbf;92;91;91;0;;0.0;32.71;0.0;32.71;65.42;ICE 42, ICE 43, ICE 47
+582139;668361;Mannheim Hbf;Stuttgart Hbf;38;37;38;0;;0.0;57.1;0.0;57.1;114.19;ICE 11, ICE 42, ICE 22, ICE 47, ICE 62, ICE 60, ICE 45
+253250;668361;Ulm Hbf;Stuttgart Hbf;50;42;49;0;;0.0;50.55;0.0;50.55;101.1;ICE 11, ICE 42, ICE 60, ICE 62, ICE 47
+253250;456179;Ulm Hbf;Augsburg Hbf;41;41;43;0;;0.0;75.68;0.0;75.68;151.35;ICE 11, ICE 42, ICE 47, ICE 62, ICE 60
+456179;9941;Augsburg Hbf;München Hbf;30;28;30;0;;0.52;84.68;0.0;85.19;170.9;ICE 11, ICE 42, ICE 47, ICE 62, ICE 60, ICE 18, ICE 25, ICE 29
+477761;93866;Bremen Hbf;Hannover Hbf;63;59;64;0;;0.0;15.48;16.29;31.77;47.26;IC 56, ICE 26, ICE 16
+168530;93866;Göttingen;Hannover Hbf;33;32;32;0;;2.71;73.03;0.0;75.74;154.19;ICE 25, ICE 22, ICE 20, ICE 26, ICE 12, ECE 20, ICE 24
+168530;19112;Göttingen;Kassel-Wilhelmshöhe;15;18;19;0;;7.65;97.13;0.0;104.77;217.19;ICE 25, ICE 22, ICE 20, ICE 12, ICE 13, ICE 26, ECE 20, ICE 24
+19112;537395;Kassel-Wilhelmshöhe;Marburg(Lahn);61;61;61;2;Wabern(Bz Kassel) > Treysa;0.0;6.71;0.0;6.71;13.42;ICE 26, ICE 24
+428469;537395;Gießen;Marburg(Lahn);15;16;16;0;;0.0;6.71;0.0;6.71;13.42;ICE 26, ICE 24
+176697;428469;Frankfurt(Main)Hbf;Gießen;41;39;40;0;;0.0;6.71;0.0;6.71;13.42;ICE 26, ICE 24
+176697;635340;Frankfurt(Main)Hbf;Heidelberg Hbf;56;56;58;0;;0.0;16.58;0.0;16.58;33.16;ICE 62, ICE 26, ICE 20, ICE 22, ICE 11, ICE 12
+267257;325703;Essen Hbf;Münster(Westf)Hbf;46;49;54;0;;0.03;4.87;0.26;5.16;10.1;ICE 33, ICE 62, IC 35, ICE 14, ICE 42, ICE 43
+176697;582139;Frankfurt(Main)Hbf;Mannheim Hbf;40;37;39;0;;0.0;71.48;0.0;71.48;142.97;ICE 11, ICE 12, ICE 22, ICE 42, ICE 20, ICE 82, ECE 20, ECE 85
+176697;19112;Frankfurt(Main)Hbf;Kassel-Wilhelmshöhe;85;85;86;0;;1.39;24.61;0.0;26.0;53.39;ICE 22, ICE 20, ECE 20
+428519;93866;Hamburg Hbf;Hannover Hbf;69;79;81;0;;5.29;60.65;0.0;65.94;137.16;ICE 22, ICE 25, ICE 20, ICE 4, ECE 20, ICE 24, ICE 33
+90261;99055;Regensburg Hbf;Nürnberg Hbf;59;59;60;0;;0.0;1.32;2.0;3.32;4.65;IC 61, ICE 91, ICE 1
+176337;176697;Mainz Hbf;Frankfurt(Main)Hbf;32;31;34;0;;1.16;11.16;1.23;13.55;27.03;ICE 91, ICE 42, ICE 20, ICE 1, IC 55, ICE 45
+436294;691821;Bonn Hbf;Düsseldorf Hbf;56;67;73;0;;0.1;4.32;0.1;4.52;9.03;ICE 91, ICE 55, ICE 42, IC 55
+526634;598255;Freiburg(Breisgau) Hbf;Offenburg;30;29;30;0;;0.0;33.48;0.0;33.48;66.97;ICE 12, ICE 20, ECE 20, ICE 60, ICE 43
+497089;598255;Karlsruhe Hbf;Offenburg;30;28;32;0;;0.0;36.06;0.0;36.06;72.13;ICE 12, ICE 20, ICE 43, ECE 20, ICE 60, ICE 45
+517455;640892;Köln Hbf;Dortmund Hbf;69;74;76;0;;2.03;7.71;0.13;9.87;21.65;ICE 43, ICE 42, ICE 91, IC 55, ICE 10
+513044;582139;Kaiserslautern Hbf;Mannheim Hbf;38;39;43;0;;0.0;10.84;0.0;10.84;21.68;ICE 82, ICE 62, ICE 60, ICE 15, ICE 3
+180380;513044;Saarbrücken Hbf;Kaiserslautern Hbf;36;36;42;0;;0.0;10.81;0.0;10.81;21.61;ICE 82, ICE 62, ICE 60, ICE 15, ICE 3
+613345;93866;Berlin Hbf;Hannover Hbf;97;93;95;0;;8.19;21.03;0.0;29.23;66.65;ICE 19, ICE 77, ICE 10
+158073;93866;Hagen Hbf;Hannover Hbf;125;128;132;0;;0.0;5.06;0.0;5.06;10.13;ICE 19
+176209;613345;Lutherstadt Wittenberg Hbf;Berlin Hbf;41;41;42;0;;3.1;39.68;0.0;42.77;88.65;ICE 11, ICE 28, ICE 18, ICE 91, ICE 10, ICE 12
+176209;53188;Lutherstadt Wittenberg Hbf;Leipzig Hbf;33;30;31;0;;3.1;38.16;0.0;41.26;85.61;ICE 11, ICE 28, ICE 18, ICE 91
+431744;53188;Bamberg;Leipzig Hbf;182;182;187;5;Naumburg(Saale)Hbf > Jena Paradies > Jena-Göschwitz > Saalfeld(Saale) > Lichtenfels;0.0;1.68;3.94;5.61;7.29;IC 61, ICE 18
+431744;99055;Bamberg;Nürnberg Hbf;35;35;36;0;;1.06;20.74;4.0;25.81;48.68;ICE 28, ICE 18, IC 61, ICE 25, ICE 1, ICE 41
+456179;99055;Augsburg Hbf;Nürnberg Hbf;62;69;73;0;;0.52;11.94;0.0;12.45;25.42;ICE 18, ICE 29, ICE 25, ICE 91, ICE 41, ICE 28
+668361;99055;Stuttgart Hbf;Nürnberg Hbf;131;129;131;0;;2.0;0.0;15.65;17.65;21.65;IC 61, ICE 6
+497089;668361;Karlsruhe Hbf;Stuttgart Hbf;45;40;54;0;;0.0;7.13;12.42;19.55;26.68;IC 61, ICE 60, ICE 83, IC 60
+325703;622042;Münster(Westf)Hbf;Oberhausen Hbf;57;55;58;0;;1.23;9.1;11.97;22.29;33.84;IC 35, ICE 43, ICE 42, ICE 33, ICE 62
+622042;691821;Oberhausen Hbf;Düsseldorf Hbf;20;20;21;0;;0.0;0.71;0.0;0.71;1.42;ICE 42, ICE 33, ICE 91
+635340;668361;Heidelberg Hbf;Stuttgart Hbf;40;39;47;0;;0.0;18.0;3.77;21.77;39.77;ICE 62, ICE 42, ICE 11, ICE 22, IC 55, ICE 13, ICE 55, ICE 45
+176697;216930;Frankfurt(Main)Hbf;Fulda;55;54;55;0;;2.77;29.74;0.0;32.52;67.81;ICE 11, ICE 50, ICE 13
+216930;416646;Fulda;Erfurt Hbf;84;75;77;1;Eisenach Hbf;2.06;31.94;0.0;34.0;70.06;ICE 11, ICE 50
+416646;53188;Erfurt Hbf;Leipzig Hbf;42;39;40;0;;3.1;57.16;0.0;60.26;123.61;ICE 11, ICE 28, ICE 50, ICE 91, ICE 18, ICE 51
+224643;53188;Dresden Hbf;Leipzig Hbf;71;67;69;1;Dresden-Neustadt;0.0;16.71;16.32;33.03;49.74;IC 55, ICE 50, ICE 51, IC 56
+446029;613345;Stralsund Hbf;Berlin Hbf;153;159;163;2;Neustrelitz Hbf > Berlin Gesundbrunnen;0.0;9.65;0.0;9.65;19.29;ICE 15, ICE 13
+531677;613345;Halle(Saale)Hbf;Berlin Hbf;71;66;68;0;;35.35;9.71;0.0;45.06;125.48;ICE 29, ICE 15, ICE 82, ICE 18
+416646;531677;Erfurt Hbf;Halle(Saale)Hbf;31;27;30;0;;35.48;11.06;0.0;46.55;128.58;ICE 29, ICE 15, ICE 11, ICE 18, ICE 82, ICE 50, ICE 28
+176697;416646;Frankfurt(Main)Hbf;Erfurt Hbf;126;126;126;0;;4.55;8.26;0.0;12.81;30.16;ICE 15, ICE 11, ICE 82
+613345;85219;Berlin Hbf;Wolfsburg Hbf;74;65;66;0;;1.03;66.58;0.0;67.61;136.26;ICE 10, ICE 12, ICE 13
+337616;85219;Braunschweig Hbf;Wolfsburg Hbf;17;16;17;0;;5.58;25.29;0.0;30.87;67.32;ICE 12, ICE 13, ICE 10
+180320;337616;Hildesheim Hbf;Braunschweig Hbf;24;21;22;0;;5.58;26.87;0.0;32.45;70.48;ICE 12, ICE 13
+168530;180320;Göttingen;Hildesheim Hbf;29;27;29;0;;5.58;26.9;0.0;32.48;70.55;ICE 12, ICE 13
+19112;216930;Kassel-Wilhelmshöhe;Fulda;30;30;30;0;;6.06;56.65;0.0;62.71;131.48;ICE 25, ICE 12, ICE 13, ICE 22
+216930;576155;Fulda;Hanau Hbf;42;40;41;0;;1.81;19.26;0.0;21.06;43.94;ICE 12, ICE 13, ICE 22
+99055;9941;Nürnberg Hbf;München Hbf;73;71;73;0;;15.94;55.23;0.0;71.16;158.26;ICE 41, ICE 25, ICE 28, ICE 29
+517455;576155;Köln Hbf;Hanau Hbf;89;92;95;0;;0.0;0.68;0.0;0.68;1.35;ICE 41
+428519;613345;Hamburg Hbf;Berlin Hbf;118;108;120;0;;0.58;32.26;0.0;32.84;66.26;ICE 28, ICE 11, ICE 18, ICE 91, ICE 27
+161450;325703;Emden Hbf;Münster(Westf)Hbf;112;114;114;1;Rheine;0.0;0.0;12.61;12.61;12.61;IC 35
+428519;659783;Hamburg Hbf;Kiel Hbf;67;67;69;1;Neumünster;0.0;9.13;0.0;9.13;18.26;ICE 22, ICE 28
+695368;9941;Salzburg Hbf;München Hbf;110;102;103;0;;0.0;5.65;4.0;9.65;15.29;ICE 62, EC 62, ICE 90
+216930;631640;Fulda;Würzburg Hbf;34;32;32;0;;0.0;31.0;0.0;31.0;62.0;ICE 25
+482842;631640;Ingolstadt Hbf;Würzburg Hbf;96;108;115;0;;0.0;2.52;0.0;2.52;5.03;ICE 25
+482842;9941;Ingolstadt Hbf;München Hbf;41;41;44;0;;15.16;27.13;0.0;42.29;99.74;ICE 25, ICE 41, ICE 29
+482842;99055;Ingolstadt Hbf;Nürnberg Hbf;29;29;31;0;;15.13;24.61;0.0;39.74;94.61;ICE 25, ICE 41, ICE 29
+416646;99055;Erfurt Hbf;Nürnberg Hbf;68;68;68;0;;31.13;4.84;0.0;35.97;103.06;ICE 29, ICE 91
+639669;93866;Osnabrück Hbf;Hannover Hbf;67;67;68;0;;0.0;18.0;0.0;18.0;36.0;ICE 77, ICE 14
+576155;582139;Hanau Hbf;Mannheim Hbf;51;58;58;1;Frankfurt(Main)Süd;0.0;3.35;0.0;3.35;6.71;ICE 12
+85219;93866;Wolfsburg Hbf;Hannover Hbf;35;31;35;0;;0.65;50.71;0.0;51.35;103.35;ICE 10, ICE 12, ICE 14
+216930;582139;Fulda;Mannheim Hbf;101;101;101;1;Frankfurt(Main)Süd;0.0;2.19;0.0;2.19;4.39;ICE 11
+668361;679686;Stuttgart Hbf;Singen(Hohentwiel);116;116;128;3;Horb > Rottweil > Tuttlingen;0.0;0.0;22.19;22.19;22.19;IC 87
+582139;691821;Mannheim Hbf;Düsseldorf Hbf;107;106;110;2;Frankfurt(M) Flughafen Fernbf > Köln Messe/Deutz;0.0;12.65;0.0;12.65;25.29;ICE 47, ICE 62, ICE 42
+351643;464794;Schwerin Hbf;Magdeburg Hbf;118;117;118;3;Stendal Hbf > Wittenberge > Ludwigslust;0.0;0.0;3.81;3.81;3.81;IC 57
+157968;351643;Rostock Hbf;Schwerin Hbf;55;49;51;0;;0.0;13.42;3.81;17.23;30.65;ICE 33, ICE 25, IC 57, ICE 1
+576155;635340;Hanau Hbf;Heidelberg Hbf;57;69;72;1;Frankfurt(Main)Süd;0.0;1.03;0.0;1.03;2.06;ICE 13, ICE 12
+267257;549058;Essen Hbf;Duisburg Hbf;12;11;12;0;;0.61;21.19;0.71;22.52;44.94;ICE 10, ICE 42, ICE 47, ICE 43, ICE 41, ICE 62, IC 35, ICE 14
+267257;640892;Essen Hbf;Dortmund Hbf;24;22;23;0;;0.58;19.9;0.45;20.94;42.0;ICE 10, ICE 42, ICE 47, ICE 14, ICE 41, ICE 43, ICE 51, ICE 55
+267162;640892;Hamm(Westf)Hbf;Dortmund Hbf;18;16;18;0;;1.71;39.26;13.65;54.61;97.29;ICE 10, IC 55, ICE 42, ICE 14, IC 51, ICE 19, ICE 51
+267162;588749;Hamm(Westf)Hbf;Bielefeld Hbf;27;25;28;0;;0.0;51.23;9.81;61.03;112.26;ICE 10, IC 55, ICE 14, ICE 19
+588749;93866;Bielefeld Hbf;Hannover Hbf;52;49;52;0;;8.19;53.58;11.35;73.13;143.1;ICE 10, IC 55, ICE 19, ICE 14
+351643;428519;Schwerin Hbf;Hamburg Hbf;55;55;55;0;;0.0;9.71;0.0;9.71;19.42;ICE 33, ICE 25, ICE 1
+157968;446029;Rostock Hbf;Stralsund Hbf;51;52;52;1;Ribnitz-Damgarten West;0.0;10.65;0.16;10.81;21.45;ICE 33, IC 17, ICE 17
+176697;87362;Frankfurt(Main)Hbf;Wiesbaden Hbf;34;47;47;0;;0.0;1.84;0.0;1.84;3.68;ICE 50, ICE 45
+497089;635340;Karlsruhe Hbf;Heidelberg Hbf;27;29;35;0;;0.0;5.16;3.16;8.32;13.48;IC 55, ICE 13, ICE 26, ICE 20, ICE 12
+267162;325703;Hamm(Westf)Hbf;Münster(Westf)Hbf;18;19;19;0;;1.81;0.03;0.0;1.84;5.48;ICE 42
+158073;267162;Hagen Hbf;Hamm(Westf)Hbf;28;28;30;0;;0.0;14.77;0.03;14.81;29.58;ICE 10, IC 55, ICE 42
+267162;93866;Hamm(Westf)Hbf;Hannover Hbf;105;106;118;0;;0.0;2.9;0.0;2.9;5.81;ICE 10, ICE 77
+176337;87362;Mainz Hbf;Wiesbaden Hbf;11;9;10;0;;0.0;4.52;0.0;4.52;9.03;ICE 20, ICE 45, ICE 11
+157968;224643;Rostock Hbf;Dresden Hbf;240;242;247;7;Waren(Müritz) > Neustrelitz Hbf > Oranienburg > Berlin Ostkreuz > Flughafen BER > Elsterwerda > Dresden-Neustadt;0.0;0.0;9.87;9.87;9.87;IC 17
+253250;582139;Ulm Hbf;Mannheim Hbf;86;90;91;1;Esslingen(Neckar);0.0;15.77;0.0;15.77;31.55;ICE 47, ICE 62, ICE 60
+337616;464794;Braunschweig Hbf;Magdeburg Hbf;47;44;44;0;;0.0;0.68;25.55;26.23;26.9;IC 55, IC 56, ICE 10, ICE 12
+337616;93866;Braunschweig Hbf;Hannover Hbf;34;31;32;0;;0.0;2.39;25.55;27.94;30.32;IC 55, IC 56, ICE 10
+216930;497089;Fulda;Karlsruhe Hbf;139;140;148;4;Weinheim(Bergstr)Hbf > Bensheim > Darmstadt Hbf > Frankfurt(Main)Süd;0.0;1.9;0.0;1.9;3.81;ICE 13
+19112;582139;Kassel-Wilhelmshöhe;Mannheim Hbf;125;127;128;0;;0.0;5.94;0.0;5.94;11.87;ICE 22, ICE 20, ECE 20
+168530;631640;Göttingen;Würzburg Hbf;134;160;166;0;;0.0;1.81;0.0;1.81;3.61;ICE 25
+224643;613345;Dresden Hbf;Berlin Hbf;113;94;116;2;Dresden-Neustadt > Berlin Südkreuz;0.0;0.87;0.0;0.87;1.74;ICE 27
+273099;640892;Siegburg/Bonn;Dortmund Hbf;81;86;94;2;Köln Messe/Deutz > Solingen Hbf;0.0;1.52;0.0;1.52;3.03;ICE 41, ICE 62, ICE 43, ICE 42
+176697;631640;Frankfurt(Main)Hbf;Würzburg Hbf;67;66;67;0;;0.0;24.9;0.0;24.9;49.81;ICE 41
+416646;431744;Erfurt Hbf;Bamberg;40;40;41;0;;1.06;17.97;0.0;19.03;39.13;ICE 28, ICE 18
+273099;576155;Siegburg/Bonn;Hanau Hbf;61;61;72;1;Frankfurt(M) Flughafen Fernbf;0.0;4.52;0.0;4.52;9.03;ICE 41
+476721;640892;Wuppertal Hbf;Dortmund Hbf;31;33;45;0;;0.1;1.39;0.0;1.48;3.06;ICE 42, ICE 10, ICE 41, ICE 14, ICE 43
+476721;691821;Wuppertal Hbf;Düsseldorf Hbf;15;20;22;0;;0.29;0.48;0.16;0.94;2.0;ICE 10, ICE 42, ICE 41, IC 55, ICE 43, ICE 91, ICE 19
+176209;531677;Lutherstadt Wittenberg Hbf;Halle(Saale)Hbf;28;31;34;0;;0.0;1.39;0.0;1.39;2.77;ICE 11, ICE 18, ICE 28
+19112;416646;Kassel-Wilhelmshöhe;Erfurt Hbf;88;79;98;0;;0.0;1.94;5.48;7.42;9.35;IC 51, ICE 51
+152171;19112;Paderborn Hbf;Kassel-Wilhelmshöhe;66;66;66;1;Altenbeken;0.0;1.94;3.87;5.81;7.74;IC 51, ICE 51
+152171;640892;Paderborn Hbf;Dortmund Hbf;66;59;63;2;Lippstadt > Soest;0.0;1.81;0.0;1.81;3.61;ICE 51
+253250;497089;Ulm Hbf;Karlsruhe Hbf;88;88;92;3;Esslingen(Neckar) > Vaihingen(Enz) > Bruchsal;0.0;2.74;0.0;2.74;5.48;ICE 60
+428519;464794;Hamburg Hbf;Magdeburg Hbf;138;138;142;5;Hamburg-Harburg > Lüneburg > Uelzen > Salzwedel > Stendal Hbf;0.0;0.0;1.23;1.23;1.23;IC 57
+640892;691821;Dortmund Hbf;Düsseldorf Hbf;42;45;55;0;;0.0;4.32;0.16;4.48;8.81;ICE 91, ICE 10, IC 55, ICE 41
+464794;613345;Magdeburg Hbf;Berlin Hbf;89;89;90;0;;0.0;0.9;0.16;1.06;1.97;ICE 10, ICE 12, IC 17, ICE 19
+325703;549058;Münster(Westf)Hbf;Duisburg Hbf;62;63;67;0;;1.13;4.97;0.19;6.29;13.52;ICE 43, ICE 42, ICE 33, IC 35
+161450;477761;Emden Hbf;Bremen Hbf;101;105;108;6;Delmenhorst > Oldenburg(Oldb)Hbf > Bad Zwischenahn > Westerstede-Ocholt > Augustfehn > Leer(Ostfriesl);0.0;0.0;16.42;16.42;16.42;IC 56
+456179;695368;Augsburg Hbf;Salzburg Hbf;134;134;135;4;Freilassing > Traunstein > Rosenheim > München Ost;0.0;4.35;0.0;4.35;8.71;ICE 62
+436294;640892;Bonn Hbf;Dortmund Hbf;101;111;121;1;Köln Süd;0.0;0.71;0.06;0.77;1.48;ICE 91, IC 55
+176697;640892;Frankfurt(Main)Hbf;Dortmund Hbf;169;169;169;2;Köln Messe/Deutz > Solingen Hbf;0.0;0.81;0.0;0.81;1.61;ICE 41
+152171;267162;Paderborn Hbf;Hamm(Westf)Hbf;40;40;40;1;Soest;0.0;0.13;3.87;4.0;4.13;IC 51, ICE 51
+337616;613345;Braunschweig Hbf;Berlin Hbf;111;132;137;0;;0.0;1.26;0.0;1.26;2.52;ICE 10, ICE 12
+176337;19112;Mainz Hbf;Kassel-Wilhelmshöhe;106;113;132;1;Frankfurt(Main)Süd;0.0;0.52;0.0;0.52;1.03;ICE 20
+267257;691821;Essen Hbf;Düsseldorf Hbf;24;25;26;0;;0.0;2.71;0.0;2.71;5.42;ICE 33, ICE 14, ICE 41, ICE 91
+176697;93866;Frankfurt(Main)Hbf;Hannover Hbf;135;134;135;0;;3.23;0.0;0.0;3.23;9.68;ICE 4
+158073;588749;Hagen Hbf;Bielefeld Hbf;53;52;53;0;;8.16;2.32;0.0;10.48;29.13;ICE 19
+588749;640892;Bielefeld Hbf;Dortmund Hbf;50;50;50;1;Gütersloh Hbf;0.0;0.03;1.55;1.58;1.61;IC 55, ICE 10
+576155;691821;Hanau Hbf;Düsseldorf Hbf;99;100;109;2;Köln Messe/Deutz > Frankfurt(M) Flughafen Fernbf;0.0;1.29;0.0;1.29;2.58;ICE 41
+351643;93866;Schwerin Hbf;Hannover Hbf;147;147;148;4;Lüneburg > Hamburg-Harburg > Hamburg-Bergedorf > Büchen;0.0;1.16;0.0;1.16;2.32;ICE 25, ICE 33
+168530;216930;Göttingen;Fulda;83;83;87;0;;0.61;1.0;0.0;1.61;3.84;ICE 12, ICE 25
+598255;679686;Offenburg;Singen(Hohentwiel);101;103;120;0;;0.0;0.71;0.0;0.71;1.42;ICE 12, ICE 45
+416646;582139;Erfurt Hbf;Mannheim Hbf;217;217;220;1;Frankfurt(M) Flughafen Fernbf;0.0;0.61;0.0;0.61;1.23;ICE 11
+216930;635340;Fulda;Heidelberg Hbf;115;115;115;4;Weinheim(Bergstr)Hbf > Bensheim > Darmstadt Hbf > Frankfurt(Main)Süd;0.0;4.55;0.0;4.55;9.1;ICE 13
+176697;613345;Frankfurt(Main)Hbf;Berlin Hbf;236;236;237;1;Berlin-Spandau;1.84;0.58;0.0;2.42;6.68;ICE 3
+351643;477761;Schwerin Hbf;Bremen Hbf;130;130;131;2;Hamburg-Harburg > Hamburg-Bergedorf;0.0;1.16;0.0;1.16;2.32;ICE 33
+428519;622042;Hamburg Hbf;Oberhausen Hbf;171;171;171;1;Gelsenkirchen Hbf;0.0;0.55;0.0;0.55;1.1;ICE 1
+497089;576155;Karlsruhe Hbf;Hanau Hbf;97;98;108;4;Darmstadt Hbf > Bensheim > Weinheim(Bergstr)Hbf > Neu-Edingen/Friedrichsfeld;0.0;0.55;0.0;0.55;1.1;ICE 13
+22625;549058;Aachen Hbf;Duisburg Hbf;85;85;85;7;Herzogenrath > Geilenkirchen > Erkelenz > Rheydt Hbf > Mönchengladbach Hbf > Viersen > Krefeld Hbf;0.0;1.13;0.0;1.13;2.26;ICE 14
+631640;93866;Würzburg Hbf;Hannover Hbf;116;116;116;0;;0.0;1.0;0.0;1.0;2.0;ICE 24
+456179;631640;Augsburg Hbf;Würzburg Hbf;109;109;116;0;;0.0;2.26;0.0;2.26;4.52;ICE 24, ICE 25
+176697;691821;Frankfurt(Main)Hbf;Düsseldorf Hbf;88;90;90;1;Köln Süd;0.0;4.26;0.0;4.26;8.52;ICE 41, ICE 91
+428519;549058;Hamburg Hbf;Duisburg Hbf;181;175;175;0;;0.0;2.52;0.0;2.52;5.03;ICE 1
+19112;631640;Kassel-Wilhelmshöhe;Würzburg Hbf;63;63;63;0;;0.0;1.0;0.0;1.0;2.0;ICE 24
+19112;93866;Kassel-Wilhelmshöhe;Hannover Hbf;55;55;55;0;;0.0;1.0;0.0;1.0;2.0;ICE 24
+517455;87362;Köln Hbf;Wiesbaden Hbf;59;59;61;2;Limburg Süd > Montabaur;0.0;1.32;0.0;1.32;2.65;ICE 45
+613345;99055;Berlin Hbf;Nürnberg Hbf;164;163;163;1;Berlin Südkreuz;2.0;0.0;0.0;2.0;6.0;ICE 6
+273099;87362;Siegburg/Bonn;Wiesbaden Hbf;59;56;60;2;Montabaur > Limburg Süd;0.0;1.35;0.0;1.35;2.71;ICE 45

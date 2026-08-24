@@ -1,0 +1,5 @@
+﻿variante;beschreibung;knoten;kanten;gewicht;kosten;kosten_je_gewicht;beschl_kanten;sollband_pct;mittlere_reserve_pct;hbf_knotenminute;flughafen_knotenminute;hbf_gleisminuten;flughafen_gleisminuten;flughafen_auslastung_pct;bewertung
+Status quo;Frankfurt Hbf ist Vollknoten, der Flughafen-Fernbahnhof ein Durchgangshalt;64;173;7277.4;13934.8;1.91;5;58.0;8.73;:16 / :46;frei (Durchfahrt);3383.0;1050.0;24.0;Referenz – beste Taktpassung, aber Hbf bleibt der Engpass
+Variante B;"Sprinter halten am Flughafen, übriger ICE am Hbf; beide Bahnhöfe taktgebunden";65;170;7623.5;20907.6;2.74;11;60.6;9.5;:18 / :48;:00 / :30;3048.0;1385.0;32.0;"Taktqualität 43 % schlechter; Hbf nur um 10 % entlastet"
+Variante A;Gesamter Fernverkehr an den Flughafen-Fernbahnhof, Hbf nur noch Nahverkehr;64;164;7162.6;15979.2;2.23;6;60.5;8.46;entfällt;:12 / :42;0.0;4433.0;103.0;"Taktqualität 17 % schlechter; Flughafen mit 4 Gleisen rechnerisch über 100 % ausgelastet"
+Variante C;Fernbahntunnel: Hbf wird Durchgangsbahnhof, wendende Züge werden durchgebunden;64;173;7277.4;13934.8;1.91;5;58.0;8.73;:16 / :46;frei (Durchfahrt);1373.0;1050.0;24.0;"Taktqualität unverändert gut; Hbf um 59 % entlastet"

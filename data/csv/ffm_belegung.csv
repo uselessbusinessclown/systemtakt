@@ -1,0 +1,13 @@
+﻿bahnhof;zugart;kategorie;fahrten_tag;gleisminuten_tag;anteil_pct
+Frankfurt(Main)Hbf;durchgehend;ICE;114.0;712.0;21.1
+Frankfurt(Main)Hbf;durchgehend;ICE-Sprinter;4.5;27.0;0.8
+Frankfurt(Main)Hbf;wendend/endend;IC/EC;1.9;47.0;1.4
+Frankfurt(Main)Hbf;wendend/endend;ICE;91.5;2289.0;67.7
+Frankfurt(Main)Hbf;wendend/endend;ICE-Sprinter;12.3;308.0;9.1
+Frankfurt(Main)Hbf;SUMME;alle;224.2;3383.0;100.0
+Flughafen Fern-/Regionalbf;durchgehend;IC/EC;1.2;4.0;0.3
+Flughafen Fern-/Regionalbf;durchgehend;ICE;149.1;423.0;40.2
+Flughafen Fern-/Regionalbf;durchgehend;ICE-Sprinter;1.8;15.0;1.4
+Flughafen Fern-/Regionalbf;wendend/endend;ICE;14.8;371.0;35.3
+Flughafen Fern-/Regionalbf;wendend/endend;ICE-Sprinter;9.5;238.0;22.7
+Flughafen Fern-/Regionalbf;SUMME;alle;176.5;1050.0;100.0

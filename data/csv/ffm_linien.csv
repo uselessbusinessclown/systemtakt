@@ -1,0 +1,27 @@
+﻿linie;fahrten_tag;haelt_hbf;haelt_flughafen;verlust
+ICE 41;65.1;1;1;beide Bahnhöfe
+ICE 79;31.9;1;1;beide Bahnhöfe
+ICE 50;31.0;1;1;beide Bahnhöfe
+ICE 49;30.1;1;1;beide Bahnhöfe
+ICE 78;25.1;1;1;beide Bahnhöfe
+ICE 42;24.7;1;1;beide Bahnhöfe
+ICE 11;20.2;1;1;beide Bahnhöfe
+ICE 91;19.3;1;1;beide Bahnhöfe
+ICE 62;17.9;1;1;beide Bahnhöfe
+ICE 12;17.6;1;1;beide Bahnhöfe
+ICE 43;16.0;0;1;nur Flughafen – vom Hbf nicht erreichbar
+ICE 47;15.3;0;1;nur Flughafen – vom Hbf nicht erreichbar
+ICE 22;14.7;1;0;nur Hbf – am Flughafen nicht erreichbar
+ICE 20;13.2;1;1;beide Bahnhöfe
+ICE 82;11.4;1;0;nur Hbf – am Flughafen nicht erreichbar
+ICE 15;9.4;1;0;nur Hbf – am Flughafen nicht erreichbar
+ICE 13;6.7;1;1;beide Bahnhöfe
+ICE 4;5.2;1;1;beide Bahnhöfe
+ICE 26;4.7;1;0;nur Hbf – am Flughafen nicht erreichbar
+ICE 1;4.6;1;1;beide Bahnhöfe
+ICE 3;4.1;1;1;beide Bahnhöfe
+ECE 20;3.1;1;0;nur Hbf – am Flughafen nicht erreichbar
+IC 55;3.1;1;1;beide Bahnhöfe
+ICE 45;2.6;1;1;beide Bahnhöfe
+ICE 24;2.0;1;0;nur Hbf – am Flughafen nicht erreichbar
+ECE 85;1.8;1;0;nur Hbf – am Flughafen nicht erreichbar

@@ -1,0 +1,8 @@
+﻿korridor;relation;km;fahrten_tag_ist;takt_ziel;richtungsfahrten_ziel;zuege_ziel_tag;fahrzeit_ist_min;fahrzeit_ziel_min;knotenlage
+SPR-1;Hamburg – Hannover – Frankfurt (+Flughafen);861.4;7.74;120 min Grundtakt, HVZ 60 min;12;24;214;208;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-2;Hamburg – Bremen/Münster – Ruhr – Köln;507.1;5.13;120 min Grundtakt, HVZ 60 min;12;24;219;212;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-3;Berlin – Hannover – Ruhr – Köln/Bonn;611.4;8.19;120 min Grundtakt, HVZ 60 min;12;24;259;251;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-4;Berlin – Halle/Erfurt – Nürnberg – München;704.8;32.23;120 min Grundtakt, HVZ 60 min;12;24;154;149;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-5;Berlin – Halle/Erfurt – Frankfurt;675.5;14.1;120 min Grundtakt, HVZ 60 min;12;24;159;154;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-6;Frankfurt/Mannheim/Karlsruhe – Paris;409.9;2.58;120 min Grundtakt, HVZ 60 min;12;24;108;105;Knotenlage der Endknoten, Zwischenknoten überholfrei
+SPR-7;Stuttgart – Nürnberg – Berlin;645.6;2.0;120 min Grundtakt, HVZ 60 min;12;24;293;284;Knotenlage der Endknoten, Zwischenknoten überholfrei

@@ -1,0 +1,293 @@
+﻿linie_key;prio;kategorie;folge;knoten;ankunft_min;abfahrt_min;kantenzeit_min;kum_min
+ICE 1;2;ICE;0;Nürnberg Hbf;;5;;0
+ICE 1;2;ICE;1;Würzburg Hbf;26;32;57;63
+ICE 1;2;ICE;2;Hanau Hbf;3;9;47;116
+ICE 1;2;ICE;3;Frankfurt(Main)Hbf;14;20;13;135
+ICE 1;2;ICE;4;Mainz Hbf;12;18;26;167
+ICE 1;2;ICE;5;Koblenz Hbf;6;12;48;221
+ICE 1;2;ICE;6;Bonn Hbf;0;6;30;257
+ICE 1;2;ICE;7;Köln Hbf;25;31;19;282
+ICE 1;2;ICE;8;Düsseldorf Hbf;25;31;24;312
+ICE 1;2;ICE;9;Duisburg Hbf;8;14;11;329
+ICE 1;2;ICE;10;Hamburg Hbf;4;;178;513
+ICE 43;1;ICE-Sprinter;0;Hamburg Hbf;;10;;0
+ICE 43;1;ICE-Sprinter;1;Bremen Hbf;4;10;54;60
+ICE 43;1;ICE-Sprinter;2;Osnabrück Hbf;24;30;44;110
+ICE 43;1;ICE-Sprinter;3;Münster(Westf)Hbf;23;29;25;141
+ICE 43;1;ICE-Sprinter;4;Oberhausen Hbf;19;25;50;197
+ICE 43;1;ICE-Sprinter;5;Duisburg Hbf;8;14;5;208
+ICE 43;1;ICE-Sprinter;6;Düsseldorf Hbf;25;31;11;225
+ICE 43;1;ICE-Sprinter;7;Köln Hbf;25;31;24;255
+ICE 43;1;ICE-Sprinter;8;Mannheim Hbf;26;32;85;346
+ICE 43;1;ICE-Sprinter;9;Karlsruhe Hbf;26;32;24;376
+ICE 43;1;ICE-Sprinter;10;Freiburg(Breisgau) Hbf;21;27;79;461
+ICE 43;1;ICE-Sprinter;11;Basel SBB;19;;26;493
+IC 56;3;IC/EC;0;Leipzig Hbf;;26;;0
+IC 56;3;IC/EC;1;Halle(Saale)Hbf;15;21;29;35
+IC 56;3;IC/EC;2;Magdeburg Hbf;21;27;48;89
+IC 56;3;IC/EC;3;Braunschweig Hbf;2;8;43;138
+IC 56;3;IC/EC;4;Hannover Hbf;9;15;31;175
+IC 56;3;IC/EC;5;Bremen Hbf;4;10;59;240
+IC 56;3;IC/EC;6;Emden Hbf;17;;101;347
+ICE 78;2;ICE;0;Frankfurt(Main)Hbf;;20;;0
+ICE 78;2;ICE;1;Siegburg/Bonn;5;11;45;51
+ICE 78;2;ICE;2;Köln Hbf;25;31;14;71
+ICE 78;2;ICE;3;Düsseldorf Hbf;25;31;24;101
+ICE 78;2;ICE;4;Duisburg Hbf;8;14;11;118
+ICE 78;2;ICE;5;Oberhausen Hbf;19;;5;129
+ECE 88;2;ICE;0;Lindau-Reutin;;16;;0
+ECE 88;2;ICE;1;München Hbf;10;;114;120
+ICE 55;2;ICE;0;Köln Hbf;;31;;0
+ICE 55;2;ICE;1;Bonn Hbf;0;6;19;25
+ICE 55;2;ICE;2;Koblenz Hbf;6;12;30;61
+ICE 55;2;ICE;3;Mainz Hbf;12;18;48;115
+ICE 55;2;ICE;4;Mannheim Hbf;26;32;38;159
+ICE 55;2;ICE;5;Heidelberg Hbf;11;17;9;174
+ICE 55;2;ICE;6;Stuttgart Hbf;8;;51;231
+ICE 79;2;ICE;0;Aachen Hbf;;22;;0
+ICE 79;2;ICE;1;Köln Hbf;25;31;33;39
+ICE 79;2;ICE;2;Frankfurt(Main)Hbf;14;;65;110
+ICE 42;1;ICE-Sprinter;0;Hamburg Hbf;;10;;0
+ICE 42;1;ICE-Sprinter;1;Bremen Hbf;4;10;54;60
+ICE 42;1;ICE-Sprinter;2;Osnabrück Hbf;24;30;44;110
+ICE 42;1;ICE-Sprinter;3;Münster(Westf)Hbf;23;29;25;141
+ICE 42;1;ICE-Sprinter;4;Dortmund Hbf;26;32;27;174
+ICE 42;1;ICE-Sprinter;5;Hagen Hbf;58;4;22;202
+ICE 42;1;ICE-Sprinter;6;Wuppertal Hbf;19;25;15;223
+ICE 42;1;ICE-Sprinter;7;Köln Hbf;25;31;30;259
+ICE 42;1;ICE-Sprinter;8;Mannheim Hbf;26;32;85;350
+ICE 42;1;ICE-Sprinter;9;Stuttgart Hbf;8;14;36;392
+ICE 42;1;ICE-Sprinter;10;Ulm Hbf;22;28;40;438
+ICE 42;1;ICE-Sprinter;11;Augsburg Hbf;10;16;42;486
+ICE 42;1;ICE-Sprinter;12;München Hbf;10;;24;516
+ICE 26;2;ICE;0;Hannover Hbf;;15;;0
+ICE 26;2;ICE;1;Bremen Hbf;4;;59;65
+ICE 33;2;ICE;0;Hamburg Hbf;;10;;0
+ICE 33;2;ICE;1;Schwerin Hbf;4;10;54;60
+ICE 33;2;ICE;2;Rostock Hbf;8;14;50;116
+ICE 33;2;ICE;3;Stralsund Hbf;5;;51;173
+ICE 22;1;ICE-Sprinter;0;Stuttgart Hbf;;14;;0
+ICE 22;1;ICE-Sprinter;1;Mannheim Hbf;26;32;36;42
+ICE 22;1;ICE-Sprinter;2;Frankfurt(Main)Hbf;14;20;36;84
+ICE 22;1;ICE-Sprinter;3;Kassel-Wilhelmshöhe;15;21;85;175
+ICE 22;1;ICE-Sprinter;4;Göttingen;57;3;12;193
+ICE 22;1;ICE-Sprinter;5;Hannover Hbf;9;15;36;235
+ICE 22;1;ICE-Sprinter;6;Hamburg Hbf;4;;59;300
+ICE 91;2;ICE;0;Nürnberg Hbf;;5;;0
+ICE 91;2;ICE;1;Würzburg Hbf;26;32;57;63
+ICE 91;2;ICE;2;Hanau Hbf;3;9;47;116
+ICE 91;2;ICE;3;Frankfurt(Main)Hbf;14;20;13;135
+ICE 91;2;ICE;4;Mainz Hbf;12;18;26;167
+ICE 91;2;ICE;5;Koblenz Hbf;6;12;48;221
+ICE 91;2;ICE;6;Bonn Hbf;0;6;30;257
+ICE 91;2;ICE;7;Köln Hbf;25;31;19;282
+ICE 91;2;ICE;8;Düsseldorf Hbf;25;31;24;312
+ICE 91;2;ICE;9;Duisburg Hbf;8;14;11;329
+ICE 91;2;ICE;10;Oberhausen Hbf;19;25;5;340
+ICE 91;2;ICE;11;Dortmund Hbf;26;;31;377
+ICE 82;1;ICE-Sprinter;0;Saarbrücken Hbf;;7;;0
+ICE 82;1;ICE-Sprinter;1;Kaiserslautern Hbf;13;19;36;42
+ICE 82;1;ICE-Sprinter;2;Mannheim Hbf;26;32;37;85
+ICE 82;1;ICE-Sprinter;3;Frankfurt(Main)Hbf;14;;36;127
+ICE 19;1;ICE-Sprinter;0;Köln Hbf;;31;;0
+ICE 19;1;ICE-Sprinter;1;Wuppertal Hbf;19;25;30;36
+ICE 19;1;ICE-Sprinter;2;Hagen Hbf;58;4;15;57
+ICE 19;1;ICE-Sprinter;3;Bielefeld Hbf;8;14;64;127
+ICE 19;1;ICE-Sprinter;4;Hannover Hbf;9;15;55;188
+ICE 19;1;ICE-Sprinter;5;Berlin Hbf;57;;96;290
+ICE 18;2;ICE;0;Berlin Hbf;;3;;0
+ICE 18;2;ICE;1;Hamburg Hbf;4;;107;113
+IC 61;3;IC/EC;0;Nürnberg Hbf;;5;;0
+IC 61;3;IC/EC;1;Stuttgart Hbf;8;14;105;111
+IC 61;3;IC/EC;2;Karlsruhe Hbf;26;;36;153
+ICE 50;2;ICE;0;Frankfurt(Main)Hbf;;20;;0
+ICE 50;2;ICE;1;Fulda;20;26;60;66
+ICE 50;2;ICE;2;Erfurt Hbf;8;14;72;144
+ICE 50;2;ICE;3;Leipzig Hbf;20;26;36;186
+ICE 50;2;ICE;4;Dresden Hbf;14;;60;252
+ICE 15;1;ICE-Sprinter;0;Frankfurt(Main)Hbf;;20;;0
+ICE 15;1;ICE-Sprinter;1;Erfurt Hbf;8;14;138;144
+ICE 15;1;ICE-Sprinter;2;Halle(Saale)Hbf;15;21;31;181
+ICE 15;1;ICE-Sprinter;3;Berlin Hbf;57;;66;253
+ICE 12;1;ICE-Sprinter;0;Basel SBB;;25;;0
+ICE 12;1;ICE-Sprinter;1;Freiburg(Breisgau) Hbf;21;27;26;32
+ICE 12;1;ICE-Sprinter;2;Offenburg;26;32;29;67
+ICE 12;1;ICE-Sprinter;3;Karlsruhe Hbf;26;32;24;97
+ICE 12;1;ICE-Sprinter;4;Mannheim Hbf;26;32;24;127
+ICE 12;1;ICE-Sprinter;5;Frankfurt(Main)Hbf;14;20;36;169
+ICE 12;1;ICE-Sprinter;6;Hanau Hbf;3;9;13;188
+ICE 12;1;ICE-Sprinter;7;Fulda;20;26;37;231
+ICE 12;1;ICE-Sprinter;8;Kassel-Wilhelmshöhe;15;21;29;266
+ICE 12;1;ICE-Sprinter;9;Göttingen;57;3;12;284
+ICE 12;1;ICE-Sprinter;10;Hildesheim Hbf;2;8;29;319
+ICE 12;1;ICE-Sprinter;11;Braunschweig Hbf;2;8;24;349
+ICE 12;1;ICE-Sprinter;12;Wolfsburg Hbf;3;9;25;380
+ICE 12;1;ICE-Sprinter;13;Berlin Hbf;57;;60;446
+ICE 62;2;ICE;0;Frankfurt(Main)Hbf;;20;;0
+ICE 62;2;ICE;1;Heidelberg Hbf;11;17;51;57
+ICE 62;2;ICE;2;Stuttgart Hbf;8;;51;114
+ICE 47;2;ICE;0;Essen Hbf;;28;;0
+ICE 47;2;ICE;1;Duisburg Hbf;8;14;10;16
+ICE 47;2;ICE;2;Düsseldorf Hbf;25;31;11;33
+ICE 47;2;ICE;3;Mannheim Hbf;26;32;113;152
+ICE 47;2;ICE;4;Ulm Hbf;22;28;88;246
+ICE 47;2;ICE;5;Augsburg Hbf;10;16;42;294
+ICE 47;2;ICE;6;München Hbf;10;;24;324
+ICE 41;2;ICE;0;München Hbf;;16;;0
+ICE 41;2;ICE;1;Nürnberg Hbf;59;5;65;71
+ICE 41;2;ICE;2;Würzburg Hbf;26;32;57;134
+ICE 41;2;ICE;3;Frankfurt(Main)Hbf;14;20;66;206
+ICE 41;2;ICE;4;Siegburg/Bonn;5;11;45;257
+ICE 41;2;ICE;5;Düsseldorf Hbf;25;;44;307
+ICE 11;1;ICE-Sprinter;0;Berlin Hbf;;3;;0
+ICE 11;1;ICE-Sprinter;1;Lutherstadt Wittenberg Hbf;11;17;40;46
+ICE 11;1;ICE-Sprinter;2;Leipzig Hbf;20;26;33;85
+ICE 11;1;ICE-Sprinter;3;Erfurt Hbf;8;14;36;127
+ICE 11;1;ICE-Sprinter;4;Fulda;20;26;72;205
+ICE 11;1;ICE-Sprinter;5;Frankfurt(Main)Hbf;14;20;60;271
+ICE 11;1;ICE-Sprinter;6;Mannheim Hbf;26;32;36;313
+ICE 11;1;ICE-Sprinter;7;Stuttgart Hbf;8;14;36;355
+ICE 11;1;ICE-Sprinter;8;Ulm Hbf;22;28;40;401
+ICE 11;1;ICE-Sprinter;9;Augsburg Hbf;10;16;42;449
+ICE 11;1;ICE-Sprinter;10;München Hbf;10;;24;479
+IC 35;3;IC/EC;0;Emden Hbf;;23;;0
+IC 35;3;IC/EC;1;Münster(Westf)Hbf;23;29;120;126
+IC 35;3;IC/EC;2;Oberhausen Hbf;19;25;50;182
+IC 35;3;IC/EC;3;Duisburg Hbf;8;14;5;193
+IC 35;3;IC/EC;4;Düsseldorf Hbf;25;31;11;210
+IC 35;3;IC/EC;5;Köln Hbf;25;;24;240
+EC 62;3;IC/EC;0;München Hbf;;16;;0
+EC 62;3;IC/EC;1;Salzburg Hbf;12;;112;118
+ICE 25;2;ICE;0;München Hbf;;16;;0
+ICE 25;2;ICE;1;Ingolstadt Hbf;57;3;37;43
+ICE 25;2;ICE;2;Nürnberg Hbf;59;5;26;75
+ICE 25;2;ICE;3;Würzburg Hbf;26;32;57;138
+ICE 25;2;ICE;4;Fulda;20;26;30;174
+ICE 25;2;ICE;5;Kassel-Wilhelmshöhe;15;21;29;209
+ICE 25;2;ICE;6;Göttingen;57;3;12;227
+ICE 25;2;ICE;7;Hannover Hbf;9;15;36;269
+ICE 25;2;ICE;8;Hamburg Hbf;4;;59;334
+ICE 29;1;ICE-Sprinter;0;München Hbf;;16;;0
+ICE 29;1;ICE-Sprinter;1;Ingolstadt Hbf;57;3;37;43
+ICE 29;1;ICE-Sprinter;2;Nürnberg Hbf;59;5;26;75
+ICE 29;1;ICE-Sprinter;3;Erfurt Hbf;8;14;75;156
+ICE 29;1;ICE-Sprinter;4;Halle(Saale)Hbf;15;21;31;193
+ICE 29;1;ICE-Sprinter;5;Berlin Hbf;57;;66;265
+ICE 77;2;ICE;0;Berlin Hbf;;3;;0
+ICE 77;2;ICE;1;Hannover Hbf;9;15;96;102
+ICE 77;2;ICE;2;Osnabrück Hbf;24;;69;177
+ICE 45;2;ICE;0;Köln Hbf;;31;;0
+ICE 45;2;ICE;1;Siegburg/Bonn;5;11;14;20
+ICE 45;2;ICE;2;Wiesbaden Hbf;0;6;79;105
+ICE 45;2;ICE;3;Mainz Hbf;12;18;12;123
+ICE 45;2;ICE;4;Mannheim Hbf;26;32;38;167
+ICE 45;2;ICE;5;Stuttgart Hbf;8;;36;209
+ICE 20;1;ICE-Sprinter;0;Basel SBB;;25;;0
+ICE 20;1;ICE-Sprinter;1;Freiburg(Breisgau) Hbf;21;27;26;32
+ICE 20;1;ICE-Sprinter;2;Offenburg;26;32;29;67
+ICE 20;1;ICE-Sprinter;3;Karlsruhe Hbf;26;32;24;97
+ICE 20;1;ICE-Sprinter;4;Mannheim Hbf;26;32;24;127
+ICE 20;1;ICE-Sprinter;5;Frankfurt(Main)Hbf;14;20;36;169
+ICE 20;1;ICE-Sprinter;6;Kassel-Wilhelmshöhe;15;21;85;260
+ICE 20;1;ICE-Sprinter;7;Göttingen;57;3;12;278
+ICE 20;1;ICE-Sprinter;8;Hannover Hbf;9;15;36;320
+ICE 20;1;ICE-Sprinter;9;Hamburg Hbf;4;;59;385
+ICE 60;2;ICE;0;Karlsruhe Hbf;;32;;0
+ICE 60;2;ICE;1;Stuttgart Hbf;8;14;36;42
+ICE 60;2;ICE;2;Ulm Hbf;22;28;40;88
+ICE 60;2;ICE;3;Augsburg Hbf;10;16;42;136
+ICE 60;2;ICE;4;München Hbf;10;;24;166
+IC 57;3;IC/EC;0;Leipzig Hbf;;26;;0
+IC 57;3;IC/EC;1;Halle(Saale)Hbf;15;21;29;35
+IC 57;3;IC/EC;2;Magdeburg Hbf;21;27;48;89
+IC 57;3;IC/EC;3;Schwerin Hbf;4;10;131;226
+IC 57;3;IC/EC;4;Rostock Hbf;8;;50;282
+ICE 13;1;ICE-Sprinter;0;Fulda;;26;;0
+ICE 13;1;ICE-Sprinter;1;Kassel-Wilhelmshöhe;15;21;29;35
+ICE 13;1;ICE-Sprinter;2;Göttingen;57;3;12;53
+ICE 13;1;ICE-Sprinter;3;Hildesheim Hbf;2;8;29;88
+ICE 13;1;ICE-Sprinter;4;Braunschweig Hbf;2;8;24;118
+ICE 13;1;ICE-Sprinter;5;Wolfsburg Hbf;3;;25;149
+IC 55;3;IC/EC;0;Magdeburg Hbf;;27;;0
+IC 55;3;IC/EC;1;Halle(Saale)Hbf;15;21;48;54
+IC 55;3;IC/EC;2;Leipzig Hbf;20;26;29;89
+IC 55;3;IC/EC;3;Dresden Hbf;14;;60;155
+ICE 10;2;ICE;0;Berlin Hbf;;3;;0
+ICE 10;2;ICE;1;Wolfsburg Hbf;3;9;60;66
+ICE 10;2;ICE;2;Hannover Hbf;9;15;30;102
+ICE 10;2;ICE;3;Bielefeld Hbf;8;14;55;163
+ICE 10;2;ICE;4;Hamm(Westf)Hbf;6;12;26;195
+ICE 10;2;ICE;5;Hagen Hbf;58;4;32;233
+ICE 10;2;ICE;6;Wuppertal Hbf;19;25;15;254
+ICE 10;2;ICE;7;Köln Hbf;25;;30;290
+IC 17;3;IC/EC;0;Dresden Hbf;;20;;0
+IC 17;3;IC/EC;1;Rostock Hbf;8;;240;246
+ICE 24;2;ICE;0;Frankfurt(Main)Hbf;;20;;0
+ICE 24;2;ICE;1;Gießen;59;5;39;45
+ICE 24;2;ICE;2;Marburg(Lahn);21;27;16;67
+ICE 24;2;ICE;3;Kassel-Wilhelmshöhe;15;21;60;133
+ICE 24;2;ICE;4;Göttingen;57;3;12;151
+ICE 24;2;ICE;5;Hannover Hbf;9;15;36;193
+ICE 24;2;ICE;6;Hamburg Hbf;4;;59;258
+ICE 27;2;ICE;0;Dresden Hbf;;20;;0
+ICE 27;2;ICE;1;Berlin Hbf;57;;97;103
+ICE 28;1;ICE-Sprinter;0;Hamburg Hbf;;10;;0
+ICE 28;1;ICE-Sprinter;1;Berlin Hbf;57;3;107;113
+ICE 28;1;ICE-Sprinter;2;Lutherstadt Wittenberg Hbf;11;17;40;159
+ICE 28;1;ICE-Sprinter;3;Leipzig Hbf;20;26;33;198
+ICE 28;1;ICE-Sprinter;4;Erfurt Hbf;8;14;36;240
+ICE 28;1;ICE-Sprinter;5;Bamberg;21;27;37;283
+ICE 28;1;ICE-Sprinter;6;Nürnberg Hbf;59;5;32;321
+ICE 28;1;ICE-Sprinter;7;München Hbf;10;;65;392
+ICE 16;2;ICE;0;Bremen Hbf;;10;;0
+ICE 16;2;ICE;1;Hannover Hbf;9;;59;65
+ECE 20;2;ICE;0;Basel SBB;;25;;0
+ECE 20;2;ICE;1;Freiburg(Breisgau) Hbf;21;27;26;32
+ECE 20;2;ICE;2;Offenburg;26;32;29;67
+ECE 20;2;ICE;3;Karlsruhe Hbf;26;32;24;97
+ECE 20;2;ICE;4;Mannheim Hbf;26;32;24;127
+ECE 20;2;ICE;5;Frankfurt(Main)Hbf;14;20;36;169
+ECE 20;2;ICE;6;Kassel-Wilhelmshöhe;15;21;85;260
+ECE 20;2;ICE;7;Göttingen;57;3;12;278
+ECE 20;2;ICE;8;Hannover Hbf;9;15;36;320
+ECE 20;2;ICE;9;Hamburg Hbf;4;;59;385
+ECE 85;2;ICE;0;Freiburg(Breisgau) Hbf;;27;;0
+ECE 85;2;ICE;1;Karlsruhe Hbf;26;32;79;85
+ECE 85;2;ICE;2;Mannheim Hbf;26;32;24;115
+ECE 85;2;ICE;3;Frankfurt(Main)Hbf;14;;36;157
+ICE 51;2;ICE;0;Dresden Hbf;;20;;0
+ICE 51;2;ICE;1;Leipzig Hbf;20;26;60;66
+ICE 51;2;ICE;2;Erfurt Hbf;8;14;36;108
+ICE 51;2;ICE;3;Kassel-Wilhelmshöhe;15;21;77;191
+ICE 51;2;ICE;4;Paderborn Hbf;20;26;79;276
+ICE 51;2;ICE;5;Dortmund Hbf;26;32;60;342
+ICE 51;2;ICE;6;Essen Hbf;22;28;28;376
+ICE 51;2;ICE;7;Duisburg Hbf;8;14;10;392
+ICE 51;2;ICE;8;Düsseldorf Hbf;25;;11;409
+ICE 49;2;ICE;0;Köln Hbf;;31;;0
+ICE 49;2;ICE;1;Siegburg/Bonn;5;11;14;20
+ICE 49;2;ICE;2;Frankfurt(Main)Hbf;14;;45;71
+ICE 14;2;ICE;0;Hannover Hbf;;15;;0
+ICE 14;2;ICE;1;Bielefeld Hbf;8;14;55;61
+ICE 14;2;ICE;2;Hamm(Westf)Hbf;6;12;26;93
+ICE 14;2;ICE;3;Dortmund Hbf;26;32;14;113
+ICE 14;2;ICE;4;Essen Hbf;22;;28;147
+ICE 4;1;ICE-Sprinter;0;Hamburg Hbf;;10;;0
+ICE 4;1;ICE-Sprinter;1;Hannover Hbf;9;15;59;65
+ICE 4;1;ICE-Sprinter;2;Frankfurt(Main)Hbf;14;;139;210
+ICE 17;2;ICE;0;Stralsund Hbf;;11;;0
+ICE 17;2;ICE;1;Rostock Hbf;8;;51;57
+ICE 3;1;ICE-Sprinter;0;Berlin Hbf;;3;;0
+ICE 3;1;ICE-Sprinter;1;Frankfurt(Main)Hbf;14;;247;253
+IC 51;3;IC/EC;0;Dortmund Hbf;;32;;0
+IC 51;3;IC/EC;1;Hamm(Westf)Hbf;6;12;14;20
+IC 51;3;IC/EC;2;Paderborn Hbf;20;26;40;66
+IC 51;3;IC/EC;3;Kassel-Wilhelmshöhe;15;21;79;151
+IC 51;3;IC/EC;4;Erfurt Hbf;8;;77;234
+ICE 90;2;ICE;0;Salzburg Hbf;;18;;0
+ICE 90;2;ICE;1;München Hbf;10;;112;118
+IC 60;3;IC/EC;0;Karlsruhe Hbf;;32;;0
+IC 60;3;IC/EC;1;Stuttgart Hbf;8;;36;42
+ICE 6;1;ICE-Sprinter;0;Stuttgart Hbf;;14;;0
+ICE 6;1;ICE-Sprinter;1;Nürnberg Hbf;59;5;105;111
+ICE 6;1;ICE-Sprinter;2;Berlin Hbf;57;;176;293

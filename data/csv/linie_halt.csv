@@ -1,0 +1,1698 @@
+﻿linie_key;station_id;name;reihenfolge;fahrten_tag
+ICE 1;517455;Köln Hbf;8;3.77
+ICE 1;436294;Bonn Hbf;7;2.87
+ICE 1;61534;Koblenz Hbf;6;2.87
+ICE 1;634086;Bingen(Rhein) Hbf;999;0.9
+ICE 1;176697;Frankfurt(Main)Hbf;3;2.81
+ICE 1;576155;Hanau Hbf;2;2.68
+ICE 1;631640;Würzburg Hbf;1;2.58
+ICE 1;99055;Nürnberg Hbf;0;2.68
+ICE 1;396514;Hamburg-Altona;13;2.16
+ICE 1;428519;Hamburg Hbf;12;3.35
+ICE 1;595938;Gelsenkirchen Hbf;11;1.97
+ICE 1;622042;Oberhausen Hbf;999;0.55
+ICE 1;549058;Duisburg Hbf;10;3.58
+ICE 1;691821;Düsseldorf Hbf;9;3.58
+ICE 1;656913;Aschaffenburg Hbf;999;1.97
+ICE 1;90261;Regensburg Hbf;999;0.55
+ICE 1;38672;Frankfurt(M) Flughafen Fernbf;4;1.84
+ICE 1;176337;Mainz Hbf;5;1.84
+ICE 1;351643;Schwerin Hbf;999;1.42
+ICE 1;315898;Bad Kleinen;999;1.42
+ICE 1;181656;Bützow;999;1.42
+ICE 1;157968;Rostock Hbf;999;1.42
+ICE 1;431744;Bamberg;999;0.1
+ICE 1;267257;Essen Hbf;999;0.52
+ICE 1;381506;Frankfurt(Main)Süd;999;0.06
+ICE 1;9066;Hamburg-Harburg;999;0.23
+ICE 1;412729;Hamburg-Bergedorf;999;0.23
+ICE 43;464157;Basel SBB;18;12.97
+ICE 43;297876;Basel Bad Bf;17;13.9
+ICE 43;526634;Freiburg(Breisgau) Hbf;16;14.0
+ICE 43;550478;Baden-Baden;15;15.06
+ICE 43;497089;Karlsruhe Hbf;14;16.0
+ICE 43;582139;Mannheim Hbf;13;16.0
+ICE 43;38672;Frankfurt(M) Flughafen Fernbf;12;15.97
+ICE 43;273099;Siegburg/Bonn;999;0.84
+ICE 43;95437;Köln Messe/Deutz;999;0.06
+ICE 43;691821;Düsseldorf Hbf;10;10.39
+ICE 43;609947;Düsseldorf Flughafen;999;0.19
+ICE 43;549058;Duisburg Hbf;9;10.32
+ICE 43;622042;Oberhausen Hbf;8;4.45
+ICE 43;595938;Gelsenkirchen Hbf;7;10.13
+ICE 43;239328;Herne-Wanne-Eickel Hbf;999;0.9
+ICE 43;640892;Dortmund Hbf;999;9.45
+ICE 43;598255;Offenburg;999;2.87
+ICE 43;517455;Köln Hbf;11;19.87
+ICE 43;437604;Solingen Hbf;999;7.97
+ICE 43;325703;Münster(Westf)Hbf;6;16.9
+ICE 43;639669;Osnabrück Hbf;5;17.0
+ICE 43;477761;Bremen Hbf;4;17.0
+ICE 43;9066;Hamburg-Harburg;3;17.0
+ICE 43;428519;Hamburg Hbf;2;17.0
+ICE 43;396514;Hamburg-Altona;0;12.06
+ICE 43;331094;Hamburg Dammtor;1;12.06
+ICE 43;375141;Diepholz;999;2.9
+ICE 43;240005;Bochum Hbf;999;0.32
+ICE 43;267257;Essen Hbf;999;0.29
+ICE 43;158073;Hagen Hbf;999;0.06
+ICE 43;476721;Wuppertal Hbf;999;0.13
+ICE 43;41860;Dortmund-Scharnhorst;999;0.06
+IC 56;93866;Hannover Hbf;6;17.13
+IC 56;464794;Magdeburg Hbf;3;14.97
+IC 56;608769;Köthen;2;10.68
+IC 56;531677;Halle(Saale)Hbf;1;10.71
+IC 56;53188;Leipzig Hbf;0;10.9
+IC 56;567911;Helmstedt;4;11.84
+IC 56;337616;Braunschweig Hbf;5;12.1
+IC 56;334578;Nienburg(Weser);7;16.16
+IC 56;532185;Verden(Aller);8;16.29
+IC 56;477761;Bremen Hbf;9;17.23
+IC 56;500697;Delmenhorst;10;17.03
+IC 56;477894;Hude;11;16.87
+IC 56;83956;Oldenburg(Oldb)Hbf;12;17.03
+IC 56;660675;Bad Zwischenahn;13;16.55
+IC 56;403644;Westerstede-Ocholt;14;16.55
+IC 56;77452;Augustfehn;15;16.55
+IC 56;549925;Leer(Ostfriesl);16;16.55
+IC 56;161450;Emden Hbf;17;16.42
+IC 56;601951;Emden Außenhafen;999;2.0
+IC 56;688966;Brandenburg Hbf;999;1.77
+IC 56;693694;Potsdam Hbf;999;1.55
+IC 56;451103;Berlin-Wannsee;999;2.0
+IC 56;337692;Berlin-Charlottenburg;999;3.58
+IC 56;446591;Berlin-Spandau;999;1.58
+IC 56;329017;Stendal Hbf;999;1.58
+IC 56;607346;Marienhafe;999;7.32
+IC 56;63836;Norden;999;7.32
+IC 56;315947;Norddeich;999;7.32
+IC 56;195950;Norddeich Mole;999;5.52
+IC 56;224643;Dresden Hbf;999;0.29
+IC 56;553920;Dresden-Neustadt;999;0.29
+IC 56;290554;Riesa;999;0.29
+IC 56;170193;Bitterfeld;999;0.26
+IC 56;188622;Dessau Hbf;999;0.29
+IC 56;422056;Leipzig/Halle Flughafen;999;0.03
+IC 56;157156;Werder(Havel);999;0.06
+ICE 78;176697;Frankfurt(Main)Hbf;0;12.48
+ICE 78;38672;Frankfurt(M) Flughafen Fernbf;1;12.65
+ICE 78;273099;Siegburg/Bonn;2;12.65
+ICE 78;517455;Köln Hbf;3;13.0
+ICE 78;549058;Duisburg Hbf;5;13.0
+ICE 78;622042;Oberhausen Hbf;6;13.0
+ICE 78;471479;Emmerich(Gr);7;12.87
+ICE 78;575362;Arnhem Centraal;8;12.87
+ICE 78;468143;Emmerich;999;6.0
+ICE 78;691821;Düsseldorf Hbf;4;7.13
+ICE 78;430638;Oberhausen-Sterkrade;999;0.13
+EC 95;42071;Rzepin;4;34.71
+EC 95;472499;Frankfurt(Oder)(Gr);3;17.35
+EC 95;354957;Frankfurt(Oder);2;17.35
+EC 95;127712;Berlin Gesundbrunnen;0;13.23
+EC 95;327376;Berlin-Lichtenberg;1;14.39
+EC 95;469977;Swiebodzin;999;17.35
+EC 95;503214;Zbaszynek;999;17.35
+EC 95;464435;Poznan Glowny;999;17.35
+EC 95;429971;Konin;999;13.35
+EC 95;202002;Kutno;999;13.35
+EC 95;692027;Warszawa Zachodnia;999;13.35
+EC 95;644330;Warszawa Centralna;999;13.35
+EC 95;39653;Warszawa Wschodnia;999;13.35
+EC 95;19646;Gniezno;999;2.0
+EC 95;185434;Inowroclaw;999;2.0
+EC 95;647905;Bydgoszcz Glowna;999;2.0
+EC 95;374452;Tczew;999;2.0
+EC 95;265080;Gdansk Glowny;999;2.0
+EC 95;107964;Gdansk Wrzeszcz;999;2.0
+EC 95;4795;Gdansk Oliwa;999;2.0
+EC 95;695219;Sopot;999;2.0
+EC 95;506051;Gdynia Glowna;999;2.0
+EC 95;401361;Przemysl Glowny;999;2.0
+EC 95;281559;Jaroslaw;999;2.0
+EC 95;325540;Przeworsk;999;2.0
+EC 95;302226;Lancut;999;2.0
+EC 95;187569;Rzeszow Glowny;999;2.0
+EC 95;461066;Debica;999;2.0
+EC 95;251903;Tarnow;999;2.0
+EC 95;586577;Brzesko Okocim;999;2.0
+EC 95;471931;Bochnia;999;2.0
+EC 95;573067;Krakow Plaszow;999;2.0
+EC 95;246292;Krakow Glowny;999;2.0
+EC 95;675844;Krzeszowice;999;2.0
+EC 95;19534;Trzebinia;999;2.0
+EC 95;546325;Jaworzno Szczakowa;999;2.0
+EC 95;319073;Katowice;999;2.0
+EC 95;68632;Zabrze;999;2.0
+EC 95;350796;Gliwice;999;2.0
+EC 95;610211;Kedzierzyn Kozle;999;2.0
+EC 95;684148;Opole Glowne;999;2.0
+EC 95;686926;Brzeg;999;2.0
+EC 95;380319;Wroclaw Glowny;999;2.0
+EC 95;556763;Oborniki Slaskie;999;2.0
+EC 95;370112;Zmigrod;999;2.0
+EC 95;300981;Rawicz;999;2.0
+EC 95;567877;Leszno;999;2.0
+EC 95;213090;Koscian;999;2.0
+EC 95;99034;Opalenica;999;2.0
+EC 95;139226;Nowy Tomysl;999;2.0
+EC 95;142048;Zbaszyn;999;2.0
+ECE 88;9941;München Hbf;3;10.26
+ECE 88;170179;Buchloe;2;10.13
+ECE 88;460148;Memmingen;1;10.13
+ECE 88;167729;Lindau-Reutin;0;10.26
+ECE (Dänische Staatsbahnen);368193;Padborg st;0;9.55
+ECE (Dänische Staatsbahnen);231011;Kolding st;1;9.55
+ECE (Dänische Staatsbahnen);111314;Odense st;2;9.55
+ECE (Dänische Staatsbahnen);468296;Ringsted st;3;9.55
+ECE (Dänische Staatsbahnen);274287;Koebenhavn H;4;9.55
+ICE (ÖBB);695368;Salzburg Hbf;13;10.0
+ICE (ÖBB);644690;Golling-Abtenau;12;6.0
+ICE (ÖBB);422140;Bischofshofen;11;6.0
+ICE (ÖBB);228870;St. Johann im Pongau;10;6.0
+ICE (ÖBB);447324;Schwarzach-St.Veit;9;6.61
+ICE (ÖBB);573454;Bad Gastein;8;6.0
+ICE (ÖBB);401728;Mallnitz-Obervellach;7;6.0
+ICE (ÖBB);98544;Spittal-Millstätter See;6;6.0
+ICE (ÖBB);584165;Villach Hbf;5;6.0
+ICE (ÖBB);333235;Velden am Wörther See;4;6.0
+ICE (ÖBB);133722;Pörtschach am Wörther See;999;2.0
+ICE (ÖBB);485693;Klagenfurt Hbf;3;6.0
+ICE (ÖBB);128231;Kühnsdorf-Klopeiner See;999;2.0
+ICE (ÖBB);338037;Graz Hbf;0;6.0
+ICE (ÖBB);190482;Weststeiermark;1;4.0
+ICE (ÖBB);32934;St. Paul im Lavanttal;2;4.0
+ICE (ÖBB);135333;Wien Hbf;999;4.0
+ICE (ÖBB);321940;Wien Meidling;999;4.0
+ICE (ÖBB);610549;St.Pölten Hbf;999;4.0
+ICE (ÖBB);565918;Linz/Donau Hbf;999;4.0
+ICE (ÖBB);565099;Kufstein;999;2.61
+ICE (ÖBB);32069;Wörgl Hbf;999;2.61
+ICE (ÖBB);39899;Jenbach;999;2.0
+ICE (ÖBB);438277;Innsbruck Hbf;999;2.0
+ICE (ÖBB);242764;Zell am See;999;0.61
+ICE (ÖBB);280725;Maishofen-Saalbach;999;0.61
+ICE (ÖBB);329216;Saalfelden;999;0.61
+ICE (ÖBB);205890;Hochfilzen;999;0.61
+ICE (ÖBB);237547;Fieberbrunn;999;0.61
+ICE (ÖBB);502892;St. Johann in Tirol;999;0.61
+ICE (ÖBB);13819;Kitzbühel;999;0.61
+ICE (ÖBB);190047;Kitzbühel Hahnenkamm;999;0.61
+ICE (ÖBB);621475;Kirchberg in Tirol;999;0.61
+ICE (ÖBB);637838;Hopfgarten im Brixental;999;0.61
+ICE 55;64889;Oberstdorf;999;0.87
+ICE 55;517030;Sonthofen;999;0.87
+ICE 55;190242;Kempten(Allgäu)Hbf;999;0.87
+ICE 55;460148;Memmingen;999;0.87
+ICE 55;253250;Ulm Hbf;999;0.87
+ICE 55;540195;Esslingen(Neckar);999;0.87
+ICE 55;424397;Vaihingen(Enz);6;1.87
+ICE 55;635340;Heidelberg Hbf;5;2.0
+ICE 55;582139;Mannheim Hbf;4;2.0
+ICE 55;176337;Mainz Hbf;3;2.0
+ICE 55;61534;Koblenz Hbf;2;2.0
+ICE 55;436294;Bonn Hbf;1;2.0
+ICE 55;517455;Köln Hbf;0;1.52
+ICE 55;691821;Düsseldorf Hbf;999;1.0
+ICE 55;549058;Duisburg Hbf;999;1.0
+ICE 55;595938;Gelsenkirchen Hbf;999;0.55
+ICE 55;640892;Dortmund Hbf;999;1.0
+ICE 55;668361;Stuttgart Hbf;7;1.0
+ICE 55;510314;Köln Süd;999;0.03
+ICE 55;303008;Neuss Hbf;999;0.03
+ICE 55;609947;Düsseldorf Flughafen;999;0.45
+ICE 55;267257;Essen Hbf;999;0.45
+ICE 55;240005;Bochum Hbf;999;0.45
+EC (SBB);96724;Zürich HB;4;16.71
+EC (SBB);468938;Winterthur;2;16.39
+EC (SBB);8389;St. Gallen(CH);1;16.39
+EC (SBB);63619;St. Margrethen SG;0;16.39
+EC (SBB);374368;Zürich Flughafen;3;15.55
+EC (SBB);464157;Basel SBB;999;0.32
+ICE 79;257676;Bruxelles Midi;0;16.45
+ICE 79;619269;Bruxelles-Nord;1;16.19
+ICE 79;14372;Liège-Guillemins;2;18.29
+ICE 79;117544;Aachen Süd(Gr);3;18.39
+ICE 79;22625;Aachen Hbf;4;18.39
+ICE 79;517455;Köln Hbf;5;18.42
+ICE 79;38672;Frankfurt(M) Flughafen Fernbf;6;15.9
+ICE 79;176697;Frankfurt(Main)Hbf;7;15.94
+ICE 79;164260;Antwerpen Centraal;999;1.94
+ICE 79;365415;Brussels Airport - Zaventem;999;1.68
+ICE 79;40708;Leuven;999;2.29
+ICE 79;426722;Limburg Süd;999;1.81
+ICE 79;607447;Montabaur;999;1.81
+ICE 79;273099;Siegburg/Bonn;999;1.81
+ICE 79;27695;Köln-Ehrenfeld;999;0.16
+ICE 79;631605;Gent St Pieters;999;0.26
+ICE 79;125560;Brugge;999;0.26
+ICE 79;402204;Oostende;999;0.26
+ICE 79;667068;Frankfurt(M) Flughafen Regionalbf;999;0.03
+ICE 42;428519;Hamburg Hbf;2;18.94
+ICE 42;9066;Hamburg-Harburg;3;18.97
+ICE 42;477761;Bremen Hbf;4;18.97
+ICE 42;639669;Osnabrück Hbf;5;18.97
+ICE 42;325703;Münster(Westf)Hbf;6;20.65
+ICE 42;640892;Dortmund Hbf;7;18.32
+ICE 42;158073;Hagen Hbf;8;14.9
+ICE 42;476721;Wuppertal Hbf;9;15.06
+ICE 42;437604;Solingen Hbf;10;15.74
+ICE 42;517455;Köln Hbf;11;22.45
+ICE 42;38672;Frankfurt(M) Flughafen Fernbf;12;20.81
+ICE 42;582139;Mannheim Hbf;13;19.94
+ICE 42;668361;Stuttgart Hbf;14;19.97
+ICE 42;253250;Ulm Hbf;15;17.94
+ICE 42;456179;Augsburg Hbf;16;17.97
+ICE 42;545038;München-Pasing;17;16.26
+ICE 42;9941;München Hbf;18;17.97
+ICE 42;396514;Hamburg-Altona;0;13.13
+ICE 42;331094;Hamburg Dammtor;1;12.42
+ICE 42;440288;Recklinghausen Hbf;999;1.06
+ICE 42;595938;Gelsenkirchen Hbf;999;3.06
+ICE 42;622042;Oberhausen Hbf;999;2.1
+ICE 42;691821;Düsseldorf Hbf;999;4.32
+ICE 42;667068;Frankfurt(M) Flughafen Regionalbf;999;0.1
+ICE 42;176697;Frankfurt(Main)Hbf;999;3.84
+ICE 42;635340;Heidelberg Hbf;999;1.87
+ICE 42;3558;Günzburg;999;1.87
+ICE 42;267162;Hamm(Westf)Hbf;999;2.03
+ICE 42;436294;Bonn Hbf;999;1.84
+ICE 42;256667;Remagen;999;1.87
+ICE 42;136937;Andernach;999;1.81
+ICE 42;61534;Koblenz Hbf;999;1.81
+ICE 42;634086;Bingen(Rhein) Hbf;999;1.81
+ICE 42;609947;Düsseldorf Flughafen;999;1.45
+ICE 42;549058;Duisburg Hbf;999;4.06
+ICE 42;375141;Diepholz;999;2.0
+ICE 42;95437;Köln Messe/Deutz;999;0.81
+ICE 42;273099;Siegburg/Bonn;999;3.81
+ICE 42;267257;Essen Hbf;999;1.65
+ICE 42;240005;Bochum Hbf;999;1.55
+ICE 42;239328;Herne-Wanne-Eickel Hbf;999;0.45
+ICE 42;176337;Mainz Hbf;999;1.23
+ICE 42;510314;Köln Süd;999;0.19
+ICE 42;533867;Frankfurt(Main)West;999;0.03
+ICE 42;603461;Herford;999;0.03
+ICE 42;303008;Neuss Hbf;999;0.03
+ICE 26;477761;Bremen Hbf;1;7.48
+ICE 26;93866;Hannover Hbf;0;7.48
+ICE 26;168530;Göttingen;999;4.71
+ICE 26;19112;Kassel-Wilhelmshöhe;999;4.71
+ICE 26;291712;Wabern(Bz Kassel);999;4.71
+ICE 26;607310;Treysa;999;4.71
+ICE 26;537395;Marburg(Lahn);999;4.71
+ICE 26;428469;Gießen;999;4.71
+ICE 26;176697;Frankfurt(Main)Hbf;999;4.74
+ICE 26;226858;Darmstadt Hbf;999;2.74
+ICE 26;659606;Bensheim;999;2.74
+ICE 26;194868;Weinheim(Bergstr)Hbf;999;2.74
+ICE 26;635340;Heidelberg Hbf;999;2.74
+ICE 26;565892;Friedberg(Hess);999;2.1
+ICE 26;83956;Oldenburg(Oldb)Hbf;999;1.48
+ICE 26;500697;Delmenhorst;999;1.48
+ICE 26;497089;Karlsruhe Hbf;999;1.55
+ICE 26;490386;Bruchsal;999;1.55
+ICE 26;610794;Hannover Messe/Laatzen;999;0.39
+ICE 26;458602;Wiesloch-Walldorf;999;0.77
+IC (PKP Intercity);174196;Bohumin(Gr);999;4.0
+IC (PKP Intercity);337329;Chalupki;999;4.0
+IC (PKP Intercity);270382;Rybnik(PL);999;2.0
+IC (PKP Intercity);319073;Katowice;999;8.0
+IC (PKP Intercity);165995;Sosnowiec Glowny;999;1.68
+IC (PKP Intercity);521333;Dabrowa Gornicza;999;1.68
+IC (PKP Intercity);568518;Zawiercie;999;2.0
+IC (PKP Intercity);344531;Wloszczowa Polnoc;999;2.0
+IC (PKP Intercity);247162;Opoczno Poludnie;999;2.0
+IC (PKP Intercity);692027;Warszawa Zachodnia;999;4.0
+IC (PKP Intercity);644330;Warszawa Centralna;999;4.0
+IC (PKP Intercity);39653;Warszawa Wschodnia;999;4.0
+IC (PKP Intercity);380319;Wroclaw Glowny;0;9.87
+IC (PKP Intercity);329478;Brzeg Dolny;1;4.0
+IC (PKP Intercity);451231;Wolow;2;4.0
+IC (PKP Intercity);65970;Scinawa;3;4.0
+IC (PKP Intercity);688618;Glogow;4;4.0
+IC (PKP Intercity);340764;Nowa Sol;5;4.0
+IC (PKP Intercity);254321;Zielona Gora Glowna;6;4.0
+IC (PKP Intercity);42071;Rzepin;7;4.0
+IC (PKP Intercity);192031;Kostrzyn;8;4.0
+IC (PKP Intercity);444549;Mieszkowice;9;4.0
+IC (PKP Intercity);482440;Chojna;10;4.0
+IC (PKP Intercity);392849;Gryfino;11;4.0
+IC (PKP Intercity);23816;Szczecin Glowny;12;6.0
+IC (PKP Intercity);31176;Szczecin Dabie;13;8.0
+IC (PKP Intercity);81166;Goleniow;14;6.0
+IC (PKP Intercity);624762;Wysoka Kamienska;15;6.0
+IC (PKP Intercity);673336;Miedzyzdroje;16;6.0
+IC (PKP Intercity);402680;Swinoujscie;17;6.0
+IC (PKP Intercity);325087;Chelm;999;2.0
+IC (PKP Intercity);181141;Chelm Miasto;999;2.0
+IC (PKP Intercity);296331;Rejowiec;999;2.0
+IC (PKP Intercity);3332;Swidnik Miasto;999;2.0
+IC (PKP Intercity);5569;Lublin;999;2.0
+IC (PKP Intercity);457377;Lublin Zachodni;999;2.0
+IC (PKP Intercity);368478;Naleczow;999;2.0
+IC (PKP Intercity);110363;Pulawy Miasto;999;2.0
+IC (PKP Intercity);445070;Deblin;999;2.0
+IC (PKP Intercity);412609;Pilawa;999;2.0
+IC (PKP Intercity);141628;Zyrardow;999;2.0
+IC (PKP Intercity);543734;Skierniewice;999;2.0
+IC (PKP Intercity);504703;Koluszki;999;2.0
+IC (PKP Intercity);436966;Lodz Widzew;999;2.0
+IC (PKP Intercity);92390;Lodz Chojny;999;2.0
+IC (PKP Intercity);222222;Pabianice;999;2.0
+IC (PKP Intercity);100888;Lask;999;2.0
+IC (PKP Intercity);58792;Zdunska Wola;999;2.0
+IC (PKP Intercity);329086;Sieradz;999;2.0
+IC (PKP Intercity);67505;Kalisz;999;2.0
+IC (PKP Intercity);155586;Pleszew;999;2.0
+IC (PKP Intercity);542190;Jarocin;999;2.0
+IC (PKP Intercity);115202;Sroda Wielkopolska;999;2.0
+IC (PKP Intercity);464435;Poznan Glowny;999;2.0
+IC (PKP Intercity);49031;Szamotuly;999;2.0
+IC (PKP Intercity);371953;Wronki;999;2.0
+IC (PKP Intercity);626975;Krzyz;999;2.0
+IC (PKP Intercity);524679;Dobiegniew;999;2.0
+IC (PKP Intercity);347970;Choszczno;999;2.0
+IC (PKP Intercity);652315;Stargard;999;2.0
+IC (PKP Intercity);262513;Horka(Gr);999;3.87
+IC (PKP Intercity);359711;Wegliniec;999;3.87
+IC (PKP Intercity);372447;Boleslawiec;999;3.87
+IC (PKP Intercity);227637;Chojnow;999;3.87
+IC (PKP Intercity);577641;Legnica;999;3.87
+IC (PKP Intercity);246292;Krakow Glowny;999;6.0
+IC (PKP Intercity);68632;Zabrze;999;6.0
+IC (PKP Intercity);350796;Gliwice;999;6.0
+IC (PKP Intercity);610211;Kedzierzyn Kozle;999;5.52
+IC (PKP Intercity);684148;Opole Glowne;999;4.0
+IC (PKP Intercity);401361;Przemysl Glowny;999;4.0
+IC (PKP Intercity);419752;Przemysl Zasanie;999;4.0
+IC (PKP Intercity);612371;Radymno;999;2.0
+IC (PKP Intercity);281559;Jaroslaw;999;4.0
+IC (PKP Intercity);325540;Przeworsk;999;4.0
+IC (PKP Intercity);302226;Lancut;999;4.0
+IC (PKP Intercity);187569;Rzeszow Glowny;999;4.0
+IC (PKP Intercity);189221;Sedziszow Malopolski;999;2.0
+IC (PKP Intercity);311786;Ropczyce;999;2.0
+IC (PKP Intercity);461066;Debica;999;4.0
+IC (PKP Intercity);251903;Tarnow;999;4.0
+IC (PKP Intercity);586577;Brzesko Okocim;999;2.0
+IC (PKP Intercity);471931;Bochnia;999;4.0
+IC (PKP Intercity);573067;Krakow Plaszow;999;4.0
+IC (PKP Intercity);675844;Krzeszowice;999;2.0
+IC (PKP Intercity);19534;Trzebinia;999;2.0
+IC (PKP Intercity);546325;Jaworzno Szczakowa;999;2.0
+IC (PKP Intercity);692224;Myslowice;999;2.0
+IC (PKP Intercity);663551;Raciborz;999;2.0
+IC (PKP Intercity);163849;Dabrowa Gornicza Zabkowice;999;0.32
+IC (SBB);96724;Zürich HB;1;31.0
+IC (SBB);556408;Schaffhausen;0;31.0
+ICE (SBB);480653;Interlaken Ost;999;5.39
+ICE (SBB);550099;Interlaken West;999;5.39
+ICE (SBB);112969;Spiez;999;9.81
+ICE (SBB);25598;Thun;999;9.81
+ICE (SBB);510671;Bern;999;10.06
+ICE (SBB);149885;Olten;999;10.06
+ICE (SBB);653982;Liestal;999;9.97
+ICE (SBB);464157;Basel SBB;1;21.23
+ICE (SBB);207594;Visp;999;4.42
+ICE (SBB);228347;Brig;999;4.42
+ICE (SBB);96724;Zürich HB;0;11.55
+ICE (SBB);583614;Chur;999;4.9
+ICE (SBB);617061;Landquart;999;4.9
+ICE (SBB);72217;Sargans;999;4.9
+ICE (SBB);556408;Schaffhausen;999;0.39
+ICE (SBB);644167;Ostermundigen;999;0.03
+ICE 33;267257;Essen Hbf;999;3.1
+ICE 33;595938;Gelsenkirchen Hbf;999;6.35
+ICE 33;325703;Münster(Westf)Hbf;999;7.48
+ICE 33;639669;Osnabrück Hbf;999;7.48
+ICE 33;477761;Bremen Hbf;999;7.48
+ICE 33;9066;Hamburg-Harburg;999;7.65
+ICE 33;97193;Itzehoe;999;3.48
+ICE 33;404628;Heide(Holst);999;3.48
+ICE 33;350746;Husum;999;3.48
+ICE 33;273219;Niebüll;999;3.48
+ICE 33;468987;Westerland(Sylt);999;3.48
+ICE 33;517455;Köln Hbf;999;4.13
+ICE 33;691821;Düsseldorf Hbf;999;6.26
+ICE 33;549058;Duisburg Hbf;999;4.19
+ICE 33;622042;Oberhausen Hbf;999;3.84
+ICE 33;440288;Recklinghausen Hbf;999;6.35
+ICE 33;428519;Hamburg Hbf;1;8.94
+ICE 33;351643;Schwerin Hbf;2;10.0
+ICE 33;181656;Bützow;3;10.0
+ICE 33;157968;Rostock Hbf;4;10.0
+ICE 33;16971;Ribnitz-Damgarten West;5;10.0
+ICE 33;300365;Velgast;6;10.0
+ICE 33;446029;Stralsund Hbf;7;10.0
+ICE 33;436196;Greifswald;999;2.0
+ICE 33;552264;Ostseebad Binz;9;8.0
+ICE 33;399757;Bergen auf Rügen;8;8.0
+ICE 33;412729;Hamburg-Bergedorf;999;2.9
+ICE 33;58038;Lüneburg;999;2.0
+ICE 33;621690;Uelzen;999;2.0
+ICE 33;243815;Celle;999;1.0
+ICE 33;93866;Hannover Hbf;999;2.0
+ICE 33;396514;Hamburg-Altona;0;2.13
+ICE 22;668361;Stuttgart Hbf;0;15.65
+ICE 22;582139;Mannheim Hbf;1;15.61
+ICE 22;176697;Frankfurt(Main)Hbf;2;14.68
+ICE 22;19112;Kassel-Wilhelmshöhe;3;17.0
+ICE 22;168530;Göttingen;4;17.0
+ICE 22;93866;Hannover Hbf;5;19.0
+ICE 22;243815;Celle;6;18.71
+ICE 22;428519;Hamburg Hbf;7;19.0
+ICE 22;331094;Hamburg Dammtor;999;5.23
+ICE 22;324344;Neumünster;999;8.13
+ICE 22;659783;Kiel Hbf;999;8.13
+ICE 22;635340;Heidelberg Hbf;999;1.81
+ICE 22;424397;Vaihingen(Enz);999;0.84
+ICE 22;381506;Frankfurt(Main)Süd;999;2.87
+ICE 22;58038;Lüneburg;999;3.74
+ICE 22;610794;Hannover Messe/Laatzen;999;0.26
+ICE 22;621690;Uelzen;999;3.81
+ICE 22;576155;Hanau Hbf;999;1.0
+ICE 22;216930;Fulda;999;1.0
+ICE 22;9066;Hamburg-Harburg;999;0.61
+ICE 91;90261;Regensburg Hbf;999;0.77
+ICE 91;99055;Nürnberg Hbf;0;14.9
+ICE 91;631640;Würzburg Hbf;1;10.9
+ICE 91;576155;Hanau Hbf;2;10.9
+ICE 91;176697;Frankfurt(Main)Hbf;3;11.81
+ICE 91;38672;Frankfurt(M) Flughafen Fernbf;4;7.48
+ICE 91;176337;Mainz Hbf;5;7.48
+ICE 91;61534;Koblenz Hbf;6;11.65
+ICE 91;436294;Bonn Hbf;7;11.65
+ICE 91;510314;Köln Süd;999;4.55
+ICE 91;691821;Düsseldorf Hbf;9;10.19
+ICE 91;640892;Dortmund Hbf;14;10.0
+ICE 91;240005;Bochum Hbf;999;3.77
+ICE 91;656913;Aschaffenburg Hbf;999;1.71
+ICE 91;517455;Köln Hbf;8;7.19
+ICE 91;549058;Duisburg Hbf;10;6.1
+ICE 91;622042;Oberhausen Hbf;11;5.03
+ICE 91;595938;Gelsenkirchen Hbf;12;4.71
+ICE 91;239328;Herne-Wanne-Eickel Hbf;13;4.68
+ICE 91;267257;Essen Hbf;999;0.06
+ICE 91;437604;Solingen Hbf;999;0.55
+ICE 91;565099;Kufstein;999;2.0
+ICE 91;123366;Rosenheim;999;2.0
+ICE 91;456005;München Ost;999;2.0
+ICE 91;9941;München Hbf;999;2.0
+ICE 91;456179;Augsburg Hbf;999;2.0
+ICE 91;656122;Donauwörth;999;2.0
+ICE 91;451640;Coburg;999;4.0
+ICE 91;416646;Erfurt Hbf;999;4.0
+ICE 91;53188;Leipzig Hbf;999;4.0
+ICE 91;176209;Lutherstadt Wittenberg Hbf;999;4.0
+ICE 91;391201;Berlin Südkreuz;999;4.0
+ICE 91;613345;Berlin Hbf;999;4.0
+ICE 91;232153;Wittenberge;999;3.13
+ICE 91;348473;Ludwigslust;999;3.13
+ICE 91;656759;Büchen;999;2.42
+ICE 91;428519;Hamburg Hbf;999;3.13
+ICE 91;396514;Hamburg-Altona;999;2.84
+ICE 91;158073;Hagen Hbf;999;0.19
+ICE 91;476721;Wuppertal Hbf;999;0.19
+ICE 91;285647;Haiger;999;0.03
+ICE 91;95437;Köln Messe/Deutz;999;0.03
+ICE 82;176697;Frankfurt(Main)Hbf;3;11.42
+ICE 82;582139;Mannheim Hbf;2;9.42
+ICE 82;513044;Kaiserslautern Hbf;1;5.35
+ICE 82;180380;Saarbrücken Hbf;0;10.74
+ICE 82;335130;Paris Est;999;9.45
+ICE 82;412384;Strasbourg;999;8.06
+ICE 82;247025;Forbach(F);999;2.71
+ICE 82;69606;Forbach(fr);999;5.39
+ICE 82;264321;Homburg(Saar)Hbf;999;0.29
+ICE 82;360176;Kehl(Gr);999;4.06
+ICE 82;497089;Karlsruhe Hbf;999;4.13
+ICE 82;127712;Berlin Gesundbrunnen;999;2.0
+ICE 82;613345;Berlin Hbf;999;2.0
+ICE 82;391201;Berlin Südkreuz;999;2.0
+ICE 82;531677;Halle(Saale)Hbf;999;2.0
+ICE 82;416646;Erfurt Hbf;999;2.0
+ICE 82;150560;Kehl;999;0.06
+ICE 19;391201;Berlin Südkreuz;7;14.77
+ICE 19;613345;Berlin Hbf;6;14.77
+ICE 19;446591;Berlin-Spandau;5;14.74
+ICE 19;93866;Hannover Hbf;4;15.94
+ICE 19;158073;Hagen Hbf;2;15.58
+ICE 19;476721;Wuppertal Hbf;1;15.55
+ICE 19;517455;Köln Hbf;0;15.77
+ICE 19;665711;Soest;999;0.06
+ICE 19;588749;Bielefeld Hbf;3;10.87
+ICE 19;267162;Hamm(Westf)Hbf;999;0.35
+ICE 19;464794;Magdeburg Hbf;999;0.06
+ICE 19;450630;Minden(Westf);999;0.26
+ICE 19;4872;Bad Oeynhausen;999;0.26
+ICE 19;603461;Herford;999;0.26
+ICE 19;670154;Gütersloh Hbf;999;0.26
+ICE 19;640892;Dortmund Hbf;999;0.26
+ICE 19;240005;Bochum Hbf;999;0.06
+ICE 19;267257;Essen Hbf;999;0.06
+ICE 19;549058;Duisburg Hbf;999;0.23
+ICE 19;691821;Düsseldorf Hbf;999;0.26
+ICE 19;239328;Herne-Wanne-Eickel Hbf;999;0.16
+ICE 19;595938;Gelsenkirchen Hbf;999;0.16
+ICE 19;622042;Oberhausen Hbf;999;0.16
+ICE 18;613345;Berlin Hbf;0;12.65
+ICE 18;391201;Berlin Südkreuz;999;6.26
+ICE 18;176209;Lutherstadt Wittenberg Hbf;999;3.0
+ICE 18;53188;Leipzig Hbf;999;3.81
+ICE 18;651630;Naumburg(Saale)Hbf;999;2.0
+ICE 18;306204;Jena Paradies;999;1.74
+ICE 18;486352;Jena-Göschwitz;999;1.74
+ICE 18;671861;Saalfeld(Saale);999;1.74
+ICE 18;390604;Lichtenfels;999;1.74
+ICE 18;431744;Bamberg;999;3.0
+ICE 18;51519;Erlangen;999;3.0
+ICE 18;99055;Nürnberg Hbf;999;9.06
+ICE 18;656122;Donauwörth;999;9.06
+ICE 18;456179;Augsburg Hbf;999;9.06
+ICE 18;545038;München-Pasing;999;7.74
+ICE 18;9941;München Hbf;999;9.06
+ICE 18;416646;Erfurt Hbf;999;2.77
+ICE 18;232153;Wittenberge;1;9.55
+ICE 18;348473;Ludwigslust;2;9.55
+ICE 18;656759;Büchen;3;10.06
+ICE 18;428519;Hamburg Hbf;4;10.13
+ICE 18;396514;Hamburg-Altona;5;8.52
+ICE 18;329017;Stendal Hbf;999;0.06
+ICE 18;274821;Treuchtlingen;999;3.19
+ICE 18;170193;Bitterfeld;999;1.03
+ICE 18;127712;Berlin Gesundbrunnen;999;4.55
+ICE 18;468987;Westerland(Sylt);999;1.03
+ICE 18;673820;Klanxbüll;999;0.06
+ICE 18;273219;Niebüll;999;1.03
+ICE 18;350746;Husum;999;1.03
+ICE 18;404628;Heide(Holst);999;1.03
+ICE 18;97193;Itzehoe;999;1.03
+ICE 18;446591;Berlin-Spandau;999;0.1
+ICE 18;531677;Halle(Saale)Hbf;999;1.03
+ICE 18;451640;Coburg;999;1.0
+IC 61;53188;Leipzig Hbf;999;3.94
+IC 61;651630;Naumburg(Saale)Hbf;999;4.0
+IC 61;306204;Jena Paradies;999;4.0
+IC 61;486352;Jena-Göschwitz;999;4.0
+IC 61;309710;Rudolstadt(Thür);999;4.0
+IC 61;671861;Saalfeld(Saale);999;4.0
+IC 61;314586;Ludwigsstadt;999;4.0
+IC 61;212568;Kronach;999;4.0
+IC 61;390604;Lichtenfels;999;4.0
+IC 61;431744;Bamberg;999;4.0
+IC 61;51519;Erlangen;999;4.0
+IC 61;99055;Nürnberg Hbf;0;15.65
+IC 61;83632;Ansbach;1;15.45
+IC 61;320394;Crailsheim;2;10.52
+IC 61;206566;Ellwangen;3;10.23
+IC 61;203191;Aalen Hbf;4;15.32
+IC 61;632424;Schwäbisch Gmünd;5;10.32
+IC 61;668361;Stuttgart Hbf;6;16.19
+IC 61;424397;Vaihingen(Enz);7;10.26
+IC 61;86349;Mühlacker;8;11.68
+IC 61;634943;Pforzheim Hbf;9;11.68
+IC 61;497089;Karlsruhe Hbf;10;11.77
+IC 61;659092;Weißenfels;999;2.0
+IC 61;90261;Regensburg Hbf;999;2.0
+IC 61;371540;Schorndorf;999;1.84
+IC 61;531677;Halle(Saale)Hbf;999;0.06
+IC 61;656122;Donauwörth;999;0.19
+IC 61;296891;Kornwestheim Pbf;999;0.03
+ICE 50;38672;Frankfurt(M) Flughafen Fernbf;0;15.0
+ICE 50;176697;Frankfurt(Main)Hbf;1;16.0
+ICE 50;216930;Fulda;2;16.0
+ICE 50;657659;Bad Hersfeld;3;16.0
+ICE 50;621598;Eisenach Hbf;4;16.0
+ICE 50;606270;Gotha;5;16.0
+ICE 50;416646;Erfurt Hbf;6;16.0
+ICE 50;53188;Leipzig Hbf;7;16.77
+ICE 50;290554;Riesa;999;4.87
+ICE 50;553920;Dresden-Neustadt;8;15.0
+ICE 50;224643;Dresden Hbf;9;15.0
+ICE 50;87362;Wiesbaden Hbf;999;1.45
+ICE 50;531677;Halle(Saale)Hbf;999;0.1
+ICE 50;174282;Elsterwerda;999;0.03
+EN (MAV);26993;Decin hl.n.;999;2.0
+EN (MAV);604565;Usti nad Labem hl.n.;999;2.0
+EN (MAV);17941;Praha-Holesovice;999;2.0
+EN (MAV);653775;Praha hl.n.;999;2.0
+EN (MAV);351181;Pardubice hl.n.;999;1.42
+EN (MAV);1001;Brno hl.n.;999;2.0
+EN (MAV);57233;Breclav;999;2.0
+EN (MAV);304116;Kuty(Gr);999;2.0
+EN (MAV);32495;Kuty;999;2.0
+EN (MAV);308105;Bratislava hl.st.;999;2.0
+EN (MAV);637192;Nove Zamky;999;2.0
+EN (MAV);269485;Sturovo;999;4.0
+EN (MAV);83946;Szob(Gr);999;4.0
+EN (MAV);82096;Vac;999;4.0
+EN (MAV);619325;Budapest-Nyugati;999;4.0
+EN (MAV);695368;Salzburg Hbf;0;2.0
+EN (MAV);565918;Linz/Donau Hbf;1;2.0
+EN (MAV);610549;St.Pölten Hbf;2;2.0
+EN (MAV);321940;Wien Meidling;3;2.0
+EN (MAV);135333;Wien Hbf;4;2.0
+EN (MAV);655579;Hegyeshalom(Gr);5;2.0
+EN (MAV);442631;Hegyeshalom;6;4.0
+EN (MAV);141649;Mosonmagyarovar;7;4.0
+EN (MAV);583035;Györ;8;4.0
+EN (MAV);45002;Tatabanya;9;4.0
+EN (MAV);427667;Budapest-Kelenföld;10;4.0
+EN (MAV);270995;Budapest-Keleti;11;4.0
+ICE 15;552264;Ostseebad Binz;999;8.0
+ICE 15;399757;Bergen auf Rügen;999;8.0
+ICE 15;446029;Stralsund Hbf;999;9.48
+ICE 15;436196;Greifswald;999;7.26
+ICE 15;641311;Züssow;999;7.26
+ICE 15;544415;Pasewalk;999;5.81
+ICE 15;241671;Eberswalde Hbf;999;7.26
+ICE 15;127712;Berlin Gesundbrunnen;5;12.0
+ICE 15;613345;Berlin Hbf;4;12.03
+ICE 15;391201;Berlin Südkreuz;3;12.03
+ICE 15;531677;Halle(Saale)Hbf;2;10.29
+ICE 15;416646;Erfurt Hbf;1;10.29
+ICE 15;176697;Frankfurt(Main)Hbf;0;9.42
+ICE 15;596419;Prenzlau;999;4.26
+ICE 15;510360;Anklam;999;4.97
+ICE 15;382078;Neustrelitz Hbf;999;2.23
+ICE 15;226858;Darmstadt Hbf;999;2.77
+ICE 15;659606;Bensheim;999;1.29
+ICE 15;582139;Mannheim Hbf;999;1.29
+ICE 15;44915;Neustadt(Weinstr)Hbf;999;1.29
+ICE 15;513044;Kaiserslautern Hbf;999;1.29
+ICE 15;264321;Homburg(Saar)Hbf;999;1.29
+ICE 15;180380;Saarbrücken Hbf;999;1.29
+ICE 15;621598;Eisenach Hbf;999;0.84
+ICE 15;606270;Gotha;999;0.84
+ICE 15;381506;Frankfurt(Main)Süd;999;0.03
+EC 96;354957;Frankfurt(Oder);2;6.0
+EC 96;472499;Frankfurt(Oder)(Gr);1;6.0
+EC 96;42071;Rzepin;0;12.0
+EC 96;327376;Berlin-Lichtenberg;3;5.0
+EC 96;127712;Berlin Gesundbrunnen;999;2.32
+EC 96;401361;Przemysl Glowny;999;4.0
+EC 96;419752;Przemysl Zasanie;999;4.0
+EC 96;281559;Jaroslaw;999;4.0
+EC 96;325540;Przeworsk;999;4.0
+EC 96;302226;Lancut;999;4.0
+EC 96;187569;Rzeszow Glowny;999;4.0
+EC 96;461066;Debica;999;4.0
+EC 96;251903;Tarnow;999;4.0
+EC 96;471931;Bochnia;999;4.0
+EC 96;573067;Krakow Plaszow;999;4.0
+EC 96;246292;Krakow Glowny;999;6.0
+EC 96;319073;Katowice;999;6.0
+EC 96;68632;Zabrze;999;6.0
+EC 96;350796;Gliwice;999;6.0
+EC 96;610211;Kedzierzyn Kozle;999;6.0
+EC 96;684148;Opole Glowne;999;6.0
+EC 96;380319;Wroclaw Glowny;999;6.0
+EC 96;577641;Legnica;999;6.0
+EC 96;175147;Lubin;999;6.0
+EC 96;688618;Glogow;999;6.0
+EC 96;254321;Zielona Gora Glowna;999;6.0
+ICE 12;613345;Berlin Hbf;15;17.65
+ICE 12;446591;Berlin-Spandau;14;18.1
+ICE 12;85219;Wolfsburg Hbf;13;18.19
+ICE 12;337616;Braunschweig Hbf;12;16.55
+ICE 12;180320;Hildesheim Hbf;11;16.52
+ICE 12;168530;Göttingen;10;18.71
+ICE 12;19112;Kassel-Wilhelmshöhe;9;17.03
+ICE 12;216930;Fulda;8;17.26
+ICE 12;576155;Hanau Hbf;7;17.35
+ICE 12;176697;Frankfurt(Main)Hbf;6;16.61
+ICE 12;582139;Mannheim Hbf;5;18.9
+ICE 12;497089;Karlsruhe Hbf;4;19.84
+ICE 12;598255;Offenburg;3;17.77
+ICE 12;464157;Basel SBB;0;16.42
+ICE 12;297876;Basel Bad Bf;1;16.48
+ICE 12;526634;Freiburg(Breisgau) Hbf;2;16.58
+ICE 12;381506;Frankfurt(Main)Süd;999;4.39
+ICE 12;391201;Berlin Südkreuz;999;5.29
+ICE 12;93866;Hannover Hbf;999;2.0
+ICE 12;464794;Magdeburg Hbf;999;0.23
+ICE 12;610794;Hannover Messe/Laatzen;999;0.19
+ICE 12;176209;Lutherstadt Wittenberg Hbf;999;0.1
+ICE 12;38672;Frankfurt(M) Flughafen Fernbf;999;0.97
+ICE 12;329017;Stendal Hbf;999;1.61
+ICE 12;127712;Berlin Gesundbrunnen;999;1.06
+ICE 12;556408;Schaffhausen;999;0.39
+ICE 12;679686;Singen(Hohentwiel);999;0.39
+ICE 12;550478;Baden-Baden;999;1.77
+ICE 12;303933;Eichenberg;999;0.03
+ICE 12;635340;Heidelberg Hbf;999;0.06
+ICE 62;9941;München Hbf;999;9.23
+ICE 62;456179;Augsburg Hbf;999;13.58
+ICE 62;3558;Günzburg;999;13.58
+ICE 62;253250;Ulm Hbf;999;15.58
+ICE 62;540195;Esslingen(Neckar);999;11.32
+ICE 62;635340;Heidelberg Hbf;4;16.68
+ICE 62;194868;Weinheim(Bergstr)Hbf;3;15.48
+ICE 62;659606;Bensheim;2;14.48
+ICE 62;226858;Darmstadt Hbf;1;15.48
+ICE 62;176697;Frankfurt(Main)Hbf;0;13.87
+ICE 62;355878;Garmisch-Partenkirchen;999;0.39
+ICE 62;480131;Murnau;999;0.39
+ICE 62;116047;Weilheim(Oberbay);999;0.39
+ICE 62;492332;Tutzing;999;0.29
+ICE 62;668361;Stuttgart Hbf;5;10.29
+ICE 62;545038;München-Pasing;999;5.1
+ICE 62;456005;München Ost;999;4.35
+ICE 62;123366;Rosenheim;999;6.0
+ICE 62;683842;Traunstein;999;6.0
+ICE 62;252148;Freilassing;999;6.0
+ICE 62;695368;Salzburg Hbf;999;6.0
+ICE 62;180380;Saarbrücken Hbf;999;1.74
+ICE 62;264321;Homburg(Saar)Hbf;999;1.77
+ICE 62;678634;Landstuhl;999;0.87
+ICE 62;513044;Kaiserslautern Hbf;999;1.77
+ICE 62;44915;Neustadt(Weinstr)Hbf;999;1.77
+ICE 62;502931;Ludwigshafen(Rh)Hbf;999;0.87
+ICE 62;582139;Mannheim Hbf;999;5.97
+ICE 62;309229;Friedrichshafen Stadt;999;2.0
+ICE 62;48467;Ravensburg;999;2.0
+ICE 62;618056;Biberach(Riß);999;2.0
+ICE 62;38672;Frankfurt(M) Flughafen Fernbf;999;4.0
+ICE 62;273099;Siegburg/Bonn;999;2.0
+ICE 62;95437;Köln Messe/Deutz;999;4.0
+ICE 62;691821;Düsseldorf Hbf;999;3.1
+ICE 62;549058;Duisburg Hbf;999;3.1
+ICE 62;622042;Oberhausen Hbf;999;2.19
+ICE 62;595938;Gelsenkirchen Hbf;999;3.1
+ICE 62;239328;Herne-Wanne-Eickel Hbf;999;1.1
+ICE 62;640892;Dortmund Hbf;999;2.0
+ICE 62;437604;Solingen Hbf;999;0.9
+ICE 62;325703;Münster(Westf)Hbf;999;2.0
+ICE 62;440288;Recklinghausen Hbf;999;1.87
+ICE 62;424397;Vaihingen(Enz);999;2.0
+ICE 62;458602;Wiesloch-Walldorf;999;1.74
+ICE 62;609947;Düsseldorf Flughafen;999;0.55
+ICE 62;267257;Essen Hbf;999;0.9
+ICE 47;517455;Köln Hbf;999;3.81
+ICE 47;38672;Frankfurt(M) Flughafen Fernbf;4;15.32
+ICE 47;582139;Mannheim Hbf;5;15.35
+ICE 47;668361;Stuttgart Hbf;999;4.19
+ICE 47;253250;Ulm Hbf;8;15.35
+ICE 47;456179;Augsburg Hbf;9;15.35
+ICE 47;9941;München Hbf;10;14.45
+ICE 47;95437;Köln Messe/Deutz;3;11.52
+ICE 47;691821;Düsseldorf Hbf;2;12.16
+ICE 47;549058;Duisburg Hbf;1;13.52
+ICE 47;595938;Gelsenkirchen Hbf;999;6.13
+ICE 47;640892;Dortmund Hbf;999;8.23
+ICE 47;540195;Esslingen(Neckar);7;11.16
+ICE 47;424397;Vaihingen(Enz);6;10.45
+ICE 47;273099;Siegburg/Bonn;999;2.03
+ICE 47;622042;Oberhausen Hbf;999;2.0
+ICE 47;471479;Emmerich(Gr);999;2.0
+ICE 47;575362;Arnhem Centraal;999;2.0
+ICE 47;267257;Essen Hbf;0;5.23
+ICE 47;239328;Herne-Wanne-Eickel Hbf;999;3.74
+ICE 47;468143;Emmerich;999;1.0
+ICE 41;9941;München Hbf;0;34.52
+ICE 41;99055;Nürnberg Hbf;1;34.52
+ICE 41;631640;Würzburg Hbf;2;33.81
+ICE 41;656913;Aschaffenburg Hbf;3;33.74
+ICE 41;576155;Hanau Hbf;999;8.81
+ICE 41;38672;Frankfurt(M) Flughafen Fernbf;5;35.06
+ICE 41;517455;Köln Hbf;999;14.42
+ICE 41;640892;Dortmund Hbf;999;6.74
+ICE 41;437604;Solingen Hbf;999;1.94
+ICE 41;95437;Köln Messe/Deutz;7;20.71
+ICE 41;541903;Köln/Bonn Flughafen;999;3.58
+ICE 41;273099;Siegburg/Bonn;6;24.32
+ICE 41;607447;Montabaur;999;6.29
+ICE 41;426722;Limburg Süd;999;6.29
+ICE 41;176697;Frankfurt(Main)Hbf;4;30.03
+ICE 41;476721;Wuppertal Hbf;999;0.13
+ICE 41;691821;Düsseldorf Hbf;8;17.52
+ICE 41;482842;Ingolstadt Hbf;999;7.94
+ICE 41;549058;Duisburg Hbf;999;4.35
+ICE 41;622042;Oberhausen Hbf;999;1.29
+ICE 41;595938;Gelsenkirchen Hbf;999;4.26
+ICE 41;239328;Herne-Wanne-Eickel Hbf;999;1.97
+ICE 41;381506;Frankfurt(Main)Süd;999;0.26
+ICE 41;267257;Essen Hbf;999;0.42
+ICE 41;240005;Bochum Hbf;999;0.13
+ICE 41;158073;Hagen Hbf;999;0.03
+ICE 41;456179;Augsburg Hbf;999;0.16
+ICE 41;431744;Bamberg;999;0.03
+ICE 11;668361;Stuttgart Hbf;10;20.0
+ICE 11;582139;Mannheim Hbf;9;19.97
+ICE 11;176697;Frankfurt(Main)Hbf;8;18.19
+ICE 11;216930;Fulda;7;18.0
+ICE 11;621598;Eisenach Hbf;6;19.97
+ICE 11;416646;Erfurt Hbf;5;20.0
+ICE 11;53188;Leipzig Hbf;4;17.71
+ICE 11;176209;Lutherstadt Wittenberg Hbf;3;18.0
+ICE 11;391201;Berlin Südkreuz;2;18.0
+ICE 11;613345;Berlin Hbf;1;17.9
+ICE 11;232153;Wittenberge;999;3.77
+ICE 11;348473;Ludwigslust;999;3.77
+ICE 11;428519;Hamburg Hbf;999;3.77
+ICE 11;9941;München Hbf;14;18.0
+ICE 11;545038;München-Pasing;13;15.61
+ICE 11;456179;Augsburg Hbf;12;18.0
+ICE 11;253250;Ulm Hbf;11;17.97
+ICE 11;127712;Berlin Gesundbrunnen;0;10.77
+ICE 11;381506;Frankfurt(Main)Süd;999;2.77
+ICE 11;87362;Wiesbaden Hbf;999;1.0
+ICE 11;176337;Mainz Hbf;999;1.0
+ICE 11;312313;Worms Hbf;999;1.0
+ICE 11;170193;Bitterfeld;999;2.0
+ICE 11;531677;Halle(Saale)Hbf;999;1.13
+ICE 11;38672;Frankfurt(M) Flughafen Fernbf;999;1.97
+ICE 11;635340;Heidelberg Hbf;999;1.71
+ICE 11;3558;Günzburg;999;1.0
+ICE 11;656759;Büchen;999;0.29
+IC 35;195950;Norddeich Mole;0;6.29
+IC 35;315947;Norddeich;1;5.97
+IC 35;63836;Norden;2;6.29
+IC 35;161450;Emden Hbf;3;12.61
+IC 35;549925;Leer(Ostfriesl);4;12.29
+IC 35;499625;Papenburg(Ems);5;11.97
+IC 35;645573;Meppen;6;11.97
+IC 35;545852;Lingen(Ems);7;11.97
+IC 35;354436;Rheine;8;12.61
+IC 35;325703;Münster(Westf)Hbf;9;12.61
+IC 35;440288;Recklinghausen Hbf;10;11.81
+IC 35;239328;Herne-Wanne-Eickel Hbf;11;11.97
+IC 35;595938;Gelsenkirchen Hbf;12;12.61
+IC 35;622042;Oberhausen Hbf;13;11.97
+IC 35;549058;Duisburg Hbf;14;12.42
+IC 35;691821;Düsseldorf Hbf;15;11.71
+IC 35;601951;Emden Außenhafen;999;2.65
+IC 35;267257;Essen Hbf;999;0.26
+IC 35;517455;Köln Hbf;16;6.94
+IC 35;609947;Düsseldorf Flughafen;999;0.55
+EC 62;9941;München Hbf;0;4.0
+EC 62;123366;Rosenheim;1;4.0
+EC 62;683842;Traunstein;2;4.0
+EC 62;252148;Freilassing;3;4.0
+EC 62;695368;Salzburg Hbf;4;8.0
+EC 62;584165;Villach Hbf;999;4.0
+EC 62;98544;Spittal-Millstätter See;999;4.0
+EC 62;401728;Mallnitz-Obervellach;999;4.0
+EC 62;573454;Bad Gastein;999;4.0
+EC 62;447324;Schwarzach-St.Veit;999;4.0
+EC 62;228870;St. Johann im Pongau;999;4.0
+EC 62;422140;Bischofshofen;999;4.0
+EC 62;644690;Golling-Abtenau;999;4.0
+EC 62;485693;Klagenfurt Hbf;999;1.0
+EC 62;133722;Pörtschach am Wörther See;999;1.0
+EC 62;333235;Velden am Wörther See;999;1.0
+EC 62;445830;Bad Hofgastein;999;1.0
+EC 62;117449;Dorfgastein;999;1.0
+EC 62;597555;Jesenice(Gr);999;1.0
+ICE 25;9066;Hamburg-Harburg;9;28.42
+ICE 25;58038;Lüneburg;8;28.19
+ICE 25;93866;Hannover Hbf;7;33.03
+ICE 25;168530;Göttingen;6;33.03
+ICE 25;19112;Kassel-Wilhelmshöhe;5;31.03
+ICE 25;216930;Fulda;4;31.06
+ICE 25;631640;Würzburg Hbf;3;32.81
+ICE 25;482842;Ingolstadt Hbf;1;18.48
+ICE 25;9941;München Hbf;0;33.61
+ICE 25;331094;Hamburg Dammtor;999;10.45
+ICE 25;428519;Hamburg Hbf;10;22.84
+ICE 25;99055;Nürnberg Hbf;2;31.65
+ICE 25;621690;Uelzen;999;1.87
+ICE 25;243815;Celle;999;1.87
+ICE 25;456179;Augsburg Hbf;999;0.68
+ICE 25;390604;Lichtenfels;999;0.68
+ICE 25;431744;Bamberg;999;0.9
+ICE 25;51519;Erlangen;999;0.68
+ICE 25;610794;Hannover Messe/Laatzen;999;3.1
+ICE 25;26389;Fürth(Bay)Hbf;999;0.03
+ICE 25;412729;Hamburg-Bergedorf;999;0.58
+ICE 25;656759;Büchen;999;2.0
+ICE 25;351643;Schwerin Hbf;999;2.0
+ICE 25;157968;Rostock Hbf;999;2.0
+ICE 29;9941;München Hbf;0;31.68
+ICE 29;482842;Ingolstadt Hbf;1;15.87
+ICE 29;99055;Nürnberg Hbf;2;31.97
+ICE 29;416646;Erfurt Hbf;3;32.0
+ICE 29;531677;Halle(Saale)Hbf;4;32.0
+ICE 29;391201;Berlin Südkreuz;5;31.94
+ICE 29;613345;Berlin Hbf;6;31.94
+ICE 29;127712;Berlin Gesundbrunnen;7;25.48
+ICE 29;456179;Augsburg Hbf;999;0.77
+ICE 29;170193;Bitterfeld;999;0.03
+ICE 77;79866;Amsterdam Centraal;999;0.13
+ICE 77;24890;Utrecht Centraal;999;0.13
+ICE 77;396218;Amersfoort Centraal;999;0.13
+ICE 77;20335;Apeldoorn;999;0.13
+ICE 77;678907;Deventer;999;0.13
+ICE 77;65847;Hengelo;9;14.0
+ICE 77;457953;Bad Bentheim(Gr);8;14.0
+ICE 77;473292;Bad Bentheim;7;14.0
+ICE 77;354436;Rheine;6;14.0
+ICE 77;639669;Osnabrück Hbf;5;14.97
+ICE 77;346025;Bünde(Westf);4;14.97
+ICE 77;93866;Hannover Hbf;3;15.97
+ICE 77;446591;Berlin-Spandau;2;13.87
+ICE 77;613345;Berlin Hbf;1;13.87
+ICE 77;391201;Berlin Südkreuz;0;6.97
+ICE 77;325703;Münster(Westf)Hbf;999;2.0
+ICE 77;267162;Hamm(Westf)Hbf;999;0.03
+ICE 77;329017;Stendal Hbf;999;0.84
+ICE (Nederlandse Spoorwegen);79866;Amsterdam Centraal;2;26.42
+ICE (Nederlandse Spoorwegen);24890;Utrecht Centraal;1;16.65
+ICE (Nederlandse Spoorwegen);575362;Arnhem Centraal;0;14.87
+ICE (Nederlandse Spoorwegen);65847;Hengelo;999;13.87
+ICE (Nederlandse Spoorwegen);678907;Deventer;999;13.87
+ICE (Nederlandse Spoorwegen);20335;Apeldoorn;999;13.87
+ICE (Nederlandse Spoorwegen);396218;Amersfoort Centraal;999;13.87
+ICE (Nederlandse Spoorwegen);574035;Hilversum;999;11.32
+ICE (Nederlandse Spoorwegen);580296;Woerden;999;0.13
+ICE 45;517455;Köln Hbf;0;3.03
+ICE 45;607447;Montabaur;2;2.71
+ICE 45;426722;Limburg Süd;3;2.71
+ICE 45;273099;Siegburg/Bonn;1;1.68
+ICE 45;38672;Frankfurt(M) Flughafen Fernbf;999;1.26
+ICE 45;582139;Mannheim Hbf;6;1.68
+ICE 45;497089;Karlsruhe Hbf;999;0.32
+ICE 45;550478;Baden-Baden;999;0.32
+ICE 45;598255;Offenburg;999;0.32
+ICE 45;382856;St Georgen(Schwarzw);999;0.32
+ICE 45;118412;Villingen(Schwarzw);999;0.32
+ICE 45;620787;Donaueschingen;999;0.32
+ICE 45;679686;Singen(Hohentwiel);999;0.32
+ICE 45;575544;Radolfzell;999;0.32
+ICE 45;391274;Konstanz;999;0.32
+ICE 45;176697;Frankfurt(Main)Hbf;999;1.32
+ICE 45;176337;Mainz Hbf;5;2.29
+ICE 45;87362;Wiesbaden Hbf;4;2.68
+ICE 45;668361;Stuttgart Hbf;7;1.35
+ICE 45;541903;Köln/Bonn Flughafen;999;0.84
+ICE 45;424397;Vaihingen(Enz);999;0.68
+ICE 45;635340;Heidelberg Hbf;999;0.68
+EC (ÖBB);167729;Lindau-Reutin;0;16.39
+EC (ÖBB);351575;Bregenz;1;16.39
+EC (ÖBB);63619;St. Margrethen SG;2;16.39
+EC (ÖBB);552402;Simbach(Inn);999;0.19
+EC (ÖBB);135002;Wels Hbf;999;0.19
+EC (ÖBB);565918;Linz/Donau Hbf;999;2.19
+EC (ÖBB);610549;St.Pölten Hbf;999;2.19
+EC (ÖBB);321940;Wien Meidling;999;2.19
+EC (ÖBB);135333;Wien Hbf;999;2.19
+EC (ÖBB);597555;Jesenice(Gr);999;1.0
+EC (ÖBB);461309;Jesenice(SLO);999;1.0
+EC (ÖBB);188852;Lesce-Bled;999;1.0
+EC (ÖBB);580053;Kranj;999;1.0
+EC (ÖBB);243196;Ljubljana;999;1.0
+EC (ÖBB);106125;Zidani Most;999;1.0
+EC (ÖBB);528753;Sevnica;999;1.0
+EC (ÖBB);276714;Dobova;999;1.0
+EC (ÖBB);312777;Dobova(Gr);999;1.0
+EC (ÖBB);695368;Salzburg Hbf;999;2.0
+EC (ÖBB);655579;Hegyeshalom(Gr);999;2.0
+IC 87;266187;Tuttlingen;999;24.97
+IC 87;679686;Singen(Hohentwiel);0;36.23
+IC 87;556408;Schaffhausen;1;31.68
+IC 87;241020;Rottweil;999;22.58
+IC 87;348071;Horb;999;25.52
+IC 87;341519;Böblingen;999;8.58
+IC 87;668361;Stuttgart Hbf;999;25.52
+IC 87;285026;Engen;999;10.52
+IC 87;398625;Oberndorf(Neckar);999;14.58
+IC 87;331895;Herrenberg;999;12.1
+IC 87;145252;Gäufelden;999;11.68
+IC 87;29588;Bondorf(b Herrenberg);999;12.55
+IC 87;548973;Sulz(Neckar);999;13.87
+IC 87;295467;Spaichingen;999;10.45
+IC 87;581912;Stuttgart-Vaihingen;999;1.42
+IC 87;575544;Radolfzell;999;2.1
+IC 87;391274;Konstanz;999;2.1
+IC 87;465461;Eutingen im Gäu;999;1.26
+IC 87;141674;Ergenzingen;999;0.55
+ICE 83;668361;Stuttgart Hbf;999;2.45
+ICE 83;424397;Vaihingen(Enz);999;1.13
+ICE 83;497089;Karlsruhe Hbf;999;3.61
+ICE 83;360176;Kehl(Gr);999;3.61
+ICE 83;412384;Strasbourg;0;7.23
+ICE 83;335130;Paris Est;1;3.61
+ICE 20;331094;Hamburg Dammtor;999;5.06
+ICE 20;428519;Hamburg Hbf;11;13.1
+ICE 20;58038;Lüneburg;999;1.97
+ICE 20;621690;Uelzen;10;12.94
+ICE 20;93866;Hannover Hbf;9;13.1
+ICE 20;168530;Göttingen;8;13.1
+ICE 20;19112;Kassel-Wilhelmshöhe;7;13.1
+ICE 20;381506;Frankfurt(Main)Süd;999;2.84
+ICE 20;582139;Mannheim Hbf;5;10.94
+ICE 20;497089;Karlsruhe Hbf;4;11.1
+ICE 20;598255;Offenburg;3;9.71
+ICE 20;526634;Freiburg(Breisgau) Hbf;2;9.71
+ICE 20;297876;Basel Bad Bf;1;9.61
+ICE 20;464157;Basel SBB;0;9.58
+ICE 20;176697;Frankfurt(Main)Hbf;6;10.9
+ICE 20;396514;Hamburg-Altona;999;0.68
+ICE 20;9066;Hamburg-Harburg;999;1.0
+ICE 20;667068;Frankfurt(M) Flughafen Regionalbf;999;1.06
+ICE 20;550478;Baden-Baden;999;0.81
+ICE 20;38672;Frankfurt(M) Flughafen Fernbf;999;1.19
+ICE 20;176337;Mainz Hbf;999;1.48
+ICE 20;87362;Wiesbaden Hbf;999;1.23
+ICE 20;243815;Celle;999;1.0
+ICE 20;635340;Heidelberg Hbf;999;0.06
+ICE 20;303933;Eichenberg;999;0.03
+ICE 60;9941;München Hbf;6;10.84
+ICE 60;545038;München-Pasing;5;9.84
+ICE 60;456179;Augsburg Hbf;4;10.84
+ICE 60;253250;Ulm Hbf;3;10.84
+ICE 60;668361;Stuttgart Hbf;2;7.26
+ICE 60;490386;Bruchsal;1;6.84
+ICE 60;497089;Karlsruhe Hbf;0;7.42
+ICE 60;540195;Esslingen(Neckar);999;4.77
+ICE 60;424397;Vaihingen(Enz);999;3.32
+ICE 60;3558;Günzburg;999;2.65
+ICE 60;550478;Baden-Baden;999;1.35
+ICE 60;598255;Offenburg;999;1.61
+ICE 60;526634;Freiburg(Breisgau) Hbf;999;1.61
+ICE 60;425229;Müllheim im Markgräflerland;999;1.06
+ICE 60;649755;Weil am Rhein;999;0.81
+ICE 60;297876;Basel Bad Bf;999;1.61
+ICE 60;660348;Neu-Ulm;999;1.0
+ICE 60;464157;Basel SBB;999;1.16
+ICE 60;180380;Saarbrücken Hbf;999;1.84
+ICE 60;264321;Homburg(Saar)Hbf;999;1.84
+ICE 60;513044;Kaiserslautern Hbf;999;1.84
+ICE 60;44915;Neustadt(Weinstr)Hbf;999;1.84
+ICE 60;582139;Mannheim Hbf;999;1.84
+ICE 60;125185;Karlsruhe-Durlach;999;0.48
+IC 57;53188;Leipzig Hbf;0;4.0
+IC 57;531677;Halle(Saale)Hbf;1;4.0
+IC 57;608769;Köthen;2;4.0
+IC 57;464794;Magdeburg Hbf;3;5.23
+IC 57;329017;Stendal Hbf;4;5.03
+IC 57;232153;Wittenberge;5;3.81
+IC 57;348473;Ludwigslust;6;3.81
+IC 57;351643;Schwerin Hbf;7;3.81
+IC 57;315898;Bad Kleinen;8;3.81
+IC 57;181656;Bützow;9;3.81
+IC 57;157968;Rostock Hbf;10;3.94
+IC 57;396514;Hamburg-Altona;999;1.23
+IC 57;428519;Hamburg Hbf;999;1.23
+IC 57;9066;Hamburg-Harburg;999;1.23
+IC 57;58038;Lüneburg;999;1.23
+IC 57;621690;Uelzen;999;1.23
+IC 57;419171;Salzwedel;999;1.23
+IC 57;129801;Warnemünde;999;1.97
+IC 57;127712;Berlin Gesundbrunnen;999;0.13
+IC 57;693694;Potsdam Hbf;999;0.13
+ICE 13;337692;Berlin-Charlottenburg;10;11.71
+ICE 13;446591;Berlin-Spandau;9;13.19
+ICE 13;329017;Stendal Hbf;8;12.23
+ICE 13;85219;Wolfsburg Hbf;7;14.0
+ICE 13;337616;Braunschweig Hbf;6;15.97
+ICE 13;180320;Hildesheim Hbf;5;15.97
+ICE 13;168530;Göttingen;4;16.0
+ICE 13;19112;Kassel-Wilhelmshöhe;3;17.0
+ICE 13;216930;Fulda;2;15.0
+ICE 13;576155;Hanau Hbf;999;2.81
+ICE 13;226858;Darmstadt Hbf;999;8.0
+ICE 13;659606;Bensheim;999;8.0
+ICE 13;194868;Weinheim(Bergstr)Hbf;999;8.0
+ICE 13;635340;Heidelberg Hbf;999;5.55
+ICE 13;458602;Wiesloch-Walldorf;999;2.71
+ICE 13;668361;Stuttgart Hbf;999;2.0
+ICE 13;497089;Karlsruhe Hbf;999;5.94
+ICE 13;487028;Neu-Edingen/Friedrichsfeld;999;2.42
+ICE 13;381506;Frankfurt(Main)Süd;1;11.48
+ICE 13;38672;Frankfurt(M) Flughafen Fernbf;0;6.0
+ICE 13;490386;Bruchsal;999;2.29
+ICE 13;127712;Berlin Gesundbrunnen;999;1.16
+ICE 13;613345;Berlin Hbf;999;1.29
+ICE 13;391201;Berlin Südkreuz;999;1.13
+ICE 13;424397;Vaihingen(Enz);999;0.68
+ICE 13;241671;Eberswalde Hbf;999;0.16
+ICE 13;596419;Prenzlau;999;0.16
+ICE 13;544415;Pasewalk;999;0.16
+ICE 13;510360;Anklam;999;0.16
+ICE 13;641311;Züssow;999;0.16
+ICE 13;436196;Greifswald;999;0.16
+ICE 13;446029;Stralsund Hbf;999;0.16
+ICE 13;610794;Hannover Messe/Laatzen;999;0.03
+ICE 13;176697;Frankfurt(Main)Hbf;999;0.71
+IC 55;224643;Dresden Hbf;7;16.03
+IC 55;553920;Dresden-Neustadt;6;16.03
+IC 55;290554;Riesa;5;16.0
+IC 55;53188;Leipzig Hbf;4;16.52
+IC 55;497089;Karlsruhe Hbf;999;3.16
+IC 55;635340;Heidelberg Hbf;999;11.94
+IC 55;582139;Mannheim Hbf;999;12.0
+IC 55;176337;Mainz Hbf;999;13.23
+IC 55;61534;Koblenz Hbf;999;14.52
+IC 55;436294;Bonn Hbf;999;14.55
+IC 55;517455;Köln Hbf;999;16.77
+IC 55;437604;Solingen Hbf;999;11.39
+IC 55;476721;Wuppertal Hbf;999;11.45
+IC 55;158073;Hagen Hbf;999;11.45
+IC 55;640892;Dortmund Hbf;999;13.35
+IC 55;267162;Hamm(Westf)Hbf;999;9.81
+IC 55;670154;Gütersloh Hbf;999;11.35
+IC 55;588749;Bielefeld Hbf;999;11.35
+IC 55;603461;Herford;999;11.35
+IC 55;4872;Bad Oeynhausen;999;11.42
+IC 55;450630;Minden(Westf);999;11.42
+IC 55;93866;Hannover Hbf;999;15.48
+IC 55;668361;Stuttgart Hbf;999;3.77
+IC 55;424397;Vaihingen(Enz);999;2.87
+IC 55;337616;Braunschweig Hbf;999;13.45
+IC 55;464794;Magdeburg Hbf;0;16.97
+IC 55;608769;Köthen;1;15.32
+IC 55;531677;Halle(Saale)Hbf;2;15.32
+IC 55;422056;Leipzig/Halle Flughafen;3;15.32
+IC 55;667068;Frankfurt(M) Flughafen Regionalbf;999;0.03
+IC 55;176697;Frankfurt(Main)Hbf;999;1.87
+IC 55;510314;Köln Süd;999;0.1
+IC 55;325703;Münster(Westf)Hbf;999;1.03
+IC 55;458602;Wiesloch-Walldorf;999;2.74
+IC 55;567911;Helmstedt;999;1.48
+IC 55;691821;Düsseldorf Hbf;999;0.32
+IC 55;490386;Bruchsal;999;1.87
+IC 55;38672;Frankfurt(M) Flughafen Fernbf;999;1.16
+IC 55;634086;Bingen(Rhein) Hbf;999;0.94
+IC 55;502931;Ludwigshafen(Rh)Hbf;999;0.39
+IC 55;27695;Köln-Ehrenfeld;999;0.1
+IC 55;170193;Bitterfeld;999;0.03
+IC 55;188622;Dessau Hbf;999;0.03
+ICE 10;691821;Düsseldorf Hbf;999;28.52
+ICE 10;609947;Düsseldorf Flughafen;999;25.06
+ICE 10;549058;Duisburg Hbf;999;28.03
+ICE 10;267257;Essen Hbf;999;10.71
+ICE 10;240005;Bochum Hbf;999;10.61
+ICE 10;640892;Dortmund Hbf;999;33.06
+ICE 10;267162;Hamm(Westf)Hbf;5;47.68
+ICE 10;588749;Bielefeld Hbf;4;44.84
+ICE 10;93866;Hannover Hbf;3;51.71
+ICE 10;85219;Wolfsburg Hbf;2;49.19
+ICE 10;446591;Berlin-Spandau;1;35.39
+ICE 10;613345;Berlin Hbf;0;51.68
+ICE 10;391201;Berlin Südkreuz;999;27.61
+ICE 10;517455;Köln Hbf;8;22.81
+ICE 10;476721;Wuppertal Hbf;7;15.06
+ICE 10;158073;Hagen Hbf;6;14.97
+ICE 10;378725;Altenbeken;999;0.06
+ICE 10;450630;Minden(Westf);999;16.13
+ICE 10;595938;Gelsenkirchen Hbf;999;12.97
+ICE 10;337616;Braunschweig Hbf;999;2.39
+ICE 10;464794;Magdeburg Hbf;999;0.74
+ICE 10;688966;Brandenburg Hbf;999;0.45
+ICE 10;693694;Potsdam Hbf;999;1.23
+ICE 10;451103;Berlin-Wannsee;999;1.23
+ICE 10;329017;Stendal Hbf;999;5.13
+ICE 10;437604;Solingen Hbf;999;0.9
+ICE 10;603461;Herford;999;1.84
+ICE 10;670154;Gütersloh Hbf;999;1.71
+ICE 10;325703;Münster(Westf)Hbf;999;0.06
+ICE 10;303008;Neuss Hbf;999;1.0
+ICE 10;484741;Mönchengladbach Hbf;999;1.0
+ICE 10;598868;Rheydt Hbf;999;0.16
+ICE 10;238156;Erkelenz;999;0.16
+ICE 10;142762;Geilenkirchen;999;0.16
+ICE 10;22625;Aachen Hbf;999;0.16
+ICE 10;176209;Lutherstadt Wittenberg Hbf;999;0.13
+ICE 10;127712;Berlin Gesundbrunnen;999;0.03
+RJ (MAV);269485;Sturovo;0;1.68
+RJ (MAV);83946;Szob(Gr);1;1.68
+RJ (MAV);235276;Szob;2;1.68
+RJ (MAV);642408;Nagymaros-Visegrad;3;1.68
+RJ (MAV);82096;Vac;4;1.68
+RJ (MAV);619325;Budapest-Nyugati;5;1.68
+IC 17;157968;Rostock Hbf;8;13.84
+IC 17;355645;Waren(Müritz);7;13.84
+IC 17;382078;Neustrelitz Hbf;6;13.94
+IC 17;591256;Oranienburg;5;13.84
+IC 17;559973;Berlin Ostkreuz;4;14.16
+IC 17;5734;Flughafen BER;3;12.94
+IC 17;174282;Elsterwerda;2;14.16
+IC 17;553920;Dresden-Neustadt;1;14.16
+IC 17;224643;Dresden Hbf;0;10.35
+IC 17;464720;Berlin-Schöneweide;999;0.48
+IC 17;241671;Eberswalde Hbf;999;0.39
+IC 17;169559;Angermünde;999;0.39
+IC 17;596419;Prenzlau;999;0.39
+IC 17;544415;Pasewalk;999;0.39
+IC 17;510360;Anklam;999;0.39
+IC 17;641311;Züssow;999;0.39
+IC 17;436196;Greifswald;999;0.39
+IC 17;446029;Stralsund Hbf;999;0.65
+IC 17;399757;Bergen auf Rügen;999;0.65
+IC 17;279667;Prora;999;0.1
+IC 17;552264;Ostseebad Binz;999;0.65
+IC 17;464794;Magdeburg Hbf;999;0.16
+IC 17;688966;Brandenburg Hbf;999;0.06
+IC 17;693694;Potsdam Hbf;999;0.06
+IC 17;451103;Berlin-Wannsee;999;0.06
+IC 17;613345;Berlin Hbf;999;0.16
+IC 17;127712;Berlin Gesundbrunnen;999;0.16
+IC 17;16971;Ribnitz-Damgarten West;999;0.16
+IC 17;300365;Velgast;999;0.16
+IC 17;491201;Freiberg(Sachs);999;3.81
+IC 17;227595;Chemnitz Hbf;999;3.81
+IC 17;603166;Schönefeld(bei Berlin);999;0.74
+IC 17;329017;Stendal Hbf;999;0.1
+IC 17;446591;Berlin-Spandau;999;0.1
+ICE 24;468987;Westerland(Sylt);15;2.0
+ICE 24;273219;Niebüll;14;2.0
+ICE 24;350746;Husum;13;2.0
+ICE 24;404628;Heide(Holst);12;2.0
+ICE 24;97193;Itzehoe;11;2.0
+ICE 24;9066;Hamburg-Harburg;999;2.06
+ICE 24;58038;Lüneburg;9;2.0
+ICE 24;93866;Hannover Hbf;8;4.0
+ICE 24;168530;Göttingen;7;2.0
+ICE 24;19112;Kassel-Wilhelmshöhe;6;3.0
+ICE 24;291712;Wabern(Bz Kassel);5;2.0
+ICE 24;607310;Treysa;4;2.0
+ICE 24;537395;Marburg(Lahn);3;2.0
+ICE 24;428469;Gießen;2;2.0
+ICE 24;565892;Friedberg(Hess);1;2.0
+ICE 24;176697;Frankfurt(Main)Hbf;0;2.0
+ICE 24;428519;Hamburg Hbf;10;2.45
+ICE 24;396514;Hamburg-Altona;999;1.42
+ICE 24;631640;Würzburg Hbf;999;2.0
+ICE 24;83632;Ansbach;999;2.0
+ICE 24;656122;Donauwörth;999;2.0
+ICE 24;456179;Augsburg Hbf;999;2.0
+ICE 24;9941;München Hbf;999;2.0
+ICE 24;565099;Kufstein;999;0.61
+ICE 24;123366;Rosenheim;999;0.61
+ICE 24;456005;München Ost;999;0.32
+ECE 75;428519;Hamburg Hbf;0;6.61
+ECE 75;10831;Schleswig;1;9.55
+ECE 75;305446;Flensburg(Gr);2;9.55
+ECE 75;368193;Padborg st;3;9.55
+ECE 75;396514;Hamburg-Altona;999;2.94
+ICE 27;224643;Dresden Hbf;0;1.0
+ICE 27;553920;Dresden-Neustadt;1;1.0
+ICE 27;391201;Berlin Südkreuz;2;1.03
+ICE 27;613345;Berlin Hbf;3;2.03
+ICE 27;396514;Hamburg-Altona;999;1.42
+ICE 27;428519;Hamburg Hbf;999;2.0
+ICE 27;446591;Berlin-Spandau;999;0.03
+ICE 27;127712;Berlin Gesundbrunnen;4;1.81
+ICE 27;331094;Hamburg Dammtor;999;0.71
+ICE 27;656759;Büchen;999;0.29
+ICE 27;348473;Ludwigslust;999;0.29
+ICE 27;232153;Wittenberge;999;0.29
+ICE 28;428519;Hamburg Hbf;2;15.68
+ICE 28;613345;Berlin Hbf;3;18.52
+ICE 28;391201;Berlin Südkreuz;4;18.48
+ICE 28;176209;Lutherstadt Wittenberg Hbf;5;17.65
+ICE 28;170193;Bitterfeld;6;17.68
+ICE 28;53188;Leipzig Hbf;7;19.48
+ICE 28;416646;Erfurt Hbf;8;19.29
+ICE 28;431744;Bamberg;9;17.77
+ICE 28;51519;Erlangen;10;17.77
+ICE 28;99055;Nürnberg Hbf;11;17.77
+ICE 28;232153;Wittenberge;999;0.84
+ICE 28;348473;Ludwigslust;999;0.84
+ICE 28;331094;Hamburg Dammtor;1;10.74
+ICE 28;396514;Hamburg-Altona;0;9.74
+ICE 28;9941;München Hbf;12;15.35
+ICE 28;451640;Coburg;999;1.84
+ICE 28;531677;Halle(Saale)Hbf;999;0.13
+ICE 28;127712;Berlin Gesundbrunnen;999;2.0
+ICE 28;456179;Augsburg Hbf;999;0.03
+ICE 28;95739;Hagenow Land;999;0.03
+ICE 28;659783;Kiel Hbf;999;1.0
+ICE 28;324344;Neumünster;999;1.0
+IC (Dänische Staatsbahnen);328829;Fredericia st;0;16.97
+IC (Dänische Staatsbahnen);231011;Kolding st;1;16.97
+IC (Dänische Staatsbahnen);365906;Lunderskov st;2;16.97
+IC (Dänische Staatsbahnen);446184;Vamdrup st;3;16.97
+IC (Dänische Staatsbahnen);260588;Vojens st;4;16.97
+IC (Dänische Staatsbahnen);463735;Roedekro st;5;16.97
+IC (Dänische Staatsbahnen);215972;Tinglev st;6;16.97
+IC (Dänische Staatsbahnen);368193;Padborg st;7;17.61
+IC (Dänische Staatsbahnen);305446;Flensburg(Gr);8;17.61
+IC (Dänische Staatsbahnen);310614;Flensburg;9;17.61
+EN (BahnTouristikExpress);478341;Stockholm Central;0;0.58
+EN (BahnTouristikExpress);327904;Norrköping Central;1;0.52
+EN (BahnTouristikExpress);473516;Linköping Central;2;0.52
+EN (BahnTouristikExpress);148477;Nässjö Central;3;0.52
+EN (BahnTouristikExpress);90097;Alvesta station;4;0.52
+EN (BahnTouristikExpress);496137;Hässleholm Central;5;0.52
+EN (BahnTouristikExpress);675943;Lund Central;6;0.58
+EN (BahnTouristikExpress);560592;Koebenhavns Lufthavn st;7;0.58
+EN (BahnTouristikExpress);368193;Padborg st;8;0.58
+EN (BahnTouristikExpress);305446;Flensburg(Gr);9;0.58
+EN (BahnTouristikExpress);428519;Hamburg Hbf;10;0.58
+EN (BahnTouristikExpress);127712;Berlin Gesundbrunnen;11;0.19
+EN (BahnTouristikExpress);327376;Berlin-Lichtenberg;999;0.19
+ICE 16;93866;Hannover Hbf;1;8.0
+ICE 16;477761;Bremen Hbf;0;8.0
+ICE 16;83956;Oldenburg(Oldb)Hbf;999;1.52
+ICE 16;500697;Delmenhorst;999;0.52
+ECE 20;464157;Basel SBB;0;3.77
+ECE 20;297876;Basel Bad Bf;1;3.77
+ECE 20;526634;Freiburg(Breisgau) Hbf;2;3.77
+ECE 20;598255;Offenburg;3;3.77
+ECE 20;497089;Karlsruhe Hbf;4;3.9
+ECE 20;582139;Mannheim Hbf;5;3.9
+ECE 20;176697;Frankfurt(Main)Hbf;6;3.1
+ECE 20;19112;Kassel-Wilhelmshöhe;7;3.9
+ECE 20;168530;Göttingen;8;3.9
+ECE 20;93866;Hannover Hbf;9;3.9
+ECE 20;621690;Uelzen;10;3.9
+ECE 20;428519;Hamburg Hbf;11;3.9
+ECE 20;381506;Frankfurt(Main)Süd;999;0.81
+ECE 20;331094;Hamburg Dammtor;999;1.35
+ECE 85;297876;Basel Bad Bf;0;1.81
+ECE 85;526634;Freiburg(Breisgau) Hbf;1;1.81
+ECE 85;192145;Ringsheim/Europa-Park;2;1.81
+ECE 85;497089;Karlsruhe Hbf;3;1.81
+ECE 85;582139;Mannheim Hbf;4;1.81
+ECE 85;176697;Frankfurt(Main)Hbf;5;1.81
+ICE 51;224643;Dresden Hbf;0;1.81
+ICE 51;553920;Dresden-Neustadt;1;1.81
+ICE 51;53188;Leipzig Hbf;2;1.94
+ICE 51;416646;Erfurt Hbf;3;1.94
+ICE 51;19112;Kassel-Wilhelmshöhe;4;1.94
+ICE 51;378725;Altenbeken;5;1.94
+ICE 51;152171;Paderborn Hbf;6;1.94
+ICE 51;642822;Lippstadt;7;1.81
+ICE 51;665711;Soest;8;1.94
+ICE 51;640892;Dortmund Hbf;9;1.94
+ICE 51;240005;Bochum Hbf;10;1.35
+ICE 51;267257;Essen Hbf;11;1.35
+ICE 51;549058;Duisburg Hbf;12;0.9
+ICE 51;691821;Düsseldorf Hbf;13;0.9
+ICE 51;267162;Hamm(Westf)Hbf;999;0.13
+ICE 51;679270;Warburg(Westf);999;0.13
+IC (DB Fernverkehr (Codesharing));96724;Zürich HB;0;2.9
+IC (DB Fernverkehr (Codesharing));464157;Basel SBB;1;2.9
+IC (DB Fernverkehr (Codesharing));575362;Arnhem Centraal;999;1.45
+IC (DB Fernverkehr (Codesharing));24890;Utrecht Centraal;999;1.45
+IC (DB Fernverkehr (Codesharing));79866;Amsterdam Centraal;999;1.45
+EN (PKP Intercity);401361;Przemysl Glowny;999;2.0
+EN (PKP Intercity);419752;Przemysl Zasanie;999;2.0
+EN (PKP Intercity);612371;Radymno;999;2.0
+EN (PKP Intercity);281559;Jaroslaw;999;2.0
+EN (PKP Intercity);325540;Przeworsk;999;2.0
+EN (PKP Intercity);302226;Lancut;999;2.0
+EN (PKP Intercity);187569;Rzeszow Glowny;999;2.0
+EN (PKP Intercity);189221;Sedziszow Malopolski;999;2.0
+EN (PKP Intercity);311786;Ropczyce;999;2.0
+EN (PKP Intercity);461066;Debica;999;2.0
+EN (PKP Intercity);251903;Tarnow;999;2.0
+EN (PKP Intercity);586577;Brzesko Okocim;999;2.0
+EN (PKP Intercity);471931;Bochnia;999;2.0
+EN (PKP Intercity);573067;Krakow Plaszow;999;2.0
+EN (PKP Intercity);246292;Krakow Glowny;999;2.0
+EN (PKP Intercity);675844;Krzeszowice;999;2.0
+EN (PKP Intercity);19534;Trzebinia;999;2.0
+EN (PKP Intercity);546325;Jaworzno Szczakowa;999;2.0
+EN (PKP Intercity);692224;Myslowice;999;2.0
+EN (PKP Intercity);319073;Katowice;8;4.0
+EN (PKP Intercity);68632;Zabrze;999;2.0
+EN (PKP Intercity);350796;Gliwice;999;2.0
+EN (PKP Intercity);610211;Kedzierzyn Kozle;999;1.52
+EN (PKP Intercity);663551;Raciborz;999;2.0
+EN (PKP Intercity);337329;Chalupki;10;4.0
+EN (PKP Intercity);174196;Bohumin(Gr);11;4.0
+EN (PKP Intercity);536697;Bohumin;12;4.0
+EN (PKP Intercity);565766;Ostrava hl.n.;13;4.0
+EN (PKP Intercity);57233;Breclav;14;4.0
+EN (PKP Intercity);323161;Breclav(Gr);15;4.0
+EN (PKP Intercity);135333;Wien Hbf;16;4.0
+EN (PKP Intercity);39653;Warszawa Wschodnia;0;2.0
+EN (PKP Intercity);644330;Warszawa Centralna;1;2.0
+EN (PKP Intercity);692027;Warszawa Zachodnia;2;2.0
+EN (PKP Intercity);247162;Opoczno Poludnie;3;2.0
+EN (PKP Intercity);344531;Wloszczowa Polnoc;4;2.0
+EN (PKP Intercity);568518;Zawiercie;5;2.0
+EN (PKP Intercity);521333;Dabrowa Gornicza;6;1.68
+EN (PKP Intercity);165995;Sosnowiec Glowny;7;1.68
+EN (PKP Intercity);270382;Rybnik(PL);9;2.0
+EN (PKP Intercity);163849;Dabrowa Gornicza Zabkowice;999;0.32
+EN (ÖBB);26993;Decin hl.n.;999;1.35
+EN (ÖBB);604565;Usti nad Labem hl.n.;999;1.35
+EN (ÖBB);17941;Praha-Holesovice;999;1.35
+EN (ÖBB);653775;Praha hl.n.;999;1.35
+EN (ÖBB);96724;Zürich HB;999;1.19
+EN (ÖBB);556408;Schaffhausen;999;0.1
+EN (ÖBB);695368;Salzburg Hbf;0;1.0
+EN (ÖBB);447324;Schwarzach-St.Veit;1;1.0
+EN (ÖBB);98544;Spittal-Millstätter See;2;1.0
+EN (ÖBB);584165;Villach Hbf;3;1.0
+EN (ÖBB);597555;Jesenice(Gr);4;1.0
+EN (ÖBB);461309;Jesenice(SLO);5;1.0
+EN (ÖBB);188852;Lesce-Bled;6;1.0
+EN (ÖBB);580053;Kranj;7;1.0
+EN (ÖBB);243196;Ljubljana;8;1.0
+EN (ÖBB);106125;Zidani Most;9;1.0
+EN (ÖBB);528753;Sevnica;10;1.0
+EN (ÖBB);456575;Krsko;11;1.0
+EN (ÖBB);276714;Dobova;12;1.0
+EN (ÖBB);312777;Dobova(Gr);13;1.0
+EN (ÖBB);540755;Zapresic;14;1.0
+EN (ÖBB);440759;Zagreb Glavni kolodvor;15;1.0
+EN (ÖBB);464157;Basel SBB;999;1.1
+ICE 49;176697;Frankfurt(Main)Hbf;5;15.03
+ICE 49;38672;Frankfurt(M) Flughafen Fernbf;4;15.03
+ICE 49;426722;Limburg Süd;3;15.03
+ICE 49;607447;Montabaur;2;15.03
+ICE 49;273099;Siegburg/Bonn;1;12.35
+ICE 49;517455;Köln Hbf;0;15.03
+RJ (ÖBB);565099;Kufstein;0;4.32
+RJ (ÖBB);32069;Wörgl Hbf;1;4.32
+RJ (ÖBB);39899;Jenbach;2;4.32
+RJ (ÖBB);438277;Innsbruck Hbf;3;4.32
+RJ (ÖBB);135333;Wien Hbf;999;4.84
+RJ (ÖBB);321940;Wien Meidling;999;3.0
+RJ (ÖBB);197616;Wiener Neustadt Hbf;999;3.0
+RJ (ÖBB);490265;Mürzzuschlag;999;3.0
+RJ (ÖBB);178938;Kapfenberg;999;3.0
+RJ (ÖBB);497711;Bruck/Mur;999;3.0
+RJ (ÖBB);338037;Graz Hbf;999;3.0
+RJ (ÖBB);190482;Weststeiermark;999;3.0
+RJ (ÖBB);32934;St. Paul im Lavanttal;999;3.0
+RJ (ÖBB);485693;Klagenfurt Hbf;999;4.0
+RJ (ÖBB);333235;Velden am Wörther See;999;4.0
+RJ (ÖBB);584165;Villach Hbf;999;4.0
+RJ (ÖBB);98544;Spittal-Millstätter See;999;4.0
+RJ (ÖBB);401728;Mallnitz-Obervellach;999;4.0
+RJ (ÖBB);573454;Bad Gastein;999;4.0
+RJ (ÖBB);447324;Schwarzach-St.Veit;999;4.0
+RJ (ÖBB);228870;St. Johann im Pongau;999;4.0
+RJ (ÖBB);422140;Bischofshofen;999;4.0
+RJ (ÖBB);644690;Golling-Abtenau;999;4.0
+RJ (ÖBB);695368;Salzburg Hbf;999;4.0
+RJ (ÖBB);323161;Breclav(Gr);999;1.84
+RJ (ÖBB);57233;Breclav;999;1.84
+RJ (ÖBB);117449;Dorfgastein;999;1.0
+RJ (ÖBB);445830;Bad Hofgastein;999;1.0
+RJ (ÖBB);133722;Pörtschach am Wörther See;999;1.0
+RJ (ÖBB);265473;Ötztal;999;0.32
+RJ (ÖBB);579889;Imst-Pitztal;999;0.32
+RJ (ÖBB);579888;Landeck-Zams;999;0.32
+RJ (ÖBB);611513;St. Anton am Arlberg;999;0.32
+RJ (ÖBB);30077;Langen am Arlberg;999;0.32
+RJ (ÖBB);665705;Bludenz;999;0.32
+RJ (ÖBB);21642;Feldkirch;999;0.32
+RJ (ÖBB);160045;Flughafen Wien;999;1.0
+RJ (ÖBB);262116;Roppen;999;0.16
+RJ (ÖBB);510956;Telfs-Pfaffenhofen;999;0.16
+EC 97;53188;Leipzig Hbf;5;3.87
+EC 97;290554;Riesa;4;2.84
+EC 97;174282;Elsterwerda;3;2.84
+EC 97;89065;Ruhland;2;3.87
+EC 97;262513;Horka(Gr);0;3.87
+EC 97;146906;Hoyerswerda;1;3.81
+EC 90;9941;München Hbf;999;5.77
+EC 90;456005;München Ost;999;5.77
+EC 90;332653;Mühldorf(Oberbay);999;5.45
+EC 90;552402;Simbach(Inn);0;11.55
+EC 90;135333;Wien Hbf;5;5.77
+EC 90;321940;Wien Meidling;4;5.77
+EC 90;610549;St.Pölten Hbf;3;5.77
+EC 90;565918;Linz/Donau Hbf;2;5.77
+EC 90;135002;Wels Hbf;1;5.77
+RJ (Ceske Drahy);653775;Praha hl.n.;0;10.39
+RJ (Ceske Drahy);17941;Praha-Holesovice;1;14.06
+RJ (Ceske Drahy);604565;Usti nad Labem hl.n.;2;14.06
+RJ (Ceske Drahy);26993;Decin hl.n.;3;14.06
+RJ (Ceske Drahy);57233;Breclav;999;3.68
+RJ (Ceske Drahy);1001;Brno hl.n.;999;3.68
+RJ (Ceske Drahy);543923;Ceska Trebova;999;2.84
+RJ (Ceske Drahy);351181;Pardubice hl.n.;999;3.68
+RJ (Ceske Drahy);222158;Kolin(CZ);999;1.68
+RJ (Ceske Drahy);309788;Lovosice;999;2.0
+RJ (Ceske Drahy);630295;Roudnice nad Labem;999;2.0
+RJ (Ceske Drahy);332709;Kralupy nad Vltavou;999;2.0
+RJ (Ceske Drahy);304116;Kuty(Gr);999;0.84
+RJ (Ceske Drahy);32495;Kuty;999;0.84
+RJ (Ceske Drahy);308105;Bratislava hl.st.;999;0.84
+RJ (Ceske Drahy);637192;Nove Zamky;999;0.84
+RJ (Ceske Drahy);269485;Sturovo;999;0.84
+RJ (Ceske Drahy);578733;Praha-Podbaba;999;1.0
+RJ (Ceske Drahy);161542;Hnevice;999;1.0
+RJ (Ceske Drahy);528353;Bohusovice nad Ohri;999;1.0
+IC 1;96724;Zürich HB;0;0.94
+IC 1;149885;Olten;1;0.94
+IC 1;510671;Bern;2;0.94
+ICE 14;127712;Berlin Gesundbrunnen;999;3.03
+ICE 14;446591;Berlin-Spandau;1;9.1
+ICE 14;93866;Hannover Hbf;2;9.1
+ICE 14;639669;Osnabrück Hbf;999;3.03
+ICE 14;325703;Münster(Westf)Hbf;999;3.03
+ICE 14;440288;Recklinghausen Hbf;999;0.71
+ICE 14;267257;Essen Hbf;9;4.45
+ICE 14;691821;Düsseldorf Hbf;999;0.87
+ICE 14;337692;Berlin-Charlottenburg;0;6.06
+ICE 14;603461;Herford;3;6.06
+ICE 14;588749;Bielefeld Hbf;4;6.06
+ICE 14;670154;Gütersloh Hbf;5;6.06
+ICE 14;267162;Hamm(Westf)Hbf;6;6.06
+ICE 14;640892;Dortmund Hbf;7;6.06
+ICE 14;240005;Bochum Hbf;8;3.61
+ICE 14;476721;Wuppertal Hbf;999;1.1
+ICE 14;437604;Solingen Hbf;999;1.1
+ICE 14;517455;Köln Hbf;999;1.71
+ICE 14;22625;Aachen Hbf;999;1.58
+ICE 14;341575;Herzogenrath;999;1.58
+ICE 14;142762;Geilenkirchen;999;1.58
+ICE 14;238156;Erkelenz;999;1.58
+ICE 14;598868;Rheydt Hbf;999;1.58
+ICE 14;484741;Mönchengladbach Hbf;999;2.13
+ICE 14;482951;Viersen;999;2.13
+ICE 14;135640;Krefeld Hbf;999;2.13
+ICE 14;549058;Duisburg Hbf;999;1.81
+ICE 14;85219;Wolfsburg Hbf;999;1.0
+ICE 14;239328;Herne-Wanne-Eickel Hbf;999;0.13
+ICE 4;428519;Hamburg Hbf;0;3.23
+ICE 4;93866;Hannover Hbf;1;3.23
+ICE 4;176697;Frankfurt(Main)Hbf;2;3.23
+ICE 4;667068;Frankfurt(M) Flughafen Regionalbf;3;1.94
+ICE 4;331094;Hamburg Dammtor;999;1.0
+ICE 4;396514;Hamburg-Altona;999;1.0
+IC (Ceske Drahy);57233;Breclav;0;4.0
+IC (Ceske Drahy);565766;Ostrava hl.n.;1;4.0
+IC (Ceske Drahy);536697;Bohumin;2;4.0
+IC (Ceske Drahy);174196;Bohumin(Gr);3;4.0
+ICE 17;446029;Stralsund Hbf;0;0.65
+ICE 17;16971;Ribnitz-Damgarten West;1;0.65
+ICE 17;157968;Rostock Hbf;2;1.23
+ICE 17;355645;Waren(Müritz);3;1.23
+ICE 17;382078;Neustrelitz Hbf;4;1.23
+ICE 17;591256;Oranienburg;5;1.06
+ICE 17;127712;Berlin Gesundbrunnen;6;1.23
+ICE 17;300365;Velgast;999;0.32
+ICE 17;129801;Warnemünde;999;0.32
+RJ (Dänische Staatsbahnen);368193;Padborg st;0;4.39
+RJ (Dänische Staatsbahnen);231011;Kolding st;1;4.1
+RJ (Dänische Staatsbahnen);111314;Odense st;2;4.1
+RJ (Dänische Staatsbahnen);468296;Ringsted st;3;4.1
+RJ (Dänische Staatsbahnen);274287;Koebenhavn H;4;4.1
+RJ (Dänische Staatsbahnen);305446;Flensburg(Gr);999;1.68
+RJ (Dänische Staatsbahnen);310614;Flensburg;999;0.52
+RJ (Dänische Staatsbahnen);313350;Middelfart st;999;0.23
+RJ (Dänische Staatsbahnen);10831;Schleswig;999;1.16
+ICE 3;391201;Berlin Südkreuz;0;1.58
+ICE 3;613345;Berlin Hbf;1;2.42
+ICE 3;446591;Berlin-Spandau;2;2.42
+ICE 3;176697;Frankfurt(Main)Hbf;3;2.42
+ICE 3;667068;Frankfurt(M) Flughafen Regionalbf;4;1.68
+ICE 3;582139;Mannheim Hbf;999;0.58
+ICE 3;44915;Neustadt(Weinstr)Hbf;999;0.58
+ICE 3;513044;Kaiserslautern Hbf;999;0.58
+ICE 3;264321;Homburg(Saar)Hbf;999;0.58
+ICE 3;180380;Saarbrücken Hbf;999;0.58
+EN (Ceske Drahy);57233;Breclav;0;1.0
+EN (Ceske Drahy);304116;Kuty(Gr);1;1.0
+EN (Ceske Drahy);32495;Kuty;2;1.0
+EN (Ceske Drahy);308105;Bratislava hl.st.;3;1.0
+EN (Ceske Drahy);637192;Nove Zamky;4;1.0
+EN (Ceske Drahy);269485;Sturovo;5;1.0
+EN (HZZP);695368;Salzburg Hbf;0;1.0
+EN (HZZP);447324;Schwarzach-St.Veit;1;1.0
+EN (HZZP);98544;Spittal-Millstätter See;2;1.0
+EN (HZZP);584165;Villach Hbf;3;1.0
+EN (HZZP);597555;Jesenice(Gr);4;2.0
+EN (HZZP);461309;Jesenice(SLO);5;2.0
+EN (HZZP);188852;Lesce-Bled;6;2.0
+EN (HZZP);580053;Kranj;7;2.0
+EN (HZZP);243196;Ljubljana;8;2.0
+EN (HZZP);106125;Zidani Most;9;2.0
+EN (HZZP);528753;Sevnica;10;2.0
+EN (HZZP);456575;Krsko;11;1.0
+EN (HZZP);276714;Dobova;12;2.0
+EN (HZZP);312777;Dobova(Gr);13;2.0
+EN (HZZP);540755;Zapresic;14;2.0
+EN (HZZP);440759;Zagreb Glavni kolodvor;15;2.0
+EC 85;464157;Basel SBB;0;1.81
+EC 85;297876;Basel Bad Bf;1;1.81
+EC (HZZP);312777;Dobova(Gr);0;1.0
+EC (HZZP);540755;Zapresic;1;1.0
+EC (HZZP);440759;Zagreb Glavni kolodvor;2;1.0
+ECE 27;310614;Flensburg;0;0.48
+ECE 27;396514;Hamburg-Altona;1;0.48
+ECE 27;10831;Schleswig;999;0.23
+IC 51;640892;Dortmund Hbf;0;3.87
+IC 51;267162;Hamm(Westf)Hbf;1;3.87
+IC 51;665711;Soest;2;3.87
+IC 51;642822;Lippstadt;3;3.87
+IC 51;152171;Paderborn Hbf;4;3.87
+IC 51;378725;Altenbeken;5;3.87
+IC 51;679270;Warburg(Westf);6;3.87
+IC 51;19112;Kassel-Wilhelmshöhe;7;5.48
+IC 51;621598;Eisenach Hbf;8;5.48
+IC 51;606270;Gotha;9;5.48
+IC 51;416646;Erfurt Hbf;10;5.48
+IC 51;517967;Weimar;11;5.16
+IC 51;588565;Jena West;12;5.16
+IC 51;486352;Jena-Göschwitz;13;5.16
+IC 51;190878;Stadtroda;14;5.16
+IC 51;307913;Hermsdorf-Klosterlausnitz;15;5.16
+IC 51;197934;Gera Hbf;16;5.16
+IC 51;240005;Bochum Hbf;999;0.45
+IC 51;267257;Essen Hbf;999;0.45
+IC 51;549058;Duisburg Hbf;999;0.45
+IC 51;609947;Düsseldorf Flughafen;999;0.45
+IC 51;691821;Düsseldorf Hbf;999;0.45
+IC 51;502136;Bebra;999;1.61
+EC (Ceske Drahy);26993;Decin hl.n.;3;0.65
+EC (Ceske Drahy);604565;Usti nad Labem hl.n.;2;0.65
+EC (Ceske Drahy);17941;Praha-Holesovice;1;0.65
+EC (Ceske Drahy);653775;Praha hl.n.;0;0.65
+IC (ÖBB);135333;Wien Hbf;0;2.0
+IC (ÖBB);323161;Breclav(Gr);1;2.0
+IC (ÖBB);57233;Breclav;2;2.0
+ICE 90;695368;Salzburg Hbf;0;4.0
+ICE 90;683842;Traunstein;1;2.0
+ICE 90;551798;Prien am Chiemsee;2;2.0
+ICE 90;123366;Rosenheim;3;2.0
+ICE 90;9941;München Hbf;4;4.0
+IC 60;497089;Karlsruhe Hbf;0;0.65
+IC 60;125185;Karlsruhe-Durlach;1;0.35
+IC 60;490386;Bruchsal;2;0.61
+IC 60;668361;Stuttgart Hbf;3;0.65
+ICE 6;668361;Stuttgart Hbf;0;2.0
+ICE 6;99055;Nürnberg Hbf;1;2.0
+ICE 6;391201;Berlin Südkreuz;2;2.0
+ICE 6;613345;Berlin Hbf;3;2.0
+ICE 6;127712;Berlin Gesundbrunnen;4;2.0
+RJ (ZSSK);269485;Sturovo;0;0.84
+RJ (ZSSK);637192;Nove Zamky;1;0.84
+RJ (ZSSK);308105;Bratislava hl.st.;2;0.84
+RJ (ZSSK);32495;Kuty;3;0.84
+RJ (ZSSK);304116;Kuty(Gr);4;0.84
+RJ (ZSSK);57233;Breclav;5;0.84
+RJ (ZSSK);1001;Brno hl.n.;6;0.84
+RJ (ZSSK);351181;Pardubice hl.n.;7;0.84
+RJ (ZSSK);222158;Kolin(CZ);8;0.84
+RJ (ZSSK);17941;Praha-Holesovice;9;0.84
+RJ (ZSSK);604565;Usti nad Labem hl.n.;10;0.84
+RJ (ZSSK);26993;Decin hl.n.;11;0.84
+EN (ZSSK);269485;Sturovo;0;1.0
+EN (ZSSK);637192;Nove Zamky;1;1.0
+EN (ZSSK);308105;Bratislava hl.st.;2;1.0
+EN (ZSSK);32495;Kuty;3;1.0
+EN (ZSSK);304116;Kuty(Gr);4;1.0
+EN (ZSSK);57233;Breclav;5;1.0
+EC (MAV);655579;Hegyeshalom(Gr);0;2.0
+EC (MAV);442631;Hegyeshalom;1;2.0

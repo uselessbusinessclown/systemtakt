@@ -1,0 +1,279 @@
+<script>
+(function(){
+const D=JSON.parse(document.getElementById('D').textContent);
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const nf=(v,d)=>Number(v).toLocaleString('de-DE',{minimumFractionDigits:d??0,maximumFractionDigits:d??0});
+const pad=m=>String(m).padStart(2,'0');
+const layerOf=n=>(n.spr>2?'spr':(n.ic>n.ice?'ic':'ice'));
+const OPS={'DB Fernverkehr AG':'DB Fernverkehr','DB Fernverkehr (Codesharing)':'DB (Codeshare)',
+ 'Nederlandse Spoorwegen':'NS','Dänische Staatsbahnen':'DSB','Ceske Drahy':'ČD','PKP Intercity':'PKP IC',
+ 'BahnTouristikExpress':'BTE','MAV':'MÁV'};
+const shortOp=o=>OPS[o]||o;
+const shortLine=l=>l.replace(/\((.+)\)/,(m,p)=>'('+(shortOp(p).replace('DB Fernverkehr','DB'))+')');
+const cvar=k=>getComputedStyle(document.documentElement).getPropertyValue('--'+k).trim();
+
+/* ---------- KPI ---------- */
+const K=D.kpi;
+$('#kpis').innerHTML=[
+ [nf(K.zuege),'Fernzüge je Werktag'],
+ [nf(K.bhf_de)+' / '+nf(K.bhf_all),'Bahnhöfe in DE / gesamt'],
+ [nf(K.linien),'Linien (ICE, IC, EC)'],
+ [nf(K.knoten),'Netzknoten im Taktraster']
+].map(([b,s])=>`<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
+
+/* ---------- Zifferblatt ---------- */
+const SVGNS='http://www.w3.org/2000/svg';
+function el(t,a){const e=document.createElementNS(SVGNS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+function drawDial(){
+  const s=$('#dial'); s.textContent='';
+  const CX=210,CY=210,R=150;
+  const g=el('g',{}); s.appendChild(g);
+  g.appendChild(el('circle',{cx:CX,cy:CY,r:R,fill:'none',stroke:cvar('line'),'stroke-width':1}));
+  for(let m=0;m<30;m++){
+    const a=(m/30)*2*Math.PI-Math.PI/2, maj=m%5===0;
+    const r2=R+(maj?11:6);
+    g.appendChild(el('line',{x1:CX+Math.cos(a)*R,y1:CY+Math.sin(a)*R,
+      x2:CX+Math.cos(a)*r2,y2:CY+Math.sin(a)*r2,stroke:cvar('dial'),
+      'stroke-width':maj?2:1,'stroke-linecap':'round'}));
+    if(maj){
+      const rt=R+27,t=el('text',{x:CX+Math.cos(a)*rt,y:CY+Math.sin(a)*rt+4.5,'text-anchor':'middle',
+        'font-size':13,fill:cvar('muted')}); t.textContent=':'+pad(m); g.appendChild(t);
+    }
+  }
+  const by={}; D.knoten.forEach(n=>{(by[n.m]=by[n.m]||[]).push(n)});
+  const maxw=Math.max(...D.knoten.map(n=>n.w));
+  DOTS={};
+  Object.keys(by).forEach(m=>{
+    const list=by[m].slice().sort((a,b)=>b.w-a.w);
+    const a=(m/30)*2*Math.PI-Math.PI/2;
+    list.forEach((n,i)=>{
+      const r=R-11-i*21;
+      const rad=4.5+Math.sqrt(n.w/maxw)*11;
+      const x=CX+Math.cos(a)*r, y=CY+Math.sin(a)*r;
+      const dot=el('circle',{cx:x,cy:y,r:rad,fill:cvar(layerOf(n)),'fill-opacity':.8,
+        stroke:cvar('surface'),'stroke-width':1.5,class:'nd',tabindex:0,role:'button'});
+      dot.setAttribute('aria-label',n.name+', Knotenminute '+pad(n.m));
+      const show=()=>select(n);
+      dot.addEventListener('mouseenter',show); dot.addEventListener('focus',show);
+      dot.addEventListener('click',show);
+      g.appendChild(dot); DOTS[n.name]=dot;
+    });
+  });
+  RING=el('circle',{cx:0,cy:0,r:0,fill:'none',stroke:cvar('ink'),'stroke-width':2,
+    'pointer-events':'none',opacity:0}); g.appendChild(RING);
+}
+let DOTS={},RING=null;
+function select(n){
+  const d=DOTS[n.name];
+  if(d&&RING){RING.setAttribute('cx',d.getAttribute('cx'));RING.setAttribute('cy',d.getAttribute('cy'));
+    RING.setAttribute('r',+d.getAttribute('r')+4.5);RING.setAttribute('opacity',1);}
+  $$('#chips button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.n===n.name)));
+  card(n);
+}
+function card(n){
+  $('#ncard').innerHTML=`<h4>${n.name}</h4>
+   <div style="font-size:13px;color:var(--muted)">${n.bl||''} · ${n.grad} Netzkanten · Knotenminute <b class="mono">:${pad(n.m)}</b> und <b class="mono">:${pad((n.m+30)%60)}</b></div>
+   <div class="kv">
+     <div><span>Ankunft</span><b>${n.ankunft}</b></div>
+     <div><span>Abfahrt</span><b>${n.abfahrt}</b></div>
+     <div><span>Halte/Tag</span><b>${nf(n.halte,1)}</b></div>
+     <div><span>Sprinter</span><b style="color:var(--spr)">${nf(n.spr,1)}</b></div>
+     <div><span>ICE</span><b style="color:var(--ice)">${nf(n.ice,1)}</b></div>
+     <div><span>IC/EC</span><b style="color:var(--ic)">${nf(n.ic,1)}</b></div>
+     <div><span>Gleisbedarf</span><b>${n.gl??'–'}</b></div>
+   </div>`;
+}
+drawDial();
+const TOP=D.knoten.slice(0,12);
+$('#chips').innerHTML=TOP.map(n=>`<button class="chip nchip" data-n="${n.name}" aria-pressed="false">${
+  n.name.replace(/ Hbf$/,'').replace('(Main)','').replace('(Saale)','').replace('(Westf)','')
+  }<b class="mono">:${pad(n.m)}</b></button>`).join('');
+$$('#chips button').forEach(b=>b.addEventListener('click',()=>{
+  select(D.knoten.find(n=>n.name===b.dataset.n));}));
+select(D.knoten.find(n=>n.name==='Berlin Hbf')||D.knoten[0]);
+if(window.matchMedia){const mq=window.matchMedia('(prefers-color-scheme:dark)');
+  if(mq.addEventListener)mq.addEventListener('change',()=>{drawDial();
+    select(D.knoten.find(n=>n.name==='Berlin Hbf')||D.knoten[0]);});}
+
+/* ---------- Verteilungen ---------- */
+function dist(sel,rows,color){
+  const max=Math.max(...rows.map(r=>r[1]));
+  $(sel).innerHTML=rows.map(r=>`<div class="r" style="--c:${r[2]||color}">
+    <span>${r[0]}</span><div class="b"><i style="width:${(r[1]/max*100).toFixed(1)}%"></i></div>
+    <span class="v">${r[3]}</span></div>`).join('');
+}
+dist('#taktdist',[
+  ['60-min-Takt stabil',2806,'var(--ice)','83 %'],
+  ['Zweistundentakt, 2 Lagen',441,'var(--ic)','13 %'],
+  ['kein systematischer Takt',197,'var(--spr)','6 %']]);
+const order=['Reserve 0–7 % (Sollband)','0–7 %','7–14 %','14–25 %','über 25 %','Beschleunigung nötig'];
+const rk=D.resk.slice().sort((a,b)=>order.indexOf(a.k)-order.indexOf(b.k));
+dist('#resdist',rk.map(r=>{
+  const col=r.k.indexOf('Beschleunig')>=0?'var(--spr)':(r.k==='0–7 %'?'var(--ok)':
+    (r.k==='7–14 %'?'var(--ice)':(r.k==='14–25 %'?'var(--ic)':'var(--warn)')));
+  const lbl=r.k.indexOf('Beschleunig')>=0?r.k:'Fahrzeitreserve '+r.k;
+  return [lbl+' ('+r.n+' Kanten)',r.g,col,r.p+' %'];
+}));
+const kp=D.knoten.filter(n=>n.zf!=null).sort((a,b)=>b.zf-a.zf).slice(0,14);
+dist('#kapa',kp.map(n=>{
+  const col=n.gl>10?'var(--spr)':(n.gl>6?'var(--ic)':'var(--ice)');
+  return [n.name.replace('(Main)','')+' · :'+pad(n.m),n.zf,col,n.gl+' Gl.'];
+}));
+
+/* ---------- Sprinter-Karten ---------- */
+function miniClock(ab,an){
+  const p=s=>{const m=/:(\d+)/.exec(s||''); return m?parseInt(m[1],10):null;};
+  const A=p(ab),B=p(an), R=30,C=39;
+  const hand=(m,c)=>{ if(m===null) return '';
+    const a=(m/60)*2*Math.PI-Math.PI/2;
+    return `<line x1="${C}" y1="${C}" x2="${C+Math.cos(a)*R*0.78}" y2="${C+Math.sin(a)*R*0.78}" stroke="${c}" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="${C+Math.cos(a)*R*0.78}" cy="${C+Math.sin(a)*R*0.78}" r="3" fill="${c}"/>`;};
+  let ticks='';
+  for(let i=0;i<12;i++){const a=(i/12)*2*Math.PI-Math.PI/2;
+    ticks+=`<line x1="${C+Math.cos(a)*(R-3)}" y1="${C+Math.sin(a)*(R-3)}" x2="${C+Math.cos(a)*R}" y2="${C+Math.sin(a)*R}" stroke="var(--line)" stroke-width="${i%3?1:2}"/>`;}
+  return `<svg viewBox="0 0 78 78" width="78" height="78" aria-hidden="true">
+    <circle cx="${C}" cy="${C}" r="${R}" fill="none" stroke="var(--line)"/>${ticks}
+    ${hand(A,'var(--ice)')}${hand(B,'var(--spr)')}
+    <circle cx="${C}" cy="${C}" r="2.5" fill="var(--muted)"/></svg>`;
+}
+$('#sprg').innerHTML=D.spr.map(s=>{
+  const h=Math.floor(s.ts/60), m=s.ts%60;
+  const dtxt=s.d===0?'unverändert':(s.d>0?'+'+s.d+' min':s.d+' min');
+  return `<div class="sprc">
+    <div class="clock">${miniClock(s.ab,s.an)}</div>
+    <div style="flex:1;min-width:0">
+      <div class="k">${s.k}</div><h4>${s.rel}</h4>
+      <div class="row">
+        <div><span>Abfahrt</span><b>${s.ab}</b></div>
+        <div><span>Ankunft</span><b>${s.an}</b></div>
+        <div><span>Soll-Fahrzeit</span><b>${h}:${pad(m)}</b></div>
+        <div><span>heute best</span><b>${Math.floor(s.t0/60)}:${pad(s.t0%60)}</b></div>
+        <div><span>Δ</span><b style="color:${s.d<0?'var(--spr)':'var(--muted)'}">${dtxt}</b></div>
+        <div><span>Ziel Fahrten/Ri</span><b>${s.fz}</b></div>
+      </div>
+      <p class="note">${s.bw}</p>
+    </div></div>`;
+}).join('');
+$('#sa').innerHTML='+'+String(D.leist.find(r=>r.ebene==='GESAMT').delta_A_pct).replace('.',',')+'&nbsp;%<small> Zug-km</small>';
+$('#sb').innerHTML='+'+String(D.leist.find(r=>r.ebene==='GESAMT').delta_B_pct).replace('.',',')+'&nbsp;%<small> Zug-km</small>';
+
+/* ---------- Tabellen ---------- */
+function sortable(tbl,data,render,init){
+  let key=init.k, dir=init.d, q='', extra=()=>true;
+  const tb=tbl.querySelector('tbody');
+  function draw(){
+    let rows=data.filter(extra);
+    if(q){const s=q.toLowerCase();rows=rows.filter(r=>JSON.stringify(Object.values(r)).toLowerCase().includes(s));}
+    rows.sort((a,b)=>{const x=a[key],y=b[key];
+      const c=(typeof x==='number'&&typeof y==='number')?x-y:String(x).localeCompare(String(y),'de');
+      return dir*c;});
+    tb.innerHTML=rows.map(render).join('');
+  }
+  tbl.querySelectorAll('th[data-k]').forEach(th=>{
+    th.tabIndex=0;
+    const go=()=>{const k=th.dataset.k; if(k===key)dir=-dir; else{key=k;dir=(typeof data[0][k]==='number')?-1:1;} draw();};
+    th.addEventListener('click',go);
+    th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+  });
+  draw();
+  return {search:v=>{q=v;draw();}, filter:f=>{extra=f;draw();}};
+}
+const tk=sortable($('#tk'),D.knoten,n=>`<tr><td>${n.name}</td><td class="n">:${pad(n.m)} / :${pad((n.m+30)%60)}</td>
+  <td class="n">${n.ankunft}</td><td class="n">${n.abfahrt}</td><td class="n">${n.grad}</td>
+  <td class="n">${nf(n.halte,1)}</td><td class="n" style="color:var(--spr)">${nf(n.spr,1)}</td>
+  <td class="n" style="color:var(--ice)">${nf(n.ice,1)}</td><td class="n" style="color:var(--ic)">${nf(n.ic,1)}</td>
+  <td class="n">${nf(n.w)}</td></tr>`,{k:'w',d:-1});
+$('#qk').addEventListener('input',e=>tk.search(e.target.value));
+
+const maxf=Math.max(...D.kanten.map(k=>k.fs+k.fi+k.fc));
+const te=sortable($('#te'),D.kanten,k=>{
+  const tot=k.fs+k.fi+k.fc, w=(v)=>((v/maxf)*100).toFixed(1)+'%';
+  const dcol=Math.max(k.r,k.r2)>25?'var(--warn)':'var(--muted)';
+  return `<tr><td>${k.a}</td><td>${k.b}</td><td class="n">${k.t0}</td><td class="n">${k.ts}</td>
+   <td class="n" style="color:${dcol}">+${k.d} / +${k.d2}</td>
+   <td class="n" style="color:${Math.max(k.r,k.r2)>25?'var(--warn)':'inherit'}">${String(k.r).replace('.',',')} / ${String(k.r2).replace('.',',')} %</td>
+   <td><span style="display:flex;gap:2px;min-width:110px">
+     <i style="height:8px;border-radius:2px;background:var(--spr);width:${w(k.fs)}"></i>
+     <i style="height:8px;border-radius:2px;background:var(--ice);width:${w(k.fi)}"></i>
+     <i style="height:8px;border-radius:2px;background:var(--ic);width:${w(k.fc)}"></i>
+   </span><span style="font-size:11px;color:var(--muted)" class="mono">${nf(tot,1)}/Tag</span></td>
+   <td class="n">${nf(k.w)}</td></tr>`;},{k:'w',d:-1});
+$('#qe').addEventListener('input',e=>te.search(e.target.value));
+$$('.chip[data-f]').forEach(b=>b.addEventListener('click',()=>{
+  $$('.chip[data-f]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  const f=b.dataset.f;
+  te.filter(k=>f==='all'||(f==='acc'&&false)||(f==='ok'&&Math.max(k.r,k.r2)<=14)||(f==='res'&&Math.max(k.r,k.r2)>14));
+}));
+
+const tl=sortable($('#tl'),D.lin,l=>`<tr><td><span class="tag ${l.p===1?'t-spr':l.p===2?'t-ice':'t-ic'}">${shortLine(l.l)}</span></td>
+  <td>${l.rel} <span style="color:var(--muted);font-size:12.5px">· ${shortOp(l.op)}</span></td><td class="n">${nf(l.f0,1)}</td>
+  <td>${l.t0}</td><td class="n">${l.ta} <span style="color:var(--muted)">· ${l.fa}/Ri</span></td>
+  <td class="n">${l.tb} <span style="color:var(--muted)">· ${l.fb}/Ri</span></td></tr>`,
+  {k:'f0',d:-1});
+let lev=2; tl.filter(l=>l.p===lev);
+$('#ql').addEventListener('input',e=>tl.search(e.target.value));
+$$('.chip[data-l]').forEach(b=>b.addEventListener('click',()=>{
+  $$('.chip[data-l]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  lev=+b.dataset.l; tl.filter(l=>l.p===lev);
+}));
+
+$('#tkz').querySelector('tbody').innerHTML=D.knotenzahl.map(r=>{
+  const sel=(r.bemerkung||'').indexOf('gewählt')>=0;
+  return `<tr><td class="nw" style="font-weight:${sel?600:400};color:${sel?'var(--ok)':'inherit'}">${r.variante}</td>
+   <td class="n">${r.vollknoten}</td><td class="n">${r.kanten}</td>
+   <td class="n">${String(r.reserve_pct).replace('.',',')} %</td>
+   <td class="n">${String(r.sollband_pct).replace('.',',')} %</td>
+   <td class="n" style="color:${r.reisezeit_verlaengerung_min>25?'var(--spr)':'inherit'}">+${String(r.reisezeit_verlaengerung_min).replace('.',',')} min</td>
+   <td style="color:var(--muted);font-size:13px">${r.bemerkung||''}</td></tr>`;}).join('');
+$('#ttv').querySelector('tbody').innerHTML=D.taktvar.map(r=>{
+  const good=r.variante.startsWith('T1');
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'inherit'}">${r.variante}</td>
+   <td class="nw">${r.beschleunigung_erlaubt}</td><td class="n">${r.kanten_mit_beschleunigung}</td>
+   <td class="n">${String(r.kosten_je_gewicht).replace('.',',')}</td>
+   <td class="n">${String(r.sollband_pct).replace('.',',')} %</td>
+   <td class="n" style="color:${r.mittlere_reserve_pct>14?'var(--spr)':'inherit'}">${String(r.mittlere_reserve_pct).replace('.',',')} %</td></tr>`;}).join('');
+$('#tank').querySelector('tbody').innerHTML=(()=>{
+  const P=Object.fromEntries(D.knoten.map(n=>[n.name,n.m]));
+  return ['Berlin Hbf','Frankfurt(Main)Hbf','Hannover Hbf','Mannheim Hbf','Köln Hbf','Nürnberg Hbf','Fulda','München Hbf']
+   .map(a=>{const off=P[a]; const g=n=>pad((P[n]-off+30)%30);
+     return `<tr><td class="nw">${a}</td><td class="n">:${g('Berlin Hbf')}</td><td class="n">:${g('Frankfurt(Main)Hbf')}</td>
+      <td class="n">:${g('Hannover Hbf')}</td><td class="n">11.805,429</td></tr>`;}).join('');})();
+$('#tzz').querySelector('tbody').innerHTML=D.zentral.map(r=>`<tr><td class="nw">${r.bahnhof}</td>
+  <td class="n">${r.grad}</td><td class="n">${nf(r.halte_tag,1)}</td>
+  <td class="n">${String(r.zwischenzentralitaet).replace('.',',')}</td><td class="n">${r.rang_zentralitaet}</td>
+  <td class="n">${nf(r.mittlere_fahrzeit_zum_netz,1)} min</td><td class="n">${r.rang_erreichbarkeit}</td></tr>`).join('');
+$('#tzn').querySelector('tbody').innerHTML=D.zentrier.map(r=>{
+  const good=r.gewinn_knoten>=1.0 && r.netz_kosten_effekt<=0.05;
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'var(--muted)'}">${r.bahnhof}</td>
+   <td class="n">${String(r.reserve_basis).replace('.',',')} %</td><td class="n">${String(r.reserve_zentriert).replace('.',',')} %</td>
+   <td class="n" style="color:${r.gewinn_knoten>=1?'var(--ok)':'var(--muted)'}">+${String(r.gewinn_knoten).replace('.',',')} Pp</td>
+   <td class="n">${String(r.netz_reserve_basis).replace('.',',')} %</td>
+   <td class="n">${String(r.netz_reserve_zentriert).replace('.',',')} %</td>
+   <td class="n" style="color:${r.netz_kosten_effekt<=0?'var(--ok)':'var(--ic)'}">${r.netz_kosten_effekt>0?'+':''}${String(r.netz_kosten_effekt).replace('.',',')} Pp</td></tr>`;}).join('');
+$('#tfb').querySelector('tbody').innerHTML=D.ffmbel.map(r=>{
+  const sum=r.zugart==='SUMME';
+  const col=r.kategorie==='ICE-Sprinter'?'var(--spr)':(r.kategorie==='ICE'?'var(--ice)':(r.kategorie==='IC/EC'?'var(--ic)':'inherit'));
+  return `<tr style="${sum?'font-weight:600':''}"><td>${r.bahnhof}</td><td>${r.zugart}</td>
+   <td style="color:${col}">${r.kategorie}</td><td class="n">${nf(r.fahrten_tag,1)}</td>
+   <td class="n">${nf(r.gleisminuten_tag)}</td><td class="n">${String(r.anteil_pct).replace('.',',')} %</td></tr>`;}).join('');
+$('#tfv').querySelector('tbody').innerHTML=D.ffmvar.map(r=>{
+  const good=r.variante==='Status quo'||r.variante==='Variante C';
+  return `<tr><td class="nw" style="font-weight:600;color:${good?'var(--ok)':'var(--spr)'}">${r.variante}</td>
+   <td class="n">${String(r.kosten_je_gewicht).replace('.',',')}</td><td class="n">${r.beschl_kanten}</td>
+   <td class="n">${String(r.mittlere_reserve_pct).replace('.',',')} %</td>
+   <td class="n">${nf(r.hbf_gleisminuten)}</td><td class="n">${nf(r.flughafen_gleisminuten)}</td>
+   <td class="n" style="color:${r.flughafen_auslastung_pct>80?'var(--spr)':'inherit'}">${nf(r.flughafen_auslastung_pct)} %</td></tr>`;}).join('');
+$('#tfl').querySelector('tbody').innerHTML=D.ffmlin.map(r=>`<tr>
+   <td><span class="tag ${r.linie.startsWith('IC ')||r.linie.startsWith('EC')?'t-ic':'t-ice'}">${r.linie}</span></td>
+   <td class="n">${nf(r.fahrten_tag,1)}</td><td>${r.haelt_hbf?'ja':'–'}</td><td>${r.haelt_flughafen?'ja':'–'}</td>
+   <td style="color:var(--muted)">${r.verlust}</td></tr>`).join('');
+$('#tb').querySelector('tbody').innerHTML=D.leist.map(r=>{
+  const bold=r.ebene==='GESAMT'?'font-weight:600':'';
+  return `<tr style="${bold}"><td>${r.ebene}</td><td class="n">${nf(r.zugkm_tag_ist)}</td>
+   <td class="n">${nf(r.zugkm_tag_A)}</td><td class="n">${nf(r.zugkm_tag_B)}</td>
+   <td class="n">${String(r.mio_jahr_ist).replace('.',',')}</td><td class="n">${String(r.mio_jahr_A).replace('.',',')}</td>
+   <td class="n">${String(r.mio_jahr_B).replace('.',',')}</td>
+   <td class="n" style="color:var(--ice)">+${String(r.delta_A_pct).replace('.',',')} %</td>
+   <td class="n" style="color:var(--spr)">+${String(r.delta_B_pct).replace('.',',')} %</td></tr>`;}).join('');
+})();
+</script>

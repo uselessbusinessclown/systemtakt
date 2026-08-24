@@ -1,0 +1,568 @@
+﻿station_id;name;lat;lon;land_iso;land;bundesland;bundesland_iso;stadt;ist_fv_knoten
+1001;Brno hl.n.;49.19054;16.612774;CZ;Czechia;;;Brno hl.n.;0
+100888;Lask;51.603775;19.111855;PL;Poland;;;Lask;0
+106125;Zidani Most;46.085587;15.170323;SI;Slovenia;;;Zidani Most;0
+107964;Gdansk Wrzeszcz;54.38186;18.605434;PL;Poland;;;Gdansk Wrzeszcz;0
+10831;Schleswig;54.49946;9.53814;DE;Germany;Schleswig-Holstein;DE-SH;Schleswig;0
+110363;Pulawy Miasto;51.426903;21.985098;PL;Poland;;;Pulawy Miasto;0
+111314;Odense st;55.401775;10.386005;DK;Denmark;;;Odense st;0
+112969;Spiez;46.686398;7.680103;CH;Switzerland;;;Spiez;0
+115202;Sroda Wielkopolska;52.21805;17.274818;PL;Poland;;;Sroda Wielkopolska;0
+116047;Weilheim(Oberbay);47.845364;11.14286;DE;Germany;Bayern;DE-BY;Weilheim;0
+117449;Dorfgastein;47.238487;13.103074;AT;Austria;;;Dorfgastein;0
+117544;Aachen Süd(Gr);50.731915;6.04541;DE;Germany;Nordrhein-Westfalen;DE-NW;Aachen;0
+118412;Villingen(Schwarzw);48.05802;8.465261;DE;Germany;Baden-Württemberg;DE-BW;Villingen;0
+123366;Rosenheim;47.850018;12.119202;DE;Germany;Bayern;DE-BY;Rosenheim;0
+125185;Karlsruhe-Durlach;49.002327;8.462822;DE;Germany;Baden-Württemberg;DE-BW;Karlsruhe-Durlach;0
+125560;Brugge;51.196934;3.217081;BE;Belgium;;;Brugge;0
+127712;Berlin Gesundbrunnen;52.548635499999996;13.390534166666667;DE;Germany;Berlin;DE-BE;Berlin;0
+128231;Kühnsdorf-Klopeiner See;46.62484;14.620893;AT;Austria;;;Kühnsdorf-Klopeiner See;0
+129801;Warnemünde;54.176853;12.091271;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Warnemünde;0
+133722;Pörtschach am Wörther See;46.636196;14.146286;AT;Austria;;;Pörtschach am Wörther See;0
+135002;Wels Hbf;48.166077;14.026569;AT;Austria;;;Wels;0
+135333;Wien Hbf;48.1851;16.377113;AT;Austria;;;Wien;0
+135640;Krefeld Hbf;51.325718;6.569885;DE;Germany;Nordrhein-Westfalen;DE-NW;Krefeld;0
+136937;Andernach;50.434544;7.404839;DE;Germany;Rheinland-Pfalz;DE-RP;Andernach;0
+13819;Kitzbühel;47.45411;12.391045;AT;Austria;;;Kitzbühel;0
+139226;Nowy Tomysl;52.304085;16.13294;PL;Poland;;;Nowy Tomysl;0
+141628;Zyrardow;52.052116;20.448338;PL;Poland;;;Zyrardow;0
+141649;Mosonmagyarovar;47.850357;17.266424;HU;Hungary;;;Mosonmagyarovar;0
+141674;Ergenzingen;48.489532;8.809857;DE;Germany;Baden-Württemberg;DE-BW;Ergenzingen;0
+142048;Zbaszyn;52.259502;15.894974;PL;Poland;;;Zbaszyn;0
+142762;Geilenkirchen;50.96104;6.124518;DE;Germany;Nordrhein-Westfalen;DE-NW;Geilenkirchen;0
+14372;Liège-Guillemins;50.62436;5.566483;BE;Belgium;;;Liège-Guillemins;0
+145252;Gäufelden;48.55966;8.850308;DE;Germany;Baden-Württemberg;DE-BW;Gäufelden;0
+146906;Hoyerswerda;51.43279;14.231407;DE;Germany;Sachsen;DE-SN;Hoyerswerda;0
+148477;Nässjö Central;57.652126;14.694786;SE;Sweden;;;Nässjö Central;0
+149885;Olten;47.351936;7.9077;CH;Switzerland;;;Olten;0
+150560;Kehl;48.576656;7.806556;DE;Germany;Baden-Württemberg;DE-BW;Kehl;0
+152171;Paderborn Hbf;51.71298;8.740505;DE;Germany;Nordrhein-Westfalen;DE-NW;Paderborn;0
+155586;Pleszew;51.89199;17.73284;PL;Poland;;;Pleszew;0
+157156;Werder(Havel);52.39294;12.926189;DE;Germany;Brandenburg;DE-BB;Werder;0
+157968;Rostock Hbf;54.078247;12.131079;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Rostock;0
+158073;Hagen Hbf;51.362747;7.460249;DE;Germany;Nordrhein-Westfalen;DE-NW;Hagen;0
+160045;Flughafen Wien;48.120823;16.562828;AT;Austria;;;Flughafen Wien;0
+161450;Emden Hbf;53.369038;7.195176;DE;Germany;Niedersachsen;DE-NI;Emden;0
+161542;Hnevice;50.452686;14.361715;CZ;Czechia;;;Hnevice;0
+163849;Dabrowa Gornicza Zabkowice;50.366478;19.264442;PL;Poland;;;Dabrowa Gornicza Zabkowice;0
+164260;Antwerpen Centraal;51.215813;4.421168;BE;Belgium;;;Antwerpen Centraal;0
+165995;Sosnowiec Glowny;50.2789;19.126411;PL;Poland;;;Sosnowiec Glowny;0
+167729;Lindau-Reutin;47.552383;9.703292;DE;Germany;Bayern;DE-BY;Lindau-Reutin;0
+168530;Göttingen;51.536816;9.926072;DE;Germany;Niedersachsen;DE-NI;Göttingen;0
+169559;Angermünde;53.0157665;13.99579;DE;Germany;Brandenburg;DE-BB;Angermünde;0
+16971;Ribnitz-Damgarten West;54.239178;12.436965;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Ribnitz-Damgarten West;0
+170179;Buchloe;48.033722;10.716217;DE;Germany;Bayern;DE-BY;Buchloe;0
+170193;Bitterfeld;51.62286;12.31685;DE;Germany;Sachsen-Anhalt;DE-ST;Bitterfeld;0
+174196;Bohumin(Gr);49.916576;18.322226;CZ;Czechia;;;Bohumin;0
+174282;Elsterwerda;51.459647999999994;13.516397;DE;Germany;Brandenburg;DE-BB;Elsterwerda;0
+175147;Lubin;51.39612;16.193586;PL;Poland;;;Lubin;0
+176209;Lutherstadt Wittenberg Hbf;51.86781;12.662285;DE;Germany;Sachsen-Anhalt;DE-ST;Lutherstadt Wittenberg;0
+176337;Mainz Hbf;50.001118;8.25872;DE;Germany;Rheinland-Pfalz;DE-RP;Mainz;0
+176697;Frankfurt(Main)Hbf;50.10668;8.662828;DE;Germany;Hessen;DE-HE;Frankfurt;0
+178938;Kapfenberg;47.44523;15.292357;AT;Austria;;;Kapfenberg;0
+17941;Praha-Holesovice;50.110214;14.440013;CZ;Czechia;;;Praha;0
+180320;Hildesheim Hbf;52.160625;9.953497;DE;Germany;Niedersachsen;DE-NI;Hildesheim;0
+180380;Saarbrücken Hbf;49.24130275;6.991005;DE;Germany;Saarland;DE-SL;Saarbrücken;0
+181141;Chelm Miasto;51.138405;23.459185;PL;Poland;;;Chelm Miasto;0
+181656;Bützow;53.837112;11.998194;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Bützow;0
+185434;Inowroclaw;52.804947;18.24406;PL;Poland;;;Inowroclaw;0
+187569;Rzeszow Glowny;50.043114;22.006798;PL;Poland;;;Rzeszow Glowny;0
+188622;Dessau Hbf;51.839867;12.234945;DE;Germany;Sachsen-Anhalt;DE-ST;Dessau;0
+188852;Lesce-Bled;46.360416;14.157971;SI;Slovenia;;;Lesce-Bled;0
+189221;Sedziszow Malopolski;50.07528;21.694704;PL;Poland;;;Sedziszow Malopolski;0
+190047;Kitzbühel Hahnenkamm;47.44339;12.389856;AT;Austria;;;Kitzbühel Hahnenkamm;0
+190242;Kempten(Allgäu)Hbf;47.711746;10.31761;DE;Germany;Bayern;DE-BY;Kempten;0
+190482;Weststeiermark;46.813923;15.296772;AT;Austria;;;Weststeiermark;0
+190878;Stadtroda;50.868217;11.722792;DE;Germany;Thüringen;DE-TH;Stadtroda;0
+19112;Kassel-Wilhelmshöhe;51.312557;9.447116;DE;Germany;Hessen;DE-HE;Kassel-Wilhelmshöhe;0
+192031;Kostrzyn;52.591778;14.647988;PL;Poland;;;Kostrzyn;0
+192145;Ringsheim/Europa-Park;48.248726;7.773037;DE;Germany;Baden-Württemberg;DE-BW;Ringsheim/Europa-Park;0
+194868;Weinheim(Bergstr)Hbf;49.553303;8.665351;DE;Germany;Baden-Württemberg;DE-BW;Weinheim;0
+19534;Trzebinia;50.153934;19.453215;PL;Poland;;;Trzebinia;0
+195950;Norddeich Mole;53.624313;7.158806;DE;Germany;Niedersachsen;DE-NI;Norddeich Mole;0
+19646;Gniezno;52.52965;17.602184;PL;Poland;;;Gniezno;0
+197616;Wiener Neustadt Hbf;47.81108;16.233652;AT;Austria;;;Wien;0
+197934;Gera Hbf;50.883423;12.077092;DE;Germany;Thüringen;DE-TH;Gera;0
+202002;Kutno;52.226963;19.348616;PL;Poland;;;Kutno;0
+203191;Aalen Hbf;48.841015;10.096271;DE;Germany;Baden-Württemberg;DE-BW;Aalen;0
+20335;Apeldoorn;52.20943;5.968491;NL;Netherlands;;;Apeldoorn;0
+205890;Hochfilzen;47.467712;12.626525;AT;Austria;;;Hochfilzen;0
+206566;Ellwangen;48.964123;10.129681;DE;Germany;Baden-Württemberg;DE-BW;Ellwangen;0
+207594;Visp;46.29403;7.881465;CH;Switzerland;;;Visp;0
+212568;Kronach;50.239613;11.320115;DE;Germany;Bayern;DE-BY;Kronach;0
+213090;Koscian;52.07896;16.641829;PL;Poland;;;Koscian;0
+215972;Tinglev st;54.936172;9.258234;DK;Denmark;;;Tinglev st;0
+21642;Feldkirch;47.24098;9.604102;AT;Austria;;;Feldkirch;0
+216930;Fulda;50.554905;9.684169;DE;Germany;Hessen;DE-HE;Fulda;0
+222158;Kolin(CZ);50.025436;15.214279;CZ;Czechia;;;Kolin;0
+222222;Pabianice;51.66095;19.325098;PL;Poland;;;Pabianice;0
+224643;Dresden Hbf;51.04056;13.732035;DE;Germany;Sachsen;DE-SN;Dresden;0
+22625;Aachen Hbf;50.7678;6.091499;DE;Germany;Nordrhein-Westfalen;DE-NW;Aachen;0
+226858;Darmstadt Hbf;49.8725;8.629636;DE;Germany;Hessen;DE-HE;Darmstadt;0
+227595;Chemnitz Hbf;50.839695;12.930877;DE;Germany;Sachsen;DE-SN;Chemnitz;0
+227637;Chojnow;51.277657;15.937051;PL;Poland;;;Chojnow;0
+228347;Brig;46.319424;7.988095;CH;Switzerland;;;Brig;0
+228870;St. Johann im Pongau;47.348377;13.194961;AT;Austria;;;St. Johann im Pongau;0
+231011;Kolding st;55.49084;9.481528;DK;Denmark;;;Kolding st;0
+232153;Wittenberge;53.004083666666666;11.762515666666667;DE;Germany;Brandenburg;DE-BB;Wittenberge;0
+235276;Szob;47.821;18.862057;HU;Hungary;;;Szob;0
+237547;Fieberbrunn;47.49114;12.528944;AT;Austria;;;Fieberbrunn;0
+238156;Erkelenz;51.076595;6.321634;DE;Germany;Nordrhein-Westfalen;DE-NW;Erkelenz;0
+23816;Szczecin Glowny;53.418785;14.550318;PL;Poland;;;Szczecin Glowny;0
+239328;Herne-Wanne-Eickel Hbf;51.531258;7.165783;DE;Germany;Nordrhein-Westfalen;DE-NW;Herne-Wanne-Eickel;0
+240005;Bochum Hbf;51.478607;7.223275;DE;Germany;Nordrhein-Westfalen;DE-NW;Bochum;0
+241020;Rottweil;48.165302;8.639295;DE;Germany;Baden-Württemberg;DE-BW;Rottweil;0
+241671;Eberswalde Hbf;52.83377333333333;13.796926;DE;Germany;Brandenburg;DE-BB;Eberswalde;0
+242764;Zell am See;47.32052;12.796571;AT;Austria;;;Zell am See;0
+243196;Ljubljana;46.05869;14.512937;SI;Slovenia;;;Ljubljana;0
+243815;Celle;52.620457;10.062468;DE;Germany;Niedersachsen;DE-NI;Celle;0
+246292;Krakow Glowny;50.067196;19.947426;PL;Poland;;;Krakow Glowny;0
+247025;Forbach(F);49.189217;6.900258;FR;France;;;Forbach;0
+247162;Opoczno Poludnie;51.358517;20.231709;PL;Poland;;;Opoczno Poludnie;0
+24890;Utrecht Centraal;52.089397;5.109861;NL;Netherlands;;;Utrecht Centraal;0
+251903;Tarnow;50.0054;20.97418;PL;Poland;;;Tarnow;0
+252148;Freilassing;47.836918;12.977193;DE;Germany;Bayern;DE-BY;Freilassing;0
+253250;Ulm Hbf;48.3994;9.982608;DE;Germany;Baden-Württemberg;DE-BW;Ulm;0
+254321;Zielona Gora Glowna;51.947437;15.513709;PL;Poland;;;Zielona Gora Glowna;0
+25598;Thun;46.754852;7.629606;CH;Switzerland;;;Thun;0
+256667;Remagen;50.577003;7.23027;DE;Germany;Rheinland-Pfalz;DE-RP;Remagen;0
+257676;Bruxelles Midi;50.835377;4.335694;BE;Belgium;;;Bruxelles;0
+260588;Vojens st;55.248478;9.304915;DK;Denmark;;;Vojens st;0
+262116;Roppen;47.21582;10.817376;AT;Austria;;;Roppen;0
+262513;Horka(Gr);51.2862;15.032184;PL;Poland;;;Horka;0
+26389;Fürth(Bay)Hbf;49.469707;10.989988;DE;Germany;Bayern;DE-BY;Fürth;0
+264321;Homburg(Saar)Hbf;49.327775333333335;7.336641666666668;DE;Germany;Saarland;DE-SL;Homburg;0
+265080;Gdansk Glowny;54.35552;18.643803;PL;Poland;;;Gdansk Glowny;0
+265473;Ötztal;47.238483;10.859114;AT;Austria;;;Ötztal;0
+266187;Tuttlingen;47.98058;8.798542;DE;Germany;Baden-Württemberg;DE-BW;Tuttlingen;0
+267162;Hamm(Westf)Hbf;51.678078;7.807821;DE;Germany;Nordrhein-Westfalen;DE-NW;Hamm;0
+267257;Essen Hbf;51.451355;7.014793;DE;Germany;Nordrhein-Westfalen;DE-NW;Essen;0
+269485;Sturovo;47.800125;18.67992;SK;Slovakia;;;Sturovo;0
+26993;Decin hl.n.;50.773415;14.201247;CZ;Czechia;;;Decin hl.n.;0
+270382;Rybnik(PL);50.089134;18.547642;PL;Poland;;;Rybnik;0
+270995;Budapest-Keleti;47.50038;19.085072;HU;Hungary;;;Budapest;0
+273099;Siegburg/Bonn;50.793915;7.203026;DE;Germany;Nordrhein-Westfalen;DE-NW;Siegburg/Bonn;0
+273219;Niebüll;54.789604;8.834572;DE;Germany;Schleswig-Holstein;DE-SH;Niebüll;0
+274287;Koebenhavn H;55.67272;12.564617;DK;Denmark;;;København;0
+274821;Treuchtlingen;48.961266;10.908159;DE;Germany;Bayern;DE-BY;Treuchtlingen;0
+276714;Dobova;45.89839;15.655178;SI;Slovenia;;;Dobova;0
+27695;Köln-Ehrenfeld;50.951534;6.917276;DE;Germany;Nordrhein-Westfalen;DE-NW;Köln;0
+279667;Prora;54.444984;13.564057;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Prora;0
+280725;Maishofen-Saalbach;47.358585;12.810197;AT;Austria;;;Maishofen-Saalbach;0
+281559;Jaroslaw;50.01067;22.677896;PL;Poland;;;Jaroslaw;0
+285026;Engen;47.856346;8.772786;DE;Germany;Baden-Württemberg;DE-BW;Engen;0
+285647;Haiger;50.741207;8.221679;DE;Germany;Hessen;DE-HE;Haiger;0
+290554;Riesa;51.309654;13.287734;DE;Germany;Sachsen;DE-SN;Riesa;0
+291712;Wabern(Bz Kassel);51.102966;9.358136;DE;Germany;Hessen;DE-HE;Wabern;0
+295467;Spaichingen;48.06899;8.740147;DE;Germany;Baden-Württemberg;DE-BW;Spaichingen;0
+29588;Bondorf(b Herrenberg);48.523552;8.827662;DE;Germany;Baden-Württemberg;DE-BW;Bondorf;0
+296331;Rejowiec;51.11764;23.239265;PL;Poland;;;Rejowiec;0
+296891;Kornwestheim Pbf;48.86222;9.179964;DE;Germany;Baden-Württemberg;DE-BW;Kornwestheim Pbf;0
+297876;Basel Bad Bf;47.567287;7.607805;CH;Switzerland;;;Basel;0
+300365;Velgast;54.277317;12.803137;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Velgast;0
+30077;Langen am Arlberg;47.13172;10.120375;AT;Austria;;;Langen am Arlberg;0
+300981;Rawicz;51.608677;16.840118;PL;Poland;;;Rawicz;0
+302226;Lancut;50.08143;22.227507;PL;Poland;;;Lancut;0
+303008;Neuss Hbf;51.20435;6.684527;DE;Germany;Nordrhein-Westfalen;DE-NW;Neuss;0
+303933;Eichenberg;51.374825;9.921482;DE;Germany;Hessen;DE-HE;Eichenberg;0
+304116;Kuty(Gr);48.71108;17.000406;CZ;Czechia;;;Kuty;0
+305446;Flensburg(Gr);54.814842;9.36324;DE;Germany;Schleswig-Holstein;DE-SH;Flensburg;0
+306204;Jena Paradies;50.924854;11.587461;DE;Germany;Thüringen;DE-TH;Jena Paradies;0
+307913;Hermsdorf-Klosterlausnitz;50.903778;11.858626;DE;Germany;Thüringen;DE-TH;Hermsdorf-Klosterlausnitz;0
+308105;Bratislava hl.st.;48.15891;17.106466;SK;Slovakia;;;Bratislava hl.st.;0
+309229;Friedrichshafen Stadt;47.653225;9.4739;DE;Germany;Baden-Württemberg;DE-BW;Friedrichshafen Stadt;0
+309710;Rudolstadt(Thür);50.71793;11.338899;DE;Germany;Thüringen;DE-TH;Rudolstadt;0
+309788;Lovosice;50.50971;14.059588;CZ;Czechia;;;Lovosice;0
+310614;Flensburg;54.77404;9.436526;DE;Germany;Schleswig-Holstein;DE-SH;Flensburg;0
+31176;Szczecin Dabie;53.391228;14.669465;PL;Poland;;;Szczecin Dabie;0
+311786;Ropczyce;50.078583;21.582882;PL;Poland;;;Ropczyce;0
+312313;Worms Hbf;49.63494;8.356448;DE;Germany;Rheinland-Pfalz;DE-RP;Worms;0
+312777;Dobova(Gr);45.890633;15.680238;HR;Croatia;;;Dobova;0
+313350;Middelfart st;55.50162;9.734662;DK;Denmark;;;Middelfart st;0
+314586;Ludwigsstadt;50.486584;11.382989;DE;Germany;Bayern;DE-BY;Ludwigsstadt;0
+315898;Bad Kleinen;53.766975;11.466925;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Bad Kleinen;0
+315947;Norddeich;53.62158;7.160824;DE;Germany;Niedersachsen;DE-NI;Norddeich;0
+319073;Katowice;50.257515;19.017164;PL;Poland;;;Katowice;0
+320394;Crailsheim;49.13787;10.064326;DE;Germany;Baden-Württemberg;DE-BW;Crailsheim;0
+32069;Wörgl Hbf;47.4918;12.060581;AT;Austria;;;Wörgl;0
+321940;Wien Meidling;48.174583;16.333736;AT;Austria;;;Wien;0
+323161;Breclav(Gr);48.71265;16.86837;AT;Austria;;;Breclav;0
+324344;Neumünster;54.075752;9.979816;DE;Germany;Schleswig-Holstein;DE-SH;Neumünster;0
+32495;Kuty;48.661892;17.047695;SK;Slovakia;;;Kuty;0
+325087;Chelm;51.141197;23.494036;PL;Poland;;;Chelm;0
+325540;Przeworsk;50.067215;22.503357;PL;Poland;;;Przeworsk;0
+325703;Münster(Westf)Hbf;51.956566;7.635715;DE;Germany;Nordrhein-Westfalen;DE-NW;Münster;0
+327376;Berlin-Lichtenberg;52.51021540000001;13.496711999999999;DE;Germany;Berlin;DE-BE;Berlin;0
+327904;Norrköping Central;58.596558;16.18368;SE;Sweden;;;Norrköping Central;0
+328829;Fredericia st;55.56809;9.738813;DK;Denmark;;;Fredericia st;0
+329017;Stendal Hbf;52.5947545;11.855227833333332;DE;Germany;Sachsen-Anhalt;DE-ST;Stendal;0
+329086;Sieradz;51.59766;18.714989;PL;Poland;;;Sieradz;0
+329216;Saalfelden;47.426857;12.829765;AT;Austria;;;Saalfelden;0
+32934;St. Paul im Lavanttal;46.72139;14.85579;AT;Austria;;;St. Paul im Lavanttal;0
+329478;Brzeg Dolny;51.266193;16.726768;PL;Poland;;;Brzeg Dolny;0
+331094;Hamburg Dammtor;53.560753;9.989566;DE;Germany;Hamburg;DE-HH;Hamburg;0
+331895;Herrenberg;48.59399;8.862662;DE;Germany;Baden-Württemberg;DE-BW;Herrenberg;0
+332653;Mühldorf(Oberbay);48.248207;12.519638;DE;Germany;Bayern;DE-BY;Mühldorf;0
+332709;Kralupy nad Vltavou;50.238728;14.313473;CZ;Czechia;;;Kralupy nad Vltavou;0
+3332;Swidnik Miasto;51.223846;22.695324;PL;Poland;;;Swidnik Miasto;0
+333235;Velden am Wörther See;46.620056;14.04472;AT;Austria;;;Velden am Wörther See;0
+334578;Nienburg(Weser);52.645565;9.217753;DE;Germany;Niedersachsen;DE-NI;Nienburg;0
+335130;Paris Est;48.876976;2.35912;FR;France;;;Paris;0
+337329;Chalupki;49.925476;18.311562;PL;Poland;;;Chalupki;0
+337616;Braunschweig Hbf;52.253967;10.538819;DE;Germany;Niedersachsen;DE-NI;Braunschweig;0
+337692;Berlin-Charlottenburg;52.504135500000004;13.301841249999999;DE;Germany;Berlin;DE-BE;Berlin;0
+338037;Graz Hbf;47.0724;15.416519;AT;Austria;;;Graz;0
+340764;Nowa Sol;51.799683;15.708106;PL;Poland;;;Nowa Sol;0
+341519;Böblingen;48.68776;9.004128;DE;Germany;Baden-Württemberg;DE-BW;Böblingen;0
+341575;Herzogenrath;50.870914;6.094486;DE;Germany;Nordrhein-Westfalen;DE-NW;Herzogenrath;0
+344531;Wloszczowa Polnoc;50.85811;19.947002;PL;Poland;;;Wloszczowa Polnoc;0
+346025;Bünde(Westf);52.202076;8.573876;DE;Germany;Nordrhein-Westfalen;DE-NW;Bünde;0
+347970;Choszczno;53.16528;15.403792;PL;Poland;;;Choszczno;0
+348071;Horb;48.44147;8.688982;DE;Germany;Baden-Württemberg;DE-BW;Horb;0
+348473;Ludwigslust;53.33467;11.494491;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Ludwigslust;0
+350746;Husum;54.472084;9.055953;DE;Germany;Schleswig-Holstein;DE-SH;Husum;0
+350796;Gliwice;50.301105;18.677158;PL;Poland;;;Gliwice;0
+351181;Pardubice hl.n.;50.03174;15.756211;CZ;Czechia;;;Pardubice hl.n.;0
+351575;Bregenz;47.503002;9.739627;AT;Austria;;;Bregenz;0
+351643;Schwerin Hbf;53.63474;11.407455;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Schwerin;0
+354436;Rheine;52.2763;7.434255;DE;Germany;Nordrhein-Westfalen;DE-NW;Rheine;0
+354957;Frankfurt(Oder);52.336582;14.546064;DE;Germany;Brandenburg;DE-BB;Frankfurt(Oder);0
+355645;Waren(Müritz);53.52151;12.680678;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Waren;0
+3558;Günzburg;48.460564;10.279262;DE;Germany;Bayern;DE-BY;Günzburg;0
+355878;Garmisch-Partenkirchen;47.49145;11.097013;DE;Germany;Bayern;DE-BY;Garmisch-Partenkirchen;0
+359711;Wegliniec;51.290108;15.223085;PL;Poland;;;Wegliniec;0
+360176;Kehl(Gr);48.575645;7.801118;FR;France;;;Kehl;0
+365415;Brussels Airport - Zaventem;50.89784;4.483525;BE;Belgium;;;Brussels Airport - Zaventem;0
+365906;Lunderskov st;55.48012;9.303791;DK;Denmark;;;Lunderskov st;0
+368193;Padborg st;54.82425;9.358803;DK;Denmark;;;Padborg st;0
+368478;Naleczow;51.31779;22.21296;PL;Poland;;;Naleczow;0
+370112;Zmigrod;51.474678;16.901731;PL;Poland;;;Zmigrod;0
+371540;Schorndorf;48.80715;9.52631;DE;Germany;Baden-Württemberg;DE-BW;Schorndorf;0
+371953;Wronki;52.704967;16.38615;PL;Poland;;;Wronki;0
+372447;Boleslawiec;51.266155;15.568923;PL;Poland;;;Boleslawiec;0
+374368;Zürich Flughafen;47.450386;8.562402;CH;Switzerland;;;Zürich;0
+374452;Tczew;54.09732;18.790155;PL;Poland;;;Tczew;0
+375141;Diepholz;52.60477;8.380334;DE;Germany;Niedersachsen;DE-NI;Diepholz;0
+378725;Altenbeken;51.766434;8.943319;DE;Germany;Nordrhein-Westfalen;DE-NW;Altenbeken;0
+380319;Wroclaw Glowny;51.09808;17.037088;PL;Poland;;;Wroclaw Glowny;0
+381506;Frankfurt(Main)Süd;50.099365;8.686457;DE;Germany;Hessen;DE-HE;Frankfurt;0
+382078;Neustrelitz Hbf;53.359257;13.074603;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Neustrelitz;0
+382856;St Georgen(Schwarzw);48.123814;8.341955;DE;Germany;Baden-Württemberg;DE-BW;St Georgen;0
+38672;Frankfurt(M) Flughafen Fernbf;50.053165;8.570185;DE;Germany;Hessen;DE-HE;Frankfurt;0
+390604;Lichtenfels;50.146454;11.059472;DE;Germany;Bayern;DE-BY;Lichtenfels;0
+391201;Berlin Südkreuz;52.4756645;13.365528166666666;DE;Germany;Berlin;DE-BE;Berlin;0
+391274;Konstanz;47.658752;9.177312;CH;Switzerland;;;Konstanz;0
+392849;Gryfino;53.254215;14.49302;PL;Poland;;;Gryfino;0
+396218;Amersfoort Centraal;52.153465;5.373909;NL;Netherlands;;;Amersfoort Centraal;0
+396514;Hamburg-Altona;53.551853;9.934554;DE;Germany;Hamburg;DE-HH;Hamburg;0
+39653;Warszawa Wschodnia;52.25155;21.052336;PL;Poland;;;Warszawa;0
+398625;Oberndorf(Neckar);48.29567;8.575514;DE;Germany;Baden-Württemberg;DE-BW;Oberndorf;0
+39899;Jenbach;47.388447;11.778454;AT;Austria;;;Jenbach;0
+399757;Bergen auf Rügen;54.4205;13.417821;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Bergen auf Rügen;0
+401361;Przemysl Glowny;49.78366;22.776363;PL;Poland;;;Przemysl Glowny;0
+401728;Mallnitz-Obervellach;46.981647;13.176141;AT;Austria;;;Mallnitz-Obervellach;0
+402204;Oostende;51.22849;2.926827;BE;Belgium;;;Oostende;0
+402680;Swinoujscie;53.90482;14.266627;PL;Poland;;;Swinoujscie;0
+403644;Westerstede-Ocholt;53.202168;7.886468;DE;Germany;Niedersachsen;DE-NI;Westerstede-Ocholt;0
+404628;Heide(Holst);54.19356;9.101029;DE;Germany;Schleswig-Holstein;DE-SH;Heide;0
+40708;Leuven;50.881542;4.716148;BE;Belgium;;;Leuven;0
+412384;Strasbourg;48.58534;7.734067;FR;France;;;Strasbourg;0
+412609;Pilawa;51.957237;21.53291;PL;Poland;;;Pilawa;0
+412729;Hamburg-Bergedorf;53.489834;10.206171;DE;Germany;Hamburg;DE-HH;Hamburg;0
+416646;Erfurt Hbf;50.971928;11.037424;DE;Germany;Thüringen;DE-TH;Erfurt;0
+41860;Dortmund-Scharnhorst;51.538372;7.536564;DE;Germany;Nordrhein-Westfalen;DE-NW;Dortmund;0
+419171;Salzwedel;52.858112;11.162035;DE;Germany;Sachsen-Anhalt;DE-ST;Salzwedel;0
+419752;Przemysl Zasanie;49.79363;22.774115;PL;Poland;;;Przemysl Zasanie;0
+42071;Rzepin;52.350224;14.815073;PL;Poland;;;Rzepin;0
+422056;Leipzig/Halle Flughafen;51.42334;12.223426;DE;Germany;Sachsen;DE-SN;Leipzig;0
+422140;Bischofshofen;47.41786;13.219888;AT;Austria;;;Bischofshofen;0
+424397;Vaihingen(Enz);48.948116;8.957632;DE;Germany;Baden-Württemberg;DE-BW;Vaihingen;0
+425229;Müllheim im Markgräflerland;47.809742;7.599332;DE;Germany;Baden-Württemberg;DE-BW;Müllheim im Markgräflerland;0
+426722;Limburg Süd;50.3825;8.096112;DE;Germany;Hessen;DE-HE;Limburg;0
+427667;Budapest-Kelenföld;47.464355;19.020456;HU;Hungary;;;Budapest;0
+428469;Gießen;50.57906;8.661462;DE;Germany;Hessen;DE-HE;Gießen;0
+428519;Hamburg Hbf;53.552734;10.006909;DE;Germany;Hamburg;DE-HH;Hamburg;0
+429971;Konin;52.231396;18.253336;PL;Poland;;;Konin;0
+430638;Oberhausen-Sterkrade;51.512085;6.843543;DE;Germany;Nordrhein-Westfalen;DE-NW;Oberhausen-Sterkrade;0
+431744;Bamberg;49.90076;10.899489;DE;Germany;Bayern;DE-BY;Bamberg;0
+436196;Greifswald;54.092922;13.370262;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Greifswald;0
+436294;Bonn Hbf;50.73332;7.095235;DE;Germany;Nordrhein-Westfalen;DE-NW;Bonn;0
+436966;Lodz Widzew;51.763092;19.544464;PL;Poland;;;Lodz Widzew;0
+437604;Solingen Hbf;51.160767;7.004187;DE;Germany;Nordrhein-Westfalen;DE-NW;Solingen;0
+438277;Innsbruck Hbf;47.263237;11.401028;AT;Austria;;;Innsbruck;0
+440288;Recklinghausen Hbf;51.61636;7.20349;DE;Germany;Nordrhein-Westfalen;DE-NW;Recklinghausen;0
+440759;Zagreb Glavni kolodvor;45.80444;15.978705;HR;Croatia;;;Zagreb Glavni kolodvor;0
+442631;Hegyeshalom;47.913975;17.145296;HU;Hungary;;;Hegyeshalom;0
+444549;Mieszkowice;52.782093;14.485966;PL;Poland;;;Mieszkowice;0
+445070;Deblin;51.577408;21.834736;PL;Poland;;;Deblin;0
+445830;Bad Hofgastein;47.195343;13.100503;AT;Austria;;;Bad Hofgastein;0
+446029;Stralsund Hbf;54.30829;13.078022;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Stralsund;0
+446184;Vamdrup st;55.428093;9.286454;DK;Denmark;;;Vamdrup st;0
+446591;Berlin-Spandau;52.53457375;13.1971445;DE;Germany;Berlin;DE-BE;Berlin;0
+447324;Schwarzach-St.Veit;47.318535;13.154464;AT;Austria;;;Schwarzach-St.Veit;0
+44915;Neustadt(Weinstr)Hbf;49.349552;8.140757;DE;Germany;Rheinland-Pfalz;DE-RP;Neustadt;0
+45002;Tatabanya;47.58493;18.393612;HU;Hungary;;;Tatabanya;0
+450630;Minden(Westf);52.29014;8.934728;DE;Germany;Nordrhein-Westfalen;DE-NW;Minden;0
+451103;Berlin-Wannsee;52.421375999999995;13.180402;DE;Germany;Berlin;DE-BE;Berlin;0
+451231;Wolow;51.333015;16.633755;PL;Poland;;;Wolow;0
+451640;Coburg;50.262928;10.957328;DE;Germany;Bayern;DE-BY;Coburg;0
+456005;München Ost;48.12744;11.604971;DE;Germany;Bayern;DE-BY;München;0
+456179;Augsburg Hbf;48.36544;10.88557;DE;Germany;Bayern;DE-BY;Augsburg;0
+456575;Krsko;45.95624;15.493454;SI;Slovenia;;;Krsko;0
+457377;Lublin Zachodni;51.218742;22.508389;PL;Poland;;;Lublin Zachodni;0
+457953;Bad Bentheim(Gr);52.3091;7.04016;DE;Germany;;;Bad Bentheim;0
+458602;Wiesloch-Walldorf;49.29135;8.664146;DE;Germany;Baden-Württemberg;DE-BW;Wiesloch-Walldorf;0
+460148;Memmingen;47.98558;10.186853;DE;Germany;Bayern;DE-BY;Memmingen;0
+461066;Debica;50.054417;21.405565;PL;Poland;;;Debica;0
+461309;Jesenice(SLO);46.436325;14.054913;SI;Slovenia;;;Jesenice;0
+463735;Roedekro st;55.069687;9.332754;DK;Denmark;;;Roedekro st;0
+464157;Basel SBB;47.547413;7.589563;CH;Switzerland;;;Basel;0
+464435;Poznan Glowny;52.401993;16.91087;PL;Poland;;;Poznan Glowny;0
+464720;Berlin-Schöneweide;52.454655;13.5095775;DE;Germany;Berlin;DE-BE;Berlin;0
+464794;Magdeburg Hbf;52.130512;11.626963;DE;Germany;Sachsen-Anhalt;DE-ST;Magdeburg;0
+465461;Eutingen im Gäu;48.479954;8.782236;DE;Germany;Baden-Württemberg;DE-BW;Eutingen im Gäu;0
+468143;Emmerich;51.834175;6.25648;DE;Germany;Nordrhein-Westfalen;DE-NW;Emmerich;0
+468296;Ringsted st;55.438038;11.786155;DK;Denmark;;;Ringsted st;0
+468938;Winterthur;47.500336;8.723821;CH;Switzerland;;;Winterthur;0
+468987;Westerland(Sylt);54.906837;8.310925;DE;Germany;Schleswig-Holstein;DE-SH;Westerland;0
+469977;Swiebodzin;52.245144;15.53954;PL;Poland;;;Swiebodzin;0
+471479;Emmerich(Gr);51.901196;6.137652;NL;Netherlands;;;Emmerich;0
+471931;Bochnia;49.9773;20.430775;PL;Poland;;;Bochnia;0
+472499;Frankfurt(Oder)(Gr);52.321175;14.576403;DE;Germany;;;Frankfurt(Oder);0
+473292;Bad Bentheim;52.30985;7.158539;DE;Germany;Niedersachsen;DE-NI;Bad Bentheim;0
+473516;Linköping Central;58.41601;15.626675;SE;Sweden;;;Linköping Central;0
+476721;Wuppertal Hbf;51.254364;7.149543;DE;Germany;Nordrhein-Westfalen;DE-NW;Wuppertal;0
+477761;Bremen Hbf;53.08348;8.813834;DE;Germany;Bremen;DE-HB;Bremen;0
+477894;Hude;53.10943;8.460956;DE;Germany;Niedersachsen;DE-NI;Hude;0
+478341;Stockholm Central;59.330013;18.05763;SE;Sweden;;;Stockholm Central;0
+4795;Gdansk Oliwa;54.409893;18.571741;PL;Poland;;;Gdansk Oliwa;0
+480131;Murnau;47.682266;11.192628;DE;Germany;Bayern;DE-BY;Murnau;0
+480653;Interlaken Ost;46.6905;7.869;CH;Switzerland;;;Interlaken Ost;0
+482440;Chojna;52.963406;14.443931;PL;Poland;;;Chojna;0
+482842;Ingolstadt Hbf;48.74454;11.437337;DE;Germany;Bayern;DE-BY;Ingolstadt;0
+482951;Viersen;51.254948;6.403896;DE;Germany;Nordrhein-Westfalen;DE-NW;Viersen;0
+48467;Ravensburg;47.78448;9.6061;DE;Germany;Baden-Württemberg;DE-BW;Ravensburg;0
+484741;Mönchengladbach Hbf;51.196583;6.446111;DE;Germany;Nordrhein-Westfalen;DE-NW;Mönchengladbach;0
+485693;Klagenfurt Hbf;46.615604;14.313576;AT;Austria;;;Klagenfurt;0
+486352;Jena-Göschwitz;50.88394;11.593537;DE;Germany;Thüringen;DE-TH;Jena-Göschwitz;0
+487028;Neu-Edingen/Friedrichsfeld;49.44867;8.580125;DE;Germany;Baden-Württemberg;DE-BW;Neu-Edingen/Friedrichsfeld;0
+4872;Bad Oeynhausen;52.2054;8.796523;DE;Germany;Nordrhein-Westfalen;DE-NW;Bad Oeynhausen;0
+490265;Mürzzuschlag;47.60791;15.677244;AT;Austria;;;Mürzzuschlag;0
+49031;Szamotuly;52.603542;16.58542;PL;Poland;;;Szamotuly;0
+490386;Bruchsal;49.124622;8.589649;DE;Germany;Baden-Württemberg;DE-BW;Bruchsal;0
+491201;Freiberg(Sachs);50.908726;13.344141;DE;Germany;Sachsen;DE-SN;Freiberg;0
+492332;Tutzing;47.907143;11.27289;DE;Germany;Bayern;DE-BY;Tutzing;0
+496137;Hässleholm Central;56.15852;13.763922;SE;Sweden;;;Hässleholm Central;0
+497089;Karlsruhe Hbf;48.993515;8.402181;DE;Germany;Baden-Württemberg;DE-BW;Karlsruhe;0
+497711;Bruck/Mur;47.41388;15.279491;AT;Austria;;;Bruck/Mur;0
+499625;Papenburg(Ems);53.089706;7.386708;DE;Germany;Niedersachsen;DE-NI;Papenburg;0
+500697;Delmenhorst;53.05279;8.629758;DE;Germany;Niedersachsen;DE-NI;Delmenhorst;0
+502136;Bebra;50.969566;9.797788;DE;Germany;Hessen;DE-HE;Bebra;0
+502892;St. Johann in Tirol;47.51962;12.430775;AT;Austria;;;St. Johann in Tirol;0
+502931;Ludwigshafen(Rh)Hbf;49.47653;8.433042;DE;Germany;Rheinland-Pfalz;DE-RP;Ludwigshafen;0
+503214;Zbaszynek;52.242508;15.818092;PL;Poland;;;Zbaszynek;0
+504703;Koluszki;51.744602;19.818996;PL;Poland;;;Koluszki;0
+506051;Gdynia Glowna;54.52084;18.529556;PL;Poland;;;Gdynia Glowna;0
+510314;Köln Süd;50.9273;6.938059;DE;Germany;Nordrhein-Westfalen;DE-NW;Köln;0
+510360;Anklam;53.856102;13.701827;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Anklam;0
+510671;Bern;46.948833;7.439131;CH;Switzerland;;;Bern;0
+510956;Telfs-Pfaffenhofen;47.30071;11.078869;AT;Austria;;;Telfs-Pfaffenhofen;0
+513044;Kaiserslautern Hbf;49.43586;7.768627;DE;Germany;Rheinland-Pfalz;DE-RP;Kaiserslautern;0
+51519;Erlangen;49.59583;11.001638;DE;Germany;Bayern;DE-BY;Erlangen;0
+517030;Sonthofen;47.513283;10.272093;DE;Germany;Bayern;DE-BY;Sonthofen;0
+517455;Köln Hbf;50.94303;6.958729;DE;Germany;Nordrhein-Westfalen;DE-NW;Köln;0
+517967;Weimar;50.991486;11.326458;DE;Germany;Thüringen;DE-TH;Weimar;0
+521333;Dabrowa Gornicza;50.330173;19.185452;PL;Poland;;;Dabrowa Gornicza;0
+524679;Dobiegniew;52.968422;15.746908;PL;Poland;;;Dobiegniew;0
+526634;Freiburg(Breisgau) Hbf;47.996544;7.840532;DE;Germany;Baden-Württemberg;DE-BW;Freiburg;0
+528353;Bohusovice nad Ohri;50.491306;14.149456;CZ;Czechia;;;Bohusovice nad Ohri;0
+528753;Sevnica;46.009678;15.301231;SI;Slovenia;;;Sevnica;0
+531677;Halle(Saale)Hbf;51.477141800000005;11.9875664;DE;Germany;Sachsen-Anhalt;DE-ST;Halle;0
+53188;Leipzig Hbf;51.34547;12.382064;DE;Germany;Sachsen;DE-SN;Leipzig;0
+532185;Verden(Aller);52.92082;9.237855;DE;Germany;Niedersachsen;DE-NI;Verden;0
+533867;Frankfurt(Main)West;50.1193;8.639395;DE;Germany;Hessen;DE-HE;Frankfurt;0
+536697;Bohumin;49.90073;18.359444;CZ;Czechia;;;Bohumin;0
+537395;Marburg(Lahn);50.81927;8.775014;DE;Germany;Hessen;DE-HE;Marburg;0
+540195;Esslingen(Neckar);48.738544;9.300522;DE;Germany;Baden-Württemberg;DE-BW;Esslingen;0
+540755;Zapresic;45.844494;15.813187;HR;Croatia;;;Zapresic;0
+541903;Köln/Bonn Flughafen;50.878902;7.119302;DE;Germany;Nordrhein-Westfalen;DE-NW;Köln;0
+542190;Jarocin;51.96912;17.494276;PL;Poland;;;Jarocin;0
+543734;Skierniewice;51.967182;20.149752;PL;Poland;;;Skierniewice;0
+543923;Ceska Trebova;49.897324;16.446808;CZ;Czechia;;;Ceska Trebova;0
+544415;Pasewalk;53.515354;13.988875;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Pasewalk;0
+545038;München-Pasing;48.149853;11.461872;DE;Germany;Bayern;DE-BY;München;0
+545852;Lingen(Ems);52.519867;7.321731;DE;Germany;Niedersachsen;DE-NI;Lingen;0
+546325;Jaworzno Szczakowa;50.246326;19.297424;PL;Poland;;;Jaworzno Szczakowa;0
+548973;Sulz(Neckar);48.366486;8.636748;DE;Germany;Baden-Württemberg;DE-BW;Sulz;0
+549058;Duisburg Hbf;51.429787;6.775903;DE;Germany;Nordrhein-Westfalen;DE-NW;Duisburg;0
+549925;Leer(Ostfriesl);53.23165;7.465283;DE;Germany;Niedersachsen;DE-NI;Leer;0
+550099;Interlaken West;46.68263;7.851453;CH;Switzerland;;;Interlaken West;0
+550478;Baden-Baden;48.790325;8.190831;DE;Germany;Baden-Württemberg;DE-BW;Baden-Baden;0
+551798;Prien am Chiemsee;47.855515;12.346615;DE;Germany;Bayern;DE-BY;Prien am Chiemsee;0
+552264;Ostseebad Binz;54.40482;13.600507;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Ostseebad Binz;0
+552402;Simbach(Inn);48.262814;13.022952;DE;Germany;Bayern;DE-BY;Simbach;0
+553920;Dresden-Neustadt;51.0659;13.740701;DE;Germany;Sachsen;DE-SN;Dresden;0
+556408;Schaffhausen;47.69828;8.632756;CH;Switzerland;;;Schaffhausen;0
+556763;Oborniki Slaskie;51.298965;16.907549;PL;Poland;;;Oborniki Slaskie;0
+5569;Lublin;51.23124;22.568398;PL;Poland;;;Lublin;0
+559973;Berlin Ostkreuz;52.503097499999996;13.4697915;DE;Germany;Berlin;DE-BE;Berlin;0
+560592;Koebenhavns Lufthavn st;55.629604;12.649382;DK;Denmark;;;København;0
+565099;Kufstein;47.58308;12.16555;AT;Austria;;;Kufstein;0
+565766;Ostrava hl.n.;49.852085;18.267262;CZ;Czechia;;;Ostrava hl.n.;0
+565892;Friedberg(Hess);50.332607;8.762056;DE;Germany;Hessen;DE-HE;Friedberg;0
+565918;Linz/Donau Hbf;48.290237;14.291864;AT;Austria;;;Linz/Donau;0
+567877;Leszno;51.846405;16.565569;PL;Poland;;;Leszno;0
+567911;Helmstedt;52.222088;11.010553;DE;Germany;Niedersachsen;DE-NI;Helmstedt;0
+568518;Zawiercie;50.481018;19.422993;PL;Poland;;;Zawiercie;0
+57233;Breclav;48.7539;16.893236;CZ;Czechia;;;Breclav;0
+573067;Krakow Plaszow;50.03509;19.974894;PL;Poland;;;Krakow Plaszow;0
+5734;Flughafen BER;52.364063;13.509307;DE;Germany;Brandenburg;DE-BB;Flughafen BER;0
+573454;Bad Gastein;47.11178;13.131924;AT;Austria;;;Bad Gastein;0
+574035;Hilversum;52.22667;5.181399;NL;Netherlands;;;Hilversum;0
+575362;Arnhem Centraal;51.98478;5.901003;NL;Netherlands;;;Arnhem Centraal;0
+575544;Radolfzell;47.735874;8.968984;DE;Germany;;;Radolfzell;0
+576155;Hanau Hbf;50.120953;8.929;DE;Germany;Hessen;DE-HE;Hanau;0
+577641;Legnica;51.21385;16.168922;PL;Poland;;;Legnica;0
+578733;Praha-Podbaba;50.11236;14.395604;CZ;Czechia;;;Praha;0
+579888;Landeck-Zams;47.148243;10.578392;AT;Austria;;;Landeck-Zams;0
+579889;Imst-Pitztal;47.219074;10.76167;AT;Austria;;;Imst-Pitztal;0
+580053;Kranj;46.23901;14.348167;SI;Slovenia;;;Kranj;0
+580296;Woerden;52.08515;4.893511;NL;Netherlands;;;Woerden;0
+58038;Lüneburg;53.249657;10.41989;DE;Germany;Niedersachsen;DE-NI;Lüneburg;0
+581912;Stuttgart-Vaihingen;48.72628;9.113226;DE;Germany;Baden-Württemberg;DE-BW;Stuttgart;0
+582139;Mannheim Hbf;49.479355;8.468921;DE;Germany;Baden-Württemberg;DE-BW;Mannheim;0
+583035;Györ;47.68198;17.63479;HU;Hungary;;;Györ;0
+583614;Chur;46.853085;9.528938;CH;Switzerland;;;Chur;0
+584165;Villach Hbf;46.618614;13.848449;AT;Austria;;;Villach;0
+586577;Brzesko Okocim;49.986397;20.6103;PL;Poland;;;Brzesko Okocim;0
+58792;Zdunska Wola;51.61125;18.946575;PL;Poland;;;Zdunska Wola;0
+588565;Jena West;50.923286;11.577848;DE;Germany;Thüringen;DE-TH;Jena West;0
+588749;Bielefeld Hbf;52.029263;8.532722;DE;Germany;Nordrhein-Westfalen;DE-NW;Bielefeld;0
+591256;Oranienburg;52.7540865;13.2492755;DE;Germany;Brandenburg;DE-BB;Oranienburg;0
+595938;Gelsenkirchen Hbf;51.5049;7.102455;DE;Germany;Nordrhein-Westfalen;DE-NW;Gelsenkirchen;0
+596419;Prenzlau;53.321628000000004;13.8664745;DE;Germany;Brandenburg;DE-BB;Prenzlau;0
+597555;Jesenice(Gr);46.48141;14.020333;SI;Slovenia;;;Jesenice;0
+598255;Offenburg;48.476475;7.946723;DE;Germany;Baden-Württemberg;DE-BW;Offenburg;0
+598868;Rheydt Hbf;51.16303;6.439564;DE;Germany;Nordrhein-Westfalen;DE-NW;Rheydt;0
+601951;Emden Außenhafen;53.344467;7.186179;DE;Germany;Niedersachsen;DE-NI;Emden Außenhafen;0
+603166;Schönefeld(bei Berlin);52.391064;13.51271;DE;Germany;Brandenburg;DE-BB;Schönefeld;0
+603461;Herford;52.11961;8.663643;DE;Germany;Nordrhein-Westfalen;DE-NW;Herford;0
+604565;Usti nad Labem hl.n.;50.65956;14.044728;CZ;Czechia;;;Usti nad Labem hl.n.;0
+606270;Gotha;50.93907;10.712568;DE;Germany;Thüringen;DE-TH;Gotha;0
+607310;Treysa;50.91066;9.185673;DE;Germany;Hessen;DE-HE;Treysa;0
+607346;Marienhafe;53.519238;7.27436;DE;Germany;Niedersachsen;DE-NI;Marienhafe;0
+607447;Montabaur;50.444836;7.825333;DE;Germany;Rheinland-Pfalz;DE-RP;Montabaur;0
+608769;Köthen;51.75193;11.989358;DE;Germany;Sachsen-Anhalt;DE-ST;Köthen;0
+609947;Düsseldorf Flughafen;51.292007;6.786836;DE;Germany;Nordrhein-Westfalen;DE-NW;Düsseldorf;0
+610211;Kedzierzyn Kozle;50.34436;18.204765;PL;Poland;;;Kedzierzyn Kozle;0
+610549;St.Pölten Hbf;48.208275;15.624683;AT;Austria;;;St.Pölten;0
+610794;Hannover Messe/Laatzen;52.3169;9.792863;DE;Germany;Niedersachsen;DE-NI;Hannover;0
+611513;St. Anton am Arlberg;47.12733;10.267088;AT;Austria;;;St. Anton am Arlberg;0
+612371;Radymno;49.939533;22.829151;PL;Poland;;;Radymno;0
+613345;Berlin Hbf;52.525097625;13.369397875;DE;Germany;Berlin;DE-BE;Berlin;0
+61534;Koblenz Hbf;50.35093;7.588345;DE;Germany;Rheinland-Pfalz;DE-RP;Koblenz;0
+617061;Landquart;46.96744;9.554045;CH;Switzerland;;;Landquart;0
+618056;Biberach(Riß);48.101845;9.793127;DE;Germany;Baden-Württemberg;DE-BW;Biberach;0
+619269;Bruxelles-Nord;50.860237;4.361454;BE;Belgium;;;Bruxelles;0
+619325;Budapest-Nyugati;47.510708;19.057467;HU;Hungary;;;Budapest;0
+620787;Donaueschingen;47.9479;8.498788;DE;Germany;Baden-Württemberg;DE-BW;Donaueschingen;0
+621475;Kirchberg in Tirol;47.448917;12.309101;AT;Austria;;;Kirchberg in Tirol;0
+621598;Eisenach Hbf;50.97692;10.331986;DE;Germany;Thüringen;DE-TH;Eisenach;0
+621690;Uelzen;52.96978;10.553053;DE;Germany;Niedersachsen;DE-NI;Uelzen;0
+622042;Oberhausen Hbf;51.474876;6.851588;DE;Germany;Nordrhein-Westfalen;DE-NW;Oberhausen;0
+624762;Wysoka Kamienska;53.82494;14.832578;PL;Poland;;;Wysoka Kamienska;0
+626975;Krzyz;52.87742;16.017834;PL;Poland;;;Krzyz;0
+630295;Roudnice nad Labem;50.426598;14.263827;CZ;Czechia;;;Roudnice nad Labem;0
+631605;Gent St Pieters;51.035625;3.710609;BE;Belgium;;;Gent St Pieters;0
+631640;Würzburg Hbf;49.801796;9.93578;DE;Germany;Bayern;DE-BY;Würzburg;0
+632424;Schwäbisch Gmünd;48.80101;9.787795;DE;Germany;Baden-Württemberg;DE-BW;Schwäbisch Gmünd;0
+634086;Bingen(Rhein) Hbf;49.968727;7.884263;DE;Germany;Rheinland-Pfalz;DE-RP;Bingen;0
+634943;Pforzheim Hbf;48.89411;8.703007;DE;Germany;Baden-Württemberg;DE-BW;Pforzheim;0
+635340;Heidelberg Hbf;49.40357;8.675442;DE;Germany;Baden-Württemberg;DE-BW;Heidelberg;0
+63619;St. Margrethen SG;47.453217;9.638262;CH;Switzerland;;;St. Margrethen SG;0
+637192;Nove Zamky;47.995003;18.173956;SK;Slovakia;;;Nove Zamky;0
+637838;Hopfgarten im Brixental;47.455353;12.14918;AT;Austria;;;Hopfgarten im Brixental;0
+63836;Norden;53.588196;7.218913;DE;Germany;Niedersachsen;DE-NI;Norden;0
+639669;Osnabrück Hbf;52.27285;8.061781;DE;Germany;Niedersachsen;DE-NI;Osnabrück;0
+640892;Dortmund Hbf;51.517895;7.45929;DE;Germany;Nordrhein-Westfalen;DE-NW;Dortmund;0
+641311;Züssow;53.97388;13.548191;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Züssow;0
+642408;Nagymaros-Visegrad;47.790894;18.9588;HU;Hungary;;;Nagymaros-Visegrad;0
+642822;Lippstadt;51.67069;8.348785;DE;Germany;Nordrhein-Westfalen;DE-NW;Lippstadt;0
+644167;Ostermundigen;46.956802;7.481498;CH;Switzerland;;;Ostermundigen;0
+644330;Warszawa Centralna;52.22886;21.003235;PL;Poland;;;Warszawa;0
+644690;Golling-Abtenau;47.60081;13.164054;AT;Austria;;;Golling-Abtenau;0
+645573;Meppen;52.696022;7.298015;DE;Germany;Niedersachsen;DE-NI;Meppen;0
+647905;Bydgoszcz Glowna;53.135113;17.991636;PL;Poland;;;Bydgoszcz Glowna;0
+64889;Oberstdorf;47.411034;10.278097;DE;Germany;Bayern;DE-BY;Oberstdorf;0
+649755;Weil am Rhein;47.59361;7.60844;DE;Germany;Baden-Württemberg;DE-BW;Weil am Rhein;0
+651630;Naumburg(Saale)Hbf;51.16307;11.796984;DE;Germany;Sachsen-Anhalt;DE-ST;Naumburg;0
+652315;Stargard;53.33975;15.031746;PL;Poland;;;Stargard;0
+653775;Praha hl.n.;50.08306;14.436039;CZ;Czechia;;;Praha;0
+653982;Liestal;47.484463;7.731367;CH;Switzerland;;;Liestal;0
+655579;Hegyeshalom(Gr);47.93826;17.095844;HU;Hungary;;;Hegyeshalom;0
+656122;Donauwörth;48.714027;10.771443;DE;Germany;Bayern;DE-BY;Donauwörth;0
+656759;Büchen;53.47497;10.623298;DE;Germany;Schleswig-Holstein;DE-SH;Büchen;0
+656913;Aschaffenburg Hbf;49.980556;9.143697;DE;Germany;Bayern;DE-BY;Aschaffenburg;0
+657659;Bad Hersfeld;50.869766;9.716581;DE;Germany;Hessen;DE-HE;Bad Hersfeld;0
+65847;Hengelo;52.261852;6.793726;NL;Netherlands;;;Hengelo;0
+659092;Weißenfels;51.204617;11.970926;DE;Germany;Sachsen-Anhalt;DE-ST;Weißenfels;0
+659606;Bensheim;49.681328;8.616717;DE;Germany;Hessen;DE-HE;Bensheim;0
+65970;Scinawa;51.409657;16.421356;PL;Poland;;;Scinawa;0
+659783;Kiel Hbf;54.315235;10.131234;DE;Germany;Schleswig-Holstein;DE-SH;Kiel;0
+660348;Neu-Ulm;48.393494;10.005766;DE;Germany;Bayern;DE-BY;Neu-Ulm;0
+660675;Bad Zwischenahn;53.18255;8.003123;DE;Germany;Niedersachsen;DE-NI;Bad Zwischenahn;0
+663551;Raciborz;50.09035;18.226397;PL;Poland;;;Raciborz;0
+665705;Bludenz;47.154724;9.814564;AT;Austria;;;Bludenz;0
+665711;Soest;51.57842;8.104589;DE;Germany;Nordrhein-Westfalen;DE-NW;Soest;0
+667068;Frankfurt(M) Flughafen Regionalbf;50.05122;8.571251;DE;Germany;Hessen;DE-HE;Frankfurt;0
+668361;Stuttgart Hbf;48.78478;9.182757;DE;Germany;Baden-Württemberg;DE-BW;Stuttgart;0
+670154;Gütersloh Hbf;51.90694;8.385071;DE;Germany;Nordrhein-Westfalen;DE-NW;Gütersloh;0
+671861;Saalfeld(Saale);50.650272;11.374583;DE;Germany;Thüringen;DE-TH;Saalfeld;0
+673336;Miedzyzdroje;53.92421;14.45478;PL;Poland;;;Miedzyzdroje;0
+673820;Klanxbüll;54.861996;8.676454;DE;Germany;Schleswig-Holstein;DE-SH;Klanxbüll;0
+67505;Kalisz;51.74282;18.071917;PL;Poland;;;Kalisz;0
+675844;Krzeszowice;50.130962;19.633242;PL;Poland;;;Krzeszowice;0
+675943;Lund Central;55.70552;13.186582;SE;Sweden;;;Lund Central;0
+678634;Landstuhl;49.416286;7.565931;DE;Germany;Rheinland-Pfalz;DE-RP;Landstuhl;0
+678907;Deventer;52.257435;6.160506;NL;Netherlands;;;Deventer;0
+679270;Warburg(Westf);51.492954;9.163845;DE;Germany;Nordrhein-Westfalen;DE-NW;Warburg;0
+679686;Singen(Hohentwiel);47.75888;8.841269;DE;Germany;Baden-Württemberg;DE-BW;Singen;0
+683842;Traunstein;47.869728;12.638801;DE;Germany;Bayern;DE-BY;Traunstein;0
+684148;Opole Glowne;50.661514;17.925863;PL;Poland;;;Opole Glowne;0
+68632;Zabrze;50.30528;18.786947;PL;Poland;;;Zabrze;0
+686926;Brzeg;50.85297;17.471178;PL;Poland;;;Brzeg;0
+688618;Glogow;51.668957;16.079712;PL;Poland;;;Glogow;0
+688966;Brandenburg Hbf;52.400305333333336;12.565155666666667;DE;Germany;Brandenburg;DE-BB;Brandenburg;0
+691821;Düsseldorf Hbf;51.219963;6.794319;DE;Germany;Nordrhein-Westfalen;DE-NW;Düsseldorf;0
+692027;Warszawa Zachodnia;52.21997;20.965246;PL;Poland;;;Warszawa;0
+692224;Myslowice;50.23779;19.1419;PL;Poland;;;Myslowice;0
+693694;Potsdam Hbf;52.391556666666666;13.066736666666666;DE;Germany;Brandenburg;DE-BB;Potsdam;0
+695219;Sopot;54.440166;18.562323;PL;Poland;;;Sopot;0
+695368;Salzburg Hbf;47.81305;13.04582;AT;Austria;;;Salzburg;0
+69606;Forbach(fr);49.21409;6.944314;DE;Germany;Saarland;DE-SL;Forbach;0
+72217;Sargans;47.044823;9.44626;CH;Switzerland;;;Sargans;0
+77452;Augustfehn;53.22089;7.759659;DE;Germany;Niedersachsen;DE-NI;Augustfehn;0
+79866;Amsterdam Centraal;52.37919;4.899431;NL;Netherlands;;;Amsterdam;0
+81166;Goleniow;53.559483;14.839893;PL;Poland;;;Goleniow;0
+82096;Vac;47.782726;19.13306;HU;Hungary;;;Vac;0
+83632;Ansbach;49.29803;10.578239;DE;Germany;Bayern;DE-BY;Ansbach;0
+8389;St. Gallen(CH);47.42318;9.369897;CH;Switzerland;;;St. Gallen;0
+83946;Szob(Gr);47.824898;18.844774;HU;Hungary;;;Szob;0
+83956;Oldenburg(Oldb)Hbf;53.14432;8.222713;DE;Germany;Niedersachsen;DE-NI;Oldenburg;0
+85219;Wolfsburg Hbf;52.429497;10.787784;DE;Germany;Niedersachsen;DE-NI;Wolfsburg;0
+86349;Mühlacker;48.953194;8.846101;DE;Germany;Baden-Württemberg;DE-BW;Mühlacker;0
+87362;Wiesbaden Hbf;50.07079;8.243731;DE;Germany;Hessen;DE-HE;Wiesbaden;0
+89065;Ruhland;51.455185;13.870145999999998;DE;Germany;Brandenburg;DE-BB;Ruhland;0
+90097;Alvesta station;56.89848;14.556882;SE;Sweden;;;Alvesta station;0
+90261;Regensburg Hbf;49.011673;12.099617;DE;Germany;Bayern;DE-BY;Regensburg;0
+9066;Hamburg-Harburg;53.45696;9.991454;DE;Germany;Hamburg;DE-HH;Hamburg;0
+92390;Lodz Chojny;51.72638;19.484537;PL;Poland;;;Lodz Chojny;0
+93866;Hannover Hbf;52.376762;9.741021;DE;Germany;Niedersachsen;DE-NI;Hannover;0
+95437;Köln Messe/Deutz;50.941297500000005;6.974534;DE;Germany;Nordrhein-Westfalen;DE-NW;Köln;0
+95739;Hagenow Land;53.41358;11.215695;DE;Germany;Mecklenburg-Vorpommern;DE-MV;Hagenow Land;0
+96724;Zürich HB;47.378178;8.540212;CH;Switzerland;;;Zürich;0
+97193;Itzehoe;53.923874;9.510287;DE;Germany;Schleswig-Holstein;DE-SH;Itzehoe;0
+98544;Spittal-Millstätter See;46.795734;13.487544;AT;Austria;;;Spittal-Millstätter See;0
+99034;Opalenica;52.309727;16.400345;PL;Poland;;;Opalenica;0
+99055;Nürnberg Hbf;49.445618;11.082989;DE;Germany;Bayern;DE-BY;Nürnberg;0
+9941;München Hbf;48.140564000000005;11.556619;DE;Germany;Bayern;DE-BY;München;0

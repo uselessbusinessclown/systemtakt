@@ -1,0 +1,450 @@
+{
+"Bonn Hbf": {
+"grad": 4,
+"gewicht": 106,
+"halte": 32.9,
+"bc": 0.0087,
+"acc": 142.6
+},
+"Köln Hbf": {
+"grad": 11,
+"gewicht": 530,
+"halte": 190.7,
+"bc": 0.2284,
+"acc": 127.8
+},
+"Koblenz Hbf": {
+"grad": 3,
+"gewicht": 105,
+"halte": 32.8,
+"bc": 0.0005,
+"acc": 149.9
+},
+"Frankfurt(Main)Hbf": {
+"grad": 17,
+"gewicht": 660,
+"halte": 224.2,
+"bc": 0.2862,
+"acc": 109.9
+},
+"Hanau Hbf": {
+"grad": 9,
+"gewicht": 174,
+"halte": 43.5,
+"bc": 0.257,
+"acc": 105.9
+},
+"Würzburg Hbf": {
+"grad": 9,
+"gewicht": 328,
+"halte": 82.1,
+"bc": 0.1222,
+"acc": 117.1
+},
+"Nürnberg Hbf": {
+"grad": 9,
+"gewicht": 617,
+"halte": 160.2,
+"bc": 0.1569,
+"acc": 143.0
+},
+"Basel SBB": {
+"grad": 1,
+"gewicht": 88,
+"halte": 71.3,
+"bc": 0.0,
+"acc": 213.2
+},
+"Freiburg(Breisgau) Hbf": {
+"grad": 3,
+"gewicht": 183,
+"halte": 47.5,
+"bc": 0.0317,
+"acc": 188.6
+},
+"Karlsruhe Hbf": {
+"grad": 8,
+"gewicht": 263,
+"halte": 91.2,
+"bc": 0.1126,
+"acc": 142.1
+},
+"Mannheim Hbf": {
+"grad": 14,
+"gewicht": 603,
+"halte": 157.2,
+"bc": 0.2499,
+"acc": 129.4
+},
+"Siegburg/Bonn": {
+"grad": 7,
+"gewicht": 243,
+"halte": 61.5,
+"bc": 0.1395,
+"acc": 123.5
+},
+"Düsseldorf Hbf": {
+"grad": 11,
+"gewicht": 372,
+"halte": 118.7,
+"bc": 0.0872,
+"acc": 131.7
+},
+"Duisburg Hbf": {
+"grad": 8,
+"gewicht": 408,
+"halte": 107.1,
+"bc": 0.079,
+"acc": 134.8
+},
+"Oberhausen Hbf": {
+"grad": 5,
+"gewicht": 134,
+"halte": 46.6,
+"bc": 0.0137,
+"acc": 135.9
+},
+"Dortmund Hbf": {
+"grad": 14,
+"gewicht": 354,
+"halte": 114.3,
+"bc": 0.0611,
+"acc": 137.4
+},
+"Magdeburg Hbf": {
+"grad": 6,
+"gewicht": 68,
+"halte": 38.4,
+"bc": 0.0288,
+"acc": 155.4
+},
+"Hannover Hbf": {
+"grad": 15,
+"gewicht": 754,
+"halte": 221.1,
+"bc": 0.2341,
+"acc": 123.1
+},
+"Halle(Saale)Hbf": {
+"grad": 5,
+"gewicht": 317,
+"halte": 76.8,
+"bc": 0.0585,
+"acc": 152.1
+},
+"Leipzig Hbf": {
+"grad": 5,
+"gewicht": 296,
+"halte": 102.9,
+"bc": 0.0236,
+"acc": 162.1
+},
+"Lindau-Reutin": {
+"grad": 1,
+"gewicht": 20,
+"halte": 26.6,
+"bc": 0.0,
+"acc": 292.9
+},
+"München Hbf": {
+"grad": 5,
+"gewicht": 465,
+"halte": 222.7,
+"bc": 0.064,
+"acc": 184.7
+},
+"Ulm Hbf": {
+"grad": 5,
+"gewicht": 307,
+"halte": 78.5,
+"bc": 0.0348,
+"acc": 172.5
+},
+"Heidelberg Hbf": {
+"grad": 7,
+"gewicht": 145,
+"halte": 45.1,
+"bc": 0.0,
+"acc": 133.1
+},
+"Mainz Hbf": {
+"grad": 5,
+"gewicht": 97,
+"halte": 30.6,
+"bc": 0.0159,
+"acc": 123.6
+},
+"Aachen Hbf": {
+"grad": 2,
+"gewicht": 39,
+"halte": 20.1,
+"bc": 0.0,
+"acc": 156.4
+},
+"Hamburg Hbf": {
+"grad": 8,
+"gewicht": 337,
+"halte": 155.9,
+"bc": 0.0981,
+"acc": 167.4
+},
+"Bremen Hbf": {
+"grad": 5,
+"gewicht": 248,
+"halte": 76.2,
+"bc": 0.023,
+"acc": 160.1
+},
+"Osnabrück Hbf": {
+"grad": 3,
+"gewicht": 233,
+"halte": 61.5,
+"bc": 0.0192,
+"acc": 149.2
+},
+"Münster(Westf)Hbf": {
+"grad": 7,
+"gewicht": 229,
+"halte": 65.8,
+"bc": 0.0417,
+"acc": 148.5
+},
+"Hagen Hbf": {
+"grad": 5,
+"gewicht": 222,
+"halte": 57.2,
+"bc": 0.0527,
+"acc": 135.3
+},
+"Wuppertal Hbf": {
+"grad": 4,
+"gewicht": 228,
+"halte": 58.7,
+"bc": 0.0812,
+"acc": 132.2
+},
+"Stuttgart Hbf": {
+"grad": 6,
+"gewicht": 326,
+"halte": 132.3,
+"bc": 0.0712,
+"acc": 148.2
+},
+"Augsburg Hbf": {
+"grad": 5,
+"gewicht": 361,
+"halte": 90.5,
+"bc": 0.0282,
+"acc": 175.5
+},
+"Göttingen": {
+"grad": 5,
+"gewicht": 449,
+"halte": 108.5,
+"bc": 0.1857,
+"acc": 115.2
+},
+"Kassel-Wilhelmshöhe": {
+"grad": 10,
+"gewicht": 450,
+"halte": 114.2,
+"bc": 0.2333,
+"acc": 111.0
+},
+"Marburg(Lahn)": {
+"grad": 2,
+"gewicht": 27,
+"halte": 6.7,
+"bc": 0.0118,
+"acc": 135.3
+},
+"Gießen": {
+"grad": 2,
+"gewicht": 27,
+"halte": 6.7,
+"bc": 0.0179,
+"acc": 132.6
+},
+"Essen Hbf": {
+"grad": 4,
+"gewicht": 102,
+"halte": 29.9,
+"bc": 0.0,
+"acc": 134.8
+},
+"Regensburg Hbf": {
+"grad": 1,
+"gewicht": 5,
+"halte": 3.3,
+"bc": 0.0,
+"acc": 196.0
+},
+"Offenburg": {
+"grad": 3,
+"gewicht": 140,
+"halte": 36.1,
+"bc": 0.085,
+"acc": 163.7
+},
+"Kaiserslautern Hbf": {
+"grad": 2,
+"gewicht": 43,
+"halte": 10.8,
+"bc": 0.0317,
+"acc": 161.2
+},
+"Saarbrücken Hbf": {
+"grad": 1,
+"gewicht": 22,
+"halte": 16.2,
+"bc": 0.0,
+"acc": 196.9
+},
+"Berlin Hbf": {
+"grad": 11,
+"gewicht": 522,
+"halte": 204.9,
+"bc": 0.0266,
+"acc": 177.2
+},
+"Lutherstadt Wittenberg Hbf": {
+"grad": 3,
+"gewicht": 177,
+"halte": 42.9,
+"bc": 0.002,
+"acc": 169.5
+},
+"Bamberg": {
+"grad": 3,
+"gewicht": 95,
+"halte": 25.8,
+"bc": 0.0231,
+"acc": 151.2
+},
+"Fulda": {
+"grad": 9,
+"gewicht": 396,
+"halte": 98.3,
+"bc": 0.2446,
+"acc": 105.6
+},
+"Erfurt Hbf": {
+"grad": 8,
+"gewicht": 505,
+"halte": 113.8,
+"bc": 0.1108,
+"acc": 139.4
+},
+"Dresden Hbf": {
+"grad": 3,
+"gewicht": 61,
+"halte": 44.5,
+"bc": 0.0,
+"acc": 213.8
+},
+"Stralsund Hbf": {
+"grad": 2,
+"gewicht": 41,
+"halte": 20.9,
+"bc": 0.0005,
+"acc": 294.1
+},
+"Wolfsburg Hbf": {
+"grad": 3,
+"gewicht": 307,
+"halte": 82.4,
+"bc": 0.0343,
+"acc": 141.3
+},
+"Braunschweig Hbf": {
+"grad": 5,
+"gewicht": 198,
+"halte": 60.5,
+"bc": 0.0471,
+"acc": 133.5
+},
+"Hildesheim Hbf": {
+"grad": 2,
+"gewicht": 141,
+"halte": 32.5,
+"bc": 0.0271,
+"acc": 131.7
+},
+"Emden Hbf": {
+"grad": 2,
+"gewicht": 29,
+"halte": 29.0,
+"bc": 0.0,
+"acc": 234.8
+},
+"Kiel Hbf": {
+"grad": 1,
+"gewicht": 18,
+"halte": 9.1,
+"bc": 0.0,
+"acc": 230.6
+},
+"Salzburg Hbf": {
+"grad": 2,
+"gewicht": 24,
+"halte": 38.0,
+"bc": 0.0,
+"acc": 280.9
+},
+"Ingolstadt Hbf": {
+"grad": 3,
+"gewicht": 199,
+"halte": 42.3,
+"bc": 0.0691,
+"acc": 161.2
+},
+"Singen(Hohentwiel)": {
+"grad": 2,
+"gewicht": 24,
+"halte": 36.9,
+"bc": 0.0,
+"acc": 254.4
+},
+"Schwerin Hbf": {
+"grad": 5,
+"gewicht": 58,
+"halte": 17.2,
+"bc": 0.0522,
+"acc": 212.3
+},
+"Rostock Hbf": {
+"grad": 3,
+"gewicht": 62,
+"halte": 32.4,
+"bc": 0.0225,
+"acc": 258.5
+},
+"Hamm(Westf)Hbf": {
+"grad": 6,
+"gewicht": 255,
+"halte": 70.0,
+"bc": 0.0586,
+"acc": 135.8
+},
+"Bielefeld Hbf": {
+"grad": 4,
+"gewicht": 286,
+"halte": 73.1,
+"bc": 0.0753,
+"acc": 137.7
+},
+"Wiesbaden Hbf": {
+"grad": 4,
+"gewicht": 18,
+"halte": 6.3,
+"bc": 0.0077,
+"acc": 126.7
+},
+"Paderborn Hbf": {
+"grad": 3,
+"gewicht": 16,
+"halte": 5.8,
+"bc": 0.0174,
+"acc": 143.2
+}
+}

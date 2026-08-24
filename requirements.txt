@@ -1,0 +1,10 @@
+# Analyse und Optimierung
+scipy>=1.11          # milp / HiGHS
+numpy>=1.24
+pandas>=2.0
+networkx>=3.0        # Zentralitätsmaße
+shapely>=2.0         # Punkt-in-Polygon für Staat und Bundesland
+
+# Ausgaben
+openpyxl>=3.1        # Excel-Arbeitsmappe
+reportlab>=4.0       # Kursbuch- und Bahnhofs-PDFs

@@ -1,0 +1,876 @@
+﻿linie;knoten;richtung;abfahrten_tag;minuten;haeufigste_minute;anteil_haeufigste;streuung;takt_bewertung;top2_anteil
+IC 56;Hannover Hbf;Leipzig;5.77;36(3.3), 37(1.6), 35(0.8), 19(0.0);36;0.57;1.4;Zwei-Lagen-Takt (120 min);0.85
+IC 56;Magdeburg Hbf;Leipzig;5.77;04(4.6), 28(0.7), 25(0.2), 26(0.1), 29(0.1);4;0.8;10.4;60-min-Takt stabil;0.92
+IC 56;Halle(Saale)Hbf;Leipzig;5.77;56(4.6), 20(0.7), 17(0.2), 18(0.1), 21(0.1), 10(0.0);56;0.8;10.4;60-min-Takt stabil;0.92
+ICE 78;Frankfurt(Main)Hbf;Arnhem Centraal;6.68;34(3.6), 39(1.4), 38(1.2), 37(0.5);34;0.55;2.9;Zwei-Lagen-Takt (120 min);0.75
+ICE 78;Siegburg/Bonn;Arnhem Centraal;6.68;28(3.6), 30(3.0);28;0.55;1.3;Zwei-Lagen-Takt (120 min);0.99
+ICE 78;Köln Hbf;Arnhem Centraal;7.0;49(3.8), 53(3.2);49;0.55;2.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 78;Duisburg Hbf;Arnhem Centraal;7.0;25(7.0);25;1.0;0.0;60-min-Takt stabil;1.0
+ICE 78;Oberhausen Hbf;Arnhem Centraal;7.0;33(7.0);33;1.0;0.0;60-min-Takt stabil;1.0
+ECE 88;München Hbf;Lindau-Reutin;5.1;32(2.1), 31(1.0), 48(1.0), 36(0.5), 34(0.4), 33(0.1);32;0.41;7.2;kein systematischer Takt;0.61
+ICE 55;Düsseldorf Hbf;Dortmund;1.0;43(0.5), 08(0.5), 57(0.0);43;0.52;17.0;Zwei-Lagen-Takt (120 min);1.0
+ICE 55;Duisburg Hbf;Dortmund;1.0;56(0.5), 29(0.5), 10(0.0);56;0.52;18.3;Zwei-Lagen-Takt (120 min);1.0
+ICE 79;Aachen Hbf;Frankfurt;7.87;38(7.0), 39(0.6), 36(0.3);38;0.89;0.5;60-min-Takt stabil;0.97
+ICE 79;Köln Hbf;Frankfurt;7.81;18(5.8), 19(2.0), 25(0.0);18;0.74;0.7;60-min-Takt stabil;1.0
+ICE 78;Oberhausen Hbf;Frankfurt;6.0;25(6.0);25;1.0;0.0;60-min-Takt stabil;1.0
+ICE 78;Duisburg Hbf;Frankfurt;6.0;33(6.0);33;1.0;0.0;60-min-Takt stabil;1.0
+ICE 78;Köln Hbf;Frankfurt;6.0;18(3.3), 53(1.8), 49(0.5), 51(0.5), 17(0.0);18;0.54;17.5;Zwei-Lagen-Takt (120 min);0.85
+ICE 78;Siegburg/Bonn;Frankfurt;5.97;32(3.3), 10(1.8), 17(0.5), 02(0.4), 31(0.0);32;0.55;15.1;Zwei-Lagen-Takt (120 min);0.85
+ICE 42;Hamburg Hbf;München;7.0;45(6.9), 10(0.1);45;0.99;2.4;60-min-Takt stabil;1.0
+ICE 42;Bremen Hbf;München;7.0;44(6.9), 07(0.1);44;0.99;2.2;60-min-Takt stabil;1.0
+ICE 42;Osnabrück Hbf;München;7.0;37(6.9), 08(0.1);37;0.99;2.8;60-min-Takt stabil;1.0
+ICE 42;Münster(Westf)Hbf;München;7.87;02(6.9), 03(1.0);2;0.88;0.4;60-min-Takt stabil;1.0
+ICE 42;Dortmund Hbf;München;7.42;36(7.3), 37(0.1), 29(0.1), 35(0.0);36;0.98;0.7;60-min-Takt stabil;1.0
+ICE 42;Hagen Hbf;München;6.97;57(6.0), 56(1.0);57;0.86;0.4;60-min-Takt stabil;1.0
+ICE 42;Wuppertal Hbf;München;7.03;14(7.0), 10(0.0), 15(0.0);14;0.99;0.3;60-min-Takt stabil;1.0
+ICE 42;Köln Hbf;München;8.9;54(7.2), 48(1.0), 55(0.2), 08(0.1), 24(0.1), 00(0.1);54;0.81;4.5;60-min-Takt stabil;0.92
+ICE 42;Mannheim Hbf;München;9.0;33(8.0), 04(0.5), 24(0.1), 09(0.1), 50(0.0), 20(0.0);33;0.89;8.0;60-min-Takt stabil;0.94
+ICE 42;Stuttgart Hbf;München;9.0;17(8.0), 39(0.6), 25(0.0), 29(0.0), 24(0.0), 16(0.0);17;0.89;6.8;60-min-Takt stabil;0.96
+ICE 42;Ulm Hbf;München;9.0;15(8.0), 40(0.6), 26(0.1), 25(0.0), 17(0.0), 53(0.0);15;0.89;7.6;60-min-Takt stabil;0.96
+ICE 42;Augsburg Hbf;München;9.0;58(7.0), 57(1.0), 31(0.6), 08(0.1), 19(0.0), 16(0.0);58;0.78;7.7;60-min-Takt stabil;0.89
+ICE 79;Aachen Hbf;Köln;1.32;48(1.0), 38(0.2), 10(0.1), 39(0.0);48;0.73;8.0;60-min-Takt stabil;0.91
+ICE 33;Münster(Westf)Hbf;Westerland;1.74;28(1.0), 50(0.7), 09(0.1);28;0.57;14.2;Zwei-Lagen-Takt (120 min);0.98
+ICE 33;Osnabrück Hbf;Westerland;1.74;54(1.0), 17(0.7), 36(0.1);54;0.57;14.8;Zwei-Lagen-Takt (120 min);0.98
+ICE 33;Bremen Hbf;Westerland;1.74;51(1.0), 13(0.7), 23(0.1);51;0.57;14.7;Zwei-Lagen-Takt (120 min);0.98
+ICE 22;Stuttgart Hbf;Hamburg;4.45;22(3.5), 23(1.0);22;0.78;0.5;60-min-Takt stabil;1.01
+ICE 22;Mannheim Hbf;Hamburg;4.45;03(4.5);3;1.0;0.0;60-min-Takt stabil;1.01
+ICE 22;Frankfurt(Main)Hbf;Hamburg;4.06;46(3.6), 41(0.4), 21(0.1);46;0.88;3.5;60-min-Takt stabil;0.99
+ICE 22;Kassel-Wilhelmshöhe;Hamburg;4.94;13(4.1), 12(0.4), 16(0.2), 15(0.1), 18(0.1), 17(0.1);13;0.83;2.0;60-min-Takt stabil;0.91
+ICE 22;Göttingen;Hamburg;4.94;33(4.4), 32(0.4), 37(0.1), 41(0.0);33;0.9;0.8;60-min-Takt stabil;0.97
+ICE 22;Hannover Hbf;Hamburg;5.94;08(4.8), 27(1.0), 13(0.1), 44(0.0), 39(0.0), 40(0.0);8;0.8;8.5;60-min-Takt stabil;0.98
+ICE 43;Basel SBB;Hamburg;5.03;16(5.0);16;1.0;0.0;60-min-Takt stabil;0.99
+ICE 43;Freiburg(Breisgau) Hbf;Hamburg;5.52;55(4.6), 54(0.9);55;0.83;0.4;60-min-Takt stabil;1.0
+ICE 43;Offenburg;Hamburg;1.35;24(1.1), 25(0.2), 26(0.1);24;0.81;0.6;60-min-Takt stabil;0.96
+ICE 43;Karlsruhe Hbf;Hamburg;6.0;59(6.0);59;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Mannheim Hbf;Hamburg;6.0;33(6.0);33;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Köln Hbf;Hamburg;8.0;11(8.0);11;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Dortmund Hbf;Hamburg;3.65;28(3.2), 27(0.5);28;0.88;0.4;60-min-Takt stabil;1.01
+ICE 43;Münster(Westf)Hbf;Hamburg;8.0;56(4.5), 57(3.5), 59(0.0);56;0.56;0.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 43;Osnabrück Hbf;Hamburg;8.0;23(5.2), 24(2.7), 26(0.0);23;0.65;0.6;60-min-Takt stabil;0.99
+ICE 43;Bremen Hbf;Hamburg;8.0;17(4.3), 18(2.7), 20(0.9), 21(0.0), 23(0.0);17;0.54;1.3;Zwei-Lagen-Takt (120 min);0.88
+ICE 82;Frankfurt(Main)Hbf;Saarbrücken;2.65;53(1.8), 54(0.7), 22(0.1), 55(0.0), 38(0.0);53;0.7;4.9;60-min-Takt stabil;0.94
+ICE 82;Mannheim Hbf;Saarbrücken;2.65;40(2.4), 41(0.1), 21(0.1), 08(0.0), 31(0.0);40;0.91;4.4;60-min-Takt stabil;0.94
+ICE 82;Kaiserslautern Hbf;Saarbrücken;2.65;22(2.5), 09(0.1), 59(0.0), 10(0.0);22;0.95;3.5;60-min-Takt stabil;0.98
+ICE 19;Berlin Hbf;Köln;7.16;04(6.8), 10(0.2), 02(0.2), 26(0.0);4;0.95;1.8;60-min-Takt stabil;0.98
+ICE 19;Hannover Hbf;Köln;7.77;40(7.0), 43(0.8), 02(0.0);40;0.9;1.7;60-min-Takt stabil;1.0
+ICE 19;Hagen Hbf;Köln;7.48;26(5.0), 49(1.6), 28(0.3), 21(0.1), 16(0.1), 12(0.1);26;0.67;11.1;60-min-Takt stabil;0.88
+ICE 19;Wuppertal Hbf;Köln;7.52;45(5.0), 08(1.6), 39(0.3), 47(0.3), 31(0.1), 40(0.1);45;0.67;11.1;60-min-Takt stabil;0.88
+ICE 43;Hamburg Hbf;Basel;5.58;45(3.7), 41(0.9), 42(0.9);45;0.66;2.0;60-min-Takt stabil;0.82
+ICE 43;Bremen Hbf;Basel;5.58;45(2.8), 44(1.9), 40(0.9);45;0.5;2.1;Zwei-Lagen-Takt (120 min);0.84
+ICE 43;Osnabrück Hbf;Basel;5.58;37(5.6);37;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Münster(Westf)Hbf;Basel;5.58;02(5.6);2;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Dortmund Hbf;Basel;3.68;32(2.7), 24(0.5), 15(0.5);32;0.75;6.6;60-min-Takt stabil;0.87
+ICE 43;Köln Hbf;Basel;6.52;54(6.5);54;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Mannheim Hbf;Basel;6.52;37(6.5);37;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Karlsruhe Hbf;Basel;6.52;01(6.5), 05(0.0);1;1.0;0.3;60-min-Takt stabil;1.0
+ICE 43;Freiburg(Breisgau) Hbf;Basel;6.52;06(5.7), 07(0.8), 10(0.0);6;0.87;0.5;60-min-Takt stabil;1.0
+ICE 18;Berlin Hbf;München;1.0;28(0.9), 12(0.0), 32(0.0);28;0.94;3.0;60-min-Takt stabil;0.9
+ICE 18;Lutherstadt Wittenberg Hbf;München;1.0;20(0.9), 04(0.0), 24(0.0);20;0.94;3.0;60-min-Takt stabil;0.9
+ICE 18;Bamberg;München;1.0;20(0.9), 04(0.0), 37(0.0);20;0.94;4.2;60-min-Takt stabil;0.9
+ICE 18;Nürnberg Hbf;München;4.35;59(2.0), 48(0.7), 16(0.7), 13(0.6), 08(0.3), 57(0.0);59;0.46;10.1;kein systematischer Takt;0.62
+ICE 18;Augsburg Hbf;München;4.35;10(2.0), 42(0.9), 06(0.7), 33(0.7), 26(0.0), 40(0.0);10;0.46;16.0;kein systematischer Takt;0.67
+IC 61;Leipzig Hbf;Karlsruhe;1.52;50(1.5);50;1.0;0.0;60-min-Takt stabil;0.99
+IC 61;Bamberg;Karlsruhe;1.52;00(0.8), 58(0.7);0;0.51;1.4;Zwei-Lagen-Takt (120 min);0.99
+IC 61;Nürnberg Hbf;Karlsruhe;5.84;40(1.5), 41(1.5), 42(1.5), 37(0.5), 35(0.5), 38(0.2);40;0.26;2.1;kein systematischer Takt;0.51
+IC 61;Stuttgart Hbf;Karlsruhe;5.84;59(5.2), 09(0.3), 33(0.2), 24(0.1), 53(0.1);59;0.9;6.1;60-min-Takt stabil;0.94
+ICE 43;Oberhausen Hbf;Basel;2.35;01(1.9), 00(0.4), 02(0.1);1;0.81;0.4;60-min-Takt stabil;0.98
+ICE 43;Duisburg Hbf;Basel;3.32;11(2.4), 10(1.0);11;0.71;0.5;60-min-Takt stabil;1.02
+ICE 43;Düsseldorf Hbf;Basel;3.32;24(3.3);24;1.0;0.0;60-min-Takt stabil;0.99
+ICE 50;Frankfurt(Main)Hbf;Dresden;7.0;19(6.8), 53(0.1), 18(0.1);19;0.97;3.5;60-min-Takt stabil;0.99
+ICE 50;Fulda;Dresden;7.0;15(6.7), 27(0.1), 39(0.1), 28(0.1), 38(0.1);15;0.96;3.6;60-min-Takt stabil;0.97
+ICE 50;Erfurt Hbf;Dresden;7.0;49(6.7), 01(0.1), 13(0.1), 02(0.1), 12(0.1);49;0.96;3.6;60-min-Takt stabil;0.97
+ICE 50;Leipzig Hbf;Dresden;7.9;38(6.6), 37(1.0), 50(0.1), 02(0.1), 51(0.1), 01(0.1);38;0.84;3.4;60-min-Takt stabil;0.96
+ICE 15;Stralsund Hbf;Frankfurt;2.45;07(1.2), 21(0.5), 16(0.3), 44(0.2), 03(0.2), 20(0.1);7;0.47;10.1;kein systematischer Takt;0.69
+ICE 15;Berlin Hbf;Frankfurt;3.32;05(3.3);5;1.0;0.0;60-min-Takt stabil;0.99
+ICE 15;Halle(Saale)Hbf;Frankfurt;3.32;18(3.3);18;1.0;0.0;60-min-Takt stabil;0.99
+ICE 15;Erfurt Hbf;Frankfurt;3.32;50(3.3);50;1.0;0.0;60-min-Takt stabil;0.99
+ICE 62;München Hbf;Frankfurt;2.77;47(1.7), 43(0.8), 48(0.3);47;0.63;2.1;60-min-Takt stabil;0.9
+ICE 62;Augsburg Hbf;Frankfurt;4.26;16(2.6), 17(1.6);16;0.61;0.6;60-min-Takt stabil;0.99
+ICE 62;Ulm Hbf;Frankfurt;4.26;03(4.3);3;1.0;0.0;60-min-Takt stabil;1.01
+ICE 62;Heidelberg Hbf;Frankfurt;6.94;46(6.7), 47(0.2);46;0.97;0.2;60-min-Takt stabil;0.99
+ICE 47;Köln Hbf;München;1.39;25(0.8), 18(0.5);25;0.6;4.4;60-min-Takt stabil;0.94
+ICE 47;Mannheim Hbf;München;7.23;56(7.2);56;1.0;0.0;60-min-Takt stabil;1.0
+ICE 47;Stuttgart Hbf;München;2.13;43(2.1);43;1.0;0.0;60-min-Takt stabil;0.99
+ICE 47;Ulm Hbf;München;7.23;28(7.1), 37(0.1);28;0.99;1.0;60-min-Takt stabil;1.0
+ICE 47;Augsburg Hbf;München;7.23;13(4.4), 11(1.7), 12(1.0), 22(0.1), 33(0.1);13;0.61;2.4;60-min-Takt stabil;0.84
+ICE 41;München Hbf;Köln;6.58;45(3.5), 44(1.7), 46(0.5), 42(0.5), 41(0.4);45;0.54;1.4;Zwei-Lagen-Takt (120 min);0.79
+ICE 41;Nürnberg Hbf;Köln;6.58;00(6.1), 59(0.5);0;0.93;0.3;60-min-Takt stabil;1.0
+ICE 41;Würzburg Hbf;Köln;6.58;55(6.6);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Hanau Hbf;Köln;1.65;48(0.8), 47(0.8), 49(0.0), 04(0.0);48;0.49;2.3;Zwei-Lagen-Takt (120 min);0.97
+ICE 11;Stuttgart Hbf;Hamburg;1.45;49(1.5);49;1.0;0.0;60-min-Takt stabil;1.03
+ICE 11;Mannheim Hbf;Hamburg;1.45;29(1.5);29;1.0;0.0;60-min-Takt stabil;1.03
+ICE 11;Frankfurt(Main)Hbf;Hamburg;1.48;15(1.5);15;1.0;0.0;60-min-Takt stabil;1.01
+ICE 11;Fulda;Hamburg;1.74;12(1.7);12;1.0;0.0;60-min-Takt stabil;0.98
+ICE 11;Erfurt Hbf;Hamburg;1.74;29(1.7);29;1.0;0.0;60-min-Takt stabil;0.98
+ICE 11;Leipzig Hbf;Hamburg;1.74;16(1.7);16;1.0;0.0;60-min-Takt stabil;0.98
+ICE 11;Lutherstadt Wittenberg Hbf;Hamburg;1.74;48(1.7);48;1.0;0.0;60-min-Takt stabil;0.98
+ICE 11;Berlin Hbf;Hamburg;1.74;33(1.2), 34(0.6);33;0.67;0.6;60-min-Takt stabil;1.03
+IC 35;Emden Hbf;Düsseldorf;2.52;34(2.4), 41(0.1);34;0.95;1.6;60-min-Takt stabil;0.99
+IC 35;Münster(Westf)Hbf;Düsseldorf;2.52;30(2.4), 33(0.1);30;0.95;0.7;60-min-Takt stabil;0.99
+IC 35;Oberhausen Hbf;Düsseldorf;2.39;25(2.1), 39(0.2), 40(0.1), 42(0.0);25;0.88;5.1;60-min-Takt stabil;0.96
+IC 35;Duisburg Hbf;Düsseldorf;2.52;32(2.1), 46(0.2), 47(0.1), 40(0.1), 55(0.1), 49(0.0);32;0.83;6.3;60-min-Takt stabil;0.91
+ICE 22;Frankfurt(Main)Hbf;Kiel;3.48;46(3.0), 41(0.5);46;0.85;1.9;60-min-Takt stabil;1.01
+ICE 22;Kassel-Wilhelmshöhe;Kiel;4.06;13(3.5), 12(0.5), 15(0.1), 09(0.0);13;0.85;0.6;60-min-Takt stabil;0.99
+ICE 22;Göttingen;Kiel;4.06;33(3.5), 32(0.5), 29(0.0);33;0.87;0.5;60-min-Takt stabil;0.99
+ICE 22;Hannover Hbf;Kiel;4.06;08(4.0), 05(0.0);8;0.99;0.3;60-min-Takt stabil;0.99
+ICE 22;Hamburg Hbf;Kiel;4.06;33(3.5), 39(0.3), 47(0.3), 30(0.0);33;0.85;4.1;60-min-Takt stabil;0.94
+ICE 42;München Hbf;Hamburg;6.97;28(5.0), 33(0.9), 01(0.8), 34(0.1), 39(0.0), 25(0.0);28;0.72;9.7;60-min-Takt stabil;0.85
+ICE 42;Augsburg Hbf;Hamburg;6.97;01(5.0), 04(1.0), 31(0.9), 33(0.0), 21(0.0);1;0.72;11.1;60-min-Takt stabil;0.86
+ICE 42;Ulm Hbf;Hamburg;6.94;47(6.0), 16(0.9);47;0.87;10.7;60-min-Takt stabil;0.99
+ICE 42;Stuttgart Hbf;Hamburg;7.97;49(7.0), 21(0.7), 22(0.3);49;0.88;9.7;60-min-Takt stabil;0.97
+ICE 42;Mannheim Hbf;Hamburg;7.97;34(6.9), 01(0.9), 33(0.1), 37(0.0), 47(0.0);34;0.87;9.1;60-min-Takt stabil;0.98
+ICE 42;Köln Hbf;Hamburg;9.81;11(7.7), 09(0.5), 10(0.3), 00(0.3), 55(0.2), 12(0.1);11;0.79;5.7;60-min-Takt stabil;0.84
+ICE 42;Wuppertal Hbf;Hamburg;7.16;42(6.0), 43(0.9), 32(0.1), 27(0.1), 55(0.1), 28(0.0);42;0.84;2.4;60-min-Takt stabil;0.96
+ICE 42;Hagen Hbf;Hamburg;7.16;00(6.9), 51(0.1), 44(0.1), 12(0.1), 45(0.0);0;0.96;2.4;60-min-Takt stabil;0.98
+ICE 42;Dortmund Hbf;Hamburg;8.68;25(6.9), 24(0.5), 31(0.2), 35(0.2), 48(0.1), 46(0.1);25;0.8;5.6;60-min-Takt stabil;0.85
+ICE 42;Münster(Westf)Hbf;Hamburg;9.94;56(8.7), 14(0.5), 26(0.1), 18(0.1), 48(0.1), 36(0.1);56;0.88;6.6;60-min-Takt stabil;0.93
+ICE 42;Osnabrück Hbf;Hamburg;9.97;23(8.5), 50(0.7), 24(0.2), 34(0.1), 54(0.1), 17(0.1);23;0.85;8.5;60-min-Takt stabil;0.92
+ICE 42;Bremen Hbf;Hamburg;9.97;17(7.7), 22(0.8), 53(0.8), 23(0.2), 28(0.1), 57(0.1);17;0.77;7.5;60-min-Takt stabil;0.85
+EC 62;München Hbf;Salzburg;2.0;16(1.0), 15(1.0);16;0.5;0.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 25;Hannover Hbf;München;15.65;27(13.0), 25(1.6), 03(0.8), 04(0.1), 05(0.1), 41(0.0);27;0.83;5.9;60-min-Takt stabil;0.93
+ICE 25;Göttingen;München;15.65;02(13.0), 05(1.6), 12(0.9), 16(0.0), 13(0.0), 38(0.0);2;0.83;3.0;60-min-Takt stabil;0.93
+ICE 25;Kassel-Wilhelmshöhe;München;14.65;23(13.0), 25(1.0), 26(0.6), 37(0.0);23;0.89;1.0;60-min-Takt stabil;0.96
+ICE 25;Fulda;München;14.68;56(13.6), 57(0.8), 58(0.2), 10(0.0), 37(0.0);56;0.93;1.2;60-min-Takt stabil;0.98
+ICE 25;Würzburg Hbf;München;15.55;29(11.4), 30(3.2), 54(0.5), 02(0.2), 53(0.1), 01(0.0);29;0.73;6.0;60-min-Takt stabil;0.94
+ICE 25;Ingolstadt Hbf;München;9.87;05(6.2), 04(0.7), 03(0.7), 25(0.4), 34(0.4), 33(0.2);5;0.62;11.7;60-min-Takt stabil;0.7
+ICE 25;Hamburg Hbf;München;11.0;01(10.0), 28(1.0), 15(0.0), 29(0.0);1;0.91;8.2;60-min-Takt stabil;1.0
+ICE 25;Nürnberg Hbf;München;15.42;29(13.3), 30(0.7), 52(0.4), 00(0.2), 35(0.1), 36(0.1);29;0.86;6.4;60-min-Takt stabil;0.91
+ICE 29;München Hbf;Berlin;15.68;21(5.7), 17(4.0), 19(3.0), 18(2.0), 22(1.0);21;0.36;2.5;kein systematischer Takt;0.62
+ICE 29;Ingolstadt Hbf;Berlin;8.0;05(4.0), 04(3.0), 03(1.0);5;0.5;0.9;Zwei-Lagen-Takt (120 min);0.88
+ICE 29;Nürnberg Hbf;Berlin;16.0;36(16.0);36;1.0;0.0;60-min-Takt stabil;1.0
+ICE 29;Erfurt Hbf;Berlin;16.0;46(16.0);46;1.0;0.0;60-min-Takt stabil;1.0
+ICE 29;Halle(Saale)Hbf;Berlin;16.0;15(15.9), 48(0.1), 16(0.0);15;0.99;1.7;60-min-Takt stabil;1.0
+ICE 29;Berlin Hbf;Berlin;15.87;27(8.9), 26(6.0), 29(0.8), 57(0.1), 50(0.0), 08(0.0);27;0.56;2.7;Zwei-Lagen-Takt (120 min);0.94
+ECE 88;Lindau-Reutin;München;5.16;10(5.2);10;1.0;0.0;60-min-Takt stabil;1.01
+ICE 77;Osnabrück Hbf;Berlin;6.55;54(5.6), 52(0.9);54;0.86;0.8;60-min-Takt stabil;0.99
+ICE 77;Hannover Hbf;Berlin;6.9;04(6.6), 51(0.3), 30(0.1);4;0.95;3.6;60-min-Takt stabil;1.0
+ICE 11;München Hbf;Berlin;5.84;45(4.1), 46(0.8), 42(0.6), 43(0.1), 06(0.1), 38(0.1);45;0.71;3.6;60-min-Takt stabil;0.84
+ICE 11;Augsburg Hbf;Berlin;5.84;17(5.1), 14(0.7), 08(0.0);17;0.87;1.2;60-min-Takt stabil;0.99
+ICE 11;Ulm Hbf;Berlin;5.81;01(5.1), 59(0.7), 02(0.0);1;0.87;0.7;60-min-Takt stabil;1.0
+ICE 11;Stuttgart Hbf;Berlin;6.55;49(5.5), 54(0.3), 51(0.2), 53(0.1), 09(0.1), 00(0.1);49;0.85;3.6;60-min-Takt stabil;0.89
+ICE 11;Mannheim Hbf;Berlin;6.55;29(5.5), 15(0.8), 30(0.1), 24(0.0), 14(0.0), 00(0.0);29;0.85;5.5;60-min-Takt stabil;0.96
+ICE 11;Frankfurt(Main)Hbf;Berlin;6.23;15(5.5), 31(0.5), 46(0.1), 40(0.0), 53(0.0);15;0.89;6.1;60-min-Takt stabil;0.96
+ICE 11;Fulda;Berlin;6.26;12(6.2), 14(0.1);12;0.99;0.2;60-min-Takt stabil;1.01
+ICE 11;Erfurt Hbf;Berlin;7.26;29(6.3), 07(0.8), 22(0.1), 16(0.0), 14(0.0), 33(0.0);29;0.86;7.6;60-min-Takt stabil;0.98
+ICE 11;Leipzig Hbf;Berlin;6.19;16(6.2);16;1.0;0.0;60-min-Takt stabil;1.0
+ICE 11;Lutherstadt Wittenberg Hbf;Berlin;7.26;48(6.2), 20(0.8), 35(0.1), 29(0.0), 27(0.0), 46(0.0);48;0.86;9.8;60-min-Takt stabil;0.96
+ICE 11;Berlin Hbf;Berlin;5.23;37(4.2), 10(0.8), 25(0.1), 19(0.0), 17(0.0), 36(0.0);37;0.81;11.1;60-min-Takt stabil;0.96
+IC 87;Singen(Hohentwiel);Schaffhausen;16.0;32(11.0), 30(5.0);32;0.69;1.1;60-min-Takt stabil;1.0
+ICE 12;Basel SBB;Berlin;6.26;16(6.3);16;1.0;0.0;60-min-Takt stabil;1.01
+ICE 12;Freiburg(Breisgau) Hbf;Berlin;6.29;55(6.3);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 12;Offenburg;Berlin;6.71;27(5.7), 28(1.0);27;0.85;0.4;60-min-Takt stabil;1.0
+ICE 12;Karlsruhe Hbf;Berlin;7.71;59(7.5), 01(0.2);59;0.97;0.3;60-min-Takt stabil;1.0
+ICE 12;Mannheim Hbf;Berlin;7.71;30(7.7), 32(0.0);30;1.0;0.1;60-min-Takt stabil;1.0
+ICE 12;Hanau Hbf;Berlin;8.68;30(7.2), 32(1.3), 31(0.1), 22(0.0);30;0.83;0.9;60-min-Takt stabil;0.98
+ICE 12;Fulda;Berlin;8.68;14(7.6), 16(1.0), 15(0.1), 30(0.0);14;0.88;1.2;60-min-Takt stabil;0.99
+ICE 12;Kassel-Wilhelmshöhe;Berlin;8.35;46(7.7), 45(0.6), 52(0.0);46;0.92;0.5;60-min-Takt stabil;0.99
+ICE 12;Göttingen;Berlin;9.35;06(8.3), 45(0.8), 59(0.1), 49(0.0), 43(0.0), 03(0.0);6;0.88;6.6;60-min-Takt stabil;0.97
+ICE 12;Hildesheim Hbf;Berlin;8.19;36(7.6), 01(0.5), 18(0.0), 16(0.0);36;0.93;6.7;60-min-Takt stabil;0.99
+ICE 12;Braunschweig Hbf;Berlin;8.19;01(7.6), 29(0.5), 46(0.0), 44(0.0);1;0.93;7.4;60-min-Takt stabil;0.99
+ICE 12;Wolfsburg Hbf;Berlin;9.35;19(7.0), 12(0.8), 18(0.6), 48(0.6), 26(0.1), 16(0.0);19;0.75;8.0;60-min-Takt stabil;0.83
+ICE 12;Berlin Hbf;Basel;7.0;31(2.8), 37(1.8), 32(0.9), 30(0.7), 34(0.6), 24(0.0);31;0.4;3.3;kein systematischer Takt;0.66
+ICE 12;Wolfsburg Hbf;Basel;7.0;38(6.0), 00(0.7), 58(0.1), 59(0.1), 01(0.0), 51(0.0);38;0.86;7.9;60-min-Takt stabil;0.96
+ICE 12;Göttingen;Basel;7.0;52(6.4), 07(0.1), 08(0.1), 29(0.1), 03(0.1), 05(0.1);52;0.91;5.0;60-min-Takt stabil;0.93
+ICE 12;Kassel-Wilhelmshöhe;Basel;6.39;13(5.1), 14(0.9), 52(0.1), 54(0.1), 48(0.1), 55(0.0);13;0.8;4.6;60-min-Takt stabil;0.94
+ICE 12;Fulda;Basel;6.9;46(6.0), 33(0.6), 55(0.1), 51(0.1), 31(0.0), 00(0.0);46;0.87;4.3;60-min-Takt stabil;0.96
+ICE 12;Hanau Hbf;Basel;7.0;29(5.2), 28(0.9), 21(0.5), 38(0.1), 36(0.1), 20(0.1);29;0.75;3.2;60-min-Takt stabil;0.87
+ICE 12;Frankfurt(Main)Hbf;Basel;6.74;50(6.6), 48(0.1), 17(0.0), 57(0.0);50;0.98;1.9;60-min-Takt stabil;0.99
+ICE 12;Mannheim Hbf;Basel;8.19;37(6.9), 36(0.7), 35(0.3), 34(0.2), 04(0.0), 44(0.0);37;0.84;1.9;60-min-Takt stabil;0.93
+ICE 12;Karlsruhe Hbf;Basel;9.0;01(7.1), 56(0.8), 00(0.7), 58(0.2), 59(0.1), 28(0.0);1;0.78;2.3;60-min-Takt stabil;0.88
+ICE 12;Offenburg;Basel;9.0;30(7.0), 31(0.9), 34(0.7), 28(0.3), 57(0.0), 36(0.0);30;0.78;2.1;60-min-Takt stabil;0.88
+ICE 12;Freiburg(Breisgau) Hbf;Basel;9.0;04(8.6), 02(0.3), 31(0.0), 11(0.0);4;0.96;1.7;60-min-Takt stabil;0.99
+ICE 25;München Hbf;Hamburg;13.19;12(3.0), 06(2.5), 11(1.6), 10(0.9), 09(0.8), 05(0.8);12;0.23;10.3;kein systematischer Takt;0.42
+ICE 25;Ingolstadt Hbf;Hamburg;8.52;56(5.0), 57(0.8), 38(0.5), 35(0.5), 51(0.4), 46(0.3);56;0.58;10.9;kein systematischer Takt;0.68
+ICE 25;Würzburg Hbf;Hamburg;13.1;30(6.0), 28(5.6), 17(0.9), 27(0.5);30;0.46;3.7;Zwei-Lagen-Takt (120 min);0.89
+ICE 25;Fulda;Hamburg;12.19;04(12.2), 03(0.0);4;1.0;0.1;60-min-Takt stabil;1.0
+ICE 25;Kassel-Wilhelmshöhe;Hamburg;12.19;36(12.2), 35(0.0);36;1.0;0.1;60-min-Takt stabil;1.0
+ICE 25;Göttingen;Hamburg;13.19;59(10.9), 55(1.3), 21(0.3), 20(0.3), 05(0.3), 09(0.0);59;0.82;5.1;60-min-Takt stabil;0.92
+ICE 25;Hannover Hbf;Hamburg;13.19;36(12.1), 27(0.3), 26(0.3), 11(0.3), 48(0.0), 20(0.0);36;0.91;4.8;60-min-Takt stabil;0.94
+ICE 83;Stuttgart Hbf;Strasbourg;1.23;52(0.5), 35(0.4), 43(0.4), 33(0.0);52;0.37;11.1;Zwei-Lagen-Takt (120 min);0.73
+ICE 83;Karlsruhe Hbf;Strasbourg;1.81;32(1.5), 30(0.4);32;0.8;0.9;60-min-Takt stabil;1.05
+IC 87;Singen(Hohentwiel);Stuttgart;12.61;36(5.9), 35(5.5), 29(0.7), 50(0.6);36;0.47;3.5;Zwei-Lagen-Takt (120 min);0.9
+ICE 29;Berlin Hbf;München;16.0;36(9.6), 37(6.4);36;0.6;0.6;60-min-Takt stabil;1.0
+ICE 29;Halle(Saale)Hbf;München;16.0;45(16.0);45;1.0;0.0;60-min-Takt stabil;1.0
+ICE 29;Erfurt Hbf;München;16.0;14(16.0), 47(0.0);14;1.0;1.2;60-min-Takt stabil;1.0
+ICE 29;Nürnberg Hbf;München;15.97;25(14.3), 32(1.4), 44(0.1), 39(0.1), 58(0.0), 26(0.0);25;0.89;3.1;60-min-Takt stabil;0.98
+ICE 29;Ingolstadt Hbf;München;7.87;00(6.6), 58(0.5), 40(0.3), 45(0.3), 37(0.1), 30(0.0);0;0.84;5.9;60-min-Takt stabil;0.9
+ICE 60;München Hbf;Karlsruhe;2.71;02(1.5), 00(0.5), 59(0.4), 03(0.2), 58(0.2);2;0.54;1.7;Zwei-Lagen-Takt (120 min);0.74
+ICE 60;Augsburg Hbf;Karlsruhe;2.71;35(2.0), 33(0.5), 31(0.2);35;0.74;1.3;60-min-Takt stabil;0.92
+ICE 60;Ulm Hbf;Karlsruhe;2.71;20(2.7);20;1.0;0.0;60-min-Takt stabil;1.0
+ICE 60;Stuttgart Hbf;Karlsruhe;1.61;12(0.5), 08(0.3), 09(0.3), 11(0.3), 10(0.2);12;0.28;2.4;kein systematischer Takt;0.5
+ICE 47;München Hbf;Dortmund;3.61;20(2.4), 19(1.2), 53(0.0), 02(0.0), 11(0.0);20;0.65;3.2;60-min-Takt stabil;1.0
+ICE 47;Augsburg Hbf;Dortmund;4.06;48(4.0), 28(0.0);48;0.99;1.8;60-min-Takt stabil;0.99
+ICE 47;Ulm Hbf;Dortmund;4.06;33(4.1);33;1.0;0.0;60-min-Takt stabil;1.01
+ICE 47;Stuttgart Hbf;Dortmund;1.55;26(1.5);26;1.0;0.0;60-min-Takt stabil;0.97
+ICE 47;Mannheim Hbf;Dortmund;4.06;07(4.1);7;1.0;0.0;60-min-Takt stabil;1.01
+ICE 47;Düsseldorf Hbf;Dortmund;4.06;56(2.0), 55(1.1), 43(0.5), 26(0.5), 44(0.1);56;0.49;11.0;Zwei-Lagen-Takt (120 min);0.76
+ICE 47;Duisburg Hbf;Dortmund;4.06;10(2.7), 01(0.5), 40(0.5), 09(0.4);10;0.67;10.5;60-min-Takt stabil;0.79
+ICE 11;Erfurt Hbf;München;8.0;30(6.0), 45(1.0), 29(1.0), 27(0.0);30;0.75;5.3;60-min-Takt stabil;0.88
+ICE 11;Fulda;München;7.0;49(7.0);49;1.0;0.0;60-min-Takt stabil;1.0
+ICE 11;Frankfurt(Main)Hbf;München;7.06;50(6.4), 25(0.7);50;0.9;7.9;60-min-Takt stabil;1.01
+ICE 11;Mannheim Hbf;München;8.97;33(8.0), 25(0.9), 27(0.0), 24(0.0), 42(0.0);33;0.89;2.6;60-min-Takt stabil;0.99
+ICE 11;Stuttgart Hbf;München;9.0;17(7.0), 16(1.0), 12(1.0), 44(0.0);17;0.78;2.3;60-min-Takt stabil;0.89
+ICE 11;Ulm Hbf;München;9.0;02(8.0), 08(1.0), 40(0.0);2;0.89;2.4;60-min-Takt stabil;1.0
+ICE 11;Augsburg Hbf;München;9.0;43(5.8), 45(1.0), 46(1.0), 53(1.0), 08(0.1), 49(0.0);43;0.65;4.6;60-min-Takt stabil;0.76
+IC 57;Leipzig Hbf;Rostock;1.0;42(1.0);42;1.0;0.0;60-min-Takt stabil;1.0
+IC 57;Halle(Saale)Hbf;Rostock;1.0;06(1.0);6;1.0;0.0;60-min-Takt stabil;1.0
+IC 57;Magdeburg Hbf;Rostock;1.0;55(1.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 13;Wolfsburg Hbf;Stuttgart;1.0;39(0.9), 37(0.1);39;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Braunschweig Hbf;Stuttgart;1.0;58(0.9), 56(0.1);58;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Hildesheim Hbf;Stuttgart;1.0;21(0.9), 19(0.1);21;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Göttingen;Stuttgart;1.0;52(0.9), 50(0.1);52;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Kassel-Wilhelmshöhe;Stuttgart;1.0;13(0.9), 11(0.1);13;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Fulda;Stuttgart;1.0;46(0.9), 44(0.1);46;0.87;0.7;60-min-Takt stabil;1.0
+ICE 13;Heidelberg Hbf;Stuttgart;1.0;43(0.9), 41(0.1);43;0.87;0.7;60-min-Takt stabil;1.0
+ICE 10;Düsseldorf Hbf;Berlin;14.29;50(6.6), 48(4.8), 51(1.1), 49(0.8), 45(0.2), 00(0.1);50;0.46;3.9;Zwei-Lagen-Takt (120 min);0.8
+ICE 10;Duisburg Hbf;Berlin;14.58;08(6.4), 06(4.5), 07(1.8), 09(0.6), 10(0.4), 03(0.2);8;0.44;3.6;Zwei-Lagen-Takt (120 min);0.75
+ICE 10;Essen Hbf;Berlin;5.55;21(2.6), 19(1.6), 20(0.4), 31(0.2), 16(0.1), 22(0.1);21;0.48;5.2;Zwei-Lagen-Takt (120 min);0.76
+ICE 10;Dortmund Hbf;Berlin;16.61;47(8.5), 46(2.4), 48(2.1), 49(1.6), 44(0.8), 14(0.2);47;0.51;4.9;kein systematischer Takt;0.66
+ICE 10;Hamm(Westf)Hbf;Berlin;23.9;11(14.5), 06(3.7), 04(2.9), 01(0.7), 03(0.6), 41(0.4);11;0.61;6.5;60-min-Takt stabil;0.76
+ICE 10;Bielefeld Hbf;Berlin;22.48;38(14.5), 36(5.4), 34(1.9), 37(0.7), 21(0.1), 18(0.0);38;0.64;1.9;60-min-Takt stabil;0.89
+ICE 10;Hannover Hbf;Berlin;26.19;31(22.9), 50(1.3), 09(0.9), 42(0.6), 32(0.1), 02(0.1);31;0.88;6.5;60-min-Takt stabil;0.92
+ICE 10;Wolfsburg Hbf;Berlin;25.42;05(12.0), 04(9.2), 06(2.0), 28(1.3), 03(0.7), 42(0.1);5;0.47;5.6;Zwei-Lagen-Takt (120 min);0.83
+ICE 10;Berlin Hbf;Berlin;24.19;15(12.8), 13(6.6), 24(1.2), 45(1.1), 16(0.8), 38(0.5);15;0.53;8.3;Zwei-Lagen-Takt (120 min);0.8
+ICE 33;Düsseldorf Hbf;Greifswald;1.0;08(1.0);8;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Münster(Westf)Hbf;Greifswald;1.0;27(0.9), 28(0.1);27;0.94;0.3;60-min-Takt stabil;1.0
+ICE 33;Osnabrück Hbf;Greifswald;1.0;54(1.0);54;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Bremen Hbf;Greifswald;1.0;53(1.0);53;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Schwerin Hbf;Greifswald;1.0;04(1.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Rostock Hbf;Greifswald;1.0;01(1.0);1;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Stralsund Hbf;Greifswald;1.0;57(1.0);57;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Heidelberg Hbf;München;2.81;13(2.8);13;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Stuttgart Hbf;München;1.0;59(0.5), 57(0.3), 58(0.2);59;0.52;1.1;Zwei-Lagen-Takt (120 min);0.8
+ICE 62;Ulm Hbf;München;3.58;57(1.9), 56(0.8), 55(0.8), 58(0.1);57;0.54;1.1;Zwei-Lagen-Takt (120 min);0.75
+ICE 62;Augsburg Hbf;München;3.58;42(3.5), 43(0.1);42;0.98;0.1;60-min-Takt stabil;1.01
+ICE 10;Köln Hbf;Berlin;11.42;35(4.1), 38(1.9), 26(1.6), 25(1.3), 34(0.6), 36(0.4);35;0.36;8.7;kein systematischer Takt;0.53
+ICE 10;Wuppertal Hbf;Berlin;7.52;15(7.0), 45(0.2), 30(0.1), 19(0.1), 32(0.1), 26(0.0);15;0.93;5.5;60-min-Takt stabil;0.96
+ICE 10;Hagen Hbf;Berlin;7.52;32(6.2), 31(0.8), 47(0.1), 02(0.1), 36(0.1), 49(0.1);32;0.82;5.5;60-min-Takt stabil;0.93
+ICE 10;Berlin Hbf;Düsseldorf;9.68;47(7.9), 35(1.0), 28(0.8), 15(0.0);47;0.81;6.8;60-min-Takt stabil;0.92
+ICE 10;Wolfsburg Hbf;Düsseldorf;9.68;53(8.7), 47(0.7), 45(0.1), 39(0.1), 50(0.0);53;0.9;2.2;60-min-Takt stabil;0.97
+ICE 10;Hannover Hbf;Düsseldorf;9.68;31(8.7), 21(0.7), 23(0.1), 13(0.1), 24(0.0);31;0.9;3.2;60-min-Takt stabil;0.97
+ICE 10;Hamm(Westf)Hbf;Düsseldorf;9.65;54(6.6), 55(1.5), 52(0.7), 39(0.2), 46(0.1), 40(0.1);54;0.69;4.6;60-min-Takt stabil;0.84
+ICE 10;Dortmund Hbf;Düsseldorf;9.58;15(5.6), 13(2.1), 14(1.0), 58(0.2), 05(0.1), 59(0.1);15;0.58;5.5;Zwei-Lagen-Takt (120 min);0.8
+ICE 10;Essen Hbf;Düsseldorf;4.13;37(2.1), 40(0.8), 39(0.4), 22(0.2), 29(0.1), 23(0.1);37;0.52;7.2;Zwei-Lagen-Takt (120 min);0.7
+ICE 10;Duisburg Hbf;Düsseldorf;9.0;50(4.0), 51(2.1), 52(1.1), 54(0.5), 49(0.3), 53(0.3);50;0.44;5.1;kein systematischer Takt;0.68
+IC 55;Heidelberg Hbf;Köln;2.13;24(2.1);24;1.0;0.0;60-min-Takt stabil;0.99
+IC 55;Mannheim Hbf;Köln;2.13;39(2.1);39;1.0;0.0;60-min-Takt stabil;0.99
+IC 55;Mainz Hbf;Köln;2.35;20(2.1), 17(0.2);20;0.9;0.9;60-min-Takt stabil;0.98
+IC 55;Koblenz Hbf;Köln;2.58;13(2.6);13;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Bonn Hbf;Köln;2.58;45(1.9), 44(0.6);45;0.75;0.5;60-min-Takt stabil;0.97
+IC 17;Rostock Hbf;Dresden;5.03;20(3.0), 21(1.0), 22(1.0);20;0.6;1.0;60-min-Takt stabil;0.8
+ICE 43;Hamburg Hbf;Köln;1.94;45(1.8), 05(0.1), 43(0.1), 04(0.0);45;0.92;4.4;60-min-Takt stabil;0.98
+ICE 43;Bremen Hbf;Köln;1.94;44(1.8), 03(0.1), 42(0.1), 02(0.0);44;0.92;4.2;60-min-Takt stabil;0.98
+ICE 43;Osnabrück Hbf;Köln;1.94;37(1.8), 03(0.1), 35(0.1);37;0.92;5.8;60-min-Takt stabil;0.98
+ICE 43;Münster(Westf)Hbf;Köln;1.84;02(1.1), 03(0.7), 04(0.0);2;0.61;0.7;60-min-Takt stabil;0.98
+ICE 43;Duisburg Hbf;Köln;1.03;11(0.5), 10(0.1), 13(0.1), 15(0.1), 12(0.1), 36(0.1);11;0.5;8.2;kein systematischer Takt;0.58
+ICE 43;Düsseldorf Hbf;Köln;1.23;24(0.5), 32(0.2), 35(0.1), 49(0.1), 28(0.1), 26(0.1);24;0.39;11.4;kein systematischer Takt;0.57
+ICE 78;Düsseldorf Hbf;Frankfurt;3.29;46(3.3);46;1.0;0.0;60-min-Takt stabil;1.0
+ICE 47;Duisburg Hbf;Arnhem Centraal;1.0;25(0.5), 04(0.5);25;0.55;14.1;Zwei-Lagen-Takt (120 min);1.0
+ICE 47;Oberhausen Hbf;Arnhem Centraal;1.0;33(0.5), 12(0.5);33;0.55;14.1;Zwei-Lagen-Takt (120 min);1.0
+ICE 24;Hannover Hbf;Frankfurt;1.0;01(1.0);1;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Göttingen;Frankfurt;1.0;40(1.0);40;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Kassel-Wilhelmshöhe;Frankfurt;1.0;03(1.0);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Marburg(Lahn);Frankfurt;1.0;05(1.0);5;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Gießen;Frankfurt;1.0;24(1.0);24;1.0;0.0;60-min-Takt stabil;1.0
+ECE 75;Hamburg Hbf;Padborg st;3.32;53(1.9), 04(0.7), 52(0.7);53;0.57;5.1;Zwei-Lagen-Takt (120 min);0.78
+ICE 25;Nürnberg Hbf;Hamburg;11.94;28(5.0), 31(3.1), 32(2.2), 17(0.9), 30(0.7), 16(0.0);28;0.42;3.9;kein systematischer Takt;0.68
+ICE 13;Karlsruhe Hbf;Berlin;2.0;40(2.0);40;1.0;0.0;60-min-Takt stabil;1.0
+ICE 13;Fulda;Berlin;5.84;15(5.6), 02(0.1), 01(0.1), 18(0.1);15;0.96;2.4;60-min-Takt stabil;0.98
+ICE 13;Kassel-Wilhelmshöhe;Berlin;6.84;48(5.6), 49(1.0), 35(0.1), 34(0.1);48;0.83;2.3;60-min-Takt stabil;0.96
+ICE 13;Göttingen;Berlin;6.84;09(6.6), 56(0.1), 55(0.1);9;0.97;2.2;60-min-Takt stabil;0.98
+ICE 13;Hildesheim Hbf;Berlin;6.84;37(6.6), 24(0.1), 23(0.1);37;0.97;2.2;60-min-Takt stabil;0.98
+ICE 13;Braunschweig Hbf;Berlin;6.84;03(6.6), 50(0.1), 49(0.1);3;0.97;2.2;60-min-Takt stabil;0.98
+ICE 13;Wolfsburg Hbf;Berlin;6.84;20(6.6), 07(0.1), 06(0.1);20;0.97;2.2;60-min-Takt stabil;0.98
+ICE 22;Hamburg Hbf;Stuttgart;7.13;29(6.8), 27(0.3);29;0.96;0.4;60-min-Takt stabil;1.0
+ICE 22;Hannover Hbf;Stuttgart;7.13;53(7.1);53;1.0;0.0;60-min-Takt stabil;1.0
+ICE 22;Göttingen;Stuttgart;7.13;27(7.1);27;1.0;0.0;60-min-Takt stabil;1.0
+ICE 22;Kassel-Wilhelmshöhe;Stuttgart;7.13;48(7.1);48;1.0;0.0;60-min-Takt stabil;1.0
+ICE 22;Frankfurt(Main)Hbf;Stuttgart;6.26;20(5.6), 15(0.7);20;0.89;1.6;60-min-Takt stabil;1.01
+ICE 22;Mannheim Hbf;Stuttgart;7.77;00(6.4), 59(0.9), 02(0.4), 01(0.1);0;0.82;0.6;60-min-Takt stabil;0.94
+ICE 22;Stuttgart Hbf;Kiel;3.39;23(1.3), 22(1.3), 02(0.8);23;0.38;10.5;Zwei-Lagen-Takt (120 min);0.77
+ICE 22;Mannheim Hbf;Kiel;3.39;03(3.4);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 20;Hamburg Hbf;Basel;4.23;29(4.2), 31(0.0);29;0.99;0.2;60-min-Takt stabil;0.99
+ICE 20;Hannover Hbf;Basel;4.23;53(3.3), 54(0.9), 55(0.0);53;0.77;0.5;60-min-Takt stabil;0.99
+ICE 20;Göttingen;Basel;4.23;27(3.3), 28(0.9), 29(0.0);27;0.77;0.5;60-min-Takt stabil;0.99
+ICE 20;Kassel-Wilhelmshöhe;Basel;4.23;48(4.2), 50(0.0);48;0.99;0.2;60-min-Takt stabil;0.99
+ICE 20;Mannheim Hbf;Basel;4.16;00(4.1), 59(0.0);0;0.99;0.1;60-min-Takt stabil;0.99
+ICE 20;Karlsruhe Hbf;Basel;4.23;26(4.1), 39(0.1), 27(0.0), 34(0.0), 30(0.0);26;0.96;1.8;60-min-Takt stabil;0.99
+ICE 20;Offenburg;Basel;4.23;00(3.3), 58(0.8), 13(0.1), 04(0.0);0;0.78;1.9;60-min-Takt stabil;0.97
+ICE 20;Freiburg(Breisgau) Hbf;Basel;4.23;34(4.1), 44(0.0), 38(0.0), 47(0.0);34;0.98;1.5;60-min-Takt stabil;0.97
+ICE 50;Dresden Hbf;Frankfurt;6.42;11(6.4), 10(0.1);11;0.99;0.1;60-min-Takt stabil;1.01
+ICE 50;Leipzig Hbf;Frankfurt;7.29;27(6.4), 28(0.9), 26(0.1);27;0.87;0.4;60-min-Takt stabil;1.0
+ICE 50;Erfurt Hbf;Frankfurt;7.32;16(7.0), 17(0.3), 15(0.1);16;0.96;0.2;60-min-Takt stabil;1.0
+ICE 50;Fulda;Frankfurt;7.32;41(5.4), 42(1.9), 40(0.1);41;0.73;0.5;60-min-Takt stabil;1.0
+ICE 50;Frankfurt(Main)Hbf;Frankfurt;6.32;43(5.9), 13(0.2), 12(0.1), 18(0.1), 17(0.1);43;0.93;7.6;60-min-Takt stabil;0.97
+ICE 42;Düsseldorf Hbf;Hamburg;2.13;34(0.8), 32(0.3), 27(0.3), 26(0.2), 09(0.1), 44(0.1);34;0.38;9.6;kein systematischer Takt;0.52
+ICE 42;Duisburg Hbf;Hamburg;2.19;46(0.8), 47(0.6), 50(0.3), 07(0.1), 10(0.1), 17(0.0);46;0.37;9.1;kein systematischer Takt;0.64
+ICE 79;Frankfurt(Main)Hbf;Bruxelles;7.87;34(5.1), 33(2.0), 14(0.8);34;0.65;6.3;60-min-Takt stabil;0.9
+ICE 79;Köln Hbf;Bruxelles;8.1;43(5.1), 42(1.8), 41(1.0), 02(0.1), 40(0.1);43;0.63;2.6;60-min-Takt stabil;0.85
+ICE 79;Aachen Hbf;Bruxelles;8.1;20(8.0), 29(0.1);20;0.99;1.0;60-min-Takt stabil;1.0
+ICE 27;Dresden Hbf;Berlin;1.0;53(1.0);53;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Hamburg Hbf;Hamburg;5.68;22(4.1), 23(1.4), 24(0.2), 25(0.0);22;0.72;0.6;60-min-Takt stabil;0.97
+ICE 41;Dortmund Hbf;München;3.19;14(0.5), 15(0.5), 19(0.5), 02(0.5), 00(0.4), 06(0.3);14;0.17;9.3;kein systematischer Takt;0.31
+ICE 41;Siegburg/Bonn;München;10.35;58(7.7), 42(1.7), 45(1.0), 52(0.0);58;0.74;7.6;60-min-Takt stabil;0.91
+ICE 41;Frankfurt(Main)Hbf;München;13.52;57(12.0), 54(1.5);57;0.89;1.0;60-min-Takt stabil;1.0
+ICE 41;Würzburg Hbf;München;16.97;04(13.0), 03(1.8), 05(1.7), 22(0.2), 16(0.1), 08(0.1);4;0.77;2.2;60-min-Takt stabil;0.87
+ICE 41;Nürnberg Hbf;München;17.68;01(14.3), 59(1.0), 56(0.7), 10(0.6), 08(0.5), 25(0.2);1;0.81;4.3;60-min-Takt stabil;0.87
+ICE 28;Hamburg Hbf;Nürnberg;1.29;34(1.3);34;1.0;0.0;60-min-Takt stabil;1.01
+ICE 28;Berlin Hbf;Nürnberg;1.29;29(1.3);29;1.0;0.0;60-min-Takt stabil;1.01
+ICE 28;Lutherstadt Wittenberg Hbf;Nürnberg;1.29;12(1.3);12;1.0;0.0;60-min-Takt stabil;1.01
+ICE 28;Leipzig Hbf;Nürnberg;1.23;55(1.2);55;1.0;0.0;60-min-Takt stabil;0.98
+ICE 28;Erfurt Hbf;Nürnberg;1.29;35(1.3), 48(0.0);35;0.97;2.1;60-min-Takt stabil;1.01
+ICE 28;Bamberg;Nürnberg;1.29;16(1.3), 29(0.0);16;0.97;2.1;60-min-Takt stabil;1.01
+ICE 11;München Hbf;Hamburg;1.16;45(0.9), 42(0.3);45;0.75;1.5;60-min-Takt stabil;1.03
+ICE 11;Augsburg Hbf;Hamburg;1.16;17(0.9), 14(0.3);17;0.75;1.5;60-min-Takt stabil;1.03
+ICE 11;Ulm Hbf;Hamburg;1.16;01(0.9), 59(0.3);1;0.75;1.0;60-min-Takt stabil;1.03
+ICE 13;Wolfsburg Hbf;Frankfurt;2.71;39(1.9), 36(0.6), 37(0.1), 33(0.1);39;0.69;2.0;60-min-Takt stabil;0.92
+ICE 13;Braunschweig Hbf;Frankfurt;3.71;58(2.9), 57(0.6), 56(0.1), 54(0.1);58;0.77;0.9;60-min-Takt stabil;0.94
+ICE 13;Hildesheim Hbf;Frankfurt;3.71;21(2.9), 20(0.6), 19(0.1), 17(0.1);21;0.77;0.9;60-min-Takt stabil;0.94
+ICE 13;Göttingen;Frankfurt;3.71;52(2.5), 53(1.0), 50(0.1), 49(0.1);52;0.66;0.8;60-min-Takt stabil;0.94
+ICE 13;Kassel-Wilhelmshöhe;Frankfurt;3.71;13(2.5), 14(1.0), 11(0.1), 10(0.1);13;0.66;0.8;60-min-Takt stabil;0.94
+ICE 13;Fulda;Frankfurt;3.71;45(2.5), 44(1.0), 43(0.1), 42(0.1);45;0.66;0.8;60-min-Takt stabil;0.94
+ICE 41;Hanau Hbf;München;5.03;12(2.7), 10(1.9), 13(0.2), 16(0.1), 07(0.0), 19(0.0);12;0.54;1.7;Zwei-Lagen-Takt (120 min);0.91
+IC 61;Karlsruhe Hbf;Leipzig;1.48;06(1.5);6;1.0;0.0;60-min-Takt stabil;1.01
+IC 61;Stuttgart Hbf;Leipzig;1.94;08(1.0), 09(0.9);8;0.52;0.7;Zwei-Lagen-Takt (120 min);0.98
+IC 61;Nürnberg Hbf;Leipzig;1.94;24(1.9);24;1.0;0.0;60-min-Takt stabil;0.98
+IC 61;Bamberg;Leipzig;1.94;01(1.0), 00(0.9);1;0.52;0.7;Zwei-Lagen-Takt (120 min);0.98
+IC 87;Stuttgart Hbf;Schaffhausen;6.84;28(3.6), 16(1.5), 26(0.8), 22(0.8);28;0.53;6.1;Zwei-Lagen-Takt (120 min);0.75
+ICE 62;Frankfurt(Main)Hbf;München;2.48;11(1.6), 10(0.9);11;0.65;0.6;60-min-Takt stabil;1.01
+ICE 15;Frankfurt(Main)Hbf;Berlin;1.68;02(1.7);2;1.0;0.0;60-min-Takt stabil;1.01
+ICE 15;Erfurt Hbf;Berlin;1.68;10(1.7);10;1.0;0.0;60-min-Takt stabil;1.01
+ICE 15;Halle(Saale)Hbf;Berlin;1.68;43(1.7);43;1.0;0.0;60-min-Takt stabil;1.01
+ICE 15;Berlin Hbf;Berlin;2.58;58(1.6), 05(0.9);58;0.64;4.2;60-min-Takt stabil;0.97
+ICE 18;München Hbf;Nürnberg;2.71;12(2.0), 06(0.7);12;0.74;3.1;60-min-Takt stabil;1.0
+ICE 18;Augsburg Hbf;Nürnberg;2.71;47(2.0), 43(0.7);47;0.74;2.0;60-min-Takt stabil;1.0
+IC 56;Bremen Hbf;Leipzig;4.94;09(4.9);9;1.0;0.0;60-min-Takt stabil;0.99
+IC 56;Braunschweig Hbf;Leipzig;4.65;10(3.8), 11(0.8);10;0.83;0.4;60-min-Takt stabil;0.99
+ICE 16;Hannover Hbf;Bremen;3.0;45(3.0);45;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Düsseldorf Hbf;München;8.26;20(3.3), 19(2.2), 21(1.1), 18(0.5), 17(0.5), 57(0.4);20;0.4;5.9;kein systematischer Takt;0.67
+IC 55;Heidelberg Hbf;Hannover;1.23;24(1.2), 22(0.0);24;0.97;0.3;60-min-Takt stabil;0.98
+IC 55;Mannheim Hbf;Hannover;1.23;39(1.2), 37(0.0);39;0.97;0.3;60-min-Takt stabil;0.98
+IC 55;Mainz Hbf;Hannover;1.23;20(1.2), 18(0.0);20;0.97;0.3;60-min-Takt stabil;0.98
+IC 55;Koblenz Hbf;Hannover;1.23;13(1.2), 11(0.0);13;0.97;0.3;60-min-Takt stabil;0.98
+IC 55;Bonn Hbf;Hannover;1.23;44(1.2), 42(0.0);44;0.97;0.3;60-min-Takt stabil;0.98
+IC 55;Köln Hbf;Hannover;1.23;11(1.1), 10(0.1), 09(0.0), 15(0.0);11;0.87;0.8;60-min-Takt stabil;0.98
+IC 55;Wuppertal Hbf;Hannover;1.1;43(1.1), 41(0.0);43;0.97;0.3;60-min-Takt stabil;1.0
+IC 55;Hagen Hbf;Hannover;1.1;00(0.5), 59(0.5);0;0.5;0.7;Zwei-Lagen-Takt (120 min);0.91
+IC 55;Dortmund Hbf;Hannover;1.32;28(1.3), 30(0.0), 50(0.0);28;0.95;3.4;60-min-Takt stabil;0.98
+IC 55;Hamm(Westf)Hbf;Hannover;1.06;44(0.9), 46(0.0), 36(0.0), 57(0.0), 45(0.0);44;0.88;2.7;60-min-Takt stabil;0.85
+IC 55;Bielefeld Hbf;Hannover;1.32;20(1.2), 22(0.0), 18(0.0), 42(0.0), 24(0.0);20;0.9;3.5;60-min-Takt stabil;0.91
+ICE 11;Berlin Hbf;München;7.0;27(7.0);27;1.0;0.0;60-min-Takt stabil;1.0
+ICE 11;Lutherstadt Wittenberg Hbf;München;7.0;11(7.0);11;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Heidelberg Hbf;Stuttgart;3.03;13(2.2), 15(0.7), 05(0.2);13;0.71;2.2;60-min-Takt stabil;0.96
+ECE 20;Basel SBB;Hamburg;1.87;46(1.9);46;1.0;0.0;60-min-Takt stabil;1.02
+ECE 20;Freiburg(Breisgau) Hbf;Hamburg;1.87;27(1.9);27;1.0;0.0;60-min-Takt stabil;1.02
+ECE 20;Offenburg;Hamburg;1.87;58(1.9);58;1.0;0.0;60-min-Takt stabil;1.02
+ECE 20;Karlsruhe Hbf;Hamburg;1.94;37(1.9);37;1.0;0.0;60-min-Takt stabil;0.98
+ECE 20;Mannheim Hbf;Hamburg;1.94;03(1.9);3;1.0;0.0;60-min-Takt stabil;0.98
+ECE 20;Frankfurt(Main)Hbf;Hamburg;1.55;46(1.5);46;1.0;0.0;60-min-Takt stabil;0.97
+ECE 20;Kassel-Wilhelmshöhe;Hamburg;1.94;13(1.9);13;1.0;0.0;60-min-Takt stabil;0.98
+ECE 20;Göttingen;Hamburg;1.94;33(1.9);33;1.0;0.0;60-min-Takt stabil;0.98
+ECE 20;Hannover Hbf;Hamburg;1.94;08(1.9);8;1.0;0.0;60-min-Takt stabil;0.98
+ICE 60;Karlsruhe Hbf;München;3.26;05(2.9), 00(0.4);5;0.89;1.7;60-min-Takt stabil;1.01
+ICE 60;Stuttgart Hbf;München;3.13;51(1.6), 08(0.7), 24(0.3), 57(0.3), 50(0.2);51;0.52;11.9;Zwei-Lagen-Takt (120 min);0.73
+ICE 60;Ulm Hbf;München;5.81;36(3.7), 12(1.0), 39(0.6), 38(0.5);36;0.63;10.0;60-min-Takt stabil;0.81
+ICE 60;Augsburg Hbf;München;5.81;19(3.7), 00(1.0), 24(0.6), 23(0.5);19;0.63;8.1;60-min-Takt stabil;0.81
+IC 55;Heidelberg Hbf;Dresden;1.55;24(1.5);24;1.0;0.0;60-min-Takt stabil;0.97
+IC 55;Mannheim Hbf;Dresden;1.55;39(1.5);39;1.0;0.0;60-min-Takt stabil;0.97
+IC 55;Mainz Hbf;Dresden;1.9;20(1.5), 17(0.4);20;0.81;1.3;60-min-Takt stabil;1.0
+IC 55;Koblenz Hbf;Dresden;2.65;13(2.1), 09(0.5);13;0.79;1.8;60-min-Takt stabil;0.98
+IC 55;Bonn Hbf;Dresden;2.68;44(2.7);44;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Köln Hbf;Dresden;3.35;11(3.4);11;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Wuppertal Hbf;Dresden;3.35;43(3.4);43;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Hagen Hbf;Dresden;3.35;00(2.8), 59(0.6);0;0.83;0.4;60-min-Takt stabil;1.01
+IC 55;Dortmund Hbf;Dresden;3.58;28(3.6);28;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Hamm(Westf)Hbf;Dresden;3.19;44(3.2);44;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Bielefeld Hbf;Dresden;3.58;20(3.6);20;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Hannover Hbf;Dresden;5.39;37(4.6), 36(0.8);37;0.85;0.4;60-min-Takt stabil;1.0
+IC 55;Braunschweig Hbf;Dresden;5.39;10(5.4);10;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Magdeburg Hbf;Dresden;7.35;01(6.7), 00(0.7);1;0.91;0.3;60-min-Takt stabil;1.01
+IC 55;Halle(Saale)Hbf;Dresden;7.35;54(6.7), 55(0.7);54;0.91;0.3;60-min-Takt stabil;1.01
+IC 55;Leipzig Hbf;Dresden;7.68;25(7.4), 24(0.3);25;0.96;0.2;60-min-Takt stabil;1.0
+ICE 33;Stralsund Hbf;Köln;1.1;04(1.1);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Rostock Hbf;Köln;1.1;04(1.1);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Schwerin Hbf;Köln;1.1;55(1.1);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Hamburg Hbf;Köln;2.0;10(1.1), 12(0.8), 11(0.1);10;0.55;1.3;Zwei-Lagen-Takt (120 min);0.95
+ICE 33;Bremen Hbf;Köln;2.06;11(1.6), 10(0.4), 09(0.1);11;0.77;0.6;60-min-Takt stabil;0.97
+ICE 33;Osnabrück Hbf;Köln;2.06;04(1.5), 03(0.5), 02(0.1);4;0.7;0.6;60-min-Takt stabil;0.97
+ICE 33;Münster(Westf)Hbf;Köln;2.06;29(1.9), 28(0.1);29;0.94;0.2;60-min-Takt stabil;0.97
+ICE 33;Oberhausen Hbf;Köln;2.03;27(1.4), 29(0.5), 26(0.1), 28(0.1);27;0.7;1.0;60-min-Takt stabil;0.94
+ICE 33;Duisburg Hbf;Köln;2.03;37(1.6), 44(0.3), 43(0.1), 36(0.1);37;0.78;3.0;60-min-Takt stabil;0.94
+ICE 33;Düsseldorf Hbf;Köln;2.06;51(1.6), 02(0.3), 01(0.1), 50(0.1);51;0.77;4.9;60-min-Takt stabil;0.92
+ICE 42;Hamburg Hbf;Hamburg;6.74;21(5.1), 22(0.7), 53(0.5), 32(0.1), 57(0.1), 20(0.0);21;0.76;8.7;60-min-Takt stabil;0.86
+ICE 10;Berlin Hbf;Köln;11.35;47(9.7), 35(0.8), 51(0.6), 17(0.1), 34(0.1), 59(0.0);47;0.86;4.5;60-min-Takt stabil;0.93
+ICE 10;Wolfsburg Hbf;Köln;10.61;53(10.4), 45(0.1), 40(0.1);53;0.98;1.3;60-min-Takt stabil;0.99
+ICE 10;Hannover Hbf;Köln;11.39;31(10.4), 46(0.7), 23(0.1), 18(0.1), 57(0.0);31;0.92;4.3;60-min-Takt stabil;0.97
+ICE 10;Bielefeld Hbf;Köln;10.71;22(7.9), 25(1.3), 02(0.6), 26(0.6), 14(0.1), 09(0.1);22;0.74;5.3;60-min-Takt stabil;0.86
+ICE 10;Hamm(Westf)Hbf;Köln;11.26;56(6.8), 54(2.6), 55(0.6), 35(0.5), 39(0.3), 40(0.2);56;0.6;6.2;60-min-Takt stabil;0.83
+ICE 10;Dortmund Hbf;Köln;4.0;15(1.3), 14(1.0), 16(0.6), 53(0.5), 12(0.1), 08(0.1);15;0.31;9.4;kein systematischer Takt;0.57
+ICE 10;Duisburg Hbf;Köln;3.42;59(0.9), 50(0.8), 53(0.6), 30(0.4), 46(0.1), 29(0.1);59;0.27;13.8;kein systematischer Takt;0.5
+ICE 10;Düsseldorf Hbf;Köln;3.55;09(0.7), 11(0.6), 14(0.6), 49(0.5), 13(0.2), 51(0.2);9;0.2;10.3;kein systematischer Takt;0.37
+ICE 91;Dortmund Hbf;Nürnberg;4.65;21(1.2), 24(0.5), 20(0.5), 54(0.4), 55(0.4), 35(0.4);21;0.26;15.5;kein systematischer Takt;0.37
+ICE 91;Düsseldorf Hbf;Nürnberg;5.35;25(2.7), 00(0.7), 03(0.4), 58(0.4), 23(0.3), 59(0.3);25;0.51;14.4;kein systematischer Takt;0.64
+ICE 91;Bonn Hbf;Nürnberg;5.45;14(4.9), 49(0.3), 13(0.1), 46(0.1), 32(0.0);14;0.91;6.7;60-min-Takt stabil;0.95
+ICE 91;Koblenz Hbf;Nürnberg;5.45;48(4.9), 30(0.1), 33(0.1), 47(0.1), 25(0.1), 14(0.0);48;0.91;5.1;60-min-Takt stabil;0.92
+ICE 91;Mainz Hbf;Nürnberg;3.58;42(3.0), 40(0.4), 20(0.1), 15(0.1), 06(0.0);42;0.84;6.0;60-min-Takt stabil;0.95
+ICE 91;Frankfurt(Main)Hbf;Nürnberg;5.45;19(4.5), 20(0.5), 55(0.1), 56(0.1), 21(0.1), 50(0.1);19;0.82;6.6;60-min-Takt stabil;0.92
+ICE 91;Hanau Hbf;Nürnberg;5.45;35(4.5), 36(0.5), 11(0.1), 13(0.1), 37(0.1), 06(0.1);35;0.82;6.5;60-min-Takt stabil;0.92
+ICE 91;Würzburg Hbf;Nürnberg;5.45;34(2.7), 33(2.3), 02(0.3), 46(0.0), 18(0.0), 10(0.0);34;0.5;7.3;Zwei-Lagen-Takt (120 min);0.92
+ICE 11;Leipzig Hbf;München;6.94;49(5.0), 48(1.0), 58(0.9);49;0.72;3.3;60-min-Takt stabil;0.86
+ICE 20;Hamburg Hbf;Frankfurt;1.06;27(1.0), 29(0.1);27;0.94;0.5;60-min-Takt stabil;1.04
+ICE 20;Hannover Hbf;Frankfurt;1.06;53(1.0), 54(0.1);53;0.94;0.2;60-min-Takt stabil;1.04
+ICE 20;Göttingen;Frankfurt;1.06;27(1.0), 29(0.1);27;0.94;0.5;60-min-Takt stabil;1.04
+ICE 20;Kassel-Wilhelmshöhe;Frankfurt;1.06;49(1.1);49;1.0;0.0;60-min-Takt stabil;1.04
+ICE 41;München Hbf;Frankfurt;1.32;45(0.7), 11(0.2), 44(0.2), 00(0.1), 07(0.0), 10(0.0);45;0.56;12.7;kein systematischer Takt;0.68
+ICE 41;Nürnberg Hbf;Frankfurt;1.32;00(1.2), 28(0.0), 27(0.0), 01(0.0);0;0.93;6.1;60-min-Takt stabil;0.91
+ICE 41;Würzburg Hbf;Frankfurt;1.32;56(1.0), 55(0.3), 52(0.0);56;0.73;0.8;60-min-Takt stabil;0.98
+ICE 41;München Hbf;Düsseldorf;5.39;45(2.7), 44(1.1), 42(0.5), 46(0.5), 41(0.5);45;0.51;1.6;Zwei-Lagen-Takt (120 min);0.71
+ICE 41;Ingolstadt Hbf;Düsseldorf;1.0;27(0.5), 26(0.5);27;0.55;0.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 41;Nürnberg Hbf;Düsseldorf;5.39;00(4.8), 59(0.5);0;0.9;0.3;60-min-Takt stabil;0.98
+ICE 41;Würzburg Hbf;Düsseldorf;5.39;55(5.4);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Hanau Hbf;Düsseldorf;1.23;48(1.2), 49(0.1);48;0.95;0.2;60-min-Takt stabil;1.06
+ICE 41;Siegburg/Bonn;Düsseldorf;4.84;01(4.3), 47(0.5);1;0.89;4.7;60-min-Takt stabil;0.99
+ICE 43;Düsseldorf Hbf;Hamburg;4.39;34(4.4);34;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Duisburg Hbf;Hamburg;4.39;47(4.4);47;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Ingolstadt Hbf;München;4.35;29(1.4), 30(0.7), 27(0.7), 31(0.4), 33(0.3), 16(0.3);29;0.31;9.2;kein systematischer Takt;0.48
+ICE 47;Essen Hbf;München;2.65;41(1.4), 14(0.5), 51(0.5), 34(0.4);41;0.51;12.2;Zwei-Lagen-Takt (120 min);0.72
+ICE 47;Duisburg Hbf;München;6.39;50(1.9), 56(0.9), 33(0.5), 46(0.5), 45(0.5), 49(0.5);50;0.3;7.3;kein systematischer Takt;0.44
+ICE 47;Düsseldorf Hbf;München;5.94;03(1.5), 05(1.1), 20(0.9), 47(0.5), 06(0.5), 14(0.5);3;0.26;12.2;kein systematischer Takt;0.44
+ICE 42;Hamm(Westf)Hbf;Hamburg;1.16;53(0.3), 37(0.2), 51(0.2), 05(0.1), 16(0.1), 57(0.1);53;0.22;12.0;kein systematischer Takt;0.43
+ICE 22;Kiel Hbf;Stuttgart;3.61;16(3.0), 56(0.3), 00(0.3);16;0.84;7.3;60-min-Takt stabil;0.91
+ICE 12;Braunschweig Hbf;Basel;6.06;57(6.0), 04(0.0);57;0.99;0.5;60-min-Takt stabil;0.99
+ICE 12;Hildesheim Hbf;Basel;6.06;19(6.0), 26(0.0);19;0.99;0.5;60-min-Takt stabil;0.99
+ICE 10;Berlin Hbf;Dortmund;1.84;47(1.8), 28(0.0);47;0.98;2.5;60-min-Takt stabil;0.98
+ICE 10;Wolfsburg Hbf;Dortmund;1.84;53(1.8), 39(0.0);53;0.98;1.9;60-min-Takt stabil;0.98
+ICE 10;Hannover Hbf;Dortmund;1.84;31(1.8), 13(0.0);31;0.98;2.4;60-min-Takt stabil;0.98
+ICE 10;Bielefeld Hbf;Dortmund;1.58;25(0.8), 26(0.8), 15(0.0);25;0.49;1.6;Zwei-Lagen-Takt (120 min);1.01
+ICE 10;Hamm(Westf)Hbf;Dortmund;1.84;54(0.8), 55(0.8), 25(0.3), 44(0.0);54;0.42;11.0;Zwei-Lagen-Takt (120 min);0.87
+ICE 13;Heidelberg Hbf;Berlin;2.19;18(1.6), 17(0.6);18;0.72;0.5;60-min-Takt stabil;1.0
+ICE 41;München Hbf;Dortmund;3.55;45(1.5), 46(1.0), 44(1.0);45;0.44;0.8;Zwei-Lagen-Takt (120 min);0.7
+ICE 41;Nürnberg Hbf;Dortmund;3.55;00(2.5), 01(1.0);0;0.72;0.5;60-min-Takt stabil;0.99
+ICE 41;Würzburg Hbf;Dortmund;3.55;55(3.5);55;1.0;0.0;60-min-Takt stabil;0.99
+ICE 41;Frankfurt(Main)Hbf;Dortmund;2.81;08(2.0), 07(0.8);8;0.71;0.5;60-min-Takt stabil;1.0
+ICE 41;Siegburg/Bonn;Dortmund;2.39;01(2.4);1;1.0;0.0;60-min-Takt stabil;1.0
+IC 87;Singen(Hohentwiel);Tuttlingen;1.32;36(0.7), 35(0.5), 29(0.1);36;0.51;2.0;Zwei-Lagen-Takt (120 min);0.91
+ICE 82;Saarbrücken Hbf;Frankfurt;2.71;00(1.7), 59(0.9), 01(0.1);0;0.63;0.6;60-min-Takt stabil;0.96
+ICE 82;Kaiserslautern Hbf;Frankfurt;2.71;38(1.6), 37(0.8), 51(0.1), 42(0.1), 58(0.1);38;0.61;4.0;60-min-Takt stabil;0.89
+ICE 82;Mannheim Hbf;Frankfurt;4.81;19(2.5), 21(1.1), 20(1.0), 36(0.1), 28(0.1), 38(0.1);19;0.51;3.6;Zwei-Lagen-Takt (120 min);0.75
+ICE 77;Berlin Hbf;Hengelo;5.94;16(4.7), 14(0.9), 04(0.1), 30(0.1), 28(0.0), 02(0.0);16;0.79;3.0;60-min-Takt stabil;0.94
+ICE 77;Hannover Hbf;Hengelo;7.0;56(6.5), 10(0.2), 43(0.2), 38(0.0), 55(0.0);56;0.94;3.4;60-min-Takt stabil;0.96
+ICE 77;Osnabrück Hbf;Hengelo;6.55;06(6.5);6;1.0;0.0;60-min-Takt stabil;0.99
+ICE 62;Frankfurt(Main)Hbf;Salzburg;1.74;11(0.9), 10(0.9);11;0.5;0.7;Zwei-Lagen-Takt (120 min);1.03
+ICE 62;Heidelberg Hbf;Salzburg;2.0;13(2.0);13;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Ulm Hbf;Salzburg;3.0;56(3.0);56;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Augsburg Hbf;Salzburg;3.0;42(3.0);42;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Ingolstadt Hbf;Köln;1.68;28(0.8), 27(0.5), 26(0.4);28;0.5;1.1;Zwei-Lagen-Takt (120 min);0.77
+ICE 41;Frankfurt(Main)Hbf;Köln;6.13;08(3.5), 07(1.7), 41(0.5), 11(0.4), 26(0.0);8;0.57;7.5;Zwei-Lagen-Takt (120 min);0.85
+ICE 41;Siegburg/Bonn;Köln;5.74;01(3.4), 14(0.8), 17(0.7), 47(0.5), 00(0.3), 09(0.0);1;0.59;9.0;Zwei-Lagen-Takt (120 min);0.73
+ICE 91;Nürnberg Hbf;Dortmund;4.65;32(4.6), 31(0.0);32;0.99;0.1;60-min-Takt stabil;0.99
+ICE 91;Würzburg Hbf;Dortmund;4.65;26(4.6), 25(0.0);26;0.99;0.1;60-min-Takt stabil;0.99
+ICE 91;Hanau Hbf;Dortmund;4.65;18(4.6), 17(0.0);18;0.99;0.1;60-min-Takt stabil;0.99
+ICE 91;Frankfurt(Main)Hbf;Dortmund;5.0;41(3.0), 43(1.0), 42(0.9), 44(0.1);41;0.61;1.1;60-min-Takt stabil;0.8
+ICE 91;Mainz Hbf;Dortmund;3.26;19(2.6), 20(0.6), 18(0.0);19;0.8;0.4;60-min-Takt stabil;0.98
+ICE 91;Koblenz Hbf;Dortmund;4.84;12(3.9), 13(0.8), 53(0.2), 55(0.0);12;0.8;3.8;60-min-Takt stabil;0.97
+ICE 91;Bonn Hbf;Dortmund;4.84;44(4.6), 25(0.2), 26(0.0), 43(0.0);44;0.95;3.8;60-min-Takt stabil;0.99
+ICE 91;Köln Hbf;Dortmund;3.35;11(2.1), 14(0.5), 13(0.5), 52(0.2), 19(0.1), 56(0.0);11;0.62;5.2;60-min-Takt stabil;0.78
+ICE 91;Düsseldorf Hbf;Dortmund;3.48;33(1.8), 58(0.5), 50(0.2), 36(0.2), 52(0.1), 43(0.1);33;0.53;12.8;kein systematischer Takt;0.66
+ICE 91;Duisburg Hbf;Dortmund;2.35;46(1.2), 53(0.5), 01(0.1), 49(0.1), 04(0.1), 27(0.1);46;0.52;7.9;Zwei-Lagen-Takt (120 min);0.72
+ICE 91;Oberhausen Hbf;Dortmund;1.84;55(1.3), 57(0.2), 09(0.1), 12(0.1), 36(0.1), 39(0.0);55;0.68;7.9;60-min-Takt stabil;0.82
+ICE 13;Kassel-Wilhelmshöhe;Karlsruhe;2.97;13(3.0);13;1.0;0.0;60-min-Takt stabil;1.01
+ICE 13;Fulda;Karlsruhe;2.97;44(2.0), 45(1.0);44;0.66;0.6;60-min-Takt stabil;1.01
+ICE 13;Heidelberg Hbf;Karlsruhe;1.71;43(1.7);43;1.0;0.0;60-min-Takt stabil;0.99
+ICE 10;Hagen Hbf;Köln;7.42;25(6.8), 08(0.3), 09(0.1), 51(0.1), 06(0.0), 24(0.0);25;0.92;5.0;60-min-Takt stabil;0.96
+ICE 10;Wuppertal Hbf;Köln;7.52;42(6.8), 25(0.3), 26(0.1), 04(0.1), 08(0.0), 14(0.0);42;0.91;5.5;60-min-Takt stabil;0.94
+ICE 20;Basel SBB;Hamburg;4.45;46(4.5);46;1.0;0.0;60-min-Takt stabil;1.01
+ICE 20;Freiburg(Breisgau) Hbf;Hamburg;4.55;27(4.5);27;1.0;0.0;60-min-Takt stabil;0.99
+ICE 20;Offenburg;Hamburg;4.55;58(3.6), 02(0.9);58;0.79;1.8;60-min-Takt stabil;0.99
+ICE 20;Karlsruhe Hbf;Hamburg;5.06;37(5.1);37;1.0;0.0;60-min-Takt stabil;1.01
+ICE 20;Mannheim Hbf;Hamburg;5.06;03(5.1);3;1.0;0.0;60-min-Takt stabil;1.01
+ICE 20;Frankfurt(Main)Hbf;Hamburg;4.65;46(4.6);46;1.0;0.0;60-min-Takt stabil;0.99
+ICE 20;Kassel-Wilhelmshöhe;Hamburg;6.06;13(4.7), 14(1.0), 52(0.3), 12(0.0);13;0.78;4.6;60-min-Takt stabil;0.94
+ICE 20;Göttingen;Hamburg;6.06;33(5.7), 12(0.3), 34(0.0), 32(0.0);33;0.94;4.6;60-min-Takt stabil;0.99
+ICE 20;Hannover Hbf;Hamburg;6.06;08(5.7), 47(0.3), 09(0.0), 07(0.0);8;0.94;4.6;60-min-Takt stabil;0.99
+ICE 42;Frankfurt(Main)Hbf;Hamburg;1.9;46(0.8), 22(0.7), 23(0.2), 47(0.0), 25(0.0), 39(0.0);46;0.42;16.5;Zwei-Lagen-Takt (120 min);0.79
+ICE 62;Stuttgart Hbf;Frankfurt;3.65;05(1.9), 04(0.6), 43(0.5), 54(0.4), 02(0.3);5;0.51;8.8;kein systematischer Takt;0.68
+ICE 12;Frankfurt(Main)Hbf;Berlin;7.26;15(6.3), 35(1.0);15;0.86;7.4;60-min-Takt stabil;1.01
+ICE 25;München Hbf;Hannover;2.32;13(0.8), 12(0.8), 07(0.3), 11(0.3), 08(0.1), 10(0.0);13;0.36;2.5;kein systematischer Takt;0.69
+ICE 25;Nürnberg Hbf;Hannover;2.32;30(1.1), 31(1.0), 32(0.2);30;0.49;0.9;Zwei-Lagen-Takt (120 min);0.91
+ICE 25;Würzburg Hbf;Hannover;2.32;28(1.9), 27(0.4);28;0.83;0.4;60-min-Takt stabil;0.99
+ICE 25;Fulda;Hannover;2.32;04(1.4), 03(0.9), 06(0.0);4;0.6;0.7;60-min-Takt stabil;0.99
+ICE 25;Kassel-Wilhelmshöhe;Hannover;2.32;36(1.4), 35(0.9), 57(0.0);36;0.6;2.6;60-min-Takt stabil;0.99
+ICE 25;Göttingen;Hannover;2.32;59(1.4), 56(0.8), 58(0.1), 33(0.0), 26(0.0);59;0.6;4.7;60-min-Takt stabil;0.95
+ICE 10;Braunschweig Hbf;Berlin;1.61;45(0.8), 16(0.5), 35(0.1), 53(0.1), 25(0.0), 24(0.0);45;0.52;17.6;Zwei-Lagen-Takt (120 min);0.81
+ICE 19;Köln Hbf;Berlin;7.45;44(4.1), 19(1.5), 45(1.0), 36(0.2), 20(0.2), 29(0.1);44;0.55;12.2;Zwei-Lagen-Takt (120 min);0.75
+ICE 19;Wuppertal Hbf;Berlin;7.45;15(5.0), 50(1.6), 21(0.4), 27(0.2), 23(0.1), 22(0.1);15;0.68;12.1;60-min-Takt stabil;0.89
+ICE 19;Hagen Hbf;Berlin;7.45;32(5.0), 07(1.6), 45(0.3), 40(0.2), 39(0.2), 41(0.1);32;0.68;12.2;60-min-Takt stabil;0.89
+ICE 19;Hannover Hbf;Berlin;7.45;22(6.7), 23(0.7), 41(0.0);22;0.9;1.3;60-min-Takt stabil;0.99
+ICE 19;Berlin Hbf;Berlin;7.45;59(7.1), 02(0.3), 21(0.0), 00(0.0);59;0.96;1.6;60-min-Takt stabil;0.99
+ICE 26;Frankfurt(Main)Hbf;Bremen;2.0;26(1.0), 27(1.0);26;0.5;0.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 26;Gießen;Bremen;2.0;08(2.0);8;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Marburg(Lahn);Bremen;2.0;26(2.0);26;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Kassel-Wilhelmshöhe;Bremen;2.0;29(2.0);29;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Göttingen;Bremen;2.0;02(1.8), 00(0.2);2;0.9;0.6;60-min-Takt stabil;1.0
+ICE 26;Hannover Hbf;Bremen;3.26;45(3.3);45;1.0;0.0;60-min-Takt stabil;1.01
+ICE 78;Düsseldorf Hbf;Arnhem Centraal;3.84;11(3.8);11;1.0;0.0;60-min-Takt stabil;0.99
+ICE 42;Oberhausen Hbf;Hamburg;1.32;54(0.9), 57(0.2), 15(0.1), 24(0.0), 37(0.0), 04(0.0);54;0.68;8.4;60-min-Takt stabil;0.83
+ICE 28;Berlin Hbf;Hamburg;7.32;37(6.5), 29(0.8);37;0.89;2.7;60-min-Takt stabil;1.0
+ICE 28;Hamburg Hbf;Hamburg;4.87;28(4.2), 29(0.6), 43(0.0);28;0.87;1.3;60-min-Takt stabil;0.99
+ICE 49;Frankfurt(Main)Hbf;Köln;7.68;11(5.0), 12(1.0), 03(1.0), 01(0.7);11;0.65;4.2;60-min-Takt stabil;0.78
+ICE 49;Siegburg/Bonn;Köln;6.0;18(6.0);18;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Köln Hbf;München;6.71;35(4.1), 21(0.8), 28(0.8), 34(0.5), 45(0.4), 17(0.1);35;0.61;6.4;60-min-Takt stabil;0.73
+IC 56;Leipzig Hbf;Emden;3.06;42(2.3), 16(0.3), 21(0.2), 20(0.2), 50(0.0), 22(0.0);42;0.76;11.1;60-min-Takt stabil;0.85
+IC 56;Halle(Saale)Hbf;Emden;2.94;06(2.3), 43(0.2), 42(0.2), 40(0.2), 44(0.0), 29(0.0);6;0.79;11.0;60-min-Takt stabil;0.85
+IC 56;Magdeburg Hbf;Emden;3.1;01(2.4), 39(0.2), 38(0.2), 37(0.2), 28(0.1), 07(0.0);1;0.76;11.3;60-min-Takt stabil;0.84
+IC 56;Hannover Hbf;Emden;4.1;45(3.9), 01(0.2);45;0.96;3.2;60-min-Takt stabil;1.0
+IC 56;Bremen Hbf;Emden;4.1;53(3.9), 11(0.2);53;0.96;3.6;60-min-Takt stabil;1.0
+ICE 28;Hamburg Hbf;München;5.68;34(5.4), 32(0.3);34;0.95;0.5;60-min-Takt stabil;1.0
+ICE 28;Berlin Hbf;München;6.68;29(6.4), 27(0.3);29;0.96;0.4;60-min-Takt stabil;1.0
+ICE 28;Lutherstadt Wittenberg Hbf;München;6.68;12(6.4), 10(0.3);12;0.96;0.4;60-min-Takt stabil;1.0
+ICE 28;Leipzig Hbf;München;7.61;55(5.4), 53(1.3), 41(0.9);55;0.71;5.0;60-min-Takt stabil;0.88
+ICE 28;Erfurt Hbf;München;7.68;35(6.4), 24(1.0), 33(0.3);35;0.83;4.0;60-min-Takt stabil;0.96
+ICE 28;Bamberg;München;7.68;16(6.4), 27(1.0), 14(0.3);16;0.83;4.0;60-min-Takt stabil;0.96
+ICE 28;Nürnberg Hbf;München;7.68;55(6.4), 12(1.0), 53(0.3);55;0.83;6.1;60-min-Takt stabil;0.96
+EC 97;Leipzig Hbf;Horka;1.94;55(1.4), 37(0.3), 33(0.3);55;0.73;10.4;60-min-Takt stabil;0.88
+IC 35;Duisburg Hbf;Emden Außenhafen;1.32;23(0.5), 26(0.5), 46(0.2), 43(0.1);23;0.41;10.9;Zwei-Lagen-Takt (120 min);0.76
+IC 35;Oberhausen Hbf;Emden Außenhafen;1.0;30(0.5), 33(0.5);30;0.55;2.0;Zwei-Lagen-Takt (120 min);1.0
+IC 35;Münster(Westf)Hbf;Emden Außenhafen;1.32;30(0.9), 54(0.3), 41(0.1), 11(0.1);30;0.71;11.7;60-min-Takt stabil;0.91
+IC 35;Emden Hbf;Emden Außenhafen;1.32;45(0.9), 09(0.3), 51(0.1), 11(0.1);45;0.71;12.1;60-min-Takt stabil;0.91
+ICE 12;Berlin Hbf;Karlsruhe;1.06;37(1.0), 30(0.1);37;0.94;1.7;60-min-Takt stabil;1.04
+ICE 12;Wolfsburg Hbf;Karlsruhe;1.06;38(1.1);38;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Braunschweig Hbf;Karlsruhe;1.06;57(1.1);57;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Hildesheim Hbf;Karlsruhe;1.06;19(1.1);19;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Göttingen;Karlsruhe;1.06;52(1.1);52;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Kassel-Wilhelmshöhe;Karlsruhe;1.06;13(1.1);13;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Fulda;Karlsruhe;1.06;46(1.1);46;1.0;0.0;60-min-Takt stabil;1.04
+ICE 12;Hanau Hbf;Karlsruhe;1.06;29(1.0), 32(0.0), 52(0.0);29;0.94;4.0;60-min-Takt stabil;0.94
+ECE 20;Hamburg Hbf;Basel;1.9;29(1.9);29;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Hannover Hbf;Basel;1.9;53(1.9);53;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Göttingen;Basel;1.9;27(1.9);27;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Kassel-Wilhelmshöhe;Basel;1.9;48(1.9);48;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Frankfurt(Main)Hbf;Basel;1.48;20(1.5);20;1.0;0.0;60-min-Takt stabil;1.01
+ECE 20;Mannheim Hbf;Basel;1.9;00(1.9);0;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Karlsruhe Hbf;Basel;1.9;26(1.9);26;1.0;0.0;60-min-Takt stabil;1.0
+ECE 20;Offenburg;Basel;1.9;00(1.8), 58(0.1);0;0.95;0.5;60-min-Takt stabil;1.0
+ECE 20;Freiburg(Breisgau) Hbf;Basel;1.9;34(1.0), 33(0.9);34;0.51;0.7;Zwei-Lagen-Takt (120 min);1.0
+IC 56;Bremen Hbf;Berlin;1.9;09(1.9);9;1.0;0.0;60-min-Takt stabil;1.0
+IC 56;Hannover Hbf;Berlin;1.9;36(1.5), 37(0.4);36;0.8;0.5;60-min-Takt stabil;1.0
+IC 56;Braunschweig Hbf;Berlin;1.52;10(1.5);10;1.0;0.0;60-min-Takt stabil;0.99
+IC 56;Magdeburg Hbf;Berlin;1.9;04(0.7), 21(0.5), 03(0.3), 29(0.2), 24(0.2);4;0.37;13.7;kein systematischer Takt;0.63
+ICE 62;München Hbf;Salzburg;1.26;16(1.3);16;1.0;0.0;60-min-Takt stabil;1.03
+IC 87;Stuttgart Hbf;Oberndorf;1.65;16(0.8), 28(0.3), 27(0.2), 17(0.2), 25(0.2);16;0.51;6.9;kein systematischer Takt;0.67
+ICE 16;Bremen Hbf;Hannover;4.0;15(4.0);15;1.0;0.0;60-min-Takt stabil;1.0
+ICE 42;Siegburg/Bonn;München;1.84;03(1.0), 09(0.4), 22(0.1), 40(0.1), 14(0.1), 30(0.0);3;0.54;9.6;Zwei-Lagen-Takt (120 min);0.76
+EC 90;München Hbf;Simbach;2.9;21(2.9);21;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Bremen Hbf;Hannover;1.39;15(1.2), 12(0.2);15;0.84;1.2;60-min-Takt stabil;1.01
+ICE 20;Frankfurt(Main)Hbf;Basel;3.26;20(3.2), 22(0.0);20;0.99;0.2;60-min-Takt stabil;0.98
+ICE 62;Ulm Hbf;Dortmund;1.0;54(0.7), 56(0.3);54;0.71;1.1;60-min-Takt stabil;1.0
+ICE 62;Mannheim Hbf;Dortmund;1.0;55(1.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Siegburg/Bonn;Dortmund;1.0;34(1.0);34;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Düsseldorf Hbf;Dortmund;2.23;39(1.0), 38(0.7), 51(0.1), 42(0.1), 50(0.1), 00(0.1);39;0.46;6.0;Zwei-Lagen-Takt (120 min);0.76
+ICE 41;Duisburg Hbf;Dortmund;2.1;53(1.0), 52(0.7), 58(0.1), 19(0.1), 04(0.1), 02(0.0);53;0.49;6.1;Zwei-Lagen-Takt (120 min);0.81
+ICE 11;Mannheim Hbf;Frankfurt;1.0;29(0.8), 38(0.1), 51(0.1), 42(0.0), 07(0.0);29;0.77;7.8;60-min-Takt stabil;0.9
+ICE 43;Basel SBB;Köln;1.03;16(1.0);16;1.0;0.0;60-min-Takt stabil;0.97
+ICE 43;Freiburg(Breisgau) Hbf;Köln;1.03;55(1.0);55;1.0;0.0;60-min-Takt stabil;0.97
+ICE 43;Karlsruhe Hbf;Köln;1.1;59(1.1);59;1.0;0.0;60-min-Takt stabil;1.0
+ICE 43;Mannheim Hbf;Köln;1.1;33(1.1);33;1.0;0.0;60-min-Takt stabil;1.0
+ICE 12;Berlin Hbf;Berlin;2.58;42(1.9), 41(0.6);42;0.75;0.5;60-min-Takt stabil;0.97
+ICE 18;Berlin Hbf;Hamburg;4.55;09(3.5), 08(0.7), 34(0.3);9;0.78;6.3;60-min-Takt stabil;0.92
+ICE 4;Hamburg Hbf;Frankfurt;1.68;21(0.8), 23(0.8);21;0.5;1.4;Zwei-Lagen-Takt (120 min);0.95
+ICE 4;Hannover Hbf;Frankfurt;1.68;41(1.2), 39(0.5);41;0.71;1.1;60-min-Takt stabil;1.01
+ICE 14;Hannover Hbf;Essen;1.13;56(1.1);56;1.0;0.0;60-min-Takt stabil;0.97
+ICE 14;Bielefeld Hbf;Essen;1.13;55(1.1);55;1.0;0.0;60-min-Takt stabil;0.97
+ICE 14;Hamm(Westf)Hbf;Essen;1.13;25(1.1);25;1.0;0.0;60-min-Takt stabil;0.97
+ICE 14;Dortmund Hbf;Essen;1.13;49(1.1);49;1.0;0.0;60-min-Takt stabil;0.97
+IC 55;Dortmund Hbf;Heidelberg;1.65;36(1.5), 35(0.2);36;0.88;0.3;60-min-Takt stabil;1.03
+IC 55;Hagen Hbf;Heidelberg;1.65;57(1.4), 58(0.2);57;0.86;0.4;60-min-Takt stabil;0.97
+IC 55;Wuppertal Hbf;Heidelberg;1.65;14(1.6);14;1.0;0.0;60-min-Takt stabil;0.97
+IC 55;Köln Hbf;Heidelberg;2.48;53(2.5);53;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Bonn Hbf;Heidelberg;2.48;14(1.7), 15(0.8);14;0.69;0.6;60-min-Takt stabil;1.01
+IC 55;Koblenz Hbf;Heidelberg;2.48;48(2.5);48;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Mainz Hbf;Heidelberg;2.48;42(2.5);42;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Mannheim Hbf;Heidelberg;2.48;23(2.5);23;1.0;0.0;60-min-Takt stabil;1.01
+ICE 18;Hamburg Hbf;Hamburg;4.26;14(3.4), 13(0.7), 35(0.0), 50(0.0), 43(0.0), 58(0.0);14;0.8;4.0;60-min-Takt stabil;0.96
+ICE 4;Frankfurt(Main)Hbf;Hamburg;1.55;02(1.5);2;1.0;0.0;60-min-Takt stabil;0.97
+ICE 4;Hannover Hbf;Hamburg;1.55;19(1.2), 20(0.4);19;0.75;0.5;60-min-Takt stabil;1.03
+ICE 10;Berlin Hbf;Hannover;1.58;47(0.8), 40(0.4), 38(0.2), 34(0.1), 36(0.0), 30(0.0);47;0.53;6.4;Zwei-Lagen-Takt (120 min);0.76
+IC 55;Magdeburg Hbf;Dortmund;1.1;04(1.0), 02(0.1);4;0.88;0.7;60-min-Takt stabil;1.0
+IC 55;Braunschweig Hbf;Dortmund;1.1;49(1.1);49;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Hannover Hbf;Dortmund;1.1;40(1.1);40;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Bielefeld Hbf;Dortmund;1.06;42(1.0), 44(0.1), 43(0.0);42;0.91;0.5;60-min-Takt stabil;1.04
+ICE 41;Duisburg Hbf;München;2.26;06(1.6), 44(0.4), 03(0.1), 34(0.1), 49(0.0), 43(0.0);6;0.73;11.0;60-min-Takt stabil;0.88
+ICE 33;Stralsund Hbf;Hannover;1.0;04(1.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Rostock Hbf;Hannover;1.0;04(1.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Schwerin Hbf;Hannover;1.0;55(1.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 14;Essen Hbf;Berlin;2.06;44(1.2), 47(0.6), 32(0.3);44;0.59;4.5;Zwei-Lagen-Takt (120 min);0.87
+ICE 14;Dortmund Hbf;Berlin;3.03;10(1.2), 11(1.1), 09(0.7);10;0.4;0.8;Zwei-Lagen-Takt (120 min);0.76
+ICE 14;Hamm(Westf)Hbf;Berlin;3.03;33(2.4), 32(0.7);33;0.78;0.5;60-min-Takt stabil;1.02
+ICE 14;Bielefeld Hbf;Berlin;3.03;05(3.0);5;1.0;0.0;60-min-Takt stabil;0.99
+ICE 14;Hannover Hbf;Berlin;4.39;04(4.4);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Stralsund Hbf;Hamburg;2.0;04(2.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Rostock Hbf;Hamburg;2.0;04(2.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Schwerin Hbf;Hamburg;2.0;55(2.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;Nürnberg Hbf;Leipzig;1.0;05(1.0);5;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;Bamberg;Leipzig;1.0;42(0.9), 46(0.0), 50(0.0);42;0.94;1.6;60-min-Takt stabil;0.9
+ICE 28;Erfurt Hbf;Leipzig;1.0;25(1.0), 28(0.0);25;0.97;0.5;60-min-Takt stabil;1.0
+ICE 62;Münster(Westf)Hbf;Salzburg;1.0;06(0.5), 30(0.4), 18(0.1);6;0.55;15.2;Zwei-Lagen-Takt (120 min);0.9
+ICE 62;Duisburg Hbf;Salzburg;1.0;18(0.5), 49(0.4), 50(0.1);18;0.55;19.4;Zwei-Lagen-Takt (120 min);0.9
+ICE 62;Düsseldorf Hbf;Salzburg;1.0;33(0.5), 11(0.4), 12(0.1);33;0.55;14.7;Zwei-Lagen-Takt (120 min);0.9
+IC 35;Düsseldorf Hbf;Emden;1.84;09(1.0), 12(0.8);9;0.54;2.0;Zwei-Lagen-Takt (120 min);0.98
+IC 35;Duisburg Hbf;Emden;1.84;23(1.0), 26(0.8);23;0.54;2.0;Zwei-Lagen-Takt (120 min);0.98
+IC 35;Oberhausen Hbf;Emden;1.84;30(1.0), 33(0.8);30;0.54;2.0;Zwei-Lagen-Takt (120 min);0.98
+IC 35;Münster(Westf)Hbf;Emden;1.84;30(1.7), 44(0.1), 42(0.0);30;0.95;3.1;60-min-Takt stabil;0.98
+ICE 49;Köln Hbf;Frankfurt;7.35;29(5.7), 33(1.0), 27(0.7);29;0.77;1.6;60-min-Takt stabil;0.91
+ICE 49;Siegburg/Bonn;Frankfurt;6.35;43(6.4);43;1.0;0.0;60-min-Takt stabil;1.01
+ICE 19;Bielefeld Hbf;Berlin;5.03;27(5.0), 45(0.0);27;0.99;1.4;60-min-Takt stabil;0.99
+ICE 82;Karlsruhe Hbf;Frankfurt;2.1;54(2.0), 52(0.1), 53(0.0);54;0.95;0.4;60-min-Takt stabil;1.0
+ICE 28;Nürnberg Hbf;Hamburg;5.32;05(4.5), 37(0.8);5;0.84;11.1;60-min-Takt stabil;1.0
+ICE 28;Bamberg;Hamburg;5.32;42(4.5), 18(0.8);42;0.84;9.5;60-min-Takt stabil;1.0
+ICE 28;Erfurt Hbf;Hamburg;6.0;25(6.0);25;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;Leipzig Hbf;Hamburg;6.42;12(6.4);12;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;Lutherstadt Wittenberg Hbf;Hamburg;6.48;48(5.5), 47(1.0);48;0.85;0.4;60-min-Takt stabil;1.0
+ICE 10;Bielefeld Hbf;Düsseldorf;9.1;22(4.9), 25(1.7), 26(1.5), 23(0.7), 14(0.1), 15(0.1);22;0.54;2.4;Zwei-Lagen-Takt (120 min);0.73
+ICE 82;Frankfurt(Main)Hbf;Strasbourg;1.97;53(1.0), 01(0.9), 37(0.0), 26(0.0);53;0.49;6.8;Zwei-Lagen-Takt (120 min);0.96
+ICE 82;Mannheim Hbf;Strasbourg;1.97;40(1.0), 39(0.8), 34(0.1), 28(0.0), 17(0.0);40;0.51;3.6;Zwei-Lagen-Takt (120 min);0.91
+ICE 82;Karlsruhe Hbf;Strasbourg;1.97;08(1.1), 06(0.8), 56(0.0), 50(0.0);8;0.54;3.1;Zwei-Lagen-Takt (120 min);0.96
+ICE 18;Hamburg Hbf;Berlin;5.06;51(5.1);51;1.0;0.0;60-min-Takt stabil;1.01
+ICE 18;Berlin Hbf;Berlin;3.42;55(1.6), 33(1.0), 38(0.7), 25(0.1), 14(0.0);55;0.47;14.8;Zwei-Lagen-Takt (120 min);0.76
+IC 56;Emden Hbf;Leipzig;4.68;16(4.7);16;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Magdeburg Hbf;Köln;1.16;04(0.6), 02(0.5), 03(0.0);4;0.5;1.4;Zwei-Lagen-Takt (120 min);0.95
+IC 55;Braunschweig Hbf;Köln;1.16;49(1.1), 48(0.0);49;0.97;0.2;60-min-Takt stabil;0.95
+IC 55;Hannover Hbf;Köln;1.16;40(1.1), 39(0.0);40;0.97;0.2;60-min-Takt stabil;0.95
+IC 55;Bielefeld Hbf;Köln;1.16;42(1.1), 41(0.0);42;0.97;0.2;60-min-Takt stabil;0.95
+IC 55;Hamm(Westf)Hbf;Köln;1.06;16(1.0), 15(0.0);16;0.97;0.2;60-min-Takt stabil;0.94
+IC 55;Dortmund Hbf;Köln;1.16;36(0.6), 35(0.5), 44(0.0);36;0.56;1.5;Zwei-Lagen-Takt (120 min);0.95
+IC 55;Hagen Hbf;Köln;1.1;57(1.0), 58(0.1);57;0.94;0.2;60-min-Takt stabil;1.0
+IC 55;Wuppertal Hbf;Köln;1.1;14(1.0), 28(0.1);14;0.94;3.4;60-min-Takt stabil;1.0
+ICE 47;München Hbf;Essen;1.61;19(0.8), 20(0.7), 47(0.0), 03(0.0), 01(0.0);19;0.52;5.3;Zwei-Lagen-Takt (120 min);0.93
+ICE 47;Augsburg Hbf;Essen;1.61;48(1.6), 28(0.0);48;0.98;2.8;60-min-Takt stabil;0.99
+ICE 47;Ulm Hbf;Essen;1.61;33(1.6);33;1.0;0.0;60-min-Takt stabil;0.99
+ICE 47;Mannheim Hbf;Essen;1.61;07(1.6);7;1.0;0.0;60-min-Takt stabil;0.99
+ICE 47;Düsseldorf Hbf;Essen;1.61;41(1.2), 44(0.4);41;0.76;1.5;60-min-Takt stabil;0.99
+ICE 47;Duisburg Hbf;Essen;1.61;00(1.2), 01(0.4);0;0.76;0.5;60-min-Takt stabil;0.99
+IC 35;Düsseldorf Hbf;Norddeich Mole;3.16;12(1.4), 09(1.1), 11(0.5), 05(0.1), 07(0.1);12;0.43;2.3;Zwei-Lagen-Takt (120 min);0.79
+IC 35;Duisburg Hbf;Norddeich Mole;3.16;26(1.4), 23(1.2), 24(0.5);26;0.45;2.0;Zwei-Lagen-Takt (120 min);0.82
+IC 35;Oberhausen Hbf;Norddeich Mole;3.16;33(1.4), 30(1.2), 31(0.5);33;0.45;2.0;Zwei-Lagen-Takt (120 min);0.82
+IC 35;Münster(Westf)Hbf;Norddeich Mole;3.16;30(2.9), 43(0.2), 42(0.1);30;0.93;3.4;60-min-Takt stabil;0.98
+IC 35;Emden Hbf;Norddeich Mole;3.16;42(2.0), 28(0.9), 48(0.1), 44(0.1), 47(0.1);42;0.63;7.7;60-min-Takt stabil;0.92
+ICE 28;München Hbf;Berlin;1.84;47(1.0), 46(0.8);47;0.54;0.7;Zwei-Lagen-Takt (120 min);0.98
+ICE 28;Nürnberg Hbf;Berlin;1.84;05(1.8);5;1.0;0.0;60-min-Takt stabil;0.98
+ICE 28;Bamberg;Berlin;1.84;42(1.8);42;1.0;0.0;60-min-Takt stabil;0.98
+ICE 28;Erfurt Hbf;Berlin;1.84;25(1.8);25;1.0;0.0;60-min-Takt stabil;0.98
+ICE 28;Leipzig Hbf;Berlin;1.84;12(1.8);12;1.0;0.0;60-min-Takt stabil;0.98
+ICE 28;Lutherstadt Wittenberg Hbf;Berlin;1.81;48(1.8);48;1.0;0.0;60-min-Takt stabil;0.99
+ICE 4;Frankfurt(Main)Hbf;Frankfurt;1.16;02(0.8), 03(0.4);2;0.67;0.6;60-min-Takt stabil;1.03
+ICE 11;Halle(Saale)Hbf;Berlin;1.06;44(0.8), 59(0.1), 53(0.0), 02(0.0), 51(0.0), 10(0.0);44;0.79;7.3;60-min-Takt stabil;0.85
+ICE 13;Berlin Hbf;Berlin;1.13;45(0.9), 42(0.2);45;0.8;1.3;60-min-Takt stabil;0.97
+IC 61;Nürnberg Hbf;Stuttgart;1.97;41(0.6), 40(0.5), 42(0.5), 37(0.2), 35(0.2), 38(0.1);41;0.31;2.2;kein systematischer Takt;0.56
+IC 35;Köln Hbf;Norddeich Mole;1.74;46(1.6), 41(0.1);46;0.94;1.2;60-min-Takt stabil;0.98
+ICE 91;Oberhausen Hbf;Nürnberg;2.65;02(1.4), 03(1.1), 01(0.1);2;0.54;0.7;Zwei-Lagen-Takt (120 min);0.94
+ICE 91;Duisburg Hbf;Nürnberg;3.19;11(2.2), 12(0.5), 10(0.3), 09(0.1);11;0.69;0.7;60-min-Takt stabil;0.85
+ICE 91;Köln Hbf;Nürnberg;3.29;53(3.2), 52(0.1);53;0.96;0.2;60-min-Takt stabil;1.0
+ICE 12;Basel SBB;Frankfurt;1.19;16(1.2), 02(0.0);16;0.97;2.3;60-min-Takt stabil;1.01
+ICE 12;Freiburg(Breisgau) Hbf;Frankfurt;1.19;55(1.2), 40(0.0);55;0.97;2.5;60-min-Takt stabil;1.01
+ICE 12;Offenburg;Frankfurt;1.29;27(1.2), 28(0.1);27;0.95;0.2;60-min-Takt stabil;1.01
+ICE 12;Karlsruhe Hbf;Frankfurt;1.29;59(1.2), 02(0.1), 01(0.0);59;0.93;0.7;60-min-Takt stabil;1.01
+ICE 12;Mannheim Hbf;Frankfurt;1.29;30(1.2), 31(0.1), 32(0.0), 25(0.0);30;0.9;0.9;60-min-Takt stabil;1.01
+IC 55;Köln Hbf;Karlsruhe;1.58;53(1.6);53;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Bonn Hbf;Karlsruhe;1.58;15(1.0), 14(0.5);15;0.65;0.6;60-min-Takt stabil;0.95
+IC 55;Koblenz Hbf;Karlsruhe;1.58;48(1.6);48;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Mainz Hbf;Karlsruhe;1.58;42(1.6);42;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Mannheim Hbf;Karlsruhe;1.58;23(1.6);23;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Heidelberg Hbf;Karlsruhe;1.58;36(1.6);36;1.0;0.0;60-min-Takt stabil;1.01
+ICE 41;Frankfurt(Main)Hbf;Düsseldorf;5.26;08(3.5), 07(1.3), 41(0.5);8;0.66;8.7;60-min-Takt stabil;0.91
+ICE 33;Schwerin Hbf;Ostseebad Binz;4.0;04(4.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Rostock Hbf;Ostseebad Binz;4.0;01(4.0);1;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Stralsund Hbf;Ostseebad Binz;4.0;55(2.0), 12(1.0), 13(1.0);55;0.5;12.4;Zwei-Lagen-Takt (120 min);0.75
+ICE 14;Hannover Hbf;Köln;1.16;56(1.2);56;1.0;0.0;60-min-Takt stabil;1.03
+ICE 14;Bielefeld Hbf;Köln;1.16;55(1.2);55;1.0;0.0;60-min-Takt stabil;1.03
+ICE 14;Hamm(Westf)Hbf;Köln;1.16;25(1.2);25;1.0;0.0;60-min-Takt stabil;1.03
+ICE 14;Dortmund Hbf;Köln;1.16;49(1.2);49;1.0;0.0;60-min-Takt stabil;1.03
+ICE 11;Hamburg Hbf;München;1.45;13(1.5);13;1.0;0.0;60-min-Takt stabil;1.03
+ICE 82;Berlin Hbf;Frankfurt;1.0;06(1.0);6;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Halle(Saale)Hbf;Frankfurt;1.0;18(1.0);18;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Erfurt Hbf;Frankfurt;1.0;50(1.0);50;1.0;0.0;60-min-Takt stabil;1.0
+ICE 83;Karlsruhe Hbf;Stuttgart;1.23;27(1.1), 28(0.1);27;0.89;0.3;60-min-Takt stabil;0.98
+ICE 47;Dortmund Hbf;München;4.16;53(1.6), 54(1.0), 55(0.5), 47(0.5), 11(0.4), 16(0.1);53;0.4;7.2;kein systematischer Takt;0.62
+IC 55;Dresden Hbf;Magdeburg;1.45;22(1.5);22;1.0;0.0;60-min-Takt stabil;1.03
+IC 55;Leipzig Hbf;Magdeburg;1.52;41(1.3), 40(0.2);41;0.87;0.4;60-min-Takt stabil;0.99
+IC 55;Halle(Saale)Hbf;Magdeburg;1.52;08(1.5);8;1.0;0.0;60-min-Takt stabil;0.99
+ICE 18;Leipzig Hbf;Berlin;1.65;11(0.9), 16(0.7), 18(0.0);11;0.55;3.4;Zwei-Lagen-Takt (120 min);0.97
+ICE 18;Lutherstadt Wittenberg Hbf;Berlin;1.71;47(1.7), 52(0.0);47;0.98;0.7;60-min-Takt stabil;0.99
+ICE 19;Bielefeld Hbf;Köln;5.32;33(5.1), 42(0.2), 43(0.0);33;0.96;1.7;60-min-Takt stabil;1.0
+ICE 15;Berlin Hbf;Ostseebad Binz;4.0;58(4.0);58;1.0;0.0;60-min-Takt stabil;1.0
+ICE 15;Stralsund Hbf;Ostseebad Binz;4.0;43(2.0), 56(1.0), 51(0.8), 24(0.2);43;0.5;8.5;Zwei-Lagen-Takt (120 min);0.75
+ICE 20;Karlsruhe Hbf;Frankfurt;1.0;37(1.0);37;1.0;0.0;60-min-Takt stabil;1.0
+ICE 20;Mannheim Hbf;Frankfurt;1.0;03(1.0);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 14;Aachen Hbf;Berlin;1.13;06(1.0), 07(0.1);6;0.89;0.3;60-min-Takt stabil;0.97
+ICE 14;Duisburg Hbf;Berlin;1.26;34(0.6), 32(0.5), 30(0.1);34;0.46;1.8;Zwei-Lagen-Takt (120 min);0.87
+IC 56;Emden Hbf;Hannover;1.0;16(1.0);16;1.0;0.0;60-min-Takt stabil;1.0
+IC 56;Bremen Hbf;Hannover;1.0;09(1.0);9;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;München Hbf;Hamburg;4.48;48(2.5), 49(2.0);48;0.55;0.7;Zwei-Lagen-Takt (120 min);1.0
+IC 61;Karlsruhe Hbf;Nürnberg;3.06;06(3.1);6;1.0;0.0;60-min-Takt stabil;1.01
+IC 61;Stuttgart Hbf;Nürnberg;4.84;09(2.0), 08(2.0), 05(0.8);9;0.41;1.8;Zwei-Lagen-Takt (120 min);0.83
+ICE 62;Dortmund Hbf;Friedrichshafen Stadt;1.0;17(0.5), 30(0.5);17;0.55;8.7;Zwei-Lagen-Takt (120 min);1.0
+ICE 62;Mannheim Hbf;Friedrichshafen Stadt;1.0;54(1.0);54;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Heidelberg Hbf;Friedrichshafen Stadt;1.0;06(1.0);6;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Ulm Hbf;Friedrichshafen Stadt;1.0;15(1.0), 30(0.0);15;0.97;2.7;60-min-Takt stabil;1.0
+ICE 62;Salzburg Hbf;Frankfurt;1.74;00(1.7);0;1.0;0.0;60-min-Takt stabil;0.98
+ICE 26;Heidelberg Hbf;Bremen;1.0;18(1.0);18;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Hannover Hbf;Heidelberg;1.23;40(0.9), 39(0.4);40;0.71;0.5;60-min-Takt stabil;1.06
+IC 55;Bielefeld Hbf;Heidelberg;1.23;42(1.2);42;1.0;0.0;60-min-Takt stabil;0.98
+ICE 27;Hamburg Hbf;Berlin;1.0;34(0.7), 14(0.3);34;0.71;10.8;60-min-Takt stabil;1.0
+ICE 82;Saarbrücken Hbf;Paris;2.65;00(2.5), 01(0.1);0;0.96;0.2;60-min-Takt stabil;0.98
+IC 56;Magdeburg Hbf;Norddeich Mole;1.84;02(0.8), 01(0.7), 39(0.2), 40(0.2), 16(0.0);2;0.42;10.1;Zwei-Lagen-Takt (120 min);0.82
+IC 56;Hannover Hbf;Norddeich Mole;1.84;45(1.8);45;1.0;0.0;60-min-Takt stabil;0.98
+IC 56;Bremen Hbf;Norddeich Mole;2.68;53(2.7);53;1.0;0.0;60-min-Takt stabil;1.01
+IC 56;Emden Hbf;Norddeich Mole;2.68;42(2.7);42;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Hamm(Westf)Hbf;Heidelberg;1.1;16(1.1);16;1.0;0.0;60-min-Takt stabil;1.0
+ICE 15;Frankfurt(Main)Hbf;Ostseebad Binz;2.35;02(2.4);2;1.0;0.0;60-min-Takt stabil;1.02
+ICE 15;Erfurt Hbf;Ostseebad Binz;3.19;10(3.2);10;1.0;0.0;60-min-Takt stabil;1.0
+ICE 15;Halle(Saale)Hbf;Ostseebad Binz;3.19;43(3.2);43;1.0;0.0;60-min-Takt stabil;1.0
+IC 56;Emden Hbf;Berlin;1.74;17(0.9), 16(0.8);17;0.52;0.7;Zwei-Lagen-Takt (120 min);0.98
+IC 57;Rostock Hbf;Leipzig;1.97;59(1.9), 58(0.0);59;0.98;0.1;60-min-Takt stabil;0.96
+IC 57;Magdeburg Hbf;Leipzig;2.0;05(1.0), 04(1.0), 17(0.0), 19(0.0);5;0.48;2.4;Zwei-Lagen-Takt (120 min);1.0
+IC 57;Halle(Saale)Hbf;Leipzig;2.0;56(1.9), 08(0.0), 12(0.0);56;0.97;2.5;60-min-Takt stabil;0.95
+ICE 33;Hamburg Hbf;Ostseebad Binz;2.84;08(2.1), 09(0.7);8;0.75;0.5;60-min-Takt stabil;0.99
+ICE 1;Nürnberg Hbf;Hamburg;1.06;28(1.1);28;1.0;0.0;60-min-Takt stabil;1.04
+ICE 1;Würzburg Hbf;Hamburg;1.06;23(0.5), 24(0.5);23;0.52;0.7;Zwei-Lagen-Takt (120 min);0.94
+ICE 1;Hanau Hbf;Hamburg;1.06;18(1.1);18;1.0;0.0;60-min-Takt stabil;1.04
+ICE 1;Frankfurt(Main)Hbf;Hamburg;1.06;43(1.1);43;1.0;0.0;60-min-Takt stabil;1.04
+ICE 1;Koblenz Hbf;Hamburg;1.06;13(0.5), 12(0.5);13;0.52;0.7;Zwei-Lagen-Takt (120 min);0.94
+ICE 1;Bonn Hbf;Hamburg;1.06;44(1.1);44;1.0;0.0;60-min-Takt stabil;1.04
+ICE 1;Köln Hbf;Hamburg;1.06;14(0.5), 09(0.5);14;0.52;3.5;Zwei-Lagen-Takt (120 min);0.94
+ICE 1;Düsseldorf Hbf;Hamburg;1.06;36(0.5), 31(0.5);36;0.52;3.5;Zwei-Lagen-Takt (120 min);0.94
+ICE 1;Duisburg Hbf;Hamburg;1.06;50(0.5), 45(0.5);50;0.52;3.5;Zwei-Lagen-Takt (120 min);0.94
+ICE 1;Hamburg Hbf;Hamburg;1.06;52(1.1);52;1.0;0.0;60-min-Takt stabil;1.04
+ICE 33;Bremen Hbf;Düsseldorf;1.23;11(0.9), 20(0.2), 10(0.1);11;0.74;3.9;60-min-Takt stabil;0.89
+ICE 33;Osnabrück Hbf;Düsseldorf;1.23;04(1.0), 13(0.2);4;0.82;3.9;60-min-Takt stabil;0.98
+ICE 33;Münster(Westf)Hbf;Düsseldorf;1.23;29(1.0), 38(0.2), 39(0.1);29;0.82;4.0;60-min-Takt stabil;0.98
+EC 62;Salzburg Hbf;München;2.0;00(2.0);0;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Nürnberg Hbf;Hamburg;1.71;26(1.0), 28(0.7);26;0.58;1.3;Zwei-Lagen-Takt (120 min);0.99
+ICE 91;Erfurt Hbf;Hamburg;1.71;02(1.7);2;1.0;0.0;60-min-Takt stabil;0.99
+ICE 91;Leipzig Hbf;Hamburg;1.71;51(1.7);51;1.0;0.0;60-min-Takt stabil;0.99
+ICE 91;Lutherstadt Wittenberg Hbf;Hamburg;1.71;23(1.7);23;1.0;0.0;60-min-Takt stabil;0.99
+ICE 91;Berlin Hbf;Hamburg;1.71;09(1.7);9;1.0;0.0;60-min-Takt stabil;0.99
+ICE 91;Hamburg Hbf;Hamburg;1.42;14(1.4);14;1.0;0.0;60-min-Takt stabil;0.99
+ICE 33;Essen Hbf;Düsseldorf;1.06;24(0.8), 33(0.2), 45(0.1);24;0.79;6.2;60-min-Takt stabil;0.94
+IC 55;Dresden Hbf;Hannover;1.9;22(1.9);22;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Leipzig Hbf;Hannover;1.97;41(1.7), 40(0.3), 39(0.0);41;0.85;0.4;60-min-Takt stabil;1.02
+IC 55;Halle(Saale)Hbf;Hannover;1.94;08(1.9);8;1.0;0.0;60-min-Takt stabil;0.98
+IC 55;Magdeburg Hbf;Hannover;2.1;04(2.0), 02(0.1);4;0.94;0.5;60-min-Takt stabil;1.0
+IC 55;Braunschweig Hbf;Hannover;2.1;49(1.4), 50(0.7);49;0.68;0.6;60-min-Takt stabil;1.0
+IC 35;Emden Hbf;Köln;3.45;34(3.3), 41(0.2);34;0.94;1.7;60-min-Takt stabil;1.01
+IC 35;Münster(Westf)Hbf;Köln;3.45;30(3.3), 33(0.2);30;0.94;0.7;60-min-Takt stabil;1.01
+IC 35;Oberhausen Hbf;Köln;3.26;25(3.3);25;1.0;0.0;60-min-Takt stabil;1.01
+IC 35;Duisburg Hbf;Köln;3.26;32(3.3);32;1.0;0.0;60-min-Takt stabil;1.01
+IC 35;Düsseldorf Hbf;Köln;3.45;47(3.3), 01(0.2);47;0.94;3.3;60-min-Takt stabil;1.01
+IC 17;Dresden Hbf;Rostock;4.84;35(4.8);35;1.0;0.0;60-min-Takt stabil;0.99
+IC 56;Braunschweig Hbf;Emden;2.48;49(2.4), 16(0.1);49;0.95;6.2;60-min-Takt stabil;1.01
+IC 56;Braunschweig Hbf;Norddeich Mole;1.48;51(0.8), 49(0.7), 05(0.0);51;0.52;2.5;Zwei-Lagen-Takt (120 min);1.01
+ICE 77;Münster(Westf)Hbf;Berlin;1.0;24(1.0);24;1.0;0.0;60-min-Takt stabil;1.0
+IC 51;Dortmund Hbf;Gera;1.77;42(1.8);42;1.0;0.0;60-min-Takt stabil;1.02
+IC 51;Hamm(Westf)Hbf;Gera;1.77;07(1.8);7;1.0;0.0;60-min-Takt stabil;1.02
+IC 51;Paderborn Hbf;Gera;1.77;49(1.8);49;1.0;0.0;60-min-Takt stabil;1.02
+IC 51;Kassel-Wilhelmshöhe;Gera;2.58;57(1.0), 59(0.8), 48(0.8);57;0.38;5.2;kein systematischer Takt;0.7
+IC 51;Erfurt Hbf;Gera;2.58;44(2.6);44;1.0;0.0;60-min-Takt stabil;1.01
+IC 51;Erfurt Hbf;Dortmund;1.48;18(1.3), 24(0.2);18;0.89;2.0;60-min-Takt stabil;1.01
+IC 51;Kassel-Wilhelmshöhe;Dortmund;1.48;02(1.5);2;1.0;0.0;60-min-Takt stabil;1.01
+IC 51;Paderborn Hbf;Dortmund;1.48;10(1.5);10;1.0;0.0;60-min-Takt stabil;1.01
+IC 51;Hamm(Westf)Hbf;Dortmund;1.48;57(1.5);57;1.0;0.0;60-min-Takt stabil;1.01
+ICE 24;München Hbf;Hamburg;1.0;52(1.0);52;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Augsburg Hbf;Hamburg;1.0;22(1.0);22;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Würzburg Hbf;Hamburg;1.0;19(1.0);19;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Kassel-Wilhelmshöhe;Hamburg;1.0;24(1.0);24;1.0;0.0;60-min-Takt stabil;1.0
+ICE 24;Hannover Hbf;Hamburg;1.0;22(1.0);22;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Bremen Hbf;Frankfurt;1.0;15(1.0);15;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Hannover Hbf;Frankfurt;1.0;17(1.0);17;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Göttingen;Frankfurt;1.0;07(1.0);7;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Kassel-Wilhelmshöhe;Frankfurt;1.0;30(1.0);30;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Marburg(Lahn);Frankfurt;1.0;34(1.0);34;1.0;0.0;60-min-Takt stabil;1.0
+ICE 26;Gießen;Frankfurt;1.0;52(1.0);52;1.0;0.0;60-min-Takt stabil;1.0
+ICE 13;Wolfsburg Hbf;Kassel-Wilhelmshöhe;1.0;39(0.9), 36(0.1);39;0.87;1.1;60-min-Takt stabil;1.0
+ICE 13;Braunschweig Hbf;Kassel-Wilhelmshöhe;1.0;59(0.9), 56(0.1);59;0.87;1.1;60-min-Takt stabil;1.0
+ICE 13;Hildesheim Hbf;Kassel-Wilhelmshöhe;1.0;21(0.9), 18(0.1);21;0.87;1.1;60-min-Takt stabil;1.0
+ICE 13;Göttingen;Kassel-Wilhelmshöhe;1.0;52(0.9), 49(0.1);52;0.87;1.1;60-min-Takt stabil;1.0
+IC 87;Stuttgart Hbf;Singen;1.87;17(1.4), 16(0.5);17;0.72;0.5;60-min-Takt stabil;1.02
+ICE 14;Hannover Hbf;Münster;1.1;56(1.1);56;1.0;0.0;60-min-Takt stabil;1.0
+ICE 14;Osnabrück Hbf;Münster;1.1;06(1.1);6;1.0;0.0;60-min-Takt stabil;1.0
+ICE 13;Wolfsburg Hbf;Karlsruhe;1.97;39(1.0), 36(1.0);39;0.51;2.1;Zwei-Lagen-Takt (120 min);1.02
+ICE 13;Braunschweig Hbf;Karlsruhe;1.97;58(2.0);58;1.0;0.0;60-min-Takt stabil;1.02
+ICE 13;Hildesheim Hbf;Karlsruhe;1.97;21(2.0);21;1.0;0.0;60-min-Takt stabil;1.02
+ICE 13;Göttingen;Karlsruhe;1.97;53(1.0), 52(1.0);53;0.51;0.7;Zwei-Lagen-Takt (120 min);1.02
+ICE 45;Mainz Hbf;Köln;1.13;22(0.7), 36(0.5);22;0.6;8.9;60-min-Takt stabil;1.06
+ICE 45;Wiesbaden Hbf;Köln;1.35;56(0.7), 47(0.7);56;0.5;6.4;Zwei-Lagen-Takt (120 min);1.04
+IC 55;Dresden Hbf;Stuttgart;1.13;22(1.1);22;1.0;0.0;60-min-Takt stabil;0.97
+IC 55;Leipzig Hbf;Stuttgart;1.26;41(0.9), 40(0.3);41;0.74;0.5;60-min-Takt stabil;0.95
+IC 55;Halle(Saale)Hbf;Stuttgart;1.26;08(1.3);8;1.0;0.0;60-min-Takt stabil;1.03
+IC 55;Magdeburg Hbf;Stuttgart;1.26;04(1.3);4;1.0;0.0;60-min-Takt stabil;1.03
+IC 55;Braunschweig Hbf;Stuttgart;1.26;49(1.3);49;1.0;0.0;60-min-Takt stabil;1.03
+IC 55;Hannover Hbf;Stuttgart;1.58;40(1.3), 39(0.3);40;0.8;0.5;60-min-Takt stabil;1.01
+IC 55;Bielefeld Hbf;Stuttgart;1.58;42(1.6);42;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Hamm(Westf)Hbf;Stuttgart;1.58;16(1.6);16;1.0;0.0;60-min-Takt stabil;1.01
+IC 55;Dortmund Hbf;Stuttgart;1.9;36(1.6), 35(0.3);36;0.83;0.4;60-min-Takt stabil;1.0
+IC 55;Hagen Hbf;Stuttgart;1.9;57(1.6), 58(0.3);57;0.83;0.4;60-min-Takt stabil;1.0
+IC 55;Wuppertal Hbf;Stuttgart;1.9;14(1.9);14;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Köln Hbf;Stuttgart;1.9;53(1.9);53;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Bonn Hbf;Stuttgart;1.9;14(1.9);14;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Koblenz Hbf;Stuttgart;1.9;48(1.9);48;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Mainz Hbf;Stuttgart;1.9;42(1.9);42;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Mannheim Hbf;Stuttgart;1.9;23(1.9);23;1.0;0.0;60-min-Takt stabil;1.0
+IC 55;Heidelberg Hbf;Stuttgart;1.9;36(1.9);36;1.0;0.0;60-min-Takt stabil;1.0
+IC 35;Köln Hbf;Emden;1.0;46(1.0);46;1.0;0.0;60-min-Takt stabil;1.0
+IC 17;Rostock Hbf;Chemnitz;1.81;20(1.8);20;1.0;0.0;60-min-Takt stabil;0.99
+IC 87;Singen(Hohentwiel);Konstanz;1.03;27(0.7), 28(0.4);27;0.66;0.6;60-min-Takt stabil;1.07
+IC 55;Karlsruhe Hbf;Köln;1.29;52(0.8), 53(0.5);52;0.6;0.6;60-min-Takt stabil;1.01
+ICE 90;Salzburg Hbf;München;2.0;04(2.0);4;1.0;0.0;60-min-Takt stabil;1.0
+IC 57;Schwerin Hbf;Leipzig;1.9;00(1.9);0;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Frankfurt(Main)Hbf;Berlin;1.0;02(1.0);2;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Erfurt Hbf;Berlin;1.0;10(1.0);10;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Halle(Saale)Hbf;Berlin;1.0;43(1.0);43;1.0;0.0;60-min-Takt stabil;1.0
+ICE 82;Berlin Hbf;Berlin;1.0;58(1.0);58;1.0;0.0;60-min-Takt stabil;1.0
+ICE 90;München Hbf;Salzburg;2.0;09(1.0), 03(1.0);9;0.5;4.2;Zwei-Lagen-Takt (120 min);1.0
+ICE 14;Münster(Westf)Hbf;Berlin;1.35;25(1.4);25;1.0;0.0;60-min-Takt stabil;1.04
+ICE 14;Osnabrück Hbf;Berlin;1.35;53(1.4);53;1.0;0.0;60-min-Takt stabil;1.04
+ICE 13;Stuttgart Hbf;Berlin;1.0;28(0.7), 36(0.3);28;0.68;4.5;60-min-Takt stabil;1.0
+ICE 25;München Hbf;Rostock;1.0;10(1.0), 09(0.0);10;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Nürnberg Hbf;Rostock;1.0;32(1.0), 31(0.0);32;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Würzburg Hbf;Rostock;1.0;28(1.0), 27(0.0);28;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Fulda;Rostock;1.0;04(1.0), 03(0.0);4;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Kassel-Wilhelmshöhe;Rostock;1.0;36(1.0), 35(0.0);36;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Göttingen;Rostock;1.0;59(0.7), 55(0.2), 58(0.0);59;0.74;1.9;60-min-Takt stabil;0.9
+ICE 25;Hannover Hbf;Rostock;1.0;36(1.0), 35(0.0);36;0.97;0.2;60-min-Takt stabil;1.0
+ICE 25;Schwerin Hbf;Rostock;1.0;05(1.0);5;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Berlin Hbf;Nürnberg;1.0;55(1.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Lutherstadt Wittenberg Hbf;Nürnberg;1.0;36(1.0);36;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Leipzig Hbf;Nürnberg;1.0;18(1.0);18;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Erfurt Hbf;Nürnberg;1.0;59(1.0);59;1.0;0.0;60-min-Takt stabil;1.0
+ICE 41;Siegburg/Bonn;Frankfurt;1.0;47(1.0);47;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Frankfurt(Main)Hbf;Stuttgart;2.71;11(1.0), 10(0.9), 19(0.7), 03(0.2);11;0.36;4.6;Zwei-Lagen-Takt (120 min);0.7
+ICE 3;Frankfurt(Main)Hbf;Berlin;1.23;02(1.2);2;1.0;0.0;60-min-Takt stabil;0.98
+ICE 6;Stuttgart Hbf;Berlin;1.0;03(1.0);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 6;Nürnberg Hbf;Berlin;1.0;03(1.0);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 6;Berlin Hbf;Berlin;1.0;52(1.0);52;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Berlin Hbf;Kufstein;1.0;56(1.0);56;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Lutherstadt Wittenberg Hbf;Kufstein;1.0;39(1.0);39;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Leipzig Hbf;Kufstein;1.0;18(1.0);18;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Erfurt Hbf;Kufstein;1.0;59(1.0);59;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Nürnberg Hbf;Kufstein;1.0;36(1.0);36;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;Augsburg Hbf;Kufstein;1.0;47(1.0);47;1.0;0.0;60-min-Takt stabil;1.0
+ICE 91;München Hbf;Kufstein;1.0;24(1.0);24;1.0;0.0;60-min-Takt stabil;1.0
+ICE 16;Hannover Hbf;Oldenburg;1.0;45(1.0);45;1.0;0.0;60-min-Takt stabil;1.0
+ICE 16;Bremen Hbf;Oldenburg;1.0;50(1.0);50;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Salzburg Hbf;Münster;1.0;00(1.0);0;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Augsburg Hbf;Münster;1.0;16(1.0);16;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Ulm Hbf;Münster;1.0;03(1.0);3;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Mannheim Hbf;Münster;1.0;53(1.0);53;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Siegburg/Bonn;Münster;1.0;39(1.0);39;1.0;0.0;60-min-Takt stabil;1.0
+ICE 62;Düsseldorf Hbf;Münster;1.0;26(0.5), 47(0.5);26;0.55;14.1;Zwei-Lagen-Takt (120 min);1.0
+ICE 62;Duisburg Hbf;Münster;1.0;40(0.5), 02(0.5);40;0.55;14.8;Zwei-Lagen-Takt (120 min);1.0
+ICE 25;Rostock Hbf;München;1.0;04(1.0);4;1.0;0.0;60-min-Takt stabil;1.0
+ICE 25;Schwerin Hbf;München;1.0;55(1.0);55;1.0;0.0;60-min-Takt stabil;1.0
+ICE 33;Hannover Hbf;Ostseebad Binz;1.0;31(1.0);31;1.0;0.0;60-min-Takt stabil;1.0
+ICE 6;Berlin Hbf;Stuttgart;1.0;12(1.0);12;1.0;0.0;60-min-Takt stabil;1.0
+ICE 6;Nürnberg Hbf;Stuttgart;1.0;01(1.0);1;1.0;0.0;60-min-Takt stabil;1.0
+ICE 28;Berlin Hbf;Berlin;1.0;38(1.0);38;1.0;0.0;60-min-Takt stabil;1.0
+EC 62;Salzburg Hbf;Jesenice;1.0;07(1.0);7;1.0;0.0;60-min-Takt stabil;1.0
+EC 62;Salzburg Hbf;Villach;1.0;07(1.0);7;1.0;0.0;60-min-Takt stabil;1.0
