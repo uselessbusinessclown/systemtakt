@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Wer diese Untersuchung zitiert, möge die folgenden Angaben verwenden."
+title: "Systemtakt Fernverkehr Deutschland"
+abstract: >-
+  Datenbank des deutschen Schienenfernverkehrs (ICE, IC, EC) und daraus exakt
+  optimierter integraler Taktfahrplan nach schweizerischem Vorbild, ohne
+  Neubaumaßnahmen, ausgerollt zu einem minutengenauen Tagesfahrplan für alle
+  Linien und Bahnhöfe. Studie, kein gültiger Fahrplan.
+type: dataset
+authors:
+  # TODO: durch bürgerlichen Namen und ggf. ORCID ersetzen, falls zitierfähig gewünscht.
+  - name: "uselessbusinessclown"
+    website: "https://github.com/uselessbusinessclown"
+repository-code: "https://github.com/uselessbusinessclown/systemtakt"
+license: MIT
+date-released: "2026-08-24"
+keywords:
+  - integraler Taktfahrplan
+  - Periodic Event Scheduling Problem
+  - Schienenfernverkehr
+  - GTFS
+  - Betriebsplanung
+  - gemischt-ganzzahlige Optimierung
+references:
+  - type: data
+    title: "GTFS-Feed „Fernverkehr Deutschland“ (de_fv)"
+    authors:
+      - name: "DELFI e. V."
+    url: "https://gtfs.de/de/feeds/de_fv/"
+    notes: "Ausgewerteter Zeitraum 22.08.–21.09.2026, bereitgestellt über gtfs.de"

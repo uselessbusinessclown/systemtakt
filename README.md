@@ -1,5 +1,10 @@
 # Systemtakt Fernverkehr Deutschland
 
+[![CI](https://github.com/uselessbusinessclown/systemtakt/actions/workflows/ci.yml/badge.svg)](https://github.com/uselessbusinessclown/systemtakt/actions/workflows/ci.yml)
+[![Lizenz: MIT](https://img.shields.io/badge/Lizenz-MIT-1F3864.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-1F3864.svg)](requirements.txt)
+[![Datenstand 08/2026](https://img.shields.io/badge/Datenstand-22.08.–21.09.2026-1F3864.svg)](docs/01-datengrundlage.md)
+
 Eine vollständige Datenbank des deutschen Schienenfernverkehrs (ICE, IC, EC) und daraus
 berechnet ein **integraler Taktfahrplan nach schweizerischem Vorbild** — exakt optimiert,
 ohne jede Neubaumaßnahme, ausgerollt zu einem minutengenauen Tagesfahrplan für alle
@@ -53,12 +58,15 @@ müssen frei bleiben.
 ## Aufbau
 
 ```
-docs/      Methodik, Ergebnisse, Grenzen, Änderungsprotokoll
-src/       Die vollständige Pipeline, in Ausführungsreihenfolge nummeriert
-src/lib/   Die Optimierer und die Fahrplan-Engine
-src/legacy/Frühere Fassungen der Optimierer (Dokumentation des Irrwegs, siehe CHANGELOG)
-data/      bahn.db (SQLite, 36 Tabellen) und CSV-Export aller Tabellen
-output/    Die fertigen PDFs, die Word-Studie und die Excel-Arbeitsmappe
+Makefile    Der Reproduktionspfad, in fünf Stufen — `make help` zeigt sie
+docs/       Methodik, Ergebnisse, Grenzen, Änderungsprotokoll
+src/        Die vollständige Pipeline, in Ausführungsreihenfolge nummeriert
+src/lib/    Die Optimierer und die Fahrplan-Engine
+src/legacy/ Frühere Fassungen der Optimierer (Dokumentation des Irrwegs, siehe CHANGELOG)
+src/web/    Das interaktive Dashboard und der Word-Generator
+data/       bahn.db (SQLite, 36 Tabellen) und CSV-Export aller Tabellen
+output/     Die fertigen PDFs, die Word-Studie und die Excel-Arbeitsmappe
+tools/      Die Prüfungen, die auch im CI laufen
 ```
 
 Einstiegspunkte:
@@ -66,17 +74,40 @@ Einstiegspunkte:
 * **[docs/02-methodik.md](docs/02-methodik.md)** — wie das Optimierungsproblem formuliert und exakt gelöst wird
 * **[docs/03-knotenplan.md](docs/03-knotenplan.md)** — die 20 Vollknoten mit ihren Zeiten
 * **[docs/04-fahrplan.md](docs/04-fahrplan.md)** — wie aus dem Knotenplan der Fahrplan wird
+* **[docs/06-grenzen.md](docs/06-grenzen.md)** — was die Untersuchung fachlich nicht leistet
+* **[docs/07-bekannte-luecken.md](docs/07-bekannte-luecken.md)** — wo die Reproduktion heute klemmt
 * **[docs/CHANGELOG.md](docs/CHANGELOG.md)** — vier Fassungen, drei Korrekturen, ehrlich protokolliert
+
+## Ohne Neuberechnung loslegen
+
+Alle Ergebnisse liegen fertig im Repository. Für einen ersten Blick braucht es nichts
+außer einem SQLite-Client:
+
+```bash
+sqlite3 data/bahn.db 'SELECT name, knotenminute, knotenzeit FROM itf_knotenzeit ORDER BY gewicht DESC'
+```
+
+Wer lieber liest als abfragt: `output/` enthält Kursbuch, Bahnhofsfahrpläne, Studie und
+Arbeitsmappe; `data/csv/` alle 36 Tabellen als semikolongetrennte Dateien;
+`src/web/dashboard.html` das interaktive Dashboard — im Browser öffnen, kein Server nötig.
 
 ## Reproduzieren
 
+Voraussetzung ist Python 3.11 oder neuer; für die Word-Studie zusätzlich Node 18 oder
+neuer.
+
 ```bash
 pip install -r requirements.txt
+make help         # zeigt die fünf Stufen einzeln
 make all          # lädt die Rohdaten, baut die Datenbank, optimiert, erzeugt alle Ausgaben
 ```
 
 Die Optimierung läuft mit HiGHS über `scipy.optimize.milp`. Der finale Lauf braucht auf
 zwei Kernen rund 15 Minuten; die Knotenzahl-Studie in Summe etwa eine Stunde.
+
+Einige Schritte laufen derzeit nicht durch — welche und warum, steht vollständig in
+[docs/07-bekannte-luecken.md](docs/07-bekannte-luecken.md). Die mitgelieferten Ergebnisse
+sind davon nicht berührt.
 
 ## Datenquellen
 
@@ -85,6 +116,18 @@ zwei Kernen rund 15 Minuten; die Knotenzahl-Studie in Summe etwa eine Stunde.
 * **Sprinterangebot**: [bahn.de, Seite „ICE Sprinter"](https://www.bahn.de/service/ueber-uns/zugtypen/ice-sprinter)
 * **Staatsgrenzen**: [datasets/geo-countries](https://github.com/datasets/geo-countries)
 * **Bundeslandgrenzen**: [isellsoap/deutschlandGeoJSON](https://github.com/isellsoap/deutschlandGeoJSON)
+
+## Mitwirken
+
+Widerlegungen sind der wertvollste Beitrag: Drei der vier Fassungen mussten Aussagen der
+vorherigen widerrufen. Wie man eine Zahl bestreitet, einen Datenfehler meldet oder einen
+Reproduktionsfehler einreicht, steht in [CONTRIBUTING.md](CONTRIBUTING.md); die
+Umgangsregeln in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Zitieren
+
+Zitierangaben stehen maschinenlesbar in [CITATION.cff](CITATION.cff) — GitHub bietet sie
+über „Cite this repository" in mehreren Formaten an.
 
 ## Lizenz
 

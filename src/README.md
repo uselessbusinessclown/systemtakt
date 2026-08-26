@@ -1,7 +1,9 @@
 # Quellcode
 
 Die Pipeline ist in Ausführungsreihenfolge nummeriert. Alle Skripte lesen und schreiben
-`data/bahn.db`; es gibt keinen anderen Zustand.
+`data/bahn.db`; es gibt keinen anderen Zustand. Pfade kommen ausschließlich aus
+[`lib/paths.py`](lib/paths.py) — `DATA` für Zwischenergebnisse, `OUT` für Dokumente, `DB`
+für die Datenbank. Harte oder arbeitsverzeichnisrelative Pfade gehören nicht hierher.
 
 | Datei | Aufgabe |
 |---|---|
@@ -42,8 +44,16 @@ Die Pipeline ist in Ausführungsreihenfolge nummeriert. Alle Skripte lesen und s
 ## Web
 
 `web/` enthält die Bausteine des interaktiven Dashboards (`head/style/body/script.part`,
-zusammengesetzt zu einer HTML-Seite) und `makedoc.js`, das die Studie als Word-Dokument
-erzeugt (Node, Paket `docx`).
+zusammengesetzt zu `dashboard.html` — im Browser zu öffnen, ohne Server) und `makedoc.js`,
+das die Studie als Word-Dokument erzeugt. Die Node-Abhängigkeit steht in
+[`web/package.json`](web/package.json):
+
+```bash
+cd src/web && npm install && node makedoc.js
+```
+
+Zum Zusammenbau der `.part`-Dateien und zur fehlenden Eingabedatei `doc_data.json` siehe
+[`docs/07-bekannte-luecken.md`](../docs/07-bekannte-luecken.md).
 
 ## Legacy
 

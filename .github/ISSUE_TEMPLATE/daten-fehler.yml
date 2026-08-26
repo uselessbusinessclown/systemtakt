@@ -1,0 +1,38 @@
+name: Datenfehler melden
+description: Bahnhofsname, Linienzuordnung, Sprinterklassifikation oder Fahrzeit stimmt nicht
+title: "[Daten] "
+labels: ["daten"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Der offene Datensatz enthält keine Zugnummern. Linien und ICE-Sprinter sind
+        rekonstruiert — siehe `docs/06-grenzen.md`. Fehler in dieser Zuordnung sind
+        erwartbar und werden gern korrigiert.
+  - type: dropdown
+    id: art
+    attributes:
+      label: Art des Fehlers
+      options:
+        - Bahnhofsname oder Zuordnung zu Stadt / Bundesland
+        - Linienzuordnung oder Laufweg
+        - Sprinterklassifikation
+        - Fahrzeit einer Netzkante
+        - Sonstiges
+    validations:
+      required: true
+  - type: input
+    id: betroffen
+    attributes:
+      label: Betroffener Eintrag
+      description: Bahnhof, Linie oder Kante, so wie sie in der Datenbank steht.
+      placeholder: "Kante Fulda–Erfurt Hbf"
+    validations:
+      required: true
+  - type: textarea
+    id: richtig
+    attributes:
+      label: Was richtig wäre — und woher du das weißt
+      description: Möglichst mit Quelle (Kursbuch, Betriebsstellenverzeichnis, offizieller Fahrplan).
+    validations:
+      required: true

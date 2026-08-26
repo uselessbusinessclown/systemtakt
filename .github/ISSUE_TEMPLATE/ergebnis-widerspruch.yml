@@ -1,0 +1,41 @@
+name: Ergebnis widersprechen
+description: Eine Zahl oder Aussage der Untersuchung nachgerechnet und etwas anderes herausbekommen
+title: "[Ergebnis] "
+labels: ["ergebnis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Widerlegungen sind der wertvollste Beitrag zu diesem Repository. Drei der vier
+        Fassungen mussten Aussagen der vorherigen widerrufen — siehe `docs/CHANGELOG.md`.
+  - type: input
+    id: fundstelle
+    attributes:
+      label: Fundstelle
+      description: Wo steht die Aussage? Datei und Abschnitt oder Seite.
+      placeholder: "docs/02-methodik.md, Abschnitt „Fahrzeitreserve“ — bzw. README, Ergebnis 1"
+    validations:
+      required: true
+  - type: textarea
+    id: behauptung
+    attributes:
+      label: Was dort steht
+      description: Die beanstandete Aussage möglichst wörtlich.
+    validations:
+      required: true
+  - type: textarea
+    id: gegenrechnung
+    attributes:
+      label: Was du herausbekommst
+      description: Ergebnis, und wie es zustande kommt — Skript, Abfrage oder Rechenweg.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: datenstand
+    attributes:
+      label: Datenstand
+      description: Commit oder Datum der `data/bahn.db`, gegen die du gerechnet hast.
+      placeholder: "mitgelieferte bahn.db aus Commit ec0d732"
+    validations:
+      required: true

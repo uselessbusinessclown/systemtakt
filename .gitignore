@@ -1,8 +1,21 @@
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# Node (nur src/web, für makedoc.js)
+node_modules/
+package-lock.json
+
+# Rohdaten und Zwischenstände, die `make daten` herunterlädt bzw. erzeugt
+data/gtfs_fv/
 *.log
+
+# Betriebssystem und Editor
 .DS_Store
-/tmp/
+.idea/
+.vscode/
+
+# Vorschau-Artefakte des Dashboards
 preview.html
-*.jpg
-*.png

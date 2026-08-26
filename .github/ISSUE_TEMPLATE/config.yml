@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Methodik nachlesen
+    url: https://github.com/uselessbusinessclown/systemtakt/blob/main/docs/02-methodik.md
+    about: Wie das Optimierungsproblem formuliert und exakt gelöst wird.
+  - name: Grenzen der Untersuchung
+    url: https://github.com/uselessbusinessclown/systemtakt/blob/main/docs/06-grenzen.md
+    about: Was diese Studie ausdrücklich nicht leistet — bitte vor einem Issue lesen.
+  - name: Reiseauskunft
+    url: https://www.bahn.de
+    about: Dies ist kein gültiger Fahrplan. Für Reisen gilt der offizielle Fahrplan.
