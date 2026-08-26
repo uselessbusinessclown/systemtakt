@@ -19,3 +19,8 @@ data/gtfs_fv/
 
 # Vorschau-Artefakte des Dashboards
 preview.html
+
+# Backtest: Rohdaten und Zwischenstände des Gutachterentwurfs (rund 1,5 GB)
+backtest/input/
+backtest/intermediate/
+backtest/out/

@@ -25,12 +25,12 @@ jobs:
           python-version: '3.12'
 
       - name: Syntaxprüfung aller Skripte
-        run: python -m compileall -q src
+        run: python -m compileall -q src backtest
 
       - name: Lint (Syntaxfehler und undefinierte Namen)
         uses: astral-sh/ruff-action@v3
         with:
-          args: check src
+          args: check src backtest
 
       - name: Pfad-Bootstrap ist aus allen drei Ebenen tragfähig
         run: python tools/check_bootstrap.py

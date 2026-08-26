@@ -50,7 +50,16 @@ Wirksam ist die Höhergewichtung eines Prioritätsknotens: Frankfurt Hbf gewinnt
 nur 10 %. Eine Sprinterverlagerung entlastet um 10 %, verschlechtert aber die Taktqualität
 um 43 %. Die Durchbindung der wendenden Züge entlastet um 59 %.
 
-**5. Ein grobes Knotenraster ist keine Lösung.**
+**5. Neubaufrei kostet 44 Minuten — nachgemessen am offiziellen Zielfahrplan.**
+Gegen den 3. Gutachterentwurf des Deutschlandtakts, mit derselben Routing-Engine über
+1.140 Relationen zwischen den 20 Knoten gefahren, liegt dieser Plan im Mittel
+**44 Minuten** zurück. Das ist nicht die Taktdisziplin — die leistet, was sie soll, und
+spart sogar Umstiege. Es ist die Infrastruktur: Der Gutachterentwurf befährt 11 von 16
+vergleichbaren Kanten schneller, als heute je gefahren wurde. Ergebnis 1 bleibt damit
+richtig und bekommt einen Preis. Siehe
+[docs/08-backtest-deutschlandtakt.md](docs/08-backtest-deutschlandtakt.md).
+
+**6. Ein grobes Knotenraster ist keine Lösung.**
 Zwingt man alle Knoten auf das schweizerische :00/:15-Schema, springt die mittlere Reserve
 von 7,7 auf 35,7 %. Deutschland hat kein Netz mit dominanter Achse; die Knotenminuten
 müssen frei bleiben.
@@ -66,6 +75,7 @@ src/legacy/ Frühere Fassungen der Optimierer (Dokumentation des Irrwegs, siehe 
 src/web/    Das interaktive Dashboard und der Word-Generator
 data/       bahn.db (SQLite, 36 Tabellen) und CSV-Export aller Tabellen
 output/     Die fertigen PDFs, die Word-Studie und die Excel-Arbeitsmappe
+backtest/   Gegenprobe gegen den offiziellen Deutschlandtakt
 tools/      Die Prüfungen, die auch im CI laufen
 ```
 
@@ -76,6 +86,7 @@ Einstiegspunkte:
 * **[docs/04-fahrplan.md](docs/04-fahrplan.md)** — wie aus dem Knotenplan der Fahrplan wird
 * **[docs/06-grenzen.md](docs/06-grenzen.md)** — was die Untersuchung fachlich nicht leistet
 * **[docs/07-bekannte-luecken.md](docs/07-bekannte-luecken.md)** — wo die Reproduktion heute klemmt
+* **[docs/08-backtest-deutschlandtakt.md](docs/08-backtest-deutschlandtakt.md)** — die Gegenprobe gegen den offiziellen Zielfahrplan
 * **[docs/CHANGELOG.md](docs/CHANGELOG.md)** — vier Fassungen, drei Korrekturen, ehrlich protokolliert
 
 ## Ohne Neuberechnung loslegen
