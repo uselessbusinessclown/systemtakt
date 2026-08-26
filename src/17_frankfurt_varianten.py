@@ -1,8 +1,8 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, collections, json, os, math
 con=sqlite3.connect(DB); cur=con.cursor()
 HBF='Frankfurt(Main)Hbf'; FBF='Frankfurt(M) Flughafen Fernbf'; RBF='Frankfurt(M) Flughafen Regionalbf'
@@ -51,7 +51,7 @@ spr_gm=sum(r[4] for r in rows if r[0]=='Frankfurt(Main)Hbf' and r[2]=='ICE-Sprin
 wend_gm=sum(r[4] for r in rows if r[0]=='Frankfurt(Main)Hbf' and r[1]=='wendend/endend')
 wend_f =sum(r[3] for r in rows if r[0]=='Frankfurt(Main)Hbf' and r[1]=='wendend/endend')
 CAP4=4*18*60
-V=json.load(open('varianten.json'))
+V=json.load(open(os.path.join(DATA, 'varianten.json')))
 V['V0']['kosten']=13934.8
 vr=[
  ('Status quo','Frankfurt Hbf ist Vollknoten, der Flughafen-Fernbahnhof ein Durchgangshalt',

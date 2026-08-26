@@ -1,15 +1,15 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, pandas as pd, os
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 con=sqlite3.connect(DB)
-OUT=os.path.join(ROOT, 'Deutschland_Fernverkehr_Datenbank_und_Systemtakt.xlsx')
+OUTFILE=os.path.join(OUT, 'Deutschland_Fernverkehr_Datenbank_und_Systemtakt.xlsx')
 
 SHEETS=[
  ('Bahnhöfe', """SELECT b.name AS Bahnhof, b.stadt AS Stadt, b.land AS Land, b.bundesland AS Bundesland,
@@ -149,12 +149,12 @@ info=pd.DataFrame({
          'Kapazitätsaussagen sind Grobabschätzungen aus Halten je Knotenfenster, keine Betriebssimulation.',
          '23.08.2026 · Fassung 4: 20 Vollknoten, beidseitige Knotenbindung, vollständiger Fahrplan']})
 
-with pd.ExcelWriter(OUT, engine='openpyxl') as xw:
+with pd.ExcelWriter(OUTFILE, engine='openpyxl') as xw:
     info.to_excel(xw, sheet_name='Lies mich', index=False)
     for name,q in SHEETS:
         pd.read_sql_query(q, con).to_excel(xw, sheet_name=name, index=False)
 
-wb=load_workbook(OUT)
+wb=load_workbook(OUTFILE)
 HEAD=PatternFill('solid', fgColor='1F3864'); HF=Font(name='Arial', size=10, bold=True, color='FFFFFF')
 BF=Font(name='Arial', size=10)
 thin=Side(style='thin', color='D9D9D9')
@@ -176,6 +176,6 @@ for ws in wb.worksheets:
         ws.auto_filter.ref=f"A1:{get_column_letter(maxc)}{ws.max_row}"
 ws=wb['Lies mich']; ws.column_dimensions['A'].width=26; ws.column_dimensions['B'].width=110
 for r in range(2, ws.max_row+1): ws.cell(r,2).alignment=Alignment(wrap_text=True, vertical='top')
-wb.save(OUT)
-print('geschrieben:', OUT, os.path.getsize(OUT)//1024, 'KB')
+wb.save(OUTFILE)
+print('geschrieben:', OUTFILE, os.path.getsize(OUTFILE)//1024, 'KB')
 print('Blätter:', wb.sheetnames)

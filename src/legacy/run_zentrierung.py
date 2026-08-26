@@ -1,3 +1,8 @@
+import os, sys
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import json, opt2, statistics as st
 rows=opt2.load()
 CAND=['Frankfurt(Main)Hbf','Hannover Hbf','Mannheim Hbf','Köln Hbf','Nürnberg Hbf','Kassel-Wilhelmshöhe',
@@ -24,4 +29,4 @@ for n in CAND:
     print(f"{n[:28]:28s} Knoten: Ø Reserve {q['mittlere_reserve']:5.2f} % (Basis {out['basis']['knoten'][n]['mittlere_reserve']:5.2f} %) "
           f"Sollband {q['im_sollband_pct']:5.1f} % (Basis {out['basis']['knoten'][n]['im_sollband_pct']:5.1f} %) | "
           f"Netz: Ø Reserve {out['zentriert'][n]['netz_reserve_pct']:5.2f} % (Basis {base['reserve_pct']:5.2f} %)", flush=True)
-json.dump(out, open('zentrierung.json','w'), ensure_ascii=False, indent=1)
+json.dump(out, open(os.path.join(DATA, 'zentrierung.json'),'w'), ensure_ascii=False, indent=1)
