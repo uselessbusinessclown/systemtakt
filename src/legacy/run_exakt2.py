@@ -1,14 +1,14 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import opt2, pesp, json, time, sqlite3, collections, os
 rows=opt2.load()
 res={}
 # --- Zentrierung: Prioritätsknoten (exakt, moderates Zeitlimit)
 CAND=['Frankfurt(Main)Hbf','Hannover Hbf','Mannheim Hbf','Köln Hbf','Nürnberg Hbf','Kassel-Wilhelmshöhe','Fulda','Berlin Hbf']
-base=json.load(open(os.path.join(ROOT, 'pesp_N1.json')))
+base=json.load(open(os.path.join(DATA, 'pesp_N1.json')))
 def qual(kanten,node,wkey=7):
     e=[k for k in kanten if k[0]==node or k[1]==node]; w=sum(x[wkey] for x in e)
     return {'kanten':len(e),'gewicht':round(w,1),
@@ -33,4 +33,4 @@ for n in CAND:
     print(f"{n[:26]:26s} Knoten Reserve {res['zentriert'][n]['knoten']['reserve']:5.2f} % (Basis {b['reserve']:5.2f} %) | "
           f"Netz {res['zentriert'][n]['netz_reserve']:5.2f} % (Basis {base['reserve_pct']:5.2f} %) | "
           f"{'optimal' if r['status']==0 else 'Zeitlimit'} {round(time.time()-t)} s", flush=True)
-json.dump(res, open(os.path.join(ROOT, 'zentrierung_exakt.json'),'w'), ensure_ascii=False, indent=1)
+json.dump(res, open(os.path.join(DATA, 'zentrierung_exakt.json'),'w'), ensure_ascii=False, indent=1)

@@ -1,0 +1,34 @@
+name: Reproduktion schlägt fehl
+description: "`make all` oder ein einzelnes Skript läuft nicht durch"
+title: "[Reproduktion] "
+labels: ["reproduzierbarkeit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Wenn die Pipeline bei dir nicht durchläuft, ist das ein Fehler dieses
+        Repositories. Bekannte offene Punkte stehen in `docs/07-bekannte-luecken.md` —
+        bitte kurz prüfen, ob deiner schon dabei ist.
+  - type: input
+    id: schritt
+    attributes:
+      label: Welcher Schritt
+      placeholder: "make analyse — src/19_ist_takt.py"
+    validations:
+      required: true
+  - type: textarea
+    id: fehler
+    attributes:
+      label: Fehlerausgabe
+      description: Vollständiger Traceback beziehungsweise die Ausgabe von make.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: umgebung
+    attributes:
+      label: Umgebung
+      description: Betriebssystem, Python-Version, gegebenenfalls Node-Version.
+      placeholder: "Ubuntu 24.04, Python 3.12.3, Node 20.11"
+    validations:
+      required: true

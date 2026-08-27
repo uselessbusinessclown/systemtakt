@@ -1,65 +1,21 @@
 ﻿knoten;knotenzeit;grad;zuege_tag;zuege_hvz_h;zuege_je_knotenfenster;gleise_bedarf;bewertung
-Aachen Hbf;:19 / :49;2;20.1;1.6;0.8;2;unkritisch
-Augsburg Hbf;:13 / :43;5;90.5;7.2;3.6;5;unkritisch
-Bamberg;:24 / :54;3;25.8;2.0;1.0;2;unkritisch
-Basel SBB;:22 / :52;1;71.3;5.7;2.8;4;unkritisch
-Berlin Hbf;:00 / :30;11;204.9;16.3;8.1;10;anspruchsvoll
-Bielefeld Hbf;:11 / :41;4;73.1;5.8;2.9;4;unkritisch
-Bonn Hbf;:03 / :33;4;32.9;2.6;1.3;2;unkritisch
-Braunschweig Hbf;:05 / :35;5;60.5;4.8;2.4;3;unkritisch
-Bremen Hbf;:07 / :37;5;76.2;6.0;3.0;4;unkritisch
-Dortmund Hbf;:29 / :59;14;114.3;9.1;4.5;6;unkritisch
-Dresden Hbf;:17 / :47;3;44.5;3.5;1.8;3;unkritisch
-Duisburg Hbf;:11 / :41;8;107.1;8.5;4.3;5;unkritisch
-Düsseldorf Hbf;:28 / :58;11;118.7;9.4;4.7;6;unkritisch
-Emden Hbf;:20 / :50;2;29.0;2.3;1.2;2;unkritisch
-Erfurt Hbf;:11 / :41;8;113.8;9.0;4.5;6;unkritisch
-Essen Hbf;:25 / :55;4;29.9;2.4;1.2;2;unkritisch
-Frankfurt(Main)Hbf;:17 / :47;17;224.2;17.8;8.9;11;Engpass – Ausbau/Entflechtung nötig
-Freiburg(Breisgau) Hbf;:24 / :54;3;47.5;3.8;1.9;3;unkritisch
-Fulda;:23 / :53;9;98.3;7.8;3.9;5;unkritisch
-Gießen;:02 / :32;2;6.7;0.5;0.3;2;unkritisch
-Göttingen;:00 / :30;5;108.5;8.6;4.3;5;unkritisch
-Hagen Hbf;:01 / :31;5;57.2;4.5;2.3;3;unkritisch
-Halle(Saale)Hbf;:18 / :48;5;76.8;6.1;3.0;4;unkritisch
-Hamburg Hbf;:07 / :37;8;155.9;12.4;6.2;8;anspruchsvoll
-Hamm(Westf)Hbf;:09 / :39;6;70.0;5.6;2.8;4;unkritisch
-Hanau Hbf;:06 / :36;9;43.5;3.5;1.7;2;unkritisch
-Hannover Hbf;:12 / :42;15;221.1;17.6;8.8;11;Engpass – Ausbau/Entflechtung nötig
-Heidelberg Hbf;:14 / :44;7;45.1;3.6;1.8;3;unkritisch
-Hildesheim Hbf;:05 / :35;2;32.5;2.6;1.3;2;unkritisch
-Ingolstadt Hbf;:00 / :30;3;42.3;3.4;1.7;2;unkritisch
-Kaiserslautern Hbf;:16 / :46;2;10.8;0.9;0.4;2;unkritisch
-Karlsruhe Hbf;:29 / :59;8;91.2;7.2;3.6;5;unkritisch
-Kassel-Wilhelmshöhe;:18 / :48;10;114.2;9.1;4.5;6;unkritisch
-Kiel Hbf;:20 / :50;1;9.1;0.7;0.4;2;unkritisch
-Koblenz Hbf;:09 / :39;3;32.8;2.6;1.3;2;unkritisch
-Köln Hbf;:28 / :58;11;190.7;15.1;7.6;9;anspruchsvoll
-Leipzig Hbf;:23 / :53;5;102.9;8.2;4.1;5;unkritisch
-Lindau-Reutin;:13 / :43;1;26.6;2.1;1.1;2;unkritisch
-Lutherstadt Wittenberg Hbf;:14 / :44;3;42.9;3.4;1.7;2;unkritisch
-Magdeburg Hbf;:24 / :54;6;38.4;3.0;1.5;2;unkritisch
-Mainz Hbf;:15 / :45;5;30.6;2.4;1.2;2;unkritisch
-Mannheim Hbf;:29 / :59;14;157.2;12.5;6.2;8;anspruchsvoll
-Marburg(Lahn);:24 / :54;2;6.7;0.5;0.3;2;unkritisch
-München Hbf;:13 / :43;5;222.7;17.7;8.8;11;Engpass – Ausbau/Entflechtung nötig
-Münster(Westf)Hbf;:26 / :56;7;65.8;5.2;2.6;4;unkritisch
-Nürnberg Hbf;:02 / :32;9;160.2;12.7;6.4;8;anspruchsvoll
-Oberhausen Hbf;:22 / :52;5;46.6;3.7;1.8;3;unkritisch
-Offenburg;:29 / :59;3;36.1;2.9;1.4;2;unkritisch
-Osnabrück Hbf;:27 / :57;3;61.5;4.9;2.4;3;unkritisch
-Paderborn Hbf;:23 / :53;3;5.8;0.5;0.2;2;unkritisch
-Regensburg Hbf;:27 / :57;1;3.3;0.3;0.1;2;unkritisch
-Rostock Hbf;:11 / :41;3;32.4;2.6;1.3;2;unkritisch
-Saarbrücken Hbf;:04 / :34;1;16.2;1.3;0.6;2;unkritisch
-Salzburg Hbf;:15 / :45;2;38.0;3.0;1.5;2;unkritisch
-Schwerin Hbf;:07 / :37;5;17.2;1.4;0.7;2;unkritisch
-Siegburg/Bonn;:08 / :38;7;61.5;4.9;2.4;3;unkritisch
-Singen(Hohentwiel);:16 / :46;2;36.9;2.9;1.5;2;unkritisch
-Stralsund Hbf;:08 / :38;2;20.9;1.7;0.8;2;unkritisch
-Stuttgart Hbf;:11 / :41;6;132.3;10.5;5.3;7;anspruchsvoll
-Ulm Hbf;:25 / :55;5;78.5;6.2;3.1;4;unkritisch
-Wiesbaden Hbf;:03 / :33;4;6.3;0.5;0.3;2;unkritisch
-Wolfsburg Hbf;:06 / :36;3;82.4;6.5;3.3;4;unkritisch
-Wuppertal Hbf;:22 / :52;4;58.7;4.7;2.3;3;unkritisch
-Würzburg Hbf;:29 / :59;9;82.1;6.5;3.3;4;unkritisch
+Berlin Hbf;:00 / :30;8;204.9;16.3;8.1;10;anspruchsvoll
+Bremen Hbf;:15 / :45;3;76.2;6.0;3.0;4;unkritisch
+Dortmund Hbf;:00 / :30;7;114.3;9.1;4.5;6;unkritisch
+Dresden Hbf;:15 / :45;2;44.5;3.5;1.8;3;unkritisch
+Duisburg Hbf;:13 / :43;7;107.1;8.5;4.3;5;unkritisch
+Erfurt Hbf;:16 / :46;7;113.8;9.0;4.5;6;unkritisch
+Frankfurt(Main)Hbf;:14 / :44;13;224.2;17.8;8.9;11;Engpass – Ausbau/Entflechtung nötig
+Fulda;:14 / :44;8;98.3;7.8;3.9;5;unkritisch
+Hamburg Hbf;:15 / :45;4;155.9;12.4;6.2;8;anspruchsvoll
+Hannover Hbf;:29 / :59;11;221.1;17.6;8.8;11;Engpass – Ausbau/Entflechtung nötig
+Karlsruhe Hbf;:27 / :57;5;91.2;7.2;3.6;5;unkritisch
+Kassel-Wilhelmshöhe;:29 / :59;8;114.2;9.1;4.5;6;unkritisch
+Köln Hbf;:29 / :59;7;190.7;15.1;7.6;9;anspruchsvoll
+Leipzig Hbf;:00 / :30;5;102.9;8.2;4.1;5;unkritisch
+Mannheim Hbf;:00 / :30;10;157.2;12.5;6.2;8;anspruchsvoll
+München Hbf;:24 / :54;6;222.7;17.7;8.8;11;Engpass – Ausbau/Entflechtung nötig
+Münster(Westf)Hbf;:15 / :45;5;65.8;5.2;2.6;4;unkritisch
+Nürnberg Hbf;:26 / :56;6;160.2;12.7;6.4;8;anspruchsvoll
+Stuttgart Hbf;:17 / :47;6;132.3;10.5;5.3;7;anspruchsvoll
+Würzburg Hbf;:29 / :59;8;82.1;6.5;3.3;4;unkritisch

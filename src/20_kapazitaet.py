@@ -1,22 +1,14 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, os, collections, math
 con=sqlite3.connect(DB); cur=con.cursor()
 
-# ---- Ist-Takt neu bewerten (Zwei-Lagen-Takt erkennen)
-cur.execute("ALTER TABLE ist_takt ADD COLUMN top2_anteil REAL") if 'top2_anteil' not in [d[1] for d in cur.execute("PRAGMA table_info(ist_takt)")] else None
-rows=list(cur.execute("SELECT rowid,minuten,abfahrten_tag,anteil_haeufigste FROM ist_takt"))
-upd=[]
-for rid,minuten,tot,top1 in rows:
-    parts=[p for p in minuten.split(', ') if p]
-    vals=[float(p.split('(')[1].rstrip(')')) for p in parts]
-    top2=(sum(vals[:2])/tot) if tot else 0
-    bew = "60-min-Takt stabil" if top1>=0.6 else ("Zwei-Lagen-Takt (120 min)" if top2>=0.7 else "kein systematischer Takt")
-    upd.append((round(top2,2),bew,rid))
-cur.executemany("UPDATE ist_takt SET top2_anteil=?, takt_bewertung=? WHERE rowid=?", upd)
+# Die Taktbewertung (Zwei-Lagen-Takt) stand früher hier und las die Anteile aus der
+# gerundeten Anzeigespalte `minuten` zurück — daher Anteile über 100 %. Sie steht jetzt in
+# 19_ist_takt.py, wo die Rohwerte vorliegen.
 
 # ---- Knotenbelastung: Züge im Knotenfenster je Stunde
 cur.executescript("""DROP TABLE IF EXISTS knoten_kapazitaet;

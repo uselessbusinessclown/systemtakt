@@ -4,7 +4,22 @@
 PY := python3
 SRC := src
 
-.PHONY: all daten analyse optimierung fahrplan ausgaben clean
+.DEFAULT_GOAL := help
+.PHONY: help all daten analyse optimierung fahrplan ausgaben pruefen clean
+
+## 0 — Übersicht der Ziele
+help:
+	@echo "Ziele:"
+	@echo "  daten        Rohdaten laden und data/bahn.db aufbauen"
+	@echo "  analyse      Netz- und Angebotsanalyse"
+	@echo "  optimierung  Knotenwahl und exakte Optimierung (~1 h)"
+	@echo "  fahrplan     Minutenplan zum Tagesfahrplan ausrollen"
+	@echo "  ausgaben     PDFs, Word-Studie und Excel-Arbeitsmappe erzeugen"
+	@echo "  all          alles der Reihe nach"
+	@echo "  pruefen      dieselben Prüfungen wie im CI"
+	@echo "  clean        Rohdaten und Zwischenstände entfernen"
+	@echo
+	@echo "Bekannte Lücken der Reproduktion: docs/07-bekannte-luecken.md"
 
 all: daten analyse optimierung fahrplan ausgaben
 
@@ -47,7 +62,16 @@ ausgaben:
 	$(PY) $(SRC)/14_pdf_kursbuch.py
 	$(PY) $(SRC)/15_pdf_bahnhoefe.py
 	$(PY) $(SRC)/16_build_xlsx.py
-	cd $(SRC)/web && node makedoc.js
+	cd $(SRC)/web && npm install --silent && node makedoc.js
+
+## 6 — Dieselben Prüfungen, die der CI fährt
+pruefen:
+	$(PY) -m compileall -q $(SRC)
+	$(PY) tools/check_bootstrap.py
+	$(PY) tools/check_links.py
+	@command -v ruff >/dev/null && ruff check $(SRC) || echo "ruff nicht installiert — übersprungen"
 
 clean:
-	rm -rf data/gtfs_fv __pycache__ $(SRC)/__pycache__
+	rm -rf data/gtfs_fv
+	rm -f /tmp/fv.zip /tmp/countries.geojson /tmp/bl.geojson
+	find . -name __pycache__ -type d -prune -exec rm -rf {} +

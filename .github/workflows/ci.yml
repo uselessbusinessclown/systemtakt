@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    name: Python — Syntax, Lint, Pfad-Bootstrap
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Syntaxprüfung aller Skripte
+        run: python -m compileall -q src backtest
+
+      - name: Lint (Syntaxfehler und undefinierte Namen)
+        uses: astral-sh/ruff-action@v3
+        with:
+          args: check src backtest
+
+      - name: Pfad-Bootstrap ist aus allen drei Ebenen tragfähig
+        run: python tools/check_bootstrap.py
+
+  node:
+    name: Node — Syntax des Dokumentgenerators
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node --check src/web/makedoc.js
+
+  docs:
+    name: Dokumentation — relative Verweise
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check_links.py

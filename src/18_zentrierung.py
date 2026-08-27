@@ -1,12 +1,12 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, json, os
 con=sqlite3.connect(DB); cur=con.cursor()
-Z=json.load(open(os.path.join(ROOT, 'zentrierung_exakt.json')))
-C=json.load(open(os.path.join(ROOT, 'zentralitaet.json')))
+Z=json.load(open(os.path.join(DATA, 'zentrierung_exakt.json')))
+C=json.load(open(os.path.join(DATA, 'zentralitaet.json')))
 cur.executescript("""DROP TABLE IF EXISTS zentralitaet; DROP TABLE IF EXISTS zentrierung;
 CREATE TABLE zentralitaet(bahnhof TEXT PRIMARY KEY, grad INT, gewicht REAL, halte_tag REAL,
   zwischenzentralitaet REAL, mittlere_fahrzeit_zum_netz REAL, rang_zentralitaet INT, rang_erreichbarkeit INT);

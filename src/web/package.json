@@ -1,0 +1,16 @@
+{
+  "name": "systemtakt-makedoc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Erzeugt die Studie als Word-Dokument aus doc_data.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node makedoc.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

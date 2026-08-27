@@ -1,11 +1,11 @@
-
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib'))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'src', 'lib'))
-from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# paths.py liegt in src/lib — erreichbar sowohl aus src/ als auch aus src/lib und src/legacy
+sys.path[:0] = [os.path.join(_HERE, 'lib'), os.path.join(os.path.dirname(_HERE), 'lib')]
+from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, json, os, collections
 con=sqlite3.connect(DB); cur=con.cursor()
-r=json.load(open(os.path.join(ROOT, 'pesp_N1.json')))
+r=json.load(open(os.path.join(DATA, 'pesp_N1.json')))
 PHI=r['phi']; off=PHI['Berlin Hbf']; PHI={k:(v-off)%30 for k,v in PHI.items()}
 name2id=dict(cur.execute("SELECT name,station_id FROM station"))
 deg=collections.Counter(); gw=collections.Counter()
@@ -21,7 +21,7 @@ for a,b,tmin,p15,ts,d,rr,w,fs,fi,fc in r['kanten']:
     res.append((a,b,tmin,p15,ts,d,rr,mass,w,fs,fi,fc))
 cur.executemany("INSERT INTO itf_ergebnis VALUES(%s)"%','.join('?'*12), res)
 # Variantenvergleich
-nf=json.load(open(os.path.join(ROOT, 'neubaufrei.json')))
+nf=json.load(open(os.path.join(DATA, 'neubaufrei.json')))
 cur.executescript("""DROP TABLE IF EXISTS takt_varianten;
 CREATE TABLE takt_varianten(variante TEXT PRIMARY KEY, beschreibung TEXT, verfahren TEXT,
  knotenraster TEXT, beschleunigung_erlaubt TEXT, kanten_mit_beschleunigung INT,
