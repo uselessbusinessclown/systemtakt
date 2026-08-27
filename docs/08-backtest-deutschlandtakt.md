@@ -139,9 +139,15 @@ Ostbahnhof, Flughafen Leipzig/Halle, Magdeburg Hbf, Basel Bad Bf. Unter den gro�
 sticht allein Münster Hbf mit 92 % heraus.
 
 **Der offizielle Zielfahrplan verfolgt also gar keinen strengen integralen Takt an den
-großen Knoten.** Unser Plan und der Gutachterentwurf liegen an verschiedenen Punkten
-derselben Abwägung — und genau diese Abwägung vermisst die Knotenzahl-Studie in
-[`02-methodik.md`](02-methodik.md).
+großen Knoten.** Das ist zunächst eine Feststellung über ihn, nicht über uns. Wer den
+Fernverkehr für die Leitschicht hält — und die Verspätungsausbreitung spricht dafür,
+siehe unten —, liest diesen Befund als Kritik am Gutachterentwurf: Er lässt genau die
+Schicht lose laufen, deren Störungen landesweit kaskadieren.
+
+Beide Pläne liegen an verschiedenen Punkten derselben Abwägung, strenge Knoten gegen kurze
+Reisezeit, und die Knotenzahl-Studie in [`02-methodik.md`](02-methodik.md) vermisst diese
+Abwägung. Der Gutachterentwurf zeigt, wo erfahrene Planer sie ansetzen — er begründet
+nicht, warum dort.
 
 ## Befund 3 — Der Reisezeitrückstand ist Infrastruktur, nicht Taktdisziplin
 
@@ -207,12 +213,57 @@ verschiedene Fragen.
 
 ## Was der Backtest an unserer Methodik offenlegt
 
-**Wir binden nur den Fernverkehr.** Der Gutachterentwurf enthält Fern-, Nah- und
-Güterverkehr. Ein integraler Taktfahrplan lebt aber überwiegend von Anschlüssen zwischen
-Fern- und Nahverkehr; unsere Vollknoten binden ausschließlich FV-Linien aneinander. Die
-Knotenminuten sind damit gegen die falsche Menge optimiert. Das ist die substanziellste
-Lücke, die dieser Vergleich sichtbar macht — und mit den nun eingelesenen Daten
-schließbar.
+**Dass wir nur den Fernverkehr binden, ist kein Fehler.** Ein erster Entwurf dieses
+Blattes hat das als Methodiklücke geführt: Ein integraler Taktfahrplan lebe überwiegend
+von Anschlüssen zwischen Fern- und Nahverkehr, unsere Knotenminuten seien deshalb gegen
+die falsche Menge optimiert. Das war falsch, und die Daten des Gutachterentwurfs zeigen
+warum.
+
+Der Fernverkehr ist die **Leitschicht**, der Nahverkehr wird auf sie geplant — so hält es
+auch die Schweiz, deren Knotenzeiten aus dem Fernverkehrssystem stammen. Der Grund ist die
+Ausbreitung von Verspätung, und die lässt sich auszählen:
+
+| | Vollknoten je Zuglauf | berührt zwei oder mehr | Höchstwert |
+|---|---:|---:|---:|
+| Fernverkehr (2.532 Läufe) | 2,63 | 57 % | 8 |
+| Nahverkehr (50.473 Läufe) | 0,32 | 3 % | 3 |
+
+Ein Fernverkehrslauf ist eine Kette durch das Netz: Verspätung wandert von Knoten zu
+Knoten quer durchs Land, und der Umlauf trägt sie am Abend an das andere Ende der
+Republik. Ein Nahverkehrslauf berührt in 97 % der Fälle höchstens einen Vollknoten — dort
+endet die Ausbreitung, weil der Fernverkehr nach den üblichen Anschlussregeln nicht auf
+ihn wartet. Die Asymmetrie ist der Grund für die Hierarchie, nicht ihr Nebeneffekt.
+
+Eine Ausnahme verdient Beachtung: Der **Rhein-Ruhr-Express** kommt auf 2,36 Vollknoten je
+Lauf und verhält sich damit wie Fernverkehr. Zwischen Duisburg, Dortmund, Münster und Köln
+verschwimmt die Hierarchie; wer die Knotenminuten dort setzt, sollte ihn mitrechnen.
+
+**Was dennoch bleibt: die Kapazität.** Wer die Knotenminute setzt, ist eine Frage der
+Hierarchie. Wer im Knotenfenster am Bahnsteig steht, ist es nicht. Im Gutachterentwurf
+sind **52 % aller Halte im Knotenfenster Nahverkehr** — auf jeden Fernverkehrshalt kommt
+1,1 Nahverkehrshalte am selben Bahnhof zur selben Zeit, und zwar gerade deshalb, weil der
+Nahverkehr auf den Knoten hin geplant ist.
+
+| Knoten | FV im Fenster | NV im Fenster | NV-Anteil |
+|---|---:|---:|---:|
+| Münster (Westf) Hbf | 264 | 672 | 72 % |
+| Dresden Hbf | 144 | 360 | 71 % |
+| Bremen Hbf | 156 | 348 | 69 % |
+| Kassel-Wilhelmshöhe | 192 | 384 | 67 % |
+| Köln Hbf | 414 | 816 | 66 % |
+| … | | | |
+| München Hbf | 336 | 156 | 32 % |
+| Frankfurt (Main) Hbf Fernbahn | 276 | 24 | 8 % |
+| **zusammen** | **5.862** | **6.372** | **52 %** |
+
+[`20_kapazitaet.py`](../src/20_kapazitaet.py) schätzt den Gleisbedarf je Knotenfenster
+allein aus Fernverkehrshalten. Der tatsächliche Bedarf liegt damit rund beim Doppelten.
+[`06-grenzen.md`](06-grenzen.md) nennt die Kapazitätsaussagen bereits eine
+Grobabschätzung — der Backtest beziffert, in welche Richtung sie danebenliegt, und es ist
+die unangenehme.
+
+Der niedrige Wert für Frankfurt ist dabei kein Ausreißer, sondern eine Bestätigung: `YFFF`
+ist die getrennte Fernbahn-Betriebsstelle, dort hält kein Nahverkehr.
 
 **Unser Fahrplan war bisher nicht routingfähig.** Er lag als PDF, Excel und SQLite vor,
 aber in keinem Format, das eine Routing-Engine lesen kann. Damit war keine einzige
