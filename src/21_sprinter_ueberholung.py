@@ -6,8 +6,12 @@ from paths import ROOT, DATA, OUT, DB, GTFS  # noqa: E402,F401
 import sqlite3, collections, os
 con=sqlite3.connect(DB); cur=con.cursor()
 PHI=dict(cur.execute("SELECT name,knotenminute FROM itf_knotenzeit"))
+# t_soll_r1 gilt in der gespeicherten Orientierung a→b, t_soll_r2 in der Gegenrichtung.
+# Der Sprinterlauf wird richtungsrein aufsummiert; bei 37 der 68 Kanten unterscheiden sich
+# die beiden Zeiten, im Höchstfall um 23 Minuten.
 TSOLL={}
-for a,b,ts in cur.execute("SELECT a,b,t_soll FROM itf_ergebnis"): TSOLL[(a,b)]=ts; TSOLL[(b,a)]=ts
+for a,b,r1,r2 in cur.execute("SELECT a,b,t_soll_r1,t_soll_r2 FROM itf_ergebnis"):
+    TSOLL[(a,b)]=r1; TSOLL[(b,a)]=r2
 s2st=dict(cur.execute("SELECT stop_id,station_id FROM stop_station")); nm=dict(cur.execute("SELECT station_id,name FROM station"))
 seq=collections.defaultdict(list)
 for tid,sq,sid in cur.execute("SELECT trip_id,stop_seq,stop_id FROM stop_time ORDER BY trip_id,stop_seq"):

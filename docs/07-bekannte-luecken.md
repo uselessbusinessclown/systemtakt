@@ -24,19 +24,24 @@ Fassung-4-Fassung geschrieben hat, ist nicht im Repository.
 
 Solange das so ist, ist `data/bahn.db` für diese Tabelle die einzige Quelle.
 
-## Zwei Analyseschritte brechen an derselben Umbenennung ab
+## Erledigt: die beiden Analyseschritte an der Spaltenumbenennung
 
-`src/19_ist_takt.py` und `src/21_sprinter_ueberholung.py` fragen weiterhin die Spalte
-`t_soll` ab, die es seit Fassung 4 nicht mehr gibt:
+`src/19_ist_takt.py` und `src/21_sprinter_ueberholung.py` fragten die Spalte `t_soll` ab,
+die es seit Fassung 4 nicht mehr gibt, und brachen mit
+`sqlite3.OperationalError: no such column: t_soll` ab.
 
-```
-sqlite3.OperationalError: no such column: t_soll
-```
+Beide laufen wieder. Die offene fachliche Frage — welche der beiden Richtungszeiten gilt —
+ist so entschieden: `t_soll_r1` gilt in der gespeicherten Orientierung a→b, `t_soll_r2` in
+der Gegenrichtung, und der Laufweg wird richtungsrein aufsummiert. Das ist keine
+Formalie: Bei 37 der 68 Kanten unterscheiden sich beide Zeiten, im Mittel um 3,6 und im
+Höchstfall um 23 Minuten (Fulda–Karlsruhe: 153 gegen 130).
 
-Beide stehen im Makefile (`make analyse` beziehungsweise `make fahrplan`). Die Reparatur
-ist keine reine Umbenennung: Es muss entschieden werden, ob die Auswertung gegen `t_soll_r1`,
-gegen `t_soll_r2` oder gegen beide Richtungen laufen soll. Das ist eine fachliche
-Entscheidung und steht deshalb hier statt in einem stillen Fix.
+Dabei kam ein zweiter, schwerwiegenderer Fehler zutage. `19_ist_takt.py` dreht den
+Knotenplan so, dass Berlin auf :00 liegt, und schrieb dabei die Ankunfts- und
+Abfahrtsfenster pauschal mit ±3 Minuten neu. Das ist die Symmetrie der Fassung 3. Jeder
+Lauf des Skripts hätte die richtungsgetrennte Knotenbindung der Fassung 4 — den
+eigentlichen Fortschritt dieser Fassung — aus der Datenbank gelöscht. Die Fenster werden
+jetzt aus `off_a1`/`off_d1`/`off_a2`/`off_d2` neu gebildet.
 
 ## Drei Zwischenergebnisse haben keinen Erzeuger im Repository
 
@@ -79,6 +84,32 @@ deklariert (`npm install` vor `node makedoc.js`); geprüft ist sie gegen `docx` 
 Zusammenbau ist also mehr als eine Verkettung, und der Schritt, der ihn leistet, fehlt.
 Bis er nachgereicht ist, ist `dashboard.html` von Hand zu pflegen und die `.part`-Dateien
 sind Referenz, nicht Quelle.
+
+## Erledigt: drei Tabellen stammten aus Fassung 3
+
+`ist_takt`, `soll_skelett` und `knoten_kapazitaet` waren seit Fassung 3 nicht neu erzeugt
+worden und beschrieben einen Fahrplan mit **64** Vollknoten. Von den 20 Knotenzeiten in
+`knoten_kapazitaet` stimmten genau zwei mit dem aktuellen Plan überein, und die beiden
+zufällig — Berlin als Anker und Würzburg. `ist_takt` bewertete 875 Taktlagen an 63
+Bahnhöfen, von denen 43 längst keine Vollknoten mehr sind.
+
+Nach dem Neulauf: 472 Taktlagen an genau den 20 Vollknoten, 188 Zeilen Soll-Skelett, 20
+Zeilen Kapazität. Der ausgewiesene Gleisbedarf ändert sich dabei nicht — er wird allein
+aus den Halten je Tag abgeleitet und hängt nicht am Knotenplan.
+
+Ebenfalls behoben: Die Taktbewertung stand in `20_kapazitaet.py` und las die Anteile aus
+der gerundeten Anzeigespalte `minuten` zurück. Dadurch kamen 75 der 472 Lagen auf Anteile
+über 100 %, und sechs wurden falsch eingestuft. Die Bewertung steht jetzt in
+`19_ist_takt.py`, wo die Rohwerte vorliegen.
+
+## Vorsicht: `01_build_db.py` löscht die Datenbank ohne Rückfrage
+
+Die erste Anweisung des Skripts lautet sinngemäß „falls `data/bahn.db` existiert, lösche
+sie". Wer die Skripte der Reihe nach aufruft, um zu prüfen, ob sie anlaufen, verliert
+dabei den gesamten mitgelieferten Datenbestand — die Rohdaten unter `data/gtfs_fv/` liegen
+nicht im Repository, ein Wiederaufbau ist ohne `make daten` also nicht möglich.
+
+Wiederherstellen lässt sich der Stand mit `git checkout -- data/bahn.db`.
 
 ## Kleinigkeiten
 

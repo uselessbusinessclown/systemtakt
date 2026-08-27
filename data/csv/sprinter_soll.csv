@@ -1,8 +1,7 @@
 ﻿korridor;relation;knoten_a;phi_a;knoten_b;phi_b;abfahrt;ankunft;t_heute_best;t_soll;delta;bewertung
-SPR-1;Hamburg – Hannover – Frankfurt (+Flughafen);Hamburg Hbf;7;Frankfurt(Main)Hbf;17;:10;:14;214;214;0;taktkonform ohne Zuschlag
-SPR-2;Hamburg – Bremen/Münster – Ruhr – Köln;Hamburg Hbf;7;Köln Hbf;28;:10;:25;240;255;15;15 min Systemzuschlag (6 % Reserve)
-SPR-3;Berlin – Hannover – Ruhr – Köln/Bonn;Berlin Hbf;0;Köln Hbf;28;:03;:25;259;262;3;3 min Systemzuschlag (1 % Reserve)
-SPR-4;Berlin – Halle/Erfurt – Nürnberg – München;Berlin Hbf;0;München Hbf;13;:03;:10;235;247;12;12 min Systemzuschlag (5 % Reserve)
-SPR-5;Berlin – Halle/Erfurt – Frankfurt;Berlin Hbf;0;Frankfurt(Main)Hbf;17;:03;:14;232;251;19;19 min Systemzuschlag (8 % Reserve)
-SPR-6;Saarbrücken – Paris (Anschluss ans französische Netz);Saarbrücken Hbf;4;Paris Est;;:07;frei;108;108;0;Nur der deutsche Endknoten ist taktgebunden
-SPR-7;Stuttgart – Nürnberg – Berlin;Stuttgart Hbf;11;Berlin Hbf;0;:14;:57;293;313;20;20 min Systemzuschlag (7 % Reserve)
+SPR-1;Hamburg – Hannover – Frankfurt;Frankfurt(Main)Hbf;14;Hamburg Hbf;15;:17;:12;214;235;21;21 min langsamer als heute (10 % Systemzuschlag)
+SPR-2;Hamburg – Ruhr – Köln;Hamburg Hbf;15;Duisburg Hbf;13;:18;:10;219;232;13;13 min langsamer als heute (6 % Systemzuschlag)
+SPR-3;Berlin – Köln/Bonn;Köln Hbf;29;Berlin Hbf;0;:32;:57;259;290;31;31 min langsamer als heute (12 % Systemzuschlag)
+SPR-4;Berlin – Erfurt – Nürnberg – München;München Hbf;24;Erfurt Hbf;16;:27;:13;154;164;10;10 min langsamer als heute (6 % Systemzuschlag)
+SPR-5;Berlin – Erfurt – Frankfurt;Erfurt Hbf;16;Frankfurt(Main)Hbf;14;:19;:11;159;146;-13;13 min schneller als heute – Beschleunigung nötig
+SPR-7;Stuttgart – Nürnberg – Berlin;Stuttgart Hbf;17;Berlin Hbf;0;:20;:57;293;337;44;44 min langsamer als heute (15 % Systemzuschlag)

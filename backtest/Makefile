@@ -31,7 +31,7 @@ MOTIS ?= motis
 help:
 	@echo "Ziele:"
 	@echo "  daten     Gutachterentwurf laden und nach SQLite einlesen (~750 MB Download+Entpacken)"
-	@echo "  knoten    Knotenminuten beider Fahrpläne ableiten und vergleichen"
+	@echo "  knoten    Knotenminuten ableiten und vergleichen (heute, unser Plan, Gutachterentwurf)"
 	@echo "  routing   beide Fahrpläne als GTFS exportieren und Anfragen bauen"
 	@echo "  motis     Anfragen durch MOTIS fahren und auswerten (MOTIS=<pfad> nötig)"
 	@echo "  alle      daten, knoten, routing"
@@ -74,6 +74,7 @@ knoten: $(AUS)/backtest.db knotenanalyse.py knotensuche.py
 	$(PY) knotenanalyse.py $(BAHN) $(ZWISCHEN)/dtakt.db $(AUS)/backtest.db 30
 	$(PY) knotensuche.py $(ZWISCHEN)/dtakt.db $(AUS)/backtest.db
 	$(PY) zerlegung.py $(BAHN) $(ZWISCHEN)/dtakt.db $(AUS)/backtest.db
+	$(PY) dreivergleich.py $(BAHN) $(ZWISCHEN)/dtakt.db
 
 routing: $(AUS)/backtest.db export_gtfs.py baue_anfragen.py
 	$(PY) export_gtfs.py unser $(BAHN) $(AUS)/backtest.db $(AUS)/systemtakt-gtfs.zip

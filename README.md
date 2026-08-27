@@ -50,7 +50,13 @@ Wirksam ist die Höhergewichtung eines Prioritätsknotens: Frankfurt Hbf gewinnt
 nur 10 %. Eine Sprinterverlagerung entlastet um 10 %, verschlechtert aber die Taktqualität
 um 43 %. Die Durchbindung der wendenden Züge entlastet um 59 %.
 
-**5. Neubaufrei kostet 44 Minuten — nachgemessen am offiziellen Zielfahrplan.**
+**5. Der offizielle Zielfahrplan verbessert die Knotenbindung nicht.**
+An den zwanzig größten Fernverkehrsknoten erreicht der 3. Gutachterentwurf des
+Deutschlandtakts dieselbe Knotengüte wie der heutige Fahrplan — **53 % gegen 53 %**, mit
+demselben Maß gemessen. Er verteilt sie um (Dresden +27 Punkte, Dortmund −32), verbessert
+sie aber nicht. Sein Ausbau geht in Geschwindigkeit, nicht in Taktintegration.
+
+**6. Neubaufrei kostet 44 Minuten — nachgemessen am offiziellen Zielfahrplan.**
 Gegen den 3. Gutachterentwurf des Deutschlandtakts, mit derselben Routing-Engine über
 1.140 Relationen zwischen den 20 Knoten gefahren, liegt dieser Plan im Mittel
 **44 Minuten** zurück. Das ist nicht die Taktdisziplin — die leistet, was sie soll, und
@@ -59,7 +65,7 @@ vergleichbaren Kanten schneller, als heute je gefahren wurde. Ergebnis 1 bleibt 
 richtig und bekommt einen Preis. Siehe
 [docs/08-backtest-deutschlandtakt.md](docs/08-backtest-deutschlandtakt.md).
 
-**6. Ein grobes Knotenraster ist keine Lösung.**
+**7. Ein grobes Knotenraster ist keine Lösung.**
 Zwingt man alle Knoten auf das schweizerische :00/:15-Schema, springt die mittlere Reserve
 von 7,7 auf 35,7 %. Deutschland hat kein Netz mit dominanter Achse; die Knotenminuten
 müssen frei bleiben.

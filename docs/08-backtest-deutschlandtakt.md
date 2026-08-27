@@ -122,6 +122,40 @@ denn:
 
 ## Befund 2 — Der Gutachterentwurf ist kein strenger Vollknoten-Fahrplan
 
+### Der dritte Wert, der alles einordnet
+
+Zwei Zahlen nebeneinander sagen wenig: unser Plan 100 %, der Gutachterentwurf 53 %. Die
+100 % sind trivial — unser Fahrplan ist aus den Knotenminuten konstruiert, die Güte ist
+Definition. Erst der **heutige** Fahrplan macht den Vergleich lesbar
+([`backtest/dreivergleich.py`](../backtest/dreivergleich.py), gleicher Schätzer, gleiche
+20 Bahnhöfe, gleiches Fenster):
+
+| | mittlere Knotengüte |
+|---|---:|
+| Fahrplan heute (August 2026) | **53 %** |
+| 3. Gutachterentwurf Deutschlandtakt | **53 %** |
+| unser gerechneter Plan | 100 % (konstruktionsbedingt) |
+
+**Der offizielle Zielfahrplan bindet die zwanzig größten Fernverkehrsknoten nicht besser
+als der heutige Fahrplan.** Nicht ein Prozentpunkt. Und das mit allem unterstellten
+Ausbau, der ihn auf den Netzkanten 44 Minuten schneller macht.
+
+Der Befund ist gegen die Auswertungsschwelle robust: Je nachdem, ab wie vielen
+Verkehrstagen ein Zug mitzählt, liegt der heutige Wert zwischen 47 und 54 %.
+
+Im Einzelnen verteilt der Gutachterentwurf allerdings kräftig um — Dresden +27, Leipzig
++19, Köln +16, Münster +15 Punkte; dagegen Dortmund −32, Fulda −25, Mannheim −18,
+Würzburg −14. Er verbessert die Taktbindung also nicht, er verschiebt sie.
+
+Damit ist die Abwägung sichtbar, die dieser Entwurf getroffen hat: **Er gibt seine
+Infrastruktur für Geschwindigkeit aus, nicht für Taktintegration.** Ob das die richtige
+Entscheidung ist, ist eine verkehrspolitische Frage. Dass sie getroffen wurde, war bislang
+nirgends beziffert.
+
+### Wie die 53 % zustande kommen
+
+
+
 An unseren 20 Knoten erreicht er im 30-Minuten-Raster **53 % Knotengüte**, unser Plan
 erreicht 100 %. Letzteres ist trivial — unser Fahrplan ist aus den Knotenminuten
 konstruiert, die Güte ist Definition, kein Qualitätsnachweis. Aussagekräftig ist nur der
